@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --themeColor: #96a94a;
+  --primary-font: "Poppins", serif;
+  --secondary-font: "Inter", serif;
+  --ternary-font: "Red Hat Display", serif;
+}
+
+body {
+  font-family: var(--ternary-font);
+}
+.poppins {
+  font-family: var(--primary-font);
+}
+.redhat {
+  font-family: var(--ternary-font);
+}
+.themeColor {
+  color: var(--themeColor);
+}
+.themeBackground {
+  background-color: var(--themeColor);
+}
