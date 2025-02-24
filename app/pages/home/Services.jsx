@@ -49,7 +49,7 @@ const ServicesSlider = () => {
           breakpoints={{
             0: { slidesPerView: 1 },
             640: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
+            1280: { slidesPerView: 3 },
           }}
           onSwiper={(swiper) => setSwiperInstance(swiper)}
           className="w-full max-w-6xl px-4"
@@ -60,7 +60,7 @@ const ServicesSlider = () => {
                 <Image
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-[348px] object-cover transition-transform duration-300 group-hover:scale-105"
+                  className="w-full h-[480px] object-cover transition-transform duration-300 group-hover:scale-105"
                 />
                 <div className="absolute bottom-0 left-0 w-full p-3 ">
                   <span className="text-white text-3xl font-regular">
@@ -76,7 +76,7 @@ const ServicesSlider = () => {
         {!isBeginning && (
           <div
             onClick={() => swiperInstance?.slidePrev()}
-            className="absolute bottom-10 left-4 z-10 cursor-pointer"
+            className="absolute bottom-10 left-[-5rem] z-10 cursor-pointer"
           >
             <Image src={PrevArrow} alt="Prev" width={50} height={50} />
           </div>
@@ -85,7 +85,7 @@ const ServicesSlider = () => {
         {!isEnd && (
           <div
             onClick={() => swiperInstance?.slideNext()}
-            className="absolute bottom-10 right-4 z-10 cursor-pointer"
+            className="absolute bottom-10 right-[-4rem] z-10 cursor-pointer"
           >
             <Image src={NextArrow} alt="Next" width={50} height={50} />
           </div>
