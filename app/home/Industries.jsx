@@ -6,12 +6,12 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 
 // Import images
-import Digi from "../../Assest/homePage/digi.png";
-import Financial from "../../Assest/homePage/financial.png";
-import Consumer from "../../Assest/homePage/consumer.png";
-import Notforprofit from "../../Assest/homePage/notforprofit.png";
-import LeftArrow from "../../Assest/homePage/arrow-left.png";
-import RightArrow from "../../Assest/homePage/rightarrow.png";
+import Digi from "../Assest/homePage/digi.png";
+import Financial from "../Assest/homePage/financial.png";
+import Consumer from "../Assest/homePage/consumer.png";
+import Notforprofit from "../Assest/homePage/notforprofit.png";
+import LeftArrow from "../Assest/homePage/arrow-left.png";
+import RightArrow from "../Assest/homePage/rightarrow.png";
 
 const industries = [
   {

@@ -1,10 +1,10 @@
 "use-client";
 import React from "react";
 import Image from "next/image";
-import ExpectionalTalent from "../../Assest/homePage/Group 81.svg"; // Ensure path is correct
+import ExpectionalTalent from "../Assest/homePage/Group 81.svg"; // Ensure path is correct
 import Button from "@/app/component/Button";
-import ButtonImage from "../../Assest/homePage/btn-img.svg";
-import HoverImage from "../../Assest/homePage/hover.svg";
+import ButtonImage from "../Assest/homePage/btn-img.svg";
+import HoverImage from "../Assest/homePage/hover.svg";
 
 const Talentsec = () => {
   return (

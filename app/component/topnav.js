@@ -1,111 +1,98 @@
+"use client"; // Ensure this is at the top
+
 import React from "react";
+import { usePathname } from "next/navigation"; // Use usePathname instead of useRouter
 import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
 } from "@headlessui/react";
 import { FaBars } from "react-icons/fa6";
-import logo from "../Assest/homePage/logo.png";
+import { IoCloseSharp } from "react-icons/io5";
 import Image from "next/image";
 import Link from "next/link";
-import { IoCloseSharp } from "react-icons/io5";
+import logo from "../Assest/homePage/logo.png";
 
 const navigation = [
-  { name: "Home", href: "/", current: true },
-  { name: "About Us", href: "/about-us", current: false },
-  { name: "Services", href: "/services", current: false },
-  { name: "Sectors", href: "/sectors", current: false },
-  { name: "Insights", href: "/insights", current: false },
-  { name: "Global", href: "/global", current: false },
-  {
-    name: "Consultant Directory",
-    href: "/consultant-directory",
-    current: false,
-  },
-  { name: "Contact Us", href: "/contact-us", current: false },
+  { name: "Home", href: "/" },
+  { name: "About Us", href: "/about-us" },
+  { name: "Services", href: "/services" },
+  { name: "Sectors", href: "/sectors" },
+  { name: "Insights", href: "/insights" },
+  { name: "Global", href: "/globals" },
+  { name: "Consultant Directory", href: "/consultant-directory" },
+  { name: "Contact Us", href: "/contact" },
 ];
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-const topnav = () => {
+const TopNav = () => {
+  const pathname = usePathname(); // Get current path dynamically
+
   return (
-    <>
-      {/* <header className="sticky top-0 z-[99]"> */}
-      {/* len */}
-      <header className=" top-0 z-[99]">
-        <Disclosure as="nav" className=" pt-4 ">
-          <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-2">
-            <div className="relative flex  items-center justify-between">
-              <div className="flex lg:flex-1  items-center justify-center md:items-center md:justify-between">
-                <div className="flex shrink-0 items-center">
-                  <Image alt="Your Company" src={logo} className="pb-2" />
-                </div>
-                <div className="hidden sm:ml-6 md:block">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <Link
-                        key={item.name}
-                        href={item.href}
-                        aria-current={item.current ? "page" : undefined}
-                        className={classNames(
-                          item.current
-                            ? " text-white bg-[#98AE40] pb-8"
-                            : "text-black hover:text-black",
-                          "md:px-1 md:text-sm lg:px-3 py-2 lg:text-base font-normal"
-                        )}
-                      >
-                        {item.name}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              </div>
-              <div className="inset-y-0 left-0 flex items-center md:hidden">
-                <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400  hover:text-white focus:outline-none">
-                  <span className="absolute -inset-0.5" />
-                  <span className="sr-only">Open main menu</span>
-                  <FaBars
-                    aria-hidden="true"
-                    className="text-black block size-6 group-data-[open]:hidden"
-                  />
-                  <IoCloseSharp
-                    aria-hidden="true"
-                    className="text-white hidden size-6 group-data-[open]:block"
-                  />
-                </DisclosureButton>
+    <header className="top-0 z-[99]">
+      <Disclosure as="nav" className="pt-4">
+        <div className="mx-auto max-w-7xl px-2 md:px-6 lg:px-2">
+          <div className="relative flex items-center justify-between">
+            {/* Logo */}
+            <div className="flex lg:flex-1 items-center">
+              <Link href="/">
+                <Image
+                  alt="Your Company"
+                  src={logo}
+                  className="pb-2 cursor-pointer"
+                />
+              </Link>
+            </div>
+
+            {/* Desktop Navigation */}
+            <div className="hidden md:block">
+              <div className="flex space-x-4">
+                {navigation.map((item) => (
+                  <Link key={item.name} href={item.href}>
+                    <span
+                      className={`md:px-1 md:text-sm lg:px-3 py-2 lg:text-base font-normal ${
+                        pathname === item.href
+                          ? "text-white bg-[#98AE40] pb-5"
+                          : "text-black hover:text-black"
+                      }`}
+                    >
+                      {item.name}
+                    </span>
+                  </Link>
+                ))}
               </div>
             </div>
-          </div>
 
-          <DisclosurePanel className="md:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2">
-              {navigation.map((item) => (
+            {/* Mobile Menu Button */}
+            <div className="md:hidden">
+              <DisclosureButton className="relative p-2 text-gray-400 hover:text-white">
+                <FaBars className="text-black block size-6 group-data-[open]:hidden" />
+                <IoCloseSharp className="text-white hidden size-6 group-data-[open]:block" />
+              </DisclosureButton>
+            </div>
+          </div>
+        </div>
+
+        {/* Mobile Menu */}
+        <DisclosurePanel className="md:hidden">
+          <div className="space-y-1 px-2 pb-3 pt-2">
+            {navigation.map((item) => (
+              <Link key={item.name} href={item.href}>
                 <DisclosureButton
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  aria-current={item.current ? "page" : undefined}
-                  className={classNames(
-                    item.current
-                      ? " text-[#98AE40]"
-                      : "text-black  hover:text-[#98AE40]",
-                    "block px-3 py-2 text-black font-medium"
-                  )}
+                  className={`block px-3 py-2 text-black font-medium ${
+                    pathname === item.href
+                      ? "text-[#98AE40]"
+                      : "hover:text-[#98AE40]"
+                  }`}
                 >
                   {item.name}
                 </DisclosureButton>
-              ))}
-            </div>
-          </DisclosurePanel>
-        </Disclosure>
-      </header>
-    </>
+              </Link>
+            ))}
+          </div>
+        </DisclosurePanel>
+      </Disclosure>
+    </header>
   );
 };
 
-export default topnav;
+export default TopNav;
