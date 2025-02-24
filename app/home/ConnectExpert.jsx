@@ -1,11 +1,11 @@
 "use-client";
 import Button from "@/app/component/Button";
 import React from "react";
-import ButtonImage from "../../Assest/homePage/btn-img.svg";
-import HoverImage from "../../Assest/homePage/hover.svg";
-import ButtonImg from "../../Assest/homePage/getintouchIcon.png";
+import ButtonImage from "../Assest/homePage/btn-img.svg";
+import HoverImage from "../Assest/homePage/hover.svg";
+import ButtonImg from "../Assest/homePage/getintouchIcon.png";
 import Image from "next/image";
-import ExpertImg from "../../Assest/homePage/connectExpert.png";
+import ExpertImg from "../Assest/homePage/connectExpert.png";
 
 const ConnectExpert = () => {
   return (

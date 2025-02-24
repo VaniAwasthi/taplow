@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import ButtonImg from "../../Assest/homePage/hover.svg";
-import TriangleImage from "../../Assest/homePage/triangle-leading.png";
-import BusinessMeeting from "../../Assest/homePage/leading-img.png";
+import ButtonImg from "../Assest/homePage/hover.svg";
+import TriangleImage from "../Assest/homePage/triangle-leading.png";
+import BusinessMeeting from "../Assest/homePage/leading-img.png";
 
 const LeadershipMatter = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);

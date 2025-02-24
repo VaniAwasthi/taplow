@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Talentsec from "./pages/home/TalentSec";
-import Carousel from "./pages/home/HeroSec";
-import BlogSection from "./pages/home/BlogSection";
-import GetInTouch from "./pages/home/GetInTouch";
-import WhyChoose from "./pages/home/WhyChoose";
-import ConnectExpert from "./pages/home/ConnectExpert";
-import IndustrySlider from "./pages/home/Industries";
-import LeadershipMatter from "./pages/home/Leadershipmatter";
-import ServicesSlider from "./pages/home/Services";
+import Carousel from "./home/HeroSec";
+import Talentsec from "./home/TalentSec";
+import ServicesSlider from "./home/Services";
+import LeadershipMatter from "./home/Leadershipmatter";
+import IndustrySlider from "./home/Industries";
+import ConnectExpert from "./home/ConnectExpert";
+import WhyChoose from "./home/WhyChoose";
+import GetInTouch from "./home/GetInTouch";
+import BlogSection from "./home/BlogSection";
 
 export default function Home() {
   return (

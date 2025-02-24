@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import BackgroundImage from "../../Assest/homePage/getintouchbg.webp";
-import ButtonImg from "../../Assest/homePage/getintouchIcon.png";
+import BackgroundImage from "../Assest/homePage/getintouchbg.webp";
+import ButtonImg from "../Assest/homePage/getintouchIcon.png";
 const GetInTouch = () => {
   return (
     <div className="relative h-full md:h-[540px] bg-black flex items-center justify-center px-6 md:px-12">
