@@ -45,7 +45,11 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-2 text-black">Company</h4>
             <ul className="space-y-2  text-[14px] text-black">
-              <li>Home</li>
+              <li>
+                <a href="/" className="no-underline">
+                  Home
+                </a>
+              </li>
               <li>
                 <a href="/about-us" className="no-underline">
                   About Us
