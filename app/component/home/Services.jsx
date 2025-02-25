@@ -13,10 +13,22 @@ import NextArrow from "../../assets/homePage/NextArrow.png";
 import PrevArrow from "../../assets/homePage/prev-arrow.png";
 
 const services = [
-  { title: "Executive Search", image: Executive },
-  { title: "Executive Interim Management", image: ExecutiveIntrim },
-  { title: "Leadership Advisory and Performance", image: Leadership },
-  { title: "Executive Interim Management", image: ExecutiveIntrim },
+  { title: "Executive Search", image: Executive, link: "/services" },
+  {
+    title: "Executive Interim Management",
+    image: ExecutiveIntrim,
+    link: "/services",
+  },
+  {
+    title: "Leadership Advisory and Performance",
+    image: Leadership,
+    link: "/services",
+  },
+  {
+    title: "Executive Interim Management",
+    image: ExecutiveIntrim,
+    link: "/services",
+  },
 ];
 
 const ServicesSlider = () => {
@@ -64,7 +76,7 @@ const ServicesSlider = () => {
                 />
                 <div className="absolute bottom-0 left-0 w-full p-3 ">
                   <span className="text-white text-3xl font-regular">
-                    {service.title}
+                    <a href={service.link}>{service.title}</a>
                   </span>
                 </div>
               </div>
@@ -76,7 +88,7 @@ const ServicesSlider = () => {
         {!isBeginning && (
           <div
             onClick={() => swiperInstance?.slidePrev()}
-            className="absolute bottom-10 left-[-5rem] z-10 cursor-pointer"
+            className="md:block hidden absolute bottom-10 left-[-5rem] z-10 cursor-pointer"
           >
             <Image src={PrevArrow} alt="Prev" width={50} height={50} />
           </div>
@@ -85,7 +97,7 @@ const ServicesSlider = () => {
         {!isEnd && (
           <div
             onClick={() => swiperInstance?.slideNext()}
-            className="absolute bottom-10 right-[-4rem] z-10 cursor-pointer"
+            className="md:block hidden absolute bottom-10 right-[-4rem] z-10 cursor-pointer"
           >
             <Image src={NextArrow} alt="Next" width={50} height={50} />
           </div>
