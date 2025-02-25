@@ -44,26 +44,70 @@ const Footer = () => {
           {/* Company */}
           <div>
             <h4 className="font-semibold mb-2 text-black">Company</h4>
-            <ul className="space-y-2  text-[14px]">
+            <ul className="space-y-2  text-[14px] text-black">
               <li>Home</li>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Sectors Insights</li>
-              <li>Global Consultant</li>
-              <li>Directory</li>
-              <li>Contact Us</li>
+              <li>
+                <a href="/about-us" className="no-underline">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="/services" className="no-underline">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="/sectors" className="no-underline">
+                  Sectors Insights
+                </a>
+              </li>
+              <li>
+                <a href="/globals" className="no-underline">
+                  Global Consultant
+                </a>
+              </li>
+              <li>
+                <a href="/consultant-directory" className="no-underline">
+                  Directory
+                </a>
+              </li>
+              <li>
+                <a href="/contact" className="no-underline">
+                  Contact Us
+                </a>
+              </li>
             </ul>
           </div>
 
           {/* Services */}
           <div>
             <h4 className="font-semibold mb-2 text-black">Services</h4>
-            <ul className="space-y-2  text-[14px]">
-              <li>Executive Search</li>
-              <li>Executive Interim Management</li>
-              <li>Leadership Advisory and Performance</li>
-              <li>Board Advisory Services</li>
-              <li>Virtual Leadership Training</li>
+            <ul className="space-y-2 text-[14px] text-black">
+              <li>
+                <a href="/services" className="no-underline">
+                  Executive Search
+                </a>
+              </li>
+              <li>
+                <a href="/services" className="no-underline">
+                  Executive Interim Management
+                </a>
+              </li>
+              <li>
+                <a href="/services" className="no-underline">
+                  Leadership Advisory and Performance
+                </a>
+              </li>
+              <li>
+                <a href="/services" className="no-underline">
+                  Board Advisory Services
+                </a>
+              </li>
+              <li>
+                <a href="/services" className="no-underline">
+                  Virtual Leadership Training
+                </a>
+              </li>
             </ul>
           </div>
 
