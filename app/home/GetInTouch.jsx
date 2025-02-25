@@ -1,11 +1,12 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import BackgroundImage from "../assets/homePage/getintouchbg.webp";
-import ButtonImg from "../assets/homePage/getintouchIcon.png";
+import BackgroundImage from "../Assest/homePage/getintouchbg.webp";
+import ButtonImg from "../Assest/homePage/getintouchIcon.png";
 const GetInTouch = () => {
   return (
     <div className="relative h-full md:h-[540px] bg-black flex items-center justify-center px-6 md:px-12">
+      {/* Background Image */}
       <Image
         src={BackgroundImage}
         alt="Background"
@@ -13,7 +14,9 @@ const GetInTouch = () => {
         objectFit="cover"
         className="absolute inset-0 opacity-50"
       />
-      <div className="relative z-10 flex flex-col md:flex-row md:items-start items-center max-w-6xl w-full">
+
+      {/* Content */}
+      <div className="relative z-10 flex flex-col md:flex-row md:items-start items-center max-w-7xl w-full">
         {/* Left Text Section */}
         <div className="text-white md:w-1/2 mb-6 md:mb-0">
           <h2 className="text-2xl py-3  redhat md:text-4xl font-base mb-4 leading-normal md:leading-[3.5rem]">
