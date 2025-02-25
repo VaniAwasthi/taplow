@@ -1,11 +1,11 @@
 "use-client";
-import Button from "@/app/component/Button";
+import Button from "@/app/component/utilities/Button";
 import React from "react";
-import ButtonImage from "../assets/homePage/btn-img.svg";
-import HoverImage from "../assets/homePage/hover.svg";
-import ButtonImg from "../assets/homePage/getintouchIcon.png";
+import ButtonImage from "../../assets/homePage/btn-img.svg";
+import HoverImage from "../../assets/homePage/hover.svg";
+import ButtonImg from "../../assets/homePage/getintouchIcon.png";
 import Image from "next/image";
-import ExpertImg from "../assets/homePage/connectExpert.png";
+import ExpertImg from "../../assets/homePage/connectExpert.png";
 
 const ConnectExpert = () => {
   return (
@@ -24,20 +24,17 @@ const ConnectExpert = () => {
               positive impact
             </p>
           </div>
-          <button className="mt-[2rem]  border border-black relative group w-[242px] h-[42px] bg-black text-white rounded-full flex items-center justify-center gap-2 transition-all duration-500  ease-out overflow-hidden hover:bg-transparent hover:text-black transform hover:scale-105">
-            {/* Background Animation */}
-            <span className="absolute inset-0 bg-black transform -translate-x-0 transition-transform duration-500 ease-out group-hover:translate-x-full"></span>
 
-            {/* Button Text (Turns White on Hover) */}
-            <span className="relative z-10 font-redhat text-sm transition-colors duration-500 ease-out">
-              Meet Consultants
-            </span>
-
-            {/* Button Icon (Stays Visible) */}
-            <div className="relative w-[34px] h-[25px]">
-              <Image src={ButtonImg} alt="Button Icon" />
-            </div>
-          </button>
+          <div className="mt-[1rem] flex md:justify-start">
+            <Button
+              text="Meet Consultants"
+              buttonImage={ButtonImg}
+              hoverImage={ButtonImg}
+              bgColor="#000000"
+              textColor="#ffffff"
+              hoverTextColor="#000"
+            />
+          </div>
           <div className="mt-[1rem] flex md:justify-start">
             <Button
               text="Find Local Offices"

@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Button from "@/app/component/Button";
-import blog1 from "../assets/homePage/blog1.png";
-import blog2 from "../assets/homePage/blog2.png";
-import blog3 from "../assets/homePage/blog3.png";
-import ButtonImage from "../assets/homePage/btn-img.svg";
-import HoverImage from "../assets/homePage/hover.svg";
+import Button from "@/app/component/utilities/Button";
+import blog1 from "../../assets/homePage/blog1.png";
+import blog2 from "../../assets/homePage/blog2.png";
+import blog3 from "../../assets/homePage/blog3.png";
+import ButtonImage from "../../assets/homePage/btn-img.svg";
+import HoverImage from "../../assets/homePage/hover.svg";
 
 const blogData = [
   {

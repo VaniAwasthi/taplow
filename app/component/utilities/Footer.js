@@ -1,9 +1,9 @@
 "use-client";
 import Image from "next/image";
-import logo from "../assets/homePage/logo.png";
-import Facebookicon from "../assets/icons/facebook.png";
-import Twittericon from "../assets/icons/twitter.png";
-import LinkedInicon from "../assets/icons/linkdine.png";
+import logo from "../../assets/homePage/logo.png";
+import Facebookicon from "../../assets/icons/facebook.png";
+import Twittericon from "../../assets/icons/twitter.png";
+import LinkedInicon from "../../assets/icons/linkdine.png";
 
 const Footer = () => {
   return (

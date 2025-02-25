@@ -1,8 +1,9 @@
 "use-client";
 import React from "react";
-import BackgroundImage from "../assets/homePage/whychoosebg.png";
-import ButtonImg from "../assets/homePage/getintouchIcon.png";
+import BackgroundImage from "../../assets/homePage/whychoosebg.png";
+import ButtonImg from "../../assets/homePage/getintouchIcon.png";
 import Image from "next/image";
+import Button from "../utilities/Button";
 
 const WhyChoose = () => {
   return (
