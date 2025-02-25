@@ -11,7 +11,7 @@ import { FaBars } from "react-icons/fa6";
 import { IoCloseSharp } from "react-icons/io5";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../Assest/homePage/logo.png";
+import logo from "../assets/homePage/logo.png";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -25,7 +25,7 @@ const navigation = [
 ];
 
 const TopNav = () => {
-  const pathname = usePathname(); // Get current path dynamically
+  const pathname = usePathname();
 
   return (
     <header className="top-0 z-[99]">
