@@ -4,12 +4,12 @@ import { Autoplay } from "swiper/modules";
 import Image from "next/image";
 import { useRef, useState, useEffect } from "react";
 import "swiper/css";
-import BgImag from "../assets/homePage/chess-piece.png";
-import ButtonImage from "../assets/homePage/btn-img.svg";
-import HoverImage from "../assets/homePage/hover.svg";
-import LeftArrow from "../assets/homePage/left.png";
-import RightArrow from "../assets/homePage/rightarrow.png";
-import Button from "@/app/component/Button";
+import BgImag from "../../assets/homePage/chess-piece.png";
+import ButtonImage from "../../assets/homePage/btn-img.svg";
+import HoverImage from "../../assets/homePage/hover.svg";
+import LeftArrow from "../../assets/homePage/left.png";
+import RightArrow from "../../assets/homePage/rightarrow.png";
+import BannerLayout from "../utilities/BannerLayout";
 
 const slides = [
   {
@@ -20,6 +20,7 @@ const slides = [
       "We go beyond traditional executive search, leadership advisory, interim management, and board consulting to help you build future-ready leadership. Look ahead, think bigger, and see beyond the expected.",
     buttonText: "Know More",
     image: BgImag,
+    buttonImage: require("../../assets/homePage/btn-img.svg").default,
   },
   {
     id: 2,
@@ -29,6 +30,7 @@ const slides = [
       "We go beyond traditional executive search, leadership advisory, interim management, and board consulting to help you build future-ready leadership. Look ahead, think bigger, and see beyond the expected.",
     buttonText: "Read More",
     image: BgImag,
+    buttonImage: require("../../assets/homePage/btn-img.svg").default,
   },
 ];
 
@@ -60,48 +62,16 @@ export default function Carousel() {
         {slides.map((slide) => (
           <SwiperSlide key={slide.id} className="relative">
             {/* Background Overlay */}
-            <div className="absolute inset-0 bg-[#005581] opacity-90"></div>
-
-            {/* Background Image */}
-            <Image
-              src={slide.image}
-              alt="Background Image"
-              layout="fill"
-              objectFit="cover"
-              className="absolute inset-0 mix-blend-overlay"
+            <BannerLayout
+              image={slide.image}
+              title={slide.title}
+              title2={slide.title2}
+              description={slide.description}
+              buttonText={slide.buttonText}
+              hoverImage={HoverImage}
+              bgColor="#123456"
+              overlayOpacity="0.8"
             />
-
-            {/* Content Section - Aligned to Left Center */}
-            <div className="relative z-10 flex flex-col items-start justify-center h-full pl-8 md:pl-32 max-w-xl text-white redhat">
-              <h2 className="text-3xl md:text-5xl font-normal redhat py-2">
-                {slide.title}
-              </h2>
-              <h2 className="text-3xl md:text-5xl font-normal redhat py-2">
-                {slide.title2}
-              </h2>
-              <div
-                className="my-6 h-[1px] w-[320px]"
-                style={{
-                  background:
-                    "linear-gradient(to right, #D9D9D9 30%, #96A94A 30%)",
-                }}
-              ></div>
-
-              <p className="mt-4 text-xs md:text-[16px] leading-snug redhat">
-                {slide.description}
-              </p>
-
-              {/* Button */}
-              <div className="mt-[2rem] mb-[2rem]">
-                <Button
-                  // className="mt-[3rem] mb-[3rem]"
-                  text={slide.buttonText}
-                  onClick={() => console.log("Button Clicked!")}
-                  buttonImage={ButtonImage}
-                  hoverImage={HoverImage}
-                />
-              </div>
-            </div>
           </SwiperSlide>
         ))}
       </Swiper>

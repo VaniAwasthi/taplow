@@ -1,6 +1,6 @@
 import "./globals.css";
-import Navbar from "./component/topnav";
-import Footer from "./component/Footer";
+import Navbar from "./component/utilities/topnav";
+import Footer from "./component/utilities/Footer";
 
 export const metadata = {
   title: "Taplow",

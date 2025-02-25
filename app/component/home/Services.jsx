@@ -6,11 +6,11 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import Executive from "../assets/homePage/Executive.png";
-import ExecutiveIntrim from "../assets/homePage/ExecutiveIntrim.png";
-import Leadership from "../assets/homePage/Leadership.png";
-import NextArrow from "../assets/homePage/NextArrow.png";
-import PrevArrow from "../assets/homePage/prev-arrow.png";
+import Executive from "../../assets/homePage/Executive.png";
+import ExecutiveIntrim from "../../assets/homePage/ExecutiveIntrim.png";
+import Leadership from "../../assets/homePage/Leadership.png";
+import NextArrow from "../../assets/homePage/NextArrow.png";
+import PrevArrow from "../../assets/homePage/prev-arrow.png";
 
 const services = [
   { title: "Executive Search", image: Executive },
