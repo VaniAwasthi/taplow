@@ -1,13 +1,13 @@
 "use-client";
 import Image from "next/image";
-import logo from "../assets/homePage/logo.png";
-import Facebookicon from "../assets/icons/facebook.png";
-import Twittericon from "../assets/icons/twitter.png";
-import LinkedInicon from "../assets/icons/linkdine.png";
+import logo from "../Assest/homePage/logo.png";
+import Facebookicon from "../Assest/icons/facebook.png";
+import Twittericon from "../Assest/icons/twitter.png";
+import LinkedInicon from "../Assest/icons/linkdine.png";
 
 const Footer = () => {
   return (
-    <footer className="container mx-auto px-4 md:max-w-6xl">
+    <footer className="container mx-auto px-4 md:max-w-7xl">
       {/* Top Section */}
       <div className="py-8 mb-4 flex flex-col md:flex-row justify-between items-start">
         {/* Logo & Social Links */}

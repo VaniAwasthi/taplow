@@ -6,12 +6,12 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 
 // Import images
-import Digi from "../assets/homePage/digi.png";
-import Financial from "../assets/homePage/financial.png";
-import Consumer from "../assets/homePage/consumer.png";
-import Notforprofit from "../assets/homePage/notforprofit.png";
-import LeftArrow from "../assets/homePage/arrow-left.png";
-import RightArrow from "../assets/homePage/rightarrow.png";
+import Digi from "../Assest/homePage/digi.png";
+import Financial from "../Assest/homePage/financial.png";
+import Consumer from "../Assest/homePage/consumer.png";
+import Notforprofit from "../Assest/homePage/notforprofit.png";
+import LeftArrow from "../Assest/homePage/arrow-left.png";
+import RightArrow from "../Assest/homePage/rightarrow.png";
 
 const industries = [
   {
@@ -112,13 +112,13 @@ const IndustrySlider = () => {
 
                   {/* Title & Text (Ensured it's contained within the image box) */}
                   <div
-                    className="absolute w-full px-2  text-white transition-all duration-300 bottom-4 text-left
+                    className="absolute w-full px-4 text-white transition-all duration-300 bottom-4 text-left
                     group-hover:bottom-1/2 group-hover:translate-y-1/2 group-hover:text-center"
                   >
-                    <h3 className="px-2  font-semibold transition-all duration-300 group-hover:text-lg">
+                    <h3 className="text-base font-semibold transition-all duration-300 group-hover:text-lg">
                       {industry.title}
                     </h3>
-                    <p className="text-sm opacity-100 transition-all duration-300 px-2 py-2">
+                    <p className="text-xs opacity-100 transition-all duration-300">
                       {industry.text}
                     </p>
                   </div>

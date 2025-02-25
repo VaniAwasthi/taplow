@@ -1,11 +1,11 @@
 "use-client";
 import Button from "@/app/component/Button";
 import React from "react";
-import ButtonImage from "../assets/homePage/btn-img.svg";
-import HoverImage from "../assets/homePage/hover.svg";
-import ButtonImg from "../assets/homePage/getintouchIcon.png";
+import ButtonImage from "../Assest/homePage/btn-img.svg";
+import HoverImage from "../Assest/homePage/hover.svg";
+import ButtonImg from "../Assest/homePage/getintouchIcon.png";
 import Image from "next/image";
-import ExpertImg from "../assets/homePage/connectExpert.png";
+import ExpertImg from "../Assest/homePage/connectExpert.png";
 
 const ConnectExpert = () => {
   return (
@@ -16,7 +16,7 @@ const ConnectExpert = () => {
           <h2 className="text-2xl py-3  text-black redhat md:text-4xl font-base mb-4 leading-normal md:leading-[3.5rem]">
             Connect with Our Experts
           </h2>
-          <div className="bg-[#F0F0F0] shadow-xl border border-[#F0F0F0] rounded-xl p-4 w-full md:w-[500px]">
+          <div className="bg-[#F0F0F0] shadow-xl border border-[#F0F0F0] rounded-xl p-4 w-full md:w-[400px]">
             <p className="py-[2.5rem] px-[1rem] text-[14px] text-black  leading-relaxed ">
               Driven by a passion to expedite change in our pursuit of a
               sustainable future, we partner with businesses and industries to
