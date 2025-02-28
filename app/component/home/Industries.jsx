@@ -7,9 +7,13 @@ import { useRef, useState } from "react";
 
 // Import images
 import Digi from "../../assets/homePage/digi.png";
-import Financial from "../../assets/homePage/financial.png";
-import Consumer from "../../assets/homePage/consumer.png";
+import Financial from "../../assets/homePage/financial.webp";
 import Notforprofit from "../../assets/homePage/notforprofit.png";
+import Realestate from "../../assets/homePage/realestate.webp";
+import Consumer from "../../assets/homePage/consumer.webp";
+import Industrial from "../../assets/homePage/Industrial.webp";
+import Life from "../../assets/homePage/lifeSci.webp";
+import Professional from "../../assets/homePage/professional.webp";
 import LeftArrow from "../../assets/homePage/arrow-left.png";
 import RightArrow from "../../assets/homePage/rightarrow.png";
 
@@ -37,22 +41,22 @@ const industries = [
   {
     title: "Industrial",
     text: "Optimizing supply chains with expert leadership.",
-    image: Consumer,
+    image: Industrial,
   },
   {
     title: "Life Sciences",
     text: "Advancing healthcare and biotech solutions.",
-    image: Financial,
+    image: Life,
   },
   {
     title: "Professional Services",
     text: "Enhancing advisory and leadership excellence.",
-    image: Digi,
+    image: Professional,
   },
   {
     title: "Real Estate",
     text: "Market insights and sustainable growth strategies.",
-    image: Notforprofit,
+    image: Realestate,
   },
 ];
 

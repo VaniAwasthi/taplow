@@ -36,7 +36,7 @@ const ExecutiveSearchProcess = () => {
       bgImage: test3,
     },
     {
-      title: "compensation structure",
+      title: "Compensation Structure",
       description:
         "From interviews to compensation structuring, we guide you in securing the right leader.",
       bgImage: test4,
