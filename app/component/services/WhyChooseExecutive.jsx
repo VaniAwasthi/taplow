@@ -14,6 +14,8 @@ import Icon1 from "../../assets/servicepage/Icon1.png";
 import Icon2 from "../../assets/servicepage/Icon2.png";
 import Icon3 from "../../assets/servicepage/Icon3.png";
 import Icon4 from "../../assets/servicepage/Icon4.png";
+import Icon5 from "../../assets/servicepage/Icon5.png";
+import Icon6 from "../../assets/servicepage/Icon6.png";
 
 const WhyChooseExecutive = () => {
   const heading = "Why Choose Taplow for Executive Search?";
@@ -40,14 +42,14 @@ const WhyChooseExecutive = () => {
       desc: "Our candidates aren’t just hires—they are future leaders who drive transformation and growth.",
     },
     {
-      img: Icon3,
-      title: "Deep Industry Knowledge",
-      desc: "Our sector specialists understand the challenges and opportunities specific to your industry.",
+      img: Icon5,
+      title: "Rigorous Candidate Evaluation",
+      desc: "We assess skills, mindset, leadership potential, and cultural alignment for long-term success.",
     },
     {
-      img: Icon4,
-      title: "Commitment to Long-Term Success",
-      desc: "Our candidates aren’t just hires—they are future leaders who drive transformation and growth.",
+      img: Icon6,
+      title: "End-to-End Leadership Support",
+      desc: "Beyond search, we offer leadership advisory, succession planning, and talent retention strategies.",
     },
   ];
   const swiperRef = useRef(null);
@@ -115,14 +117,17 @@ const WhyChooseExecutive = () => {
         >
           {cards.map((card, index) => (
             <SwiperSlide key={index}>
-              <div className="flex justify-center">
-                <div className="bg-white p-6 rounded-xl border border-[#CFCFCF] shadow-md text-left w-full max-w-[300px] h-[350px] ">
+              <div className="flex justify-center mt-[1rem] mb-[1rem] md:mx-[1rem]">
+                <div
+                  className="bg-white p-6 rounded-xl border border-[#CFCFCF] shadow-md text-left w-full max-w-[290px] h-[350px] 
+      transition-transform duration-300 hover:scale-105 hover:border-[#96A94A]"
+                >
                   <Image
                     src={card.img}
                     alt={card.title}
                     width={50}
                     height={50}
-                    className="mb-4 transition-transform duration-300 hover:scale-105"
+                    className="mb-4 transition-transform duration-300 hover:scale-105  hover:cursor"
                   />
                   <h3 className="text-xl font-bold text-[#005581] w-[200px]">
                     {card.title}

@@ -39,7 +39,7 @@ const ExecutiveSearch = () => {
         </div>
 
         {/* Right Section: Overlapping Content (For Desktop) */}
-        <div className="absolute right-[4rem] xl:right-[8rem] bg-[#859839] p-6 md:p-8 w-[380px] md:w-[300px] text-white rounded-lg shadow-lg hidden md:block">
+        <div className="absolute right-[4rem] xl:right-[8rem] bg-[#859839] p-6 md:p-8 w-[380px] md:w-[300px] text-white rounded-lg shadow-lg hidden md:block transition-transform duration-300 hover:scale-110 hover:cursor-pointer">
           {/* Blue Bar on Top */}
           <div className="absolute -top-2 left-[2rem] w-[70px] h-2 bg-[#024996] rounded-md"></div>
 

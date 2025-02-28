@@ -47,18 +47,6 @@ const ExecutiveSearchProcess = () => {
         "Our support extends beyond hiring, ensuring a seamless leadership transition for long-term impact.",
       bgImage: test5,
     },
-    {
-      title: "Onboarding & Integration",
-      description:
-        "Our support extends beyond hiring, ensuring a seamless leadership transition for long-term impact.",
-      bgImage: test1,
-    },
-    {
-      title: "Onboarding & Integration",
-      description:
-        "Our support extends beyond hiring, ensuring a seamless leadership transition for long-term impact.",
-      bgImage: test2,
-    },
   ];
   const ExecutiveData = {
     heading: " Our Executive Search Process",
@@ -79,8 +67,8 @@ const ExecutiveSearchProcess = () => {
             key={steps.length}
             modules={[Autoplay]}
             autoplay={{ delay: 3000, disableOnInteraction: false }}
-            spaceBetween={5}
-            slidesPerView={4}
+            spaceBetween={2}
+            slidesPerView={5}
             loop={true}
             onSwiper={(swiper) => {
               swiperRef.current = swiper;
@@ -88,7 +76,7 @@ const ExecutiveSearchProcess = () => {
             }}
             onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
             breakpoints={{
-              1280: { slidesPerView: 4, spaceBetween: 20 },
+              1280: { slidesPerView: 5, spaceBetween: 20 },
               1024: { slidesPerView: 3, spaceBetween: 15 },
               768: {
                 slidesPerView: 2,
@@ -98,24 +86,27 @@ const ExecutiveSearchProcess = () => {
               480: {
                 slidesPerView: 1,
                 spaceBetween: 10,
-                centeredSlides: false,
+                centeredSlides: true,
               },
-              0: { slidesPerView: 1, spaceBetween: 5, centeredSlides: false },
+              0: { slidesPerView: 1, spaceBetween: 5, centeredSlides: true },
             }}
           >
             {steps.map((step, index) => (
-              <SwiperSlide key={index} className="flex flex-col items-center">
-                <div className={`w-full`}>
-                  <p className="text-sm text-[#666666] md:w-[200px] px-4 text-center md:text-left">
+              <SwiperSlide
+                key={index}
+                className="flex flex-col justify-center items-center"
+              >
+                <div className="w-full flex flex-col justify-center items-center md:mx-[1rem]">
+                  <p className="text-sm text-[#666666] md:w-[200px] px-4 md:px-1 text-center md:text-left">
                     {step.description}
                   </p>
                   <div
-                    className="h-96 flex items-center w-full transition-transform duration-300 hover:scale-110"
+                    className="h-96 flex items-center w-[210px] transition-transform duration-300 hover:scale-110 hover:cursor-pointer"
                     style={{
                       background: `url(${step.bgImage.src})center center / contain no-repeat`,
                     }}
                   >
-                    <h3 className="text-base px-[2rem] md:px-1 w-10/12 md:w-5/12 md:mx-4 font-light text-white mb-2">
+                    <h3 className="text-base md:pt-[2rem] md:px-1 w-8/12 md:w-5/12 md:mx-4 font-light text-white mb-2 px-[1rem] pt-[1rem]">
                       {step.title}
                     </h3>
                   </div>

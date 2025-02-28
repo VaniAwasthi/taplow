@@ -26,7 +26,7 @@ const MeetOurExperts = () => {
       <div className="relative z-10 flex flex-col md:flex-row md:items-end items-center max-w-5xl w-full ">
         {/* Left Text Section */}
         <div className="text-white w-full md:w-1/2 mb-6 md:mb-0">
-          <h2 className="text-2xl py-3  redhat md:text-4xl font-base mb-4 leading-normal md:leading-[3.5rem] transition-transform duration-300 hover:scale-110">
+          <h2 className="text-2xl py-3  redhat md:text-4xl font-base mb-4 leading-normal md:leading-[3.5rem] transition-transform duration-300 hover:scale-105  hover:cursor-pointer">
             {ExpertData.heading}
           </h2>
           <p className="text-white md:text-left font-light text-[14px] mt-3 md:w-[400px] md:mb-[3rem]">
