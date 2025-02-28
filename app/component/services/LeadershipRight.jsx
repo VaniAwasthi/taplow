@@ -27,7 +27,7 @@ const LeadershipRight = () => {
       <div className="relative z-10 flex flex-col md:flex-row items-center md:items-center max-w-6xl w-full">
         {/* content */}
         <div className=" w-full md:w-1/2  flex flex-col items-center justify-center md:justify-start  md:items-start">
-          <h2 className="text-xl py-3 w-[220px] md:w-[350px] redhat md:text-3xl font-base mb-2 leading-normal md:leading-leading-relaxed">
+          <h2 className="text-xl mt-[1rem] md:mt-1 py-3 w-[220px] md:w-[350px] redhat md:text-3xl font-base mb-2 leading-normal md:leading-leading-relaxed">
             {Leadershipdata.heading}
           </h2>
           <h2 className="text-2xl py-3 redhat md:text-4xl font-semibold mb-[2rem] leading-normal md:leading-[3.5rem] text-[#96A94A]">
@@ -38,7 +38,7 @@ const LeadershipRight = () => {
               text={Leadershipdata.buttonText}
               hoverImage={HoverImage}
               buttonImage={HoverImage}
-              className="w-[350]"
+              className="w-[350px] px-4"
             />
           </div>
         </div>

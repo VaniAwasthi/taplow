@@ -54,7 +54,7 @@ const Faq = () => {
       <div className="flex flex-col md:flex-row justify-center md:justify-start items-start redhat">
         {/* Left Section */}
         <div className="w-full md:w-1/2 p-4 md:p-6">
-          <h2 className="text-lg md:text-3xl md:w-[300px] w-full font-normal text-center redhat">
+          <h2 className="text-lg md:text-3xl md:w-[300px] w-full font-normal text-center redhat mt-[1rem]">
             Frequently Asked Questions (FAQs) for Executive Search
           </h2>
         </div>

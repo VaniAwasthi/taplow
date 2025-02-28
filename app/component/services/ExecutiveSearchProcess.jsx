@@ -81,7 +81,7 @@ const ExecutiveSearchProcess = () => {
             autoplay={{ delay: 3000, disableOnInteraction: false }}
             spaceBetween={5}
             slidesPerView={4}
-            loop={true} // ✅ Enable loop for better UX
+            loop={true}
             onSwiper={(swiper) => {
               swiperRef.current = swiper;
               setSwiperInstance(swiper);
@@ -106,16 +106,16 @@ const ExecutiveSearchProcess = () => {
             {steps.map((step, index) => (
               <SwiperSlide key={index} className="flex flex-col items-center">
                 <div className={`w-full`}>
-                  <p className="text-sm text-[#666666] w-[200px] px-4 text-left">
+                  <p className="text-sm text-[#666666] md:w-[200px] px-4 text-center md:text-left">
                     {step.description}
                   </p>
                   <div
-                    className="h-96 flex items-center w-full"
+                    className="h-96 flex items-center w-full transition-transform duration-300 hover:scale-110"
                     style={{
                       background: `url(${step.bgImage.src})center center / contain no-repeat`,
                     }}
                   >
-                    <h3 className="text-base w-6/12 mx-4 font-light text-white mb-2">
+                    <h3 className="text-base px-[2rem] md:px-1 w-10/12 md:w-5/12 md:mx-4 font-light text-white mb-2">
                       {step.title}
                     </h3>
                   </div>

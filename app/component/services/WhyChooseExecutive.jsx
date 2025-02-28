@@ -116,13 +116,13 @@ const WhyChooseExecutive = () => {
           {cards.map((card, index) => (
             <SwiperSlide key={index}>
               <div className="flex justify-center">
-                <div className="bg-white p-6 rounded-xl border border-[#CFCFCF] shadow-md text-left w-full max-w-[300px] h-[350px]">
+                <div className="bg-white p-6 rounded-xl border border-[#CFCFCF] shadow-md text-left w-full max-w-[300px] h-[350px] ">
                   <Image
                     src={card.img}
                     alt={card.title}
                     width={50}
                     height={50}
-                    className="mb-4"
+                    className="mb-4 transition-transform duration-300 hover:scale-105"
                   />
                   <h3 className="text-xl font-bold text-[#005581] w-[200px]">
                     {card.title}
