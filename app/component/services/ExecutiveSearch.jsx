@@ -7,7 +7,7 @@ const ExecutiveSearch = () => {
   const ExecutiveData = {
     heading: " Our Executive Search Expertise",
     description:
-      "With over 150 consultants across 22+ countries, The Taplow Group has a proven track record of delivering high-caliber executive talent for organisations worldwide. We go beyond traditional recruitment, using in-depth market insights, cultural assessments, and leadership evaluation tools to find the right executives for your business.",
+      "With over 150 consultants across the globe, The Taplow Group has a proven track record of delivering high-caliber executive talent for organisations worldwide. We go beyond traditional recruitment, using in-depth market insights, cultural assessments, and leadership evaluation tools to find the right executives for your business.",
   };
   return (
     <>
