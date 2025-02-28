@@ -24,7 +24,7 @@ const ExecutiveSearchProcess = () => {
       bgImage: test1,
     },
     {
-      title: "Market Mapping & Talent Identification",
+      title: "Talent Identification",
       description:
         "Using our extensive network and research tools, we identify the best candidates globally.",
       bgImage: test2,
@@ -36,7 +36,7 @@ const ExecutiveSearchProcess = () => {
       bgImage: test3,
     },
     {
-      title: "Selection & Hiring Support",
+      title: "compensation structure",
       description:
         "From interviews to compensation structuring, we guide you in securing the right leader.",
       bgImage: test4,

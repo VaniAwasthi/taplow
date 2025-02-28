@@ -10,7 +10,7 @@ import Executive from "../../assets/homePage/ExecutiveSearch.webp";
 import ExecutiveIntrim from "../../assets/homePage/Executiveinterim.webp";
 import Leadership from "../../assets/homePage/LeadershipAdvisory.webp";
 import BoardAdvisory from "../../assets/homePage/BoardAdvisory.webp";
-import VirtualLeadership from "../../assets/homePage/VirtualLeadership.webp";
+import VirtualLeadership from "../../assets/homePage/VirtualLeadership.png";
 import NextArrow from "../../assets/homePage/NextArrow.png";
 import PrevArrow from "../../assets/homePage/prev-arrow.png";
 
