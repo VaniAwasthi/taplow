@@ -4,7 +4,7 @@ import { Autoplay } from "swiper/modules";
 import Image from "next/image";
 import { useRef, useState, useEffect } from "react";
 import "swiper/css";
-import BgImag from "../../assets/homePage/chess-piece.png";
+import BgImag from "../../assets/homePage/Hersecbg.png";
 import ButtonImage from "../../assets/homePage/btn-img.svg";
 import HoverImage from "../../assets/homePage/hover.svg";
 import LeftArrow from "../../assets/homePage/left.png";
@@ -69,10 +69,10 @@ export default function Carousel() {
               description={slide.description}
               buttonText={slide.buttonText}
               hoverImage={HoverImage}
-              bgColor="#0a3146c4"
-              overlayOpacity="1"
+              // bgColor="#0a3146c4"
+              // overlayOpacity="1"
               BgClassname="object-cover w-full h-full object-center "
-              zIndex="1"
+              // zIndex="1"
             />
           </SwiperSlide>
         ))}

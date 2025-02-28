@@ -6,9 +6,11 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import Executive from "../../assets/homePage/Executive.png";
-import ExecutiveIntrim from "../../assets/homePage/ExecutiveIntrim.png";
-import Leadership from "../../assets/homePage/Leadership.png";
+import Executive from "../../assets/homePage/ExecutiveSearch.webp";
+import ExecutiveIntrim from "../../assets/homePage/Executiveinterim.webp";
+import Leadership from "../../assets/homePage/LeadershipAdvisory.webp";
+import BoardAdvisory from "../../assets/homePage/BoardAdvisory.webp";
+import VirtualLeadership from "../../assets/homePage/VirtualLeadership.webp";
 import NextArrow from "../../assets/homePage/NextArrow.png";
 import PrevArrow from "../../assets/homePage/prev-arrow.png";
 
@@ -25,8 +27,13 @@ const services = [
     link: "/services",
   },
   {
-    title: "Executive Interim Management",
-    image: ExecutiveIntrim,
+    title: "Board Advisory Services",
+    image: BoardAdvisory,
+    link: "/services",
+  },
+  {
+    title: "Virtual Leadership Training",
+    image: VirtualLeadership,
     link: "/services",
   },
 ];
@@ -35,7 +42,9 @@ const ServicesSlider = () => {
   const [swiperInstance, setSwiperInstance] = useState(null);
   const [isBeginning, setIsBeginning] = useState(true);
   const [isEnd, setIsEnd] = useState(false);
-
+  const data = {
+    heading: "Explore Our Services",
+  };
   useEffect(() => {
     if (swiperInstance) {
       setIsBeginning(swiperInstance.isBeginning);
@@ -50,9 +59,9 @@ const ServicesSlider = () => {
 
   return (
     <div className="container mx-auto px-4 md:max-w-6xl">
-      <div className="relative w-full flex flex-col items-start space-y-6">
-        <h2 className="text-4xl redhat font-base pb-[1.5rem]">
-          Explore Our Services
+      <div className="relative w-full flex flex-col items-start ustify-center md:justify-left space-y-6">
+        <h2 className="text-4xl redhat font-base pb-[1.5rem] text-center md:text-left j">
+          {data.heading}
         </h2>
         <Swiper
           modules={[Navigation]}
@@ -88,7 +97,7 @@ const ServicesSlider = () => {
         {!isBeginning && (
           <div
             onClick={() => swiperInstance?.slidePrev()}
-            className="md:block hidden absolute bottom-10 left-[-5rem] z-10 cursor-pointer"
+            className="lg:block hidden absolute bottom-10 left-[-5rem] z-10 cursor-pointer"
           >
             <Image src={PrevArrow} alt="Prev" width={50} height={50} />
           </div>
@@ -97,7 +106,7 @@ const ServicesSlider = () => {
         {!isEnd && (
           <div
             onClick={() => swiperInstance?.slideNext()}
-            className="md:block hidden absolute bottom-10 right-[-4rem] z-10 cursor-pointer"
+            className="lg:block hidden absolute bottom-10 right-[-4rem] z-10 cursor-pointer"
           >
             <Image src={NextArrow} alt="Next" width={50} height={50} />
           </div>

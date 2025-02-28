@@ -14,14 +14,14 @@ const HeroSection = () => {
   return (
     <div className="relative w-full min-h-screen flex items-center overflow-hidden">
       {/* Overlay */}
-      <div
+      {/* <div
         className="absolute inset-0 w-full h-full top-0 left-0"
         style={{
           backgroundColor: "#2e2b2b",
           opacity: "0.2",
           zIndex: 1,
         }}
-      ></div>
+      ></div> */}
 
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">

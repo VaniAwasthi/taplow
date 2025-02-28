@@ -5,6 +5,7 @@ import ExpectionalTalent from "../../assets/homePage/Group 81.svg"; // Ensure pa
 import Button from "@/app/component/utilities/Button";
 import ButtonImage from "../../assets/homePage/btn-img.svg";
 import HoverImage from "../../assets/homePage/hover.svg";
+import TriangleSection from "../utilities/Triangle";
 
 const Talentsec = () => {
   return (
@@ -42,6 +43,7 @@ const Talentsec = () => {
         </div>
       </div>
       <div className="my-6 h-[1px] w-full bg-[#83A790]"></div>
+      {/* <TriangleSection /> */}
     </div>
   );
 };
