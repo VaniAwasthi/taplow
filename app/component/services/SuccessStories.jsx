@@ -15,7 +15,7 @@ const SuccessStories = () => {
   };
 
   return (
-    <div className="mt-[5rem]  md:mb-[5rem] mb-[4rem] w-full bg-[#005581] flex justify-center relative overflow-visible">
+    <div className="mt-[7rem]  md:mb-[5rem] mb-[4rem] w-full bg-[#005581] flex justify-center relative overflow-visible">
       {/* Main Container */}
       <div className="relative w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center px-6 md:px-12 text-white">
         {/* Left Image Section - Overflow from Top */}
@@ -26,7 +26,7 @@ const SuccessStories = () => {
               alt="Success Stories"
               layout="fill"
               objectFit="cover"
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg transition-transform duration-300 hover:scale-105"
             />
           </div>
         </div>
