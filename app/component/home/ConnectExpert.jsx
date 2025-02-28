@@ -1,4 +1,4 @@
-"use-client";
+"use client";
 import Button from "@/app/component/utilities/Button";
 import React from "react";
 import ButtonImage from "../../assets/homePage/btn-img.svg";
@@ -16,12 +16,12 @@ const ConnectExpert = () => {
           <h2 className="text-2xl py-3  text-black redhat md:text-4xl font-base mb-4 leading-normal md:leading-[3.5rem]">
             Connect with Our Experts
           </h2>
-          <div className="bg-[#F0F0F0] shadow-xl border border-[#F0F0F0] rounded-xl p-4 w-full md:w-[500px]">
-            <p className="py-[2.5rem] px-[1rem] text-[14px] text-black  leading-relaxed ">
+          <div className="bg-[#F0F0F0] shadow-xl border border-[#F0F0F0] rounded-xl p-4 w-full md:w-[500px] transition-all duration-300 hover:shadow-[0_0_20px_rgba(0,0,0,0.3)] hover:border-gray-300">
+            <p className="py-[2.5rem] px-[1rem] text-[14px] text-black leading-relaxed">
               Driven by a passion to expedite change in our pursuit of a
               sustainable future, we partner with businesses and industries to
               catalyse innovation, enable smarter decision-making and deliver
-              positive impact
+              positive impact.
             </p>
           </div>
 
@@ -44,7 +44,11 @@ const ConnectExpert = () => {
           </div>
         </div>
         <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-          <Image src={ExpertImg} alt="expert-img" />
+          <Image
+            src={ExpertImg}
+            alt="expert-img"
+            className="transition-transform duration-300 ease-in-out hover:scale-105"
+          />
         </div>
       </div>
     </div>

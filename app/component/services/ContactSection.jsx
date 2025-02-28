@@ -3,7 +3,13 @@ import React from "react";
 import Image from "next/image";
 import BackgroundImage from "../../assets/homePage/getintouchbg.webp";
 import ButtonImg from "../../assets/homePage/getintouchIcon.png";
-const GetInTouch = () => {
+const ContcatSection = ({}) => {
+  const ContactData = {
+    heading: "Talk to an Executive Search Expert",
+    buttonText: "Get In Touch!",
+    description:
+      "Ready to find your next great leader? Fill out the form below to connect with our executive search consultants and discuss your hiring needs.",
+  };
   return (
     <div className="relative h-full md:h-[540px] bg-black flex items-center justify-center px-6 md:px-12">
       <Image
@@ -13,15 +19,15 @@ const GetInTouch = () => {
         objectFit="cover"
         className="absolute inset-0 opacity-50"
       />
-      <div className="relative z-10 flex flex-col md:flex-row md:items-start items-center max-w-6xl w-full">
+      <div className="relative z-10 flex flex-col md:flex-row md:items-start items-center max-w-7xl w-full">
         {/* Left Text Section */}
         <div className="text-white md:w-1/2 mb-6 md:mb-0">
-          <h2 className="text-2xl py-4 text-center md:text-left redhat md:text-4xl font-base mb-4 leading-normal md:leading-[3.5rem]">
-            We look forward to discussing
-            <br />
-            how we can navigate the path <br />
-            to success together.
+          <h2 className="text-3xl py-4 text-center md:text-left w-[320px]  redhat md:text-4xl font-base mb-4 leading-normal md:leading-[3.5rem]">
+            {ContactData.heading}
           </h2>
+          <p className="text-sm text-center md:text-left  text-white font-base w-[350px]">
+            {ContactData.description}
+          </p>
         </div>
 
         {/* Right Form Section */}
@@ -50,7 +56,7 @@ const GetInTouch = () => {
 
                 {/* Button Text (Turns White on Hover) */}
                 <span className="relative z-10 font-redhat text-sm transition-colors duration-500 ease-out">
-                  Get In Touch!
+                  {ContactData.buttonText}
                 </span>
 
                 {/* Button Icon (Stays Visible) */}
@@ -66,4 +72,4 @@ const GetInTouch = () => {
   );
 };
 
-export default GetInTouch;
+export default ContcatSection;

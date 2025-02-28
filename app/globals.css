@@ -39,3 +39,8 @@ main {
 .themeBackground {
   background-color: var(--themeColor);
 }
+.image-color {
+  filter: grayscale(100%) brightness(0) invert(28%) sepia(100%) saturate(500%)
+    hue-rotate(180deg);
+  mix-blend-mode: multiply;
+}

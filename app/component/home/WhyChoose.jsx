@@ -1,9 +1,8 @@
-"use-client";
+"use client";
 import React from "react";
 import BackgroundImage from "../../assets/homePage/whychoosebg.png";
 import ButtonImg from "../../assets/homePage/getintouchIcon.png";
 import Image from "next/image";
-import Button from "../utilities/Button";
 
 const WhyChoose = () => {
   return (
@@ -18,7 +17,7 @@ const WhyChoose = () => {
       <div className="relative z-10 flex flex-col md:flex-row md:items-start items-center max-w-6xl w-full">
         {/* Left Text Section */}
         <div className="text-white md:w-1/2 mb-6 md:mb-0">
-          <h2 className="text-2xl py-3  redhat md:text-4xl font-base mb-4 leading-normal md:leading-[3.5rem]">
+          <h2 className="text-2xl py-3  redhat md:text-4xl font-base mb-4 leading-normal md:leading-[3.5rem]  transition-all duration-300 hover:scale-105">
             Why Choose the <br /> Taplow Group
           </h2>
           <div

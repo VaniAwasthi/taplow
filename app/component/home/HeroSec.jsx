@@ -69,8 +69,10 @@ export default function Carousel() {
               description={slide.description}
               buttonText={slide.buttonText}
               hoverImage={HoverImage}
-              bgColor="#123456"
-              overlayOpacity="0.8"
+              bgColor="#0a3146c4"
+              overlayOpacity="1"
+              BgClassname="object-cover w-full h-full object-center "
+              zIndex="1"
             />
           </SwiperSlide>
         ))}

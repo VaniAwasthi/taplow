@@ -1,4 +1,4 @@
-"use-client";
+"use client";
 import React from "react";
 import Image from "next/image";
 import ExpectionalTalent from "../../assets/homePage/Group 81.svg"; // Ensure path is correct
@@ -15,13 +15,13 @@ const Talentsec = () => {
           <Image
             alt="exceptional-talent"
             src={ExpectionalTalent}
-            className="max-w-full h-auto"
+            className="max-w-full h-auto  transition-transform duration-300 ease-in-out hover:scale-105"
           />
         </div>
         {/* Right Section - Content */}
         <div className="w-full md:w-1/2 md:pl-10 mt-6 md:mt-0 text-center md:text-left">
-          <h2 className="text-2xl lg:text-4xl font-semibold redhat leading-snug text-[#222222]">
-            Connecting Companies to <br className="hidden md:block" />{" "}
+          <h2 className="text-2xl lg:text-4xl font-semibold redhat leading-relaxed text-[#222222]">
+            Connecting Companies to <br className="hidden md:block" />
             Exceptional Talent
           </h2>
           <p className="mt-4 text-md redhat text-[#666666] leading-relaxed ">

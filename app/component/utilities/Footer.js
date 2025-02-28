@@ -1,4 +1,4 @@
-"use-client";
+"use client";
 import Image from "next/image";
 import logo from "../../assets/homePage/logo.png";
 import Facebookicon from "../../assets/icons/facebook.png";
