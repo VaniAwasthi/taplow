@@ -11,6 +11,7 @@ export default function Button({
   hoverBgColor = "#FFFFFF", // Default hover background color (White)
   hoverTextColor = "#96A94A",
   border = ` 2px solid ${bgColor}`, // Default hover text color (Green)
+  filter = "brightness(0) invert(1)",
 }) {
   return (
     <button
@@ -40,7 +41,7 @@ export default function Button({
           src={hoverImage}
           alt="Button Icon"
           className="absolute inset-0 transition-opacity duration-300 ease-in-out group-hover:opacity-0"
-          style={{ filter: "brightness(0) invert(1)" }}
+          style={{ filter: filter }}
         />
         <Image
           src={hoverImage}

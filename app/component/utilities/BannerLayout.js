@@ -10,49 +10,53 @@ const BannerLayout = ({
   buttonImage,
   hoverImage,
   bgColor,
-  overlayOpacity = 0.9,
+  overlayOpacity,
+  zIndex,
+  BgClassname = "object-cover w-full h-full [object-position:76%_61%] md:object-center ",
 }) => {
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full min-h-screen flex items-center overflow-hidden">
       {/* Overlay */}
       <div
-        className="absolute inset-0"
-        style={{ backgroundColor: bgColor, opacity: overlayOpacity }}
+        className="absolute inset-0 w-full h-full top-0 left-0"
+        style={{
+          backgroundColor: bgColor,
+          opacity: overlayOpacity,
+          zIndex: zIndex,
+        }}
       ></div>
 
       {/* Background Image */}
-      <Image
-        src={image}
-        alt="Background Image"
-        layout="fill"
-        objectFit="cover"
-        className="absolute inset-0 mix-blend-overlay"
-      />
+      <div className="absolute inset-0 w-full h-full">
+        <Image
+          src={image}
+          alt="Background Image"
+          fill
+          className={BgClassname}
+          priority
+        />
+      </div>
 
-      {/* Content Section - Aligned to Left Center */}
-      <div className="relative z-10 flex flex-col items-start justify-center h-full pl-8 md:pl-32 max-w-xl text-white redhat">
-        <h2 className="text-3xl md:text-5xl font-normal redhat py-2">
-          {title}
-        </h2>
-        <h2 className="text-3xl md:text-5xl font-normal redhat py-2">
-          {title2}
-        </h2>
+      {/* Content Section */}
+      <div className="relative z-10 flex flex-col items-start justify-start md:justify-center text-white px-6 md:px-32 max-w-7xl ">
+        <h2 className="text-lg md:text-4xl font-normal text-left ">{title}</h2>
+        <h2 className="text-lg md:text-4xl font-normal mt-2">{title2}</h2>
+
         <div
-          className="my-6 h-[1px] w-[320px]"
+          className="my-4 h-[1px] w-[80%] md:w-[320px] mx-auto md:mx-0"
           style={{
             background: "linear-gradient(to right, #D9D9D9 30%, #96A94A 30%)",
           }}
         ></div>
 
-        <p className="mt-4 text-xs md:text-[16px] leading-snug redhat">
+        <p className="mt-2 text-sm md:text-base leading-snug max-w-[90%] md:max-w-[400px]">
           {description}
         </p>
 
         {/* Button */}
-        <div className="mt-[2rem] mb-[2rem]">
+        <div className="mt-6">
           <Button
             text={buttonText}
-            onClick={() => console.log("Button Clicked!")}
             image={buttonImage}
             hoverImage={hoverImage}
           />
