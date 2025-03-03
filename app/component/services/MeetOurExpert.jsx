@@ -11,7 +11,7 @@ const MeetOurExperts = () => {
     heading: "Meet Our Experts",
     description:
       "Our executive search consultants bring industry expertise and global insights to every search. Connect with our specialists to find exemplary leadership for your business.",
-    buttonText: "Read Our Success Stories",
+    buttonText: "Meet Our Experts",
   };
 
   return (

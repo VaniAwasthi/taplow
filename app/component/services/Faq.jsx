@@ -55,7 +55,7 @@ const Faq = () => {
         {/* Left Section */}
         <div className="w-full md:w-1/2 p-4 md:p-6">
           <h2 className="text-lg md:text-3xl md:w-[300px] w-full font-normal text-center redhat mt-[1rem]">
-            Frequently Asked Questions (FAQs) for Executive Search
+            Frequently Asked Questions for Executive Search
           </h2>
         </div>
 

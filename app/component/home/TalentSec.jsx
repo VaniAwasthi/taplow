@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import ExpectionalTalent from "../../assets/homePage/Group 81.svg"; // Ensure path is correct
 import Button from "@/app/component/utilities/Button";
 import ButtonImage from "../../assets/homePage/btn-img.svg";
 import HoverImage from "../../assets/homePage/hover.svg";
@@ -9,16 +8,11 @@ import TriangleSection from "../utilities/Triangle";
 
 const Talentsec = () => {
   return (
-    <div className="container mx-auto px-4 lg:max-w-6xl py-10">
+    <div className="container mx-auto px-4 lg:max-w-7xl py-10 mt-4 mb-5">
       <div className="flex flex-col md:flex-row items-center justify-between">
         {/* Left Section - Image */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-          <Image
-            alt="exceptional-talent"
-            src={ExpectionalTalent}
-            className="max-w-full h-auto  transition-transform duration-300 ease-in-out hover:scale-105"
-          />
-        </div>
+
+        <TriangleSection />
         {/* Right Section - Content */}
         <div className="w-full md:w-1/2 md:pl-10 mt-6 md:mt-0 text-center md:text-left">
           <h2 className="text-2xl lg:text-4xl font-semibold redhat leading-relaxed text-[#222222]">
@@ -43,7 +37,6 @@ const Talentsec = () => {
         </div>
       </div>
       <div className="my-6 h-[1px] w-full bg-[#83A790]"></div>
-      {/* <TriangleSection /> */}
     </div>
   );
 };
