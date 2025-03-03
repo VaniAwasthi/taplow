@@ -44,7 +44,7 @@ const TopNav = () => {
             </div>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:block">
+            <div className="hidden lg:block">
               <div className="flex space-x-4">
                 {navigation.map((item) => (
                   <Link key={item.name} href={item.href}>
@@ -63,7 +63,7 @@ const TopNav = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="md:hidden">
+            <div className="lg:hidden">
               <DisclosureButton className="relative p-2 text-gray-400 hover:text-white">
                 <FaBars className="text-black block size-6 group-data-[open]:hidden" />
                 <IoCloseSharp className="text-white hidden size-6 group-data-[open]:block" />

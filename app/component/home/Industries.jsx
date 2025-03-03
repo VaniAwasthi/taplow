@@ -70,7 +70,6 @@ const IndustrySlider = () => {
       <h2 className="text-2xl text-center md:text-left font-semibold mb-6 ">
         Industries We Serve
       </h2>
-
       {/* Swiper Slider */}
       <Swiper
         key={industries.length}
@@ -87,9 +86,9 @@ const IndustrySlider = () => {
         breakpoints={{
           1280: { slidesPerView: 4, spaceBetween: 20 },
           1024: { slidesPerView: 3, spaceBetween: 15 },
-          768: { slidesPerView: 2, spaceBetween: 10, centeredSlides: false }, // ✅ Prevent weird centering issues
-          480: { slidesPerView: 1, spaceBetween: 10, centeredSlides: false }, // ✅ Slight preview on mobile
-          0: { slidesPerView: 1, spaceBetween: 5, centeredSlides: false }, // ✅ Fix for smallest screens
+          768: { slidesPerView: 2, spaceBetween: 10, centeredSlides: false },
+          480: { slidesPerView: 1, spaceBetween: 10, centeredSlides: false },
+          0: { slidesPerView: 1, spaceBetween: 5, centeredSlides: false },
         }}
       >
         {industries.map((industry, index) => (

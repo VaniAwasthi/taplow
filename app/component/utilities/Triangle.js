@@ -5,48 +5,51 @@ import GrowthImg from "../../assets/homePage/growth.png";
 import PerformanceImg from "../../assets/homePage/performance.png";
 import AccelerateImg from "../../assets/homePage/accelerate.png";
 import DiversificationImg from "../../assets/homePage/diversification.png";
+import ExpectionalTalent from "../../assets/homePage/Group-81.svg";
 
 const TriangleSection = () => {
   return (
-    <div className="relative w-[400px] h-[400px] mx-auto flex items-center justify-center">
-      {/* Main Triangle */}
-      <div className="relative w-0 h-0 border-l-[200px] border-l-transparent border-r-[200px] border-r-transparent border-b-[350px] border-b-transparent">
-        {/* Growth Image (Top) */}
-        <div className="absolute top-[-20%] left-1/2 transform -translate-x-1/2">
-          <Image src={GrowthImg} alt="Growth" width={150} height={150} />
-        </div>
-
-        {/* Performance Image (Bottom Left) */}
-        <div className="absolute bottom-[-10%] left-[-20%]">
+    <>
+      <div className="relative hidden lg:flex items-center justify-center mt-[6rem] mb-[5rem]  md:w-1/2 w-full">
+        <div className="h-32  min-w-100%  relative translate-x-[118px] translate-y-[-20px] xl:translate-x-[169px] xl:translate-y-[-55px]">
           <Image
-            src={PerformanceImg}
-            alt="Performance"
-            width={150}
-            height={150}
+            className="object-contain transition-transform duration-300 ease-in-out hover:scale-105"
+            src={GrowthImg}
+            alt="Growth"
           />
         </div>
-
-        {/* Diversification Image (Bottom Right) */}
-        <div className="absolute bottom-[-10%] right-[-20%]">
-          <Image
-            src={DiversificationImg}
-            alt="Diversification"
-            width={150}
-            height={150}
-          />
-        </div>
-
-        {/* Accelerate Image (Center Inverted Triangle) */}
-        <div className="absolute bottom-[30%] left-1/2 transform -translate-x-1/2">
-          <Image
-            src={AccelerateImg}
-            alt="Accelerate"
-            width={150}
-            height={150}
-          />
+        <div className="flex ">
+          <div className="h-32 min-w-100% relative translate-x-[-64px] translate-y-[76px] xl:translate-x-[-64px] xl:translate-y-[76px]">
+            <Image
+              className="object-contain transition-transform duration-300 ease-in-out hover:scale-105 "
+              src={PerformanceImg}
+              alt="Performance"
+            />
+          </div>
+          <div className="h-32 min-w-100% relative translate-x-[-124px] translate-y-[80px] xl:translate-x-[-143px] xl:translate-y-[74px]">
+            <Image
+              className="object-contain scale-105 transition-transform duration-300 ease-in-out hover:scale-110"
+              src={AccelerateImg}
+              alt="Accelerate"
+            />
+          </div>
+          <div className="h-32  min-w-100% relative translate-x-[-184px] translate-y-[80px] xl:translate-x-[-222px] xl:translate-y-[76px]">
+            <Image
+              className="object-contain transition-transform duration-300 ease-in-out hover:scale-105"
+              src={DiversificationImg}
+              alt="Diversification"
+            />
+          </div>
         </div>
       </div>
-    </div>
+      <div className="w-full lg:hidden md:w-1/2 flex justify-center md:justify-start">
+        <Image
+          alt="exceptional-talent"
+          src={ExpectionalTalent}
+          className="max-w-full h-auto  transition-transform duration-300 ease-in-out hover:scale-105"
+        />
+      </div>
+    </>
   );
 };
 
