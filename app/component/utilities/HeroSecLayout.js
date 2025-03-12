@@ -24,7 +24,7 @@ const HeroSection = ({
           src={heroBg}
           alt="Background"
           fill
-          className={`object-cover w-full h-full object-center ${ImageClass}`}
+          className="object-cover w-full h-full object-center"
           priority
         />
       </div>
