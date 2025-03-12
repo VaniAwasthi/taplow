@@ -44,7 +44,7 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
   };
 
   return (
-    <section className="container mx-auto px-4 lg:max-w-7xl py-10 ">
+    <section className="container mx-auto px-4 lg:max-w-7xl md:max-w-6xl py-10 ">
       <div className="flex flex-wrap items-center justify-between">
         {/* Section 1 */}
         <div className="w-full lg:w-1/3 p-2 text-left">
@@ -78,17 +78,17 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
 
         {/* Section 2 */}
         <div className="w-full lg:w-[300px] max-lg:w-full max-w-full p-2">
-          <h2 className="hidden md:block text-3xl font-normal redhat text-right">
+          <h2 className="hidden md:block text-3xl font-normal redhat">
             It All <br />
             Started
           </h2>
-          <h2 className="block md:hidden text-3xl font-normal text-black py-4  md:text-right">
+          <h2 className="block md:hidden text-3xl font-normal text-black py-4 ">
             {data.sec2heading}
           </h2>
-          <p className="text-sm py-4 text-[#5E5E5E] redhat w-full md:text-right">
+          <p className="text-sm py-4 text-[#5E5E5E] redhat w-full ">
             {data.sec2des1}
           </p>
-          <p className="text-sm text-[#5E5E5E] redhat w-full md:text-right">
+          <p className="text-sm text-[#5E5E5E] redhat w-full">
             {data.sec2des2}
           </p>
         </div>

@@ -37,7 +37,7 @@ const HeroSection = ({
         <div className={`text-white md:w-1/2 text-left ${leftSecClass}`}>
           <h2 className="text-2xl md:text-4xl font-bold">{Heading}</h2>
           <div
-            className="my-4 h-[1px] w-[80%] md:w-[320px]"
+            className="my-4 h-[2px] w-[80%] md:w-[320px]"
             style={{
               background: "linear-gradient(to right, #D9D9D9 30%, #96A94A 30%)",
             }}
