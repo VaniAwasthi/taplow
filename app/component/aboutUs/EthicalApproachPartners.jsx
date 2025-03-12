@@ -241,7 +241,7 @@ export const Partners = () => {
       });
     }
   }, [swiperInstance]);
-  const heading = "Our Partners Meet";
+  const heading = "One Global Team: Aligned Through Regular Partner Meetings";
   const title = `Our partners meet regularly to discuss best practices, new sector developments and initiatives. <br/> Pictured are our global colleagues in Frankfurt, Germany (2019) , Madrid Spain (2022) , Dubai, UAE (2023) and Sofia, Bulgaria (2024).`;
   return (
     <>

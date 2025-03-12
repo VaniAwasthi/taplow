@@ -6,9 +6,10 @@ import AllStartedImg from "../../assets/aboutuspage/Group 1000005942.webp";
 import LogoNameImg from "../../assets/aboutuspage/aboutsec.webp";
 
 import Image from "next/image";
+import TriangleArrow from "../utilities/TriangleArrow";
 export const AboutBanner = () => {
   const Data = {
-    title: "Who We Are",
+    title: "Finding the Right Leaders to Shape Tomorrow",
     desc: "The Taplow Group is a trusted global firm specialising in leadership solutions. Since 2002, we have been helping organisations secure top executive talent, strengthen leadership teams, and navigate business transformation. With a presence worldwide, we combine global reach with local expertise to drive long-term success.",
   };
   return (
@@ -28,7 +29,7 @@ export const AboutBanner = () => {
 };
 export const ItAllStarted = () => {
   const data = {
-    sec1heading: "Taplow Name And Logo",
+    sec1heading: "Taplow and the Tulip Tree: Our Story",
     sec1des:
       "The Taplow name is derived from our inaugural conference held in 2002 in Taplow, UK on the banks of the River Thames a short distance from  Windsor Castle. Mentioned in the doomsday book in 1086 the village was originally Anglo Saxon and is steeped in history.",
     sec1des2: `<p>Our logo is inspired by the Tulip Trees that can be found within the <b>Taplow House Hotel</b> grounds,
@@ -36,7 +37,7 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
 
     sec1img: LogoNameImg,
     image: AllStartedImg,
-    sec2heading: "It All Started",
+    sec2heading: "Our Story: How It All Began",
     sec2des1:
       "In 2002, a group of independant senior Executive Search and Human Resource consultants began a dialogue over the state of the industry, and how they could combine to offer high value, highly differentiated search and consulting services – locally, internationally and globally.",
     sec2des2:
@@ -48,7 +49,11 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
       <div className="flex flex-wrap items-center justify-between">
         {/* Section 1 */}
         <div className="w-full lg:w-1/3 p-2 text-left">
-          <h2 className="text-3xl font-normal  redhat md:w-[220px] w-full py-2">
+          <h2 className="hidden md:block text-3xl font-normal redhat">
+            Taplow and the Tulip Tree :
+            <br /> Our Story
+          </h2>
+          <h2 className="block md:hidden text-3xl font-normal text-black py-4 ">
             {data.sec1heading}
           </h2>
           <p className="text-sm py-4 text-[#5E5E5E] redhat md:w-[300px] w-full">
@@ -59,11 +64,12 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
             dangerouslySetInnerHTML={{ __html: data.sec1des2 }}
           ></div>
           <div className="mt-[3rem]">
-            <Image
+            {/* <Image
               src={LogoNameImg}
               alt="image"
-              className="transition-transform duration-300 ease-in-out hover:scale-105"
-            />
+              className="transition-transform duration-300 ease-in-out hover:scale-110"
+            /> */}
+            <TriangleArrow />
           </div>
         </div>
 
@@ -79,8 +85,8 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
         {/* Section 2 */}
         <div className="w-full lg:w-[300px] max-lg:w-full max-w-full p-2">
           <h2 className="hidden md:block text-3xl font-normal redhat">
-            It All <br />
-            Started
+            Our Story: <br />
+            How It All Began
           </h2>
           <h2 className="block md:hidden text-3xl font-normal text-black py-4 ">
             {data.sec2heading}

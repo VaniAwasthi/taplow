@@ -5,6 +5,7 @@ import Image from "next/image";
 import Triangle from "../../assets/aboutuspage/aboutsec.webp";
 import Mission from "../../assets/aboutuspage/Mssion.webp";
 import VissionImg from "../../assets/aboutuspage/Vission.webp";
+import Arrows from "../utilities/TriangleArrow";
 
 export const OurFoundingPartner = () => {
   const data = {
@@ -78,7 +79,7 @@ export const OurFoundingPartner = () => {
             />
           </div>
           <div className="mt-[2rem] ml-auto flex justify-end w-full pr-8">
-            <Image src={data.Triangle} alt="triangle" width={270} height={70} />
+            <Arrows />
           </div>
         </div>
       </div>
