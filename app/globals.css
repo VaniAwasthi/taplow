@@ -44,3 +44,44 @@ main {
     hue-rotate(180deg);
   mix-blend-mode: multiply;
 }
+
+.white_arrow button::after {
+  display: none;
+}
+.white_arrow button {
+  opacity: 1 !important;
+}
+.white_arrow button svg {
+  color: #fff;
+}
+.white_arrow button.disabled svg {
+  color: #cacaca;
+}
+.style2_slider .swiper-button-prev:after,
+.swiper-button-next:after {
+  color: #000;
+  font-size: 24px !important;
+  font-weight: 500;
+}
+.style2_slider .swiper-pagination {
+  bottom: 0;
+}
+.style2_slider .swiper-pagination-bullet {
+  background: #b2b2b2;
+  opacity: 0.6;
+}
+
+.style2_slider .swiper-pagination {
+  gap: 6px;
+  justify-content: end;
+}
+.style2_slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 40px;
+  border-radius: 12px;
+  background: #b2b2b2;
+  opacity: 1;
+}
+.style2_slider .swiper-button-next,
+.style2_slider .swiper-button-prev {
+  width: 45px;
+}
