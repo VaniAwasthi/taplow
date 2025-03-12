@@ -11,6 +11,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        moveRight: {
+          "0%": { transform: "translateX(0)", opacity: "0.3" },
+          "50%": { transform: "translateX(10px)", opacity: "1" },
+          "100%": { transform: "translateX(20px)", opacity: "0.3" },
+        },
+      },
+      animation: {
+        moveRight: "moveRight 1.2s infinite ease-in-out",
+      },
     },
   },
   plugins: [],
