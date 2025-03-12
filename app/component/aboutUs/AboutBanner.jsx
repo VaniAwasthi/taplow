@@ -29,7 +29,7 @@ export const AboutBanner = () => {
 };
 export const ItAllStarted = () => {
   const data = {
-    sec1heading: "Taplow and the Tulip Tree: Our Story",
+    sec1heading: "Taplow and the Tulip Tree: Our Brand Story",
     sec1des:
       "The Taplow name is derived from our inaugural conference held in 2002 in Taplow, UK on the banks of the River Thames a short distance from  Windsor Castle. Mentioned in the doomsday book in 1086 the village was originally Anglo Saxon and is steeped in history.",
     sec1des2: `<p>Our logo is inspired by the Tulip Trees that can be found within the <b>Taplow House Hotel</b> grounds,
@@ -37,7 +37,7 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
 
     sec1img: LogoNameImg,
     image: AllStartedImg,
-    sec2heading: "Our Story: How It All Began",
+    sec2heading: "Our Journey: How It All began",
     sec2des1:
       "In 2002, a group of independant senior Executive Search and Human Resource consultants began a dialogue over the state of the industry, and how they could combine to offer high value, highly differentiated search and consulting services – locally, internationally and globally.",
     sec2des2:
@@ -51,7 +51,7 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
         <div className="w-full lg:w-1/3 p-2 text-left">
           <h2 className="hidden md:block text-3xl font-normal redhat">
             Taplow and the Tulip Tree :
-            <br /> Our Story
+            <br /> Our Brand Story
           </h2>
           <h2 className="block md:hidden text-3xl font-normal text-black py-4 ">
             {data.sec1heading}
@@ -85,8 +85,8 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
         {/* Section 2 */}
         <div className="w-full lg:w-[300px] max-lg:w-full max-w-full p-2">
           <h2 className="hidden md:block text-3xl font-normal redhat">
-            Our Story: <br />
-            How It All Began
+            Our Journey:: <br />
+            How It All began
           </h2>
           <h2 className="block md:hidden text-3xl font-normal text-black py-4 ">
             {data.sec2heading}
