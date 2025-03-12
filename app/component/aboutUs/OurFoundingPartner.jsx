@@ -15,9 +15,9 @@ export const OurFoundingPartner = () => {
     Triangle: Triangle,
   };
   return (
-    <section className="container mx-auto px-4 lg:max-w-8xl py-10 ">
+    <section className="container mx-auto px-4 lg:max-w-7xl py-10 ">
       <div className="flex flex-col md:flex-row md:justify-center md:items-center">
-        <div className="md:w-.5/3">
+        <div className="md:w-1/3">
           <h2
             className="hidden md:block text-3xl font-normal redhat px-2"
             dangerouslySetInnerHTML={{ __html: data.mdHeading }}
@@ -27,17 +27,17 @@ export const OurFoundingPartner = () => {
           </h2>
         </div>
         <div
-          className="my-4 h-[1px] w-[100%] md:w-2/3 "
+          className="my-4 h-[2px] w-[100%] md:w-3/3 "
           style={{
             background: "#83A790",
           }}
         ></div>
       </div>
-      <div className="flex flex-col md:flex-row md:justify-center md:items-center mt-[3rem] md:mb-[8rem] mb-[2rem]">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-center mt-[2rem] md:mb-[3rem] mb-[2rem]">
         {/* Image Section */}
         <div className="relative w-full md:w-1/2">
           {/* Text Box Over Image */}
-          <div className="absolute -top-9 w-[350px] h-[70px] left-[3rem] border-[#E7E7E7] bg-white text-black px-3 py-1 rounded-lg shadow-sm shadow-[#E7E7E7] text-sm transition-transform duration-300 ease-in-out hover:scale-105">
+          <div className="absolute -top-9 w-[350px] h-[70px] left-[3rem] border-[#E7E7E7] border-2 bg-white text-black px-3 py-1 rounded-lg shadow-sm shadow-[#E7E7E7] text-sm transition-transform duration-300 ease-in-out hover:scale-105">
             <p className="text-[#5E5E5E] text-sm font-bold px-4 py-3">
               Founding Partners of The Taplow Group S.A. - Taplow House, UK, May
               2002
@@ -101,42 +101,44 @@ export const VissionSec = () => {
   ];
 
   return (
-    <div className="relative bg-gray-100 w-full py-10 px-6 md:mb-[10rem]">
+    <div className=" py-10 bg-gray-100 md:mb-[10rem]">
       {/* Heading */}
-      <h2 className="text-3xl font-semibold text-center mb-[2rem] md:mb-2">
-        Our Mission & Vision
-      </h2>
+      <div className="relative container mx-auto px-4 lg:max-w-7xl">
+        <h2 className="text-3xl font-semibold text-center mb-[2rem] md:mb-2">
+          Our Mission & Vision
+        </h2>
 
-      {/* Card Container */}
-      <div className="relative flex flex-col md:flex-row gap-6 w-full max-w-5xl mx-auto md:-mb-16">
-        {content.map((item, index) => (
-          <div
-            key={index}
-            className="flex-1 bg-white shadow-lg rounded-lg border-[#96A94A] border-2 overflow-hidden flex flex-col md:flex-row md:relative md:top-16  transition-transform duration-300 ease-in-out hover:scale-105"
-          >
-            {/* Image Section */}
-            <div className="w-full md:w-1/2">
-              <Image
-                src={item.image}
-                alt={`${item.title} Image`}
-                width={400}
-                height={250}
-                className="w-full h-full object-cover "
-              />
-            </div>
+        {/* Card Container */}
+        <div className="relative flex flex-col md:flex-row gap-6 w-full max-w-6xl mx-auto md:-mb-16">
+          {content.map((item, index) => (
+            <div
+              key={index}
+              className="flex-1 bg-white shadow-lg rounded-lg border-[#96A94A] border-2 overflow-hidden flex flex-col md:flex-row md:relative md:top-16  transition-transform duration-300 ease-in-out hover:scale-105"
+            >
+              {/* Image Section */}
+              <div className="w-full md:w-1/2">
+                <Image
+                  src={item.image}
+                  alt={`${item.title} Image`}
+                  width={400}
+                  height={250}
+                  className="w-full h-full object-cover "
+                />
+              </div>
 
-            {/* Text Section */}
-            <div className="p-6 md:w-1/2">
-              <h3 className="md:text-2xl text-xl font-semibold mb-2 text-[#005581]">
-                {item.title}
-              </h3>
-              <p
-                className="text-[#666666] text-sm"
-                dangerouslySetInnerHTML={{ __html: item.description }}
-              />
+              {/* Text Section */}
+              <div className="p-6 md:w-1/2">
+                <h3 className="md:text-2xl text-xl font-semibold mb-2 text-[#005581]">
+                  {item.title}
+                </h3>
+                <p
+                  className="text-[#666666] text-sm"
+                  dangerouslySetInnerHTML={{ __html: item.description }}
+                />
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

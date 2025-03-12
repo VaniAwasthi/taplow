@@ -61,7 +61,7 @@ export const Ethical = () => {
   return (
     <>
       <section className="bg-[#F0F0F0] py-10 md:py-16 px-4">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <div className="flex md:flex-row flex-col  justify-between">
             <div className="w-full md:w-1/2">
               <h2 className="text-3xl font-normal redhat mb-4  text-[#111D15]">

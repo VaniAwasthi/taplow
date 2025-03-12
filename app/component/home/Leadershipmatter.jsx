@@ -36,12 +36,13 @@ const LeadershipMatter = () => {
             </button>
           </div>
         </div>
-        <div className="absolute top-[12rem] right-[0] hidden xl:block">
+        <div className="absolute w-[600px] xl:top-[12rem] right-[0] hidden xl:block xl:translate-x-[26px] xl:translate-y-[-4px] 2xl:translate-x-[26px] 2xl:translate-y-[3px] ">
           <Image
             src={TriangleImage}
             alt="Triangle Design"
             width={578}
-            height={478}
+            // height={478}
+            className="xl:h-[413px] lg:h-[478xp]"
           />
         </div>
       </div>
