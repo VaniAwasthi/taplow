@@ -9,7 +9,7 @@ import Arrows from "../utilities/TriangleArrow";
 
 export const OurFoundingPartner = () => {
   const data = {
-    mdHeading: `<h2>Our Founding <br/> Partners</h2>`,
+    mdHeading: `<h3>Our Founding Partners</h3>`,
     heading: "Our Founding Partners",
     GlobalImg: GlobalImg,
     LftsecImg: LftsecImg,
@@ -28,7 +28,7 @@ export const OurFoundingPartner = () => {
           </h2>
         </div>
         <div
-          className="my-4 h-[2px] w-[100%] md:w-3/3 "
+          className="my-4 h-[2px] w-[80%] md:w-3/3 "
           style={{
             background: "#83A790",
           }}
