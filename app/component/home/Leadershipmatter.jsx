@@ -3,54 +3,49 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import ButtonImg from "../../assets/homePage/hover.svg";
-import TriangleImage from "../../assets/homePage/traingle.png";
+import TriangleImage from "../../assets/homePage/intersecttriangle.png";
 import BusinessMeeting from "../../assets/homePage/leading-img.png";
+// import PlayButton from "../../assets/homePage/play-button.svg";
 
 const LeadershipMatter = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+
   const data = {
     heading: "Where Leadership Matters!",
-    desc: " Driven by a passion to expedite change in our pursuit of avsustainable future, we partner with businesses and industries to catalyze innovation, enable smarter decision-making, and deliver positive impact.",
-    btnText: " Know More",
+    desc: "Driven by a passion to expedite change in our pursuit of a sustainable future, we partner with businesses and industries to catalyze innovation, enable smarter decision-making, and deliver positive impact.",
+    btnText: "Know More",
   };
 
   return (
-    <div className="w-full bg-[#88A24B] flex flex-col xl:flex-row relative my-10">
+    <div className="w-full flex flex-col xl:flex-row relative my-10">
       {/* Left Section */}
-      <div className="w-full xl:w-1/2 text-white flex flex-col justify-start px-6 xl:px-12 pt-12 relative">
+      <div className="w-full xl:w-1/2 bg-[#88A24B] text-white flex flex-col px-6 xl:px-12 pt-12 relative">
         <div className="md:w-[80%] xl:ml-[7rem]">
-          <h2 className="text-3xl md:text-4xl font-regular pb-[1.5rem] text-center md:text-left">
+          <h2 className="text-3xl md:text-4xl font-regular pb-6 text-center md:text-left ">
             {data.heading}
           </h2>
-          <p className="text-md leading-relaxed mb-[2rem] text-center md:text-left">
+          <p className="text-md leading-relaxed  text-center md:text-left mb-[2rem] md:mb-2">
             {data.desc}
           </p>
-          <div className="flex justify-center md:justify-start">
-            <button className="mt-6 mb-[2rem] md:mt-[3.5rem] border border-[#96a94a] relative group w-[242px] h-[42px] bg-white text-[#96a94a] rounded-full flex items-center justify-center gap-2 transition-all duration-500 ease-out overflow-hidden hover:bg-gray-200 transform hover:scale-105">
-              <span className="relative z-10 font-redhat text-sm transition-colors duration-500 ease-out">
+          <div className="flex justify-center md:justify-start mb-[12rem] md:mb-2">
+            <button className="mt-6 mb-6 md:mt-10 border border-[#96a94a] relative group w-[242px] h-[42px] bg-white text-[#96a94a] rounded-full flex items-center justify-center gap-2 transition-all duration-300 hover:bg-gray-200 transform hover:scale-105">
+              <span className="relative z-10 font-redhat text-sm">
                 {data.btnText}
               </span>
-              <div className="relative">
-                <Image src={ButtonImg} alt="Button Icon" />
-              </div>
+              <Image src={ButtonImg} alt="Button Icon" width={20} height={20} />
             </button>
           </div>
-        </div>
-        <div className="absolute w-[600px] xl:top-[12rem] right-[0] hidden xl:block xl:translate-x-[26px] xl:translate-y-[-4px] 2xl:translate-x-[26px] 2xl:translate-y-[3px] ">
-          <Image
-            src={TriangleImage}
-            alt="Triangle Design"
-            width={578}
-            // height={478}
-            className="xl:h-[413px] lg:h-[478xp]"
-          />
+          {/* Triangle Image Positioned to Bottom-Right */}
+          <div className="absolute bottom-0 right-0 ">
+            <Image src={TriangleImage} alt="Triangle Design" />
+          </div>
         </div>
       </div>
 
       {/* Right Section - Clickable Video */}
       <div
         className="w-full xl:w-1/2 relative cursor-pointer"
-        // onClick={() => setIsVideoPlaying(true)}
+        onClick={() => setIsVideoPlaying(true)}
       >
         {isVideoPlaying ? (
           <iframe
@@ -69,6 +64,15 @@ const LeadershipMatter = () => {
               className="object-cover"
               priority
             />
+            {/* Play Button Overlay */}
+            {/* <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/50 p-4 rounded-full">
+              <Image
+                src={PlayButton}
+                alt="Play Button"
+                width={60}
+                height={60}
+              />
+            </div> */}
           </div>
         )}
       </div>

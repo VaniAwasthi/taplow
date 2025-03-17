@@ -10,7 +10,7 @@ import TriangleArrow from "../utilities/TriangleArrow";
 export const AboutBanner = () => {
   const Data = {
     title: "Finding the Right Leaders to Shape Tomorrow",
-    desc: "The Taplow Group is a trusted global firm specialising in leadership solutions. Since 2002, we have been helping organisations secure top executive talent, strengthen leadership teams, and navigate business transformation. With a presence worldwide, we combine global reach with local expertise to drive long-term success.",
+    desc: "",
   };
   return (
     <>
@@ -20,6 +20,8 @@ export const AboutBanner = () => {
         Heading={Data.title}
         Description={Data.desc}
         isButton={false}
+        Isdivider={false}
+        headingClass="md:w-[350px]  md:text-5xl"
         leftSecClass="flex flex-col justify-end items-start pb-10 md:pb-20 text-left md:mt-[13rem] mt-4"
         rightSecClass="flex justify-center md:justify-end"
         ImageClass="transition-transform duration-300 ease-in-out hover:scale-105"
@@ -85,7 +87,7 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
         {/* Section 2 */}
         <div className="w-full lg:w-[300px] max-lg:w-full max-w-full p-2">
           <h2 className="hidden md:block text-3xl font-normal redhat">
-            Our Journey:: <br />
+            Our Journey : <br />
             How It All began
           </h2>
           <h2 className="block md:hidden text-3xl font-normal text-black py-4 ">
