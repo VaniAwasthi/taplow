@@ -126,7 +126,7 @@ export const VissionSec = () => {
     <div className=" py-10 bg-gray-100 md:mb-[10rem]">
       {/* Heading */}
       <div className="relative container mx-auto px-4 lg:max-w-7xl">
-        <h2 className="text-3xl font-semibold text-center mb-[2rem] md:mb-2">
+        <h2 className="text-3xl font-semibold text-left md:text-center mb-[2rem] md:mb-2">
           Our Mission & Vision
         </h2>
 

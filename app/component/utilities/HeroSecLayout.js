@@ -26,20 +26,20 @@ const HeroSection = ({
           src={heroBg}
           alt="Background"
           fill
-          className="object-cover w-full h-full object-center"
+          className="object-cover w-full h-full [object-position:27%_25%] md:object-center"
           priority
         />
       </div>
 
       {/* Content Section */}
       <div
-        className={`relative z-10 flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 md:px-12 w-full ${mainDivClass}`}
+        className={`relative z-10 flex flex-col md:flex-row items-start justify-between max-w-7xl mx-auto px-6 md:px-12 w-full ${mainDivClass}`}
       >
         {/* Left Side - Text */}
-        <div className={`text-white md:w-1/2 text-left ${leftSecClass}`}>
+        <div className={`text-white md:w-1/2 text-left  ${leftSecClass}`}>
           <h2
-            style={{ lineHeight: "4rem" }}
-            className={`text-2xl md:text-4xl font-normal ${headingClass}`}
+            style={{ lineHeight: "3.5rem" }}
+            className={`text-2xl md:text-4xl font-normal text-left ${headingClass}`}
           >
             {Heading}
           </h2>
