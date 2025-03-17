@@ -5,7 +5,7 @@ import Image from "next/image";
 import Triangle from "../../assets/aboutuspage/aboutsec.webp";
 import Mission from "../../assets/aboutuspage/Mssion.webp";
 import VissionImg from "../../assets/aboutuspage/Vission.webp";
-import Arrows from "../utilities/TriangleArrow";
+import Ourfoundingright from "../../assets/aboutuspage/leftsecImg.webp";
 
 export const OurFoundingPartner = () => {
   const data = {
@@ -13,6 +13,7 @@ export const OurFoundingPartner = () => {
     heading: "Our Founding Partners",
     GlobalImg: GlobalImg,
     LftsecImg: LftsecImg,
+    RightsecImg: Ourfoundingright,
     Triangle: Triangle,
   };
   return (
@@ -34,11 +35,11 @@ export const OurFoundingPartner = () => {
           }}
         ></div>
       </div>
-      <div className="flex flex-col md:flex-row md:justify-between md:items-center mt-[2rem] md:mb-[3rem] mb-[2rem]">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-start md:mt-[5rem] mt-[2rem] md:mb-[7rem] mb-[2rem]">
         {/* Image Section */}
-        <div className="relative w-full md:w-1/2">
+        <div className="relative w-full md:w-1/3 mt-[2rem] md:mt-0 md:mb-2 mb-[8rem]">
           {/* Text Box Over Image */}
-          <div className="absolute -top-9 w-[350px] h-[70px] left-[3rem] border-[#E7E7E7] border-2 bg-white text-black px-3 py-1 rounded-lg shadow-sm shadow-[#E7E7E7] text-sm transition-transform duration-300 ease-in-out hover:scale-105">
+          <div className="absolute -top-12  right-[0.5rem] left-[0.8rem] md:right-[2rem] md:left-[2.5rem] h-[70px] w-[350px] border-[#E7E7E7] border-2 bg-white text-black px-3 py-1 rounded-lg shadow-sm shadow-[#E7E7E7] text-sm transition-transform duration-300 ease-in-out hover:scale-105">
             <p className="text-[#5E5E5E] text-sm font-bold px-4 py-3">
               Founding Partners of The Taplow Group S.A. - Taplow House, UK, May
               2002
@@ -47,11 +48,9 @@ export const OurFoundingPartner = () => {
           <Image
             src={data.LftsecImg}
             alt="Founding Partners of The Taplow Group"
-            width={500}
-            height={300}
-            className="rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg md:w-[500px] md:h-[250px] "
           />
-          <div className="absolute bg-[#96A94A] bottom-[-7rem] left-[6rem] text-white p-4 rounded-lg shadow-md max-w-md md:w-[500px] md:h-[150px] w-[300px] transition-transform duration-300 ease-in-out hover:scale-105">
+          <div className="absolute bg-[#96A94A] bottom-[-8rem] border-2 border-white text-white p-4 rounded-lg shadow-md w-full transition-transform duration-300 ease-in-out hover:scale-105">
             <p className="text-sm">
               Top row from left to right: Helmut Bohler, Terry Hannock, Finn
               Aagaard, Matti Aito, Mark Firth.
@@ -64,22 +63,44 @@ export const OurFoundingPartner = () => {
           </div>
         </div>
 
-        {/* Badge */}
-        <div className="mt-[10rem] md:mt-2">
-          <div className="relative flex flex-row items-center">
-            <div className="mt-2 bg-gray-200 text-gray-700 px-3 py-1 rounded shadow-md text-xs w-[150px] h-[60px]">
-              <p className="px-2 py-2 font-bold text-xs">
-                Global Top 40 Firm 2015 - 2024
-              </p>
-            </div>
-            <Image
-              src={data.GlobalImg}
-              alt="globalBadge"
-              className=" transition-transform duration-300 ease-in-out hover:scale-105"
-            />
+        {/* Badge Section */}
+        <div className="md:w-1/3 flex flex-col items-center justify-between mt-[4rem] md:mt-0">
+          <Image
+            src={data.GlobalImg}
+            width={250}
+            height={250}
+            alt="globalBadge"
+            className="transition-transform duration-300 ease-in-out hover:scale-105"
+          />
+          <div className="mt-[2rem] bg-gray-200 text-gray-700 px-3 py-1 rounded shadow-md text-xs w-[250px] h-[50px] flex items-center justify-center">
+            <p className="px-2 py-2 font-bold text-xs">
+              Global Top 40 Firm 2015 - 2024
+            </p>
           </div>
-          <div className="mt-[2rem] ml-auto flex justify-end w-full pr-8">
-            <Arrows />
+        </div>
+
+        {/* Text Section */}
+        <div className="relative w-full md:w-1/3 mt-[6rem] md:mt-0 md:mb-2 mb-[8rem]">
+          {/* Text Box Over Image */}
+          <div className="absolute flex justify-center items-center -top-12 right-[0.5rem] left-[0.8rem] md:right-[2rem] md:left-[2.5rem] h-[70px] w-[350px] border-[#E7E7E7] border-2 bg-white text-black px-3 py-1 rounded-lg shadow-sm shadow-[#E7E7E7] text-sm transition-transform duration-300 ease-in-out hover:scale-105">
+            <p className="text-[#5E5E5E] text-sm font-bold px-4 py-3">
+              Our Taplow Group
+            </p>
+          </div>
+          <Image
+            src={data.RightsecImg}
+            alt="Founding Partners of The Taplow Group"
+            className="rounded-lg shadow-lg md:w-[500px] md:h-[250px]"
+          />
+          <div className="absolute bg-[#96A94A] bottom-[-8rem] border-2 border-white  text-white p-4 rounded-lg shadow-md w-full transition-transform duration-300 ease-in-out hover:scale-105">
+            <p className="text-sm">
+              The Taplow Group is a trusted global firm specialising in
+              leadership solutions. Since 2002, we have been helping
+              organisations secure top executive talent, strengthen leadership
+              teams, and navigate business transformation. With a presence
+              worldwide, we combine global reach with local expertise to drive
+              long-term success.
+            </p>
           </div>
         </div>
       </div>

@@ -15,6 +15,8 @@ const HeroSection = ({
   leftSecClass = "",
   rightSecClass = "",
   ImageClass = "",
+  headingClass = "",
+  Isdivider = true,
 }) => {
   return (
     <div className="relative w-full min-h-screen flex items-center overflow-hidden">
@@ -35,13 +37,21 @@ const HeroSection = ({
       >
         {/* Left Side - Text */}
         <div className={`text-white md:w-1/2 text-left ${leftSecClass}`}>
-          <h2 className="text-2xl md:text-4xl font-bold">{Heading}</h2>
-          <div
-            className="my-4 h-[2px] w-[80%] md:w-[320px]"
-            style={{
-              background: "linear-gradient(to right, #D9D9D9 30%, #96A94A 30%)",
-            }}
-          ></div>
+          <h2
+            style={{ lineHeight: "4rem" }}
+            className={`text-2xl md:text-4xl font-normal ${headingClass}`}
+          >
+            {Heading}
+          </h2>
+          {Isdivider ? (
+            <div
+              className="my-4 h-[2px] w-[80%] md:w-[320px]"
+              style={{
+                background:
+                  "linear-gradient(to right, #D9D9D9 30%, #96A94A 30%)",
+              }}
+            ></div>
+          ) : null}
           <p className="mt-2 text-sm md:text-base leading-snug max-w-[90%] md:max-w-[400px]">
             {Description}
           </p>
