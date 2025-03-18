@@ -83,8 +83,8 @@ export const OurFoundingPartner = () => {
         <div className="relative w-full md:w-1/3 mt-[6rem] md:mt-0 md:mb-2 mb-[8rem]">
           {/* Text Box Over Image */}
           <div className="absolute flex justify-center items-center -top-12 right-[0.5rem] left-[0.8rem] md:right-[2rem] md:left-[2.5rem] h-[70px] w-[350px] border-[#E7E7E7] border-2 bg-white text-black px-3 py-1 rounded-lg shadow-sm shadow-[#E7E7E7] text-sm transition-transform duration-300 ease-in-out hover:scale-105">
-            <p className="text-[#5E5E5E] text-sm font-bold px-4 py-3">
-              Our Taplow Group
+            <p className="text-[#5E5E5E] text-md font-bold px-4 py-3">
+              About The Taplow Group
             </p>
           </div>
           <Image
