@@ -110,7 +110,7 @@ export default function OurConsultants() {
 
                             {/* Role */}
                             <p className="text-sm text-white mb-3">
-                              {consultant.service}
+                              {consultant.role}
                             </p>
 
                             {/* Location */}
@@ -152,11 +152,28 @@ export default function OurConsultants() {
                       </div>
 
                       {/* Consultant Details */}
-                      <h3 className="font-bold mt-3 text-lg">
+                      <h3
+                        className="font-bold mt-3 text-lg cursor-pointer"
+                        onClick={() =>
+                          router.push(`/ConsultantProfile?id=${consultant.id}`)
+                        }
+                      >
                         {consultant.name}
                       </h3>
-                      <p className="text-sm text-gray-600">{consultant.role}</p>
-                      <div className="flex items-center text-[#009688] text-sm font-medium mt-1">
+                      <p
+                        className="text-sm text-gray-600 cursor-pointer"
+                        onClick={() =>
+                          router.push(`/ConsultantProfile?id=${consultant.id}`)
+                        }
+                      >
+                        {consultant.role}
+                      </p>
+                      <div
+                        className="flex items-center text-[#009688] text-sm font-medium mt-1 cursor-pointer"
+                        onClick={() =>
+                          router.push(`/ConsultantProfile?id=${consultant.id}`)
+                        }
+                      >
                         <Navigation2 className="text-[#009688] w-3 h-3 mr-2" />
                         <span>{consultant.location}</span>
                       </div>
