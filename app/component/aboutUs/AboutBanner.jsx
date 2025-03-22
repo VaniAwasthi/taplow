@@ -21,6 +21,7 @@ export const AboutBanner = () => {
         Description={Data.desc}
         isButton={false}
         Isdivider={false}
+        rightSec={true}
         headingClass="md:w-[550px] w-[200px] md:mt-[8rem] md:text-5xl"
         leftSecClass="flex flex-col justify-start items-start pb-10 md:pb-20 text-left md:mt-[13rem] mt-4"
         rightSecClass="flex justify-center md:justify-end"

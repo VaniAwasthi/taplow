@@ -17,6 +17,8 @@ const HeroSection = ({
   ImageClass = "",
   headingClass = "",
   Isdivider = true,
+  rightSec = true,
+  desclassname = true,
 }) => {
   return (
     <div className="relative w-full min-h-screen flex items-center overflow-hidden">
@@ -52,7 +54,9 @@ const HeroSection = ({
               }}
             ></div>
           ) : null}
-          <p className="mt-2 text-sm md:text-base leading-snug max-w-[90%] md:max-w-[400px]">
+          <p
+            className={`mt-2 text-sm md:text-base leading-snug max-w-[90%] md:max-w-[400px] ${desclassname}`}
+          >
             {Description}
           </p>
           {isButton && (
@@ -67,15 +71,17 @@ const HeroSection = ({
         </div>
 
         {/* Right Side - Image */}
-        <div className={`md:flex md:w-1/2 justify-end ${rightSecClass}`}>
-          <Image
-            src={rightImage}
-            alt="Illustration"
-            width={500}
-            height={500}
-            className={`${ImageClass}`}
-          />
-        </div>
+        {rightSec ? (
+          <div className={`md:flex md:w-1/2 justify-end ${rightSecClass}`}>
+            <Image
+              src={rightImage}
+              alt="Illustration"
+              width={500}
+              height={500}
+              className={`${ImageClass}`}
+            />
+          </div>
+        ) : null}
       </div>
     </div>
   );

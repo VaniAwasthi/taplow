@@ -21,12 +21,6 @@ body {
   flex-direction: column;
 }
 
-#__next,
-main {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
 .poppins {
   font-family: var(--primary-font);
 }
@@ -84,4 +78,14 @@ main {
 .style2_slider .swiper-button-next,
 .style2_slider .swiper-button-prev {
   width: 45px;
+}
+.custom-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+.custom-pagination .swiper-pagination-bullet-active {
+  background: #96a94a;
 }
