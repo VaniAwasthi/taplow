@@ -68,7 +68,7 @@ Spain`,
   {
     id: 2,
     name: "Carmen Alarcon",
-    role: "Project Manager",
+    role: "Managing Partner",
     location: "Spain",
     services: ["Executive Search"],
     phone: "+34656844582",
