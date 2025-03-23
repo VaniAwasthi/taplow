@@ -60,7 +60,7 @@ const OfficeSlider = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   const swiperRef = useRef(null);
-
+  // useEffect//
   useEffect(() => {
     if (swiperRef.current && swiperRef.current.swiper) {
       setTimeout(() => {
