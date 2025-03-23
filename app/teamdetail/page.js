@@ -5,16 +5,13 @@ import Image from "next/image";
 import HeroImage from "../assets/Consultantpage/heroImage.webp";
 import { useSearchParams } from "next/navigation";
 import ProfileDetailLayout from "../component/utilities/ProfileDetailLayout";
-import { consultantData } from "../component/utilities/data/consultantData";
+import { SweadanTeam } from "../component/utilities/data/sweadanTeam";
 
-const Page = () => {
+const page = () => {
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
 
-  const consultant = id
-    ? consultantData.find((c) => c.id === Number(id))
-    : null;
-
+  const TeamData = id ? SweadanTeam.find((c) => c.id === Number(id)) : null;
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <div>
@@ -29,9 +26,10 @@ const Page = () => {
         </div>
 
         {/* Reusable Consultant Profile Component */}
-        <ProfileDetailLayout consultant={consultant} />
+        <ProfileDetailLayout consultant={TeamData} />
       </div>
     </Suspense>
   );
 };
-export default Page;
+
+export default page;

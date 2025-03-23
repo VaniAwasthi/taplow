@@ -25,7 +25,7 @@ const chunkArray = (arr, size) => {
 };
 
 export default function OurConsultants() {
-  const router = useRouter(); // ✅ Correct way to use router
+  const router = useRouter();
   const [filters, setFilters] = useState({
     search: "",
     service: "",
