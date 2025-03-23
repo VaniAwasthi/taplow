@@ -69,20 +69,17 @@ const OfficeSlider = () => {
         swiperInstance.params.navigation.nextEl = nextRef.current;
         swiperInstance.navigation.init();
         swiperInstance.navigation.update();
-      }, 100); // Delay to ensure elements are available
+      }, 100);
     }
   }, []);
 
   return (
     <>
       <div className="bg-[#005581] py-16 relative w-full">
-        {/* Centered Heading */}
         <div className="absolute top-6 left-1/2 transform -translate-x-1/2 text-white text-2xl md:text-4xl font-normal mb-4">
           Our Office in Sweden
         </div>
       </div>
-
-      {/* Swiper Slider - Max Width 7XL */}
       <div className="max-w-7xl mx-auto relative -mt-10 ">
         <Swiper
           slidesPerView={1}
