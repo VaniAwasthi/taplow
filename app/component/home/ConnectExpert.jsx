@@ -6,6 +6,7 @@ import HoverImage from "../../assets/homePage/hover.svg";
 import ButtonImg from "../../assets/homePage/getintouchIcon.png";
 import Image from "next/image";
 import ExpertImg from "../../assets/homePage/connectExpert.png";
+import Link from "next/link";
 
 const ConnectExpert = () => {
   return (
@@ -26,14 +27,16 @@ const ConnectExpert = () => {
           </div>
 
           <div className="mt-[2rem] flex md:justify-start">
-            <Button
-              text="Meet Consultants"
-              buttonImage={ButtonImg}
-              hoverImage={ButtonImg}
-              bgColor="#000000"
-              textColor="#ffffff"
-              hoverTextColor="#000"
-            />
+            <Link href="/consultant-directory">
+              <Button
+                text="Meet Consultants"
+                buttonImage={ButtonImg}
+                hoverImage={ButtonImg}
+                bgColor="#000000"
+                textColor="#ffffff"
+                hoverTextColor="#000"
+              />
+            </Link>
           </div>
           <div className="mt-[2rem] md:mb-[1rem] flex md:justify-start">
             <Button
