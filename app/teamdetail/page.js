@@ -1,17 +1,21 @@
 "use client";
-import React from "react";
-import { Suspense } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import Image from "next/image";
 import HeroImage from "../assets/Consultantpage/heroImage.webp";
 import { useSearchParams } from "next/navigation";
 import ProfileDetailLayout from "../component/utilities/ProfileDetailLayout";
 import { SweadanTeam } from "../component/utilities/data/sweadanTeam";
 
-const page = () => {
+const Page = () => {
   const searchParams = useSearchParams();
-  const id = searchParams.get("id");
+  const [id, setId] = useState(null);
+
+  useEffect(() => {
+    setId(searchParams.get("id")); // Set ID once params are available
+  }, [searchParams]);
 
   const TeamData = id ? SweadanTeam.find((c) => c.id === Number(id)) : null;
+
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <div>
@@ -32,4 +36,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

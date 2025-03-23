@@ -1,6 +1,5 @@
 "use client";
-import React from "react";
-import { Suspense } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import Image from "next/image";
 import HeroImage from "../assets/Consultantpage/heroImage.webp";
 import { useSearchParams } from "next/navigation";
@@ -9,7 +8,11 @@ import { consultantData } from "../component/utilities/data/consultantData";
 
 const Page = () => {
   const searchParams = useSearchParams();
-  const id = searchParams.get("id");
+  const [id, setId] = useState(null);
+
+  useEffect(() => {
+    setId(searchParams.get("id")); // Store ID once params are available
+  }, [searchParams]);
 
   const consultant = id
     ? consultantData.find((c) => c.id === Number(id))
@@ -34,4 +37,5 @@ const Page = () => {
     </Suspense>
   );
 };
+
 export default Page;
