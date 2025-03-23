@@ -12,7 +12,6 @@ const DrivingLeadership = () => {
   return (
     <section className="container mx-auto px-4 lg:max-w-7xl py-6 ">
       <div className="relative w-full md:h-40 h-64 flex items-center overflow-hidden transition-transform duration-300  hover:scale-105">
-        {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
             src={BackgroundImg}
