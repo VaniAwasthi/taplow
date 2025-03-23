@@ -1,11 +1,26 @@
 "use client";
 import React from "react";
+import {
+  GlobalLocation,
+  GlobalpageBanner,
+  SuccessStory,
+} from "../component/globalpage/GlobalpageBanner";
+import { SweadenTeamsec } from "../component/globalpage/SweadenTeamsec";
+import OfficeSlider from "../component/globalpage/OfficeSlider";
+import DrivingLeadership from "../component/globalpage/DrivingLeadership";
+import IndustrySlider from "../component/home/Industries";
 
 const Globals = () => {
   return (
-    <div className="container mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold text-center">Globals </h1>
-    </div>
+    <>
+      <GlobalpageBanner />
+      <OfficeSlider />
+      <DrivingLeadership />
+      <IndustrySlider />
+      <SweadenTeamsec />
+      <SuccessStory />
+      <GlobalLocation />
+    </>
   );
 };
 

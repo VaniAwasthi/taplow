@@ -11,7 +11,7 @@ const HeroSection = ({
   ButtonText,
   ButtonImage,
   HoverImage,
-  mainDivClass = "", // ✅ Added missing props
+  mainDivClass = "",
   leftSecClass = "",
   rightSecClass = "",
   ImageClass = "",
@@ -42,9 +42,8 @@ const HeroSection = ({
           <h2
             style={{ lineHeight: "3.5rem" }}
             className={`text-2xl md:text-4xl font-normal text-left ${headingClass}`}
-          >
-            {Heading}
-          </h2>
+            dangerouslySetInnerHTML={{ __html: Heading }}
+          ></h2>
           {Isdivider ? (
             <div
               className="my-4 h-[2px] w-[80%] md:w-[320px]"
