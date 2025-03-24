@@ -86,7 +86,7 @@ const ProfileDetailLayout = ({ consultant }) => {
             </div>
             <div>
               <h4 className="font-bold text-[#96A94A] text-lg">
-                Industry Sectors:
+                Practise Areas
               </h4>
               <ul className="text-[#666666] text-sm py-2">
                 {consultant.industrySectors.map((area, index) => (

@@ -1,162 +1,156 @@
-import consultant1 from "../../../assets/Consultantpage/consultant-1.png";
-import consultant2 from "../../../assets/Consultantpage/consultant-2.png";
-import consultant3 from "../../../assets/Consultantpage/consultant-3.png";
+import Tilson from "../../../assets/globalpage/teamsweden/trilson.webp";
+import Winsborn from "../../../assets/globalpage/teamsweden/Ann-Winsborn.webp";
+import EllinorDam from "../../../assets/globalpage/teamsweden/Ellinor-Dam.webp";
+import HelenHafström from "../../../assets/globalpage/teamsweden/Helen-Hafström.webp";
+import MariaLindahl from "../../../assets/globalpage/teamsweden/MariaLindahl.webp";
+import CharlotteRamstedt from "../../../assets/globalpage/teamsweden/Charlotte-Ramstedt.webp";
 
 export const SweadanTeam = [
   {
     id: 1,
-    name: "Ivan Gonzalez Garcia",
-    role: "Executive Partner",
-    location: "Spain",
-    services: [
-      "Executive Search",
-      "Leadership Advisory and Performance",
-      "Board Services",
-    ],
-    phone: "+34650412878",
-    email: "ivan.gonzalez@taplowgroup.es",
-    image: consultant3,
-    bio: `Ivan Gonzalez joined Taplow as Executive Partner in March 2024.<br/><br/>
-    He started his career as consultant at Seeliger y Conde / Amrop and after that joined Ferrovial, where for more than
-    20 years he has developed his career in senior leadership positions as Talent &amp; Engagement Corporate Director and
-    as Human Resources &amp; Comms Director at Cintra (Toll Roads Division), all of them with a broad international
-    perspective, covering USA, Canada, Europe and Australia.<br/><br/>
+    name: "Emma Tilson",
+    role: "CEO - Managing Partner Taplow Sweden",
+    location: "Sweden",
+    services: ["Executive Search", "Executive Interim"],
+    phone: "+46708775774",
+    email: "emma.tilson@atalent.se",
+    image: Tilson,
+    bio: `I have worked in competence supply for over 15 years. I have worked within the entire spectrum of the area such as interim management, recruitment consultant, regional manager, VP and now as managing partner for Taplow Öresund and CEO of A-Talent Group and Taplow Öresund is one of the companies in the group.<br/><br/>
+    For the past 12 years I have sat on the board and in the management group of competence supply companies and have also been involved in the management of 11 purchased companies within competence supply. I work with customer development and am extra strong in being involved in building up companies and being the sounding board in larger recruitment projects.<br/><br/>
     He also has experience as member of the board, in different companies and sectors as A Contracorriente Films, Toll
-    Road Madrid Levante and Amref Health Africa.<br/><br/>
-    With a Degree in Political &amp; Social Sciences and MA in Degree in Political &amp; Social Sciences. Ivan also received an
-    Advance Management Programme from IESE Business School.<br/> <br/>`,
-    address: `Fernando el Santo, 25 4º-d <br/> Madrid 28010<br/>
-    Spain`,
-    linkdine: "https://www.linkedin.com/in/ivan-gonzalez-garcia/",
+    In recent years, I have worked as CEO for our executive search companies within Finance, HR, Tech and Executive Recruitment. `,
+    address: `Taplow Carlsgatan 12 A <br/>21119 Malmö<br/>Sweden`,
+    linkdine: "https://www.linkedin.com/in/emma-tilson-7a2b7817/",
     industrySectors: [
-      "Infrastructures",
-      "Financial Services",
-      "Digital",
-      "Energy",
-      "Professional Services",
+      "Automotive",
+      "Construction",
+      "Finance",
+      "Infrastructure",
+      "Manufacturing ",
+      "Process Industry",
+      "Real Estate",
+      "Retail",
     ],
   },
   {
     id: 2,
-    name: "Carmen Alarcon",
-    role: "Project Manager",
-    location: "Spain",
-    services: ["Executive Search"],
-    phone: "+34656844582",
-    email: "clarcon@taplowgroup.com",
-    image: consultant2,
-    bio: `Carmen is Managing partner of Taplow´s Madrid office. She is also founding mother of theTaplow Group. Carmen began
-    her career as a Consultant at Arthur Andersen in Madrid, taking on responsibilities in both auditing and consulting projects
-    for the Utility and Oil industries. She later joined JH Schroder as an Equity Financial Analyst, where she was responsible for
-    assessing international client investments in the Spanish Stock Exchange.<br/><br/>
-    She continued her career in Executive Search, working as a Consultant for international firms such as Ward Howell. In
-    1997, she co-founded Alarcón &amp; Espinosa. Throughout her career, she has been closely involved in the Financial Industry,
-    managing projects for international banks and local financial institutions. Her experience also includes working with real
-    estate companies and other sectors.<br/><br/>
-    Carmen holds a Law degree and a Graduate Diploma in Business Administration from the Universidad Pontificia de
-    Comillas (ICADE), Madrid.She speaks English fluently and has a basic command of French and Italian.<br/><br/>`,
-    address: `Fernando el Santo 25- 4º izda <br/> 28001 Madrid<br/>
-    Spain`,
-    linkdine: "https://www.linkedin.com/in/taplowgroup/?originalSubdomain=es",
+    name: "Ann Winsborn",
+    role: "Recruitment consultant Taplow Sweden",
+    location: "Sweden",
+    services: ["Executive Search", "Executive Interim"],
+    phone: "+46 (0) 70-881 05 89",
+    email: "ann.winsborn@atalent.se",
+    image: Winsborn,
+    bio: `Ann is a recruiter specializing in executive search for the construction and finance industries and a professional who excels in identifying and hiring top talent for leadership positions within organizations. Ann is a professional who specializes in identifying and hiring skilled individuals to contribute to the development and growth of communities.<br/><br/>
+    She is responsible for sourcing and screening candidates for a variety of positions in fields such as urban planning, construction, architecture, and engineering. With a strong track record of success in the recruitment industry, Ann is known for her exceptional ability to identify top talent and match them with the right organizations.<br/><br/>
+    She has a deep understanding of the unique challenges and requirements of finance services, engineering, and urban planning, and works closely with clients to deliver tailored solutions that meet their specific needs.<br/>`,
+    address: `Taplow 
+Carlsgatan 12 A  <br/> 221119 Malmö<br/>
+    Sweden`,
+    linkdine: "https://www.linkedin.com/in/ann-winsborn-64b552a0/",
     industrySectors: [
-      "Finantial Services",
-      "Real Estate, Professional Services",
-      "PE and VC",
+      "Energy",
+      "Sustainability",
+      "Real estate",
+      "Infrastructure",
+      "Community building",
+      "Process Industry",
     ],
   },
   {
     id: 3,
-    name: "Ana Sánchez-Asiain",
-    role: "Partner",
-    location: "Spain",
-    services: ["Executive Search", "Board Advisory Services"],
-    phone: "+34 685 741 155",
-    email: "ana.sanchezasiain@taplowgroup.es",
-    image: consultant1,
-    bio: `Ana Sánchez-Asiaín is a founding Partner of Taplow Spain. She has a sound and long career of more than 20 years in Executive Search, rendering
-    her services in top international firms.<br/><br/>
-        Prior to starting in Taplow Spain she was Principal Head of Research in Egon Zehnder and before she was a Research Partner in Russell Reynolds.
-    In these two international firms Ana was highly involved in Financial and Real Estate Services for International clients in Madrid and Barcelona.<br/><br/>
-       Prior to that, Ana worked in Progress Executive Search, Ana spent seven years at Gescapital Group in Madrid, including four years as both Fixed
-    Income and Equity Trader.<br/><br/>
-    She received a Degree in International Relations from Le Mesnil in Montreux, Switzerland.  Ana speaks fluent English and French`,
-    address: `Calle Fernando el Santo 25 – 4º dcha. <br/>`,
-    linkdine: "https://es.linkedin.com/in/ana-sanchez-asiain-122721",
+    name: "Ellinor Dam",
+    role: "COO, Recruitment Consultant Sweden",
+    location: "Sweden ",
+    services: ["Executive Search Cosultant", "Interim Management"],
+    phone: "+46 708468856",
+    email: "ellinor.dam@atalent.se",
+    image: EllinorDam,
+    bio: `Ellinor Dam has a Bachelor degree in Psychology and has 15 years experience in recruitment and executive search, from both Swedish and global companies., for example; Saint Gobain, Heidelberg Cement, Aarsleff. She has a long experience in various industries, mainly in finance, manufacturing- and construction industry within executive search an interim management.<br/><br/>
+        Over the years she has gained a strong knowledge in different levels of management and specialist positions. Ellinor is responsible for A-Talent Finance which is a Finance/HR business area within A-Talent Group.<br/><br/>
+   She is consultative and business oriented with good communication skills and puts great emphasis on continuous feedback to both client and candidate in the process.`,
+    address: `Nya Tingstadsgatan 1<br/>422 44 Hisings Backa<br/>Sweden `,
+    linkdine: "https://www.linkedin.com/in/ellinor-dam-37a131a8/",
     industrySectors: [
-      "Consumer Products",
-      "Financial Services",
-      "Digital",
-      "Industrial",
-      "Life Science",
-      "Not for Profit",
-      "Professional Services",
+      "Finance",
+      "Purchasing",
+      "Construction",
+      "Manufacturing Industry",
+      "Construction Industry",
+      "Automotive",
+      "Retail",
       "Real Estate",
     ],
   },
   {
     id: 4,
-    name: "Chris Gillard",
-    role: "Senior Consultant - Vancouver",
-    location: "Canada",
-    services: ["Executive Search"],
-    phone: "604-687-6464",
-    email: "chris@macdonaldsearchgroup.com",
-    image: consultant3,
-    bio: `Chris grew up in Saskatchewan, and has called Vancouver home for the past 21 years. He attended Red Deer College where he earned a diploma in business administration.<br/><br/>
-            Chris began his career in recruitment with a leading international financial services recruiting firm where he successfully led recruitment teams in the accounting and finance space. This experience led to progressively senior roles in recruitment where he has gone on to build meaningful relationships with clients and candidates alike. Chris’s commitment to solving his client’s business issues, paired with his experience in the recruitment industry has allowed him to be a trusted advisor to his clients.<br/><br/>
+    name: "Helen Hafström",
+    role: "Recruitment Consultant",
+    location: "Sweden",
+    services: ["Executive Search", "Executive interim"],
+    phone: " +46 730 350 221",
+    email: "helen.hafstrom@atalent.se",
+    image: HelenHafström,
+    bio: `Helen began her professional career at EF Education First, working with recruitment e.g. Joined Institute for International Research (IIR) (one of the world's largest conference providers) undertaking responsibilities as Conference Producer, Divisional Manager and HR Manager. In the Consulting Industry since 2005 at A-Search, A-Talent Search and Taplow.  <br/><br/>
+          Helen has 15+ years of leadership experience in both global and Swedish companies and 15+ years of experience in Executive Search. Has a Bachelor in Business Administration, Commercial Law & French. Throughout her career, Helen has gained strong knowledge and insight into especially the Real Estate, Construction and Manufacturing Sectors. Has solid multinational and large corporation business experience.<br/><br/>
+          Helen focuses on C-level, Directors as well as specific areas where candidates are hard to attract.
        `,
-    address: `Suite 720<br/>475 West Georgia St.<br/>Vancouver, BC V6B 4M9`,
-    linkdine: "https://www.linkedin.com/in/chrisgillard/",
+    address: `Taplow Executive Search<br/>Klarabergsviadukten 63 <br/>111 64 Stockholm<br/>Sweden`,
+    linkdine: "https://www.linkedin.com/in/helenhafstrom/",
     industrySectors: [
-      "Industrial Products & Distribution",
-      "Primary and Manufacturing Industries",
-      "Industrial/Building Products",
-      "IT",
-      "Building Supply",
-      "B2B",
+      "Construction",
+      "Energy",
+      "Finance ",
+      "Infrastructure ",
+      "Manufacturing ",
+      "Purchasing, Logistics and Transportation",
       "Real Estate",
     ],
   },
   {
     id: 5,
-    name: "Dana Lamanna",
-    role: "Senior Consultant - Toronto",
-    location: "Canada",
-    services: ["Executive Search"],
-    phone: "416-342-1505 ",
-    email: "dana@macdonaldsearchgroup.com",
-    image: consultant2,
-    bio: `Dana Lamanna grew up in the Greater Toronto Area and has lived in downtown Toronto for the past 12 years. She graduated from the Ivey School of Business at Western University in 2008. Her first job after university was with a recruitment firm. So, it’s fair to say, Dana has practically grown up in this industry. She first worked as a Researcher, and then progressed into a Project Manager position; however, her knack for the business quickly earned her a promotion into a full Recruiter role.<br/><br/>
-        Dana joins MacDonald Search Group bringing 13 years of recruitment experience to our team across various industries including industrial, life sciences, consumer goods, and business-to-business.<br/><br/>
+    name: "Maria Lindahl",
+    role: "Recruitment Consultant Sweden",
+    location: "Sweden",
+    services: ["Executive Search ", "Executive Interim Management "],
+    phone: "+46 (0) 70-9176757",
+    email: "maria.lindahl@atalent.se",
+    image: MariaLindahl,
+    bio: `Throughout her career, Maria has worked with focus on recruitment in the areas of Technology, Real Estate, Construction, Energy and Production. Maria focuses on headhunting of Managers, Directors and Specialist within technical areas where candidates are hard to attract. <br/><br/>
+    Maria is solution oriented and focuses on adding value to her clients organization through close collaboration. <br/>
+    Maria has 15+ years experience in recruitment with large Scandinavian company such as Veidekke, E. ON<br/>Maria has been responsible for delivery of key position services within areas Logistics, Production, Energy, Real Estate and Construction.  <br/>
     `,
-    address: `Suite 300<br/>5100 Orbitor Drive<br/>Mississauga, ON L4W 4Z4`,
-    linkdine: "https://www.linkedin.com/in/dlamanna/",
+    address: `Taplow 
+Carlsgatan 12 A, <br/>211 20 Malmö, <br/>Sweden`,
+    linkdine: "https://www.linkedin.com/in/maria-lindahl-a2b32633/",
     industrySectors: [
-      "Industrial Products & Distribution",
-      "B2B",
-      "Business Operations",
+      "Automotive ",
+      "Construction ",
+      "Finance ",
+      "Manufacturing ",
+      "Infrastructure ",
+      "Process Industry ",
+      "Retail",
     ],
   },
   {
     id: 6,
-    name: "Eric Floyd",
-    role: "Senior Consultant – Vancouver",
-    location: "Chicago, USA",
+    name: "Charlotte Ramstedt",
+    role: "Researcher Taplow Sweden",
+    location: "Sweden",
     service: ["Executive Search"],
-    phone: "604-687-6464",
-    email: "eric@macdonaldsearchgroup.com",
-    image: consultant1,
-    bio: `Eric Floyd's professional journey is marked by versatility and a keen ability to connect talent with opportunity. After graduating from the University of Alberta, he quickly made his mark in New York City's real estate market, specializing in matching affluent buyers with top-tier brokers. His success in this role was a testament to his skill in understanding and aligning diverse client needs.<br/><br/>
-        Returning to Vancouver, Eric saw a natural fit for his talents in recruitment and entered the industry in 2007. Before joining MacDonald Search Group in 2013, he gained valuable experience with two search firms, focusing on finance, HR, IT, and general administration. In his roles, Eric demonstrated a consistent ability to find the right fit for both candidates and companies, contributing to organizational growth and individual career success.<br/><br/>
-        A notable aspect of Eric's work is his involvement with educators, where he has played a pivotal role in connecting educational professionals with opportunities that align with their expertise and aspirations. Additionally, his work in supporting clients in the retail environment showcases his adaptability and deep understanding of various industry needs. Eric's approach is always client-centric, whether it's assisting a startup or a large corporation, ensuring tailored solutions that benefit all parties involved. Eric has pursued acting and comedy and works diligently to bring joy and laughter to his clients and colleagues on a daily basis.
-    `,
-    address: `Suite 720<br/>475 West Georgia St.<br/>Vancouver, BC V6B 4M9`,
-    linkdine: "https://www.linkedin.com/in/eric-floyd-112b411b/",
+    phone: "+46 (0) 76 - 781 97 53",
+    email: "charlotte.ramstedt@atalent.se",
+    image: CharlotteRamstedt,
+    bio: `Charlotte has 1 years of experience of sourcing positions such as System Responsible, Group Accounting Manager and Project Manager. Charlotte works proactively with a strong focus on attracting candidates, candidate experience and creating a strong external talent network.`,
+    address: `Nya Tingstadsgatan 1<br/>422 44 Hisings Backa<br/>Gothenburg`,
+    linkdine: "https://www.linkedin.com/in/charlotte-ramstedt-9b1abb152/",
     industrySectors: [
-      "Education",
-      "Retail/Multi-Unit",
-      "Human Resources",
-      "Finance",
+      "ICT",
+      "Engineering",
+      "Energy",
+      "Financial services",
+      "Real Estate",
     ],
   },
 ];
