@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSecLayout from "../utilities/HeroSecLayout";
-import Banner from "../../assets/aboutuspage/bannerBg.webp";
-import BannerImg from "../../assets/aboutuspage/BannerImg.webp";
+import Banner from "../../assets/aboutuspage/aboutBg.webp";
+import BannerImg from "../../assets/aboutuspage/aboutImage.webp";
 import AllStartedImg from "../../assets/aboutuspage/Group 1000005942.webp";
 import LogoNameImg from "../../assets/aboutuspage/aboutsec.webp";
 
@@ -20,12 +20,13 @@ export const AboutBanner = () => {
         Heading={Data.title}
         Description={Data.desc}
         isButton={false}
-        Isdivider={false}
+        Isdivider={true}
         rightSec={true}
-        headingClass="md:w-[550px] w-[200px] md:mt-[8rem] md:text-5xl"
-        leftSecClass="flex flex-col justify-start items-start pb-10 md:pb-20 text-left md:mt-[13rem] mt-4"
+        headingClass="md:w-[300px] w-[200px] md:mt-[1rem] md:text-5xl text-[#005581]"
+        leftSecClass="flex flex-col justify-start items-start pb-10 md:pb-20 text-left md:mt-[5rem] mt-4"
         rightSecClass="flex justify-center md:justify-end"
-        ImageClass="transition-transform duration-300 ease-in-out hover:scale-105"
+        ImageClass="transition-transform duration-300  ease-in-out hover:scale-110"
+        dividerBackground="linear-gradient(to right, #96A94A 30%, #005581 30%)"
       />
     </>
   );

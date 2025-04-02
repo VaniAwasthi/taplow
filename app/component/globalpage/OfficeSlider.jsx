@@ -44,15 +44,6 @@ const offices = [
     phone: "604-687-6464",
     email: "ericmacdonald@searchgroup.com",
   },
-  {
-    id: 4,
-    name: "Malmö",
-    image: SliderImg1,
-    address:
-      "Taplow Sweden(A-Search ABC)O WeWork, Malmskillnadsgatan 32 111 51 Stockholm",
-    phone: "604-687-6464",
-    email: "ericmacdonald@searchgroup.com",
-  },
 ];
 
 const OfficeSlider = () => {
