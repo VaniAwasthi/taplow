@@ -19,6 +19,7 @@ const HeroSection = ({
   Isdivider = true,
   rightSec = true,
   desclassname = true,
+  dividerBackground,
 }) => {
   return (
     <div className="relative w-full min-h-screen flex items-center overflow-hidden">
@@ -48,8 +49,9 @@ const HeroSection = ({
             <div
               className="my-4 h-[2px] w-[80%] md:w-[320px]"
               style={{
-                background:
-                  "linear-gradient(to right, #D9D9D9 30%, #96A94A 30%)",
+                background: dividerBackground
+                  ? dividerBackground
+                  : "linear-gradient(to right, #D9D9D9 30%, #96A94A 30%)",
               }}
             ></div>
           ) : null}
