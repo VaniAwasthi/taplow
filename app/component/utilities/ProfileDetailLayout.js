@@ -77,7 +77,7 @@ const ProfileDetailLayout = ({ consultant }) => {
             <div>
               <h4 className="font-bold text-[#96A94A] text-lg">Services</h4>
               <ul className="text-[#666666] text-sm py-2">
-                {consultant.services.map((service, index) => (
+                {consultant.service.map((service, index) => (
                   <li className="py-1" key={index}>
                     {service}
                   </li>

@@ -19,21 +19,21 @@ const TriangleSection = () => {
           />
         </div>
         <div className="flex ">
-          <div className="z-10  h-32 min-w-100% relative translate-x-[-57px] translate-y-[77px] xl:translate-x-[-62px] xl:translate-y-[72px]">
+          <div className="z-10  h-32 min-w-100% relative translate-x-[-57px] translate-y-[66px] xl:translate-x-[-62px] xl:translate-y-[62px]">
             <Image
               className="object-contain transition-transform duration-300 ease-in-out hover:scale-105 "
               src={PerformanceImg}
               alt="Performance"
             />
           </div>
-          <div className="z-10  h-32 min-w-100% relative translate-x-[-127px] translate-y-[76px] xl:translate-x-[-143px] xl:translate-y-[72px]">
+          <div className="z-10  h-32 min-w-100% relative translate-x-[-127px] translate-y-[66px] xl:translate-x-[-143px] xl:translate-y-[62px]">
             <Image
-              className="object-contain scale-105 transition-transform duration-200 ease-in-out hover:scale-110"
+              className="object-contain  transition-transform duration-200 ease-in-out hover:scale-110"
               src={AccelerateImg}
               alt="Accelerate"
             />
           </div>
-          <div className="z-10  h-32  min-w-100% relative translate-x-[-197px] translate-y-[78px] xl:translate-x-[-223px] xl:translate-y-[72px]">
+          <div className="z-10  h-32  min-w-100% relative translate-x-[-197px] translate-y-[66px] xl:translate-x-[-225px] xl:translate-y-[62px]">
             <Image
               className="object-contain transition-transform duration-300 ease-in-out hover:scale-105"
               src={DiversificationImg}
