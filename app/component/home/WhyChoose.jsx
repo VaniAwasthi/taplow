@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import BackgroundImage from "../../assets/homePage/bg-4.png";
+import BackgroundImage from "../../assets/homePage/bg-4.webp";
 import ButtonImg from "../../assets/homePage/getintouchIcon.png";
 import Image from "next/image";
 

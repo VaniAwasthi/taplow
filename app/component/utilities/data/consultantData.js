@@ -30,6 +30,7 @@ import ShaistaSabharwal from "../../../assets/Consultantpage/Consultant/Shaista-
 import PriyankaMazumdar from "../../../assets/Consultantpage/Consultant/Priyanka-Mazumdar.webp";
 import SanjayGhosh from "../../../assets/Consultantpage/Consultant/Sanjay-Ghosh.webp";
 import Ritu from "../../../assets/Consultantpage/Consultant/Ritu.webp";
+import ClausRosenstand from "../../../assets/Consultantpage/Consultant/ClausRosenstand.webp";
 
 export const consultantData = [
   {
@@ -811,7 +812,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
 `,
   },
   {
-    id: 29,
+    id: 30,
     name: "Ritu Mahajan",
     role: "Principal",
     location: "India",
@@ -826,5 +827,44 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     Known for her strong commitment to quality, accountability, and meticulous monitoring, Ritu has played a key role in shaping talent strategies for diverse organizations. She is deeply passionate about coaching and mentoring future leaders and has actively collaborated with universities and educational institutions to nurture young talent.<br/>
     Ritu holds a Master’s in Business Administration and is a graduate of the University of Delhi. Outside of work, she is a proud mother of two daughters, an avid traveller, and a dedicated yoga enthusiast.
 `,
+  },
+  {
+    id: 31,
+    name: "Claus Rosenstand",
+    role: "Senior Partner",
+    location: "Denmark",
+    service: [
+      "Executive Search",
+      "Executive Interim",
+      "Leadership Development",
+    ],
+    phone: "+45 24859973",
+    email: "clr@taplow.dk",
+    image: ClausRosenstand,
+    address: `Slotsmarken 11,<br/>2970 Hørsholm,<br/>Denmark`,
+    linkdine: "https://www.linkedin.com/in/clausrosenstand/",
+    industrySectors: [
+      "Life Science",
+      "MedTech",
+      "Pharma",
+      "Manufacturing",
+      "IT",
+      "Energy & Infrastructure",
+      "Technology",
+      "Professional Services",
+      "Automation",
+      "Transportation",
+      "Process Industry",
+      "Construction",
+      "Industry",
+      "Testing Inspection &amp; Certification Services",
+    ],
+    bio: `Claus Rosenstand is a seasoned executive with over 25 years of international experience in leadership, business development, and executive
+search. As Senior Partner at Taplow Executive Search, Claus specializes in identifying and developing top-tier C-level talent and strategic leaders for
+global organizations. His expertise spans across general management, sales, product and service development, and organizational transformation.<br/><br/>
+    Claus brings a strong track record from global companies including HP and SPX Flow. Known for his strategic insight and ability to drive growth
+through people and performance, Claus combines sharp business acumen with deep knowledge of executive leadership dynamics. Fluent in
+Danish, English, Swedish, and Norwegian, he thrives in complex international environments and is passionate about helping organizations elevate
+their leadership impact.`,
   },
 ];

@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import ButtonImg from "../../assets/homePage/hover.svg";
-import TriangleImage from "../../assets/homePage/intersecttriangle.png";
+import TriangleImage from "../../assets/homePage/intersecttriangle.webp";
 import BusinessMeeting from "../../assets/homePage/leading-img.png";
 // import PlayButton from "../../assets/homePage/play-button.svg";
 
@@ -27,7 +27,7 @@ const LeadershipMatter = () => {
           <p className="text-md leading-relaxed  text-center md:text-left mb-[2rem] md:mb-2">
             {data.desc}
           </p>
-          <div className="flex justify-center md:justify-start mb-[12rem] md:mb-2">
+          <div className="flex justify-center md:justify-start mb-[12rem] md:mb-[2rem]">
             <button className="mt-6 mb-6 md:mt-10 border border-[#96a94a] relative group w-[242px] h-[42px] bg-white text-[#96a94a] rounded-full flex items-center justify-center gap-2 transition-all duration-300 hover:bg-gray-200 transform hover:scale-105">
               <span className="relative z-10 font-redhat text-sm">
                 {data.btnText}
@@ -36,7 +36,7 @@ const LeadershipMatter = () => {
             </button>
           </div>
           {/* Triangle Image Positioned to Bottom-Right */}
-          <div className="absolute bottom-0 right-0 ">
+          <div className="absolute bottom-[-10px] right-0  hidden xl:block">
             <Image src={TriangleImage} alt="Triangle Design" />
           </div>
         </div>
