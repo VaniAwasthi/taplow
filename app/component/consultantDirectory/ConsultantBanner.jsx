@@ -28,17 +28,22 @@ export const ConsultantBanner = () => {
   );
 };
 
-export default function SearchBar({ onSearch }) {
+export default function SearchBar({ onSearch, locations, roles }) {
   const [search, setSearch] = useState("");
   const [service, setService] = useState("");
   const [role, setRole] = useState("");
   const [location, setLocation] = useState("");
 
-  const handleSearch = () => {
-    console.log("Search Query:", { search, service, role, location }); // Debugging
-    onSearch({ search, service, role, location });
+  const triggerSearch = (next = {}) => {
+    const updated = {
+      search,
+      service,
+      role,
+      location,
+      ...next,
+    };
+    onSearch(updated);
   };
-
   return (
     <div className="flex flex-col sm:flex-row flex-wrap items-center gap-4 bg-white p-3 rounded-lg w-full">
       {/* Search Input */}
@@ -46,7 +51,12 @@ export default function SearchBar({ onSearch }) {
         type="text"
         placeholder="Search by name"
         className="px-4 py-2 border border-green-500 rounded-full focus:outline-none w-full sm:w-[220px]"
-        onChange={(e) => setSearch(e.target.value)}
+        value={search}
+        onChange={(e) => {
+          const val = e.target.value;
+          setSearch(val);
+          triggerSearch({ search: val });
+        }}
       />
 
       {/* Filter Text (Hidden on Mobile) */}
@@ -57,7 +67,10 @@ export default function SearchBar({ onSearch }) {
         {[
           {
             value: service,
-            setter: setService,
+            setter: (val) => {
+              setService(val);
+              triggerSearch({ service: val });
+            },
             label: "Service",
             options: [
               "All",
@@ -69,24 +82,21 @@ export default function SearchBar({ onSearch }) {
           },
           {
             value: role,
-            setter: setRole,
+            setter: (val) => {
+              setRole(val);
+              triggerSearch({ role: val });
+            },
             label: "Role",
-            options: [
-              "All",
-              "Senior Consultant",
-              "Managing Director & Partner",
-              "Managing Partner",
-              "Joint Managing Partner",
-              "Partner",
-              "Principal",
-              "Co-Founder",
-            ],
+            options: ["All", ...roles],
           },
           {
             value: location,
-            setter: setLocation,
+            setter: (val) => {
+              setLocation(val);
+              triggerSearch({ location: val });
+            },
             label: "Location",
-            options: ["All", "Canada", "Spain", "New Zealand", "India"],
+            options: ["All", ...locations],
           },
         ].map(({ value, setter, label, options }, index) => (
           <select
@@ -110,7 +120,9 @@ export default function SearchBar({ onSearch }) {
       {/* Search Button */}
       <button
         className="bg-green-600 text-white p-3 rounded-full flex items-center justify-center w-12 h-12"
-        onClick={handleSearch}
+        onClick={
+          () => onSearch({ search, service, role, location }) // fallback use
+        }
       >
         <Search size={20} />
       </button>

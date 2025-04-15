@@ -28,7 +28,7 @@ export default function OurConsultants() {
   const router = useRouter();
   const [filters, setFilters] = useState({
     search: "",
-    service: "",
+    services: "",
     role: "",
     location: "",
   });
@@ -37,13 +37,22 @@ export default function OurConsultants() {
   const nextRef = useRef(null);
   const paginationRef = useRef(null);
   const swiperRef = useRef(null);
-
+  const consultantSectionRef = useRef(null);
+  // for location Dropdown
+  const uniqueLocations = [
+    ...new Set(consultantData.map((c) => c.location).filter(Boolean)),
+  ];
+  //for roles Dropdown
+  const uniqueRoles = [
+    ...new Set(consultantData.map((c) => c.role).filter(Boolean)),
+  ];
+  // for search functionality
   const filteredConsultants = consultantData.filter((c) => {
     const matchesSearch =
       !filters.search ||
       c.name.toLowerCase().includes(filters.search.toLowerCase());
 
-    const matchesService = !filters.service || c.service === filters.service;
+    const matchesService = !filters.services || c.services === filters.services;
     const matchesExpertise = !filters.role || c.role === filters.role;
     const matchesLocation =
       !filters.location || c.location === filters.location;
@@ -52,8 +61,11 @@ export default function OurConsultants() {
       matchesSearch && matchesService && matchesExpertise && matchesLocation
     );
   });
-
-  const consultantGroups = chunkArray(filteredConsultants, 12);
+  // for showing alphabetically data"
+  const sortedConsultants = [...filteredConsultants].sort((a, b) =>
+    a.location.localeCompare(b.location)
+  );
+  const consultantGroups = chunkArray(sortedConsultants, 12);
 
   useEffect(() => {
     if (swiperRef.current) {
@@ -63,10 +75,17 @@ export default function OurConsultants() {
       }, 0);
     }
   }, []);
-
+  // scroll to top
+  const scrollToConsultants = () => {
+    consultantSectionRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
-    <div className="p-6 md:max-w-7xl mx-auto">
-      <SearchBar onSearch={(filters) => setFilters(filters)} />
+    <div className="p-6 md:max-w-7xl mx-auto" ref={consultantSectionRef}>
+      <SearchBar
+        onSearch={(filters) => setFilters(filters)}
+        locations={uniqueLocations}
+        roles={uniqueRoles}
+      />
       <h2 className="text-left text-3xl md:text-4xl font-normal my-8 py-2 relative">
         Our Consultants
         <div className="w-60 h-1 md:ml-[3rem] bg-[#96A94A]  mt-2"></div>
@@ -81,6 +100,7 @@ export default function OurConsultants() {
           navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
           pagination={{ clickable: true, el: paginationRef.current }}
           onSwiper={(swiper) => (swiperRef.current = swiper)}
+          onSlideChange={() => scrollToConsultants()}
         >
           {consultantGroups.map((group, index) => (
             <SwiperSlide key={index}>
@@ -188,11 +208,25 @@ export default function OurConsultants() {
         {/* Centered Navigation & Pagination */}
         <div className="flex mx-auto justify-center items-center">
           <div className="flex justify-center items-center mt-[2rem]  mb-[2rem]">
-            <button ref={prevRef} className="text-[#ccc] cursor-pointer">
+            <button
+              ref={prevRef}
+              className="text-[#ccc] cursor-pointer"
+              onClick={() => {
+                swiperRef.current?.slidePrev(); // move slide
+                scrollToConsultants(); // scroll to section
+              }}
+            >
               <ChevronLeft size={30} />
             </button>
             <div ref={paginationRef} className="custom-pagination flex "></div>
-            <button ref={nextRef} className="text-[#ccc] cursor-pointer">
+            <button
+              ref={nextRef}
+              className="text-[#ccc] cursor-pointer"
+              onClick={() => {
+                swiperRef.current?.slideNext(); // move slide
+                scrollToConsultants(); // scroll to section
+              }}
+            >
               <ChevronRight size={30} />
             </button>
           </div>

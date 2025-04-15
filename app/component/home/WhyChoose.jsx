@@ -6,13 +6,13 @@ import Image from "next/image";
 
 const WhyChoose = () => {
   return (
-    <div className="relative h-full md:h-[540px] flex items-center justify-center px-6 md:px-12">
+    <div className="relative  md:h-[540px] flex items-center justify-center px-6 md:px-12">
       <Image
         src={BackgroundImage}
         alt="Background"
         layout="fill"
         objectFit="cover"
-        className="absolute inset-0 "
+        // className="absolute inset-0 "
       />
       <div className="relative z-10 flex flex-col md:flex-row md:items-start items-center max-w-6xl w-full">
         {/* Left Text Section */}

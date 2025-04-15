@@ -17,7 +17,7 @@ const LeadershipMatter = () => {
   };
 
   return (
-    <div className="w-full flex flex-col xl:flex-row relative my-10">
+    <div className="w-full flex flex-col-reverse xl:flex-row relative my-10">
       {/* Left Section */}
       <div className="w-full xl:w-1/2 bg-[#88A24B] text-white flex flex-col px-6 xl:px-12 pt-12 relative">
         <div className="md:w-[80%] xl:ml-[7rem]">
@@ -36,7 +36,7 @@ const LeadershipMatter = () => {
             </button>
           </div>
           {/* Triangle Image Positioned to Bottom-Right */}
-          <div className="absolute bottom-[-10px] right-0  hidden xl:block">
+          <div className="absolute bottom-[0px] md:right-6 right-1">
             <Image src={TriangleImage} alt="Triangle Design" />
           </div>
         </div>

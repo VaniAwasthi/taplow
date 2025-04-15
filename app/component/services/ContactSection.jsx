@@ -11,7 +11,7 @@ const ContcatSection = ({}) => {
       "Ready to find your next great leader? Fill out the form below to connect with our executive search consultants and discuss your hiring needs.",
   };
   return (
-    <div className="relative h-full md:h-[540px] bg-black flex items-center justify-center px-6 md:px-12">
+    <div className="relative  md:h-[540px] bg-black flex items-center justify-center px-6 md:px-12">
       <Image
         src={BackgroundImage}
         alt="Background"
