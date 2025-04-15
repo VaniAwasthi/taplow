@@ -5,7 +5,7 @@ import BackgroundImage from "../../assets/homePage/getintouchbg.webp";
 import ButtonImg from "../../assets/homePage/getintouchIcon.png";
 const GetInTouch = () => {
   return (
-    <div className="relative h-full md:h-[540px] bg-black flex items-center justify-center px-6 md:px-12">
+    <div className="relative  md:h-[540px] bg-black flex items-center justify-center px-6 md:px-12">
       <Image
         src={BackgroundImage}
         alt="Background"

@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import Image from "next/image";
 import { Search, Navigation2, Phone, Mail, MoveRight } from "lucide-react";

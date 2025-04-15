@@ -1,25 +1,20 @@
 "use client";
 import React from "react";
-import {
-  GlobalLocation,
-  GlobalpageBanner,
-  SuccessStory,
-} from "../component/globalpage/GlobalpageBanner";
-import { SweadenTeamsec } from "../component/globalpage/SweadenTeamsec";
-import OfficeSlider from "../component/globalpage/OfficeSlider";
-import DrivingLeadership from "../component/globalpage/DrivingLeadership";
-import IndustrySlider from "../component/home/Industries";
+import GlobalMapLabels from "../component/globalpage/Maplayout";
+import GlobalLocations from "../component/globalpage/GlobalLocation";
 
 const Globals = () => {
   return (
     <>
-      <GlobalpageBanner />
+      {/* <GlobalpageBanner />
       <OfficeSlider />
       <DrivingLeadership />
       <IndustrySlider />
       <SweadenTeamsec />
       <SuccessStory />
-      <GlobalLocation />
+      <GlobalLocation /> */}
+      {/* <GlobalMapLabels /> */}
+      <GlobalLocations />
     </>
   );
 };

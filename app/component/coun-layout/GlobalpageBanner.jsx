@@ -1,6 +1,6 @@
+"use client";
 import React, { useEffect, useState } from "react";
 import HeroSecLayout from "../../component/utilities/HeroSecLayout";
-import Banner from "../../assets/globalpage/GlobalHero.webp";
 import Location from "../../assets/globalpage/location.webp";
 import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
 import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
@@ -14,17 +14,13 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-export const GlobalpageBanner = () => {
-  const Data = {
-    title: `Welcome to <b>Taplow Sweden</b>`,
-    desc: "Since 1991, we have helped businesses find top leaders through executive search and leadership advisory, combining global reach with local expertise to drive success.",
-  };
+export const GlobalpageBanner = ({ title, desc, Banner }) => {
   return (
     <>
       <HeroSecLayout
         heroBg={Banner}
-        Heading={Data.title}
-        Description={Data.desc}
+        Heading={title}
+        Description={desc}
         isButton={false}
         Isdivider={true}
         rightSec={false}

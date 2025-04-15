@@ -1,6 +1,6 @@
 "use client";
 import React, { Suspense } from "react";
-import TeamDetail from "../component/globalpage/TeamDetail";
+import TeamDetail from "../component/coun-layout/TeamDetail";
 
 const Page = () => {
   return (

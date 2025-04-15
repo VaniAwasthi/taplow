@@ -1,6 +1,5 @@
-import consultant1 from "../../../assets/Consultantpage/consultant-1.png";
-import consultant2 from "../../../assets/Consultantpage/consultant-2.png";
-import consultant3 from "../../../assets/Consultantpage/consultant-3.png";
+import MarkFirth from "../../../assets/Consultantpage/Consultant/MarkFirth.webp";
+import KarinaKratholm from "../../../assets/Consultantpage/Consultant/KarinaKratholm.webp";
 import Ivan from "../../../assets/Consultantpage/Consultant/Ivan-Gonzalez.webp";
 import Carmen from "../../../assets/Consultantpage/Consultant/Carmen-Alarcon.webp";
 import Ana from "../../../assets/Consultantpage/Consultant/Ana-Sanchez-Asiain.webp";
@@ -31,7 +30,16 @@ import PriyankaMazumdar from "../../../assets/Consultantpage/Consultant/Priyanka
 import SanjayGhosh from "../../../assets/Consultantpage/Consultant/Sanjay-Ghosh.webp";
 import Ritu from "../../../assets/Consultantpage/Consultant/Ritu.webp";
 import ClausRosenstand from "../../../assets/Consultantpage/Consultant/ClausRosenstand.webp";
-
+import HannuÖversti from "../../../assets/Consultantpage/Consultant/Hannu.webp";
+import TimoToivann from "../../../assets/Consultantpage/Consultant/Timo.webp";
+import HarriHämäläinen from "../../../assets/Consultantpage/Consultant/Harri.webp";
+import MattiCopeland from "../../../assets/Consultantpage/Consultant/Matti.webp";
+import Johanna from "../../../assets/Consultantpage/Consultant/Johanna.webp";
+import SheldonZhou from "../../../assets/Consultantpage/Consultant/SheldonZhou.webp";
+import StigHeggertveit from "../../../assets/Consultantpage/Consultant/StigHeggertveit.webp";
+import Mats from "../../../assets/Consultantpage/Consultant/Mats.webp";
+import HansHolterSorensen from "../../../assets/Consultantpage/Consultant/HansHolterSorensen.webp";
+import SunilGandhi from "../../../assets/Consultantpage/Consultant/SunilGandhi.webp";
 export const consultantData = [
   {
     id: 1,
@@ -171,7 +179,7 @@ She received a Degree in International Relations from Le Mesnil in Montreux, Swi
     id: 6,
     name: "Eric Floyd",
     role: "Senior Consultant – Vancouver",
-    location: "Chicago, USA",
+    location: "Canada",
     service: ["Executive Search"],
     phone: "604-687-6464",
     email: "eric@macdonaldsearchgroup.com",
@@ -422,7 +430,7 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
     id: 16,
     name: "Stuart Gannon",
     role: "Senior Consultant – Calgary - Prairies",
-    location: "Paris, France",
+    location: "Canada",
     service: ["Executive Search"],
     phone: "403-444-6487",
     email: "stuart@macdonaldsearchgroup.com",
@@ -769,31 +777,31 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     Before joining The Taplow Group, Priyanka served as Principal at TRANSEARCH India and Vice President and part of the founding team at Third Sector Partners, a boutique search firm specializing in C-suite hiring for the impact sector.
 `,
   },
-  {
-    id: 28,
-    name: "Sangeeta Sabharwal",
-    role: "Co-Founder & Managing Partner – The Taplow Group, India",
-    location: "India",
-    service: ["Global Executive Search & Interim"],
-    phone: "+91 98 1008 9864",
-    email: "sangeeta.sabharwal@taplowgroupindia.com",
-    image: consultant1,
-    address: `Office No. 306- 307, 3rd Floor, Tower-B,<br/>Emaar Digital Greens, Golf Course Extension Road,<br/>Sector-61, Gurgaon-122102, Haryana, India.`,
-    linkdine:
-      "https://www.linkedin.com/in/sangeeta-sabharwal-5347985/?originalSubdomain=in",
-    industrySectors: [
-      "Consumer Retail",
-      "Life Science",
-      "Not for Profit",
-      "Industrial",
-      "Professional Services",
-    ],
-    bio: `Sangeeta Sabharwal is the Co-Founder & Managing Partner of The Taplow Group in India, bringing over 30 years of experience in Executive Search. She has held leadership roles across organizations she has been a part of, along with Global Board positions at The Taplow Group for nearly a decade, serving first as APAC Regional Director and later as Chief Operating Officer.<br/><br/>
-    With expertise spanning engineering, manufacturing, infrastructure, consumer, and retail, Sangeeta has successfully executed leadership searches across 14 industry segments on six continents, working with both multinational and Indian organizations.<br/><br/>
-    Having been a CEO herself, she brings a strategic perspective to leadership hiring, ensuring alignment between business priorities and executive talent. She is also a trained & certified Hogan Consultant, adding value to leadership assessment.<br/>
-    Before co-founding The Taplow Group in India, Sangeeta was a Senior Partner at Transearch India, where she was a top-performing consultant and a member of the million-dollar club. She pioneered the executive search industry in India, starting her career at Ma Foi, later serving as CEO of Ma Foi Global Search Services, where she built the business from the ground up across multiple countries.
-`,
-  },
+  //   {
+  //     id: 28,
+  //     name: "Sangeeta Sabharwal",
+  //     role: "Co-Founder & Managing Partner – The Taplow Group, India",
+  //     location: "India",
+  //     service: ["Global Executive Search & Interim"],
+  //     phone: "+91 98 1008 9864",
+  //     email: "sangeeta.sabharwal@taplowgroupindia.com",
+  //     image: MarkFirth,
+  //     address: `Office No. 306- 307, 3rd Floor, Tower-B,<br/>Emaar Digital Greens, Golf Course Extension Road,<br/>Sector-61, Gurgaon-122102, Haryana, India.`,
+  //     linkdine:
+  //       "https://www.linkedin.com/in/sangeeta-sabharwal-5347985/?originalSubdomain=in",
+  //     industrySectors: [
+  //       "Consumer Retail",
+  //       "Life Science",
+  //       "Not for Profit",
+  //       "Industrial",
+  //       "Professional Services",
+  //     ],
+  //     bio: `Sangeeta Sabharwal is the Co-Founder & Managing Partner of The Taplow Group in India, bringing over 30 years of experience in Executive Search. She has held leadership roles across organizations she has been a part of, along with Global Board positions at The Taplow Group for nearly a decade, serving first as APAC Regional Director and later as Chief Operating Officer.<br/><br/>
+  //     With expertise spanning engineering, manufacturing, infrastructure, consumer, and retail, Sangeeta has successfully executed leadership searches across 14 industry segments on six continents, working with both multinational and Indian organizations.<br/><br/>
+  //     Having been a CEO herself, she brings a strategic perspective to leadership hiring, ensuring alignment between business priorities and executive talent. She is also a trained & certified Hogan Consultant, adding value to leadership assessment.<br/>
+  //     Before co-founding The Taplow Group in India, Sangeeta was a Senior Partner at Transearch India, where she was a top-performing consultant and a member of the million-dollar club. She pioneered the executive search industry in India, starting her career at Ma Foi, later serving as CEO of Ma Foi Global Search Services, where she built the business from the ground up across multiple countries.
+  // `,
+  //   },
   {
     id: 29,
     name: "Sanjay Ghosh",
@@ -866,5 +874,337 @@ global organizations. His expertise spans across general management, sales, prod
 through people and performance, Claus combines sharp business acumen with deep knowledge of executive leadership dynamics. Fluent in
 Danish, English, Swedish, and Norwegian, he thrives in complex international environments and is passionate about helping organizations elevate
 their leadership impact.`,
+  },
+  {
+    id: 32,
+    name: "Hannu Översti",
+    role: "Managing Partner",
+    location: "Finland",
+    service: [" Executive Search"],
+    phone: "+358 50 502 3814",
+    email: "Hannu.oversti@taplow.fi",
+    image: HannuÖversti,
+    address: `TAPLOW Finland Oy,<br/>Mannerheimintie 113, Aitio Business Park Hørsholm,<br/>00280 HELSINKI,<br/>FINLAND`,
+    linkdine: "www.linkedin.com/in/hannu-oversti",
+    industrySectors: [
+      "Consumer Products",
+      " E-commerce",
+      "Retail",
+      "Real Estate",
+      " Property Development",
+      "Import",
+      "Wholesales",
+    ],
+    bio: `joined Taplow in 2018. He currently acts as the Managing Partner of
+Taplow Finland Oy. He has 30 years of working history in major companies/work duties in leadership roles
+in retail, wholesale, eCommerce and Property Development.`,
+  },
+  {
+    id: 33,
+    name: "Timo Toivann",
+    role: "Senior Partner",
+    location: "Finland",
+    service: [" Executive Search"],
+    phone: "+358 40 825 6357",
+    email: "timo.toivann@taplow.fi",
+    image: TimoToivann,
+    address: `Mannerheimintie 113,<br/>00280 Helsinki.Aitio Business Park.`,
+    linkdine: "https://www.linkedin.com/in/timo-toivanen-9ba30/",
+    industrySectors: [
+      "Consumer Products",
+      "Financial Services",
+      "Digital",
+      "Industrial",
+      "Life Science",
+      "Not for Profit",
+      "Professional Services",
+      "Real Estate",
+    ],
+    bio: `Starting with role at Taplow, then give a short-written bio of experience)
+Timo works as a senior partner in Taplow Finland. Timo has been working in executive search business from 2000
+when joining a Taplow partner firm. Having an educational background as a psychologist, he has an earlier
+background in diverse clinical and organisational roles. Within Taplow Timo has had several roles: as consultant /
+managing partner / senior partner in local firm and a board member in Taplow Group. During his 25 years in the
+business Timo has successfully completed more than 500 search assignments in diverse industries. Whether it is a
+board member in a listed company or a sales director in a startup, Timo is known for his persistence in pushing the
+assignment to successful end as well as his respect towards candidates.`,
+  },
+  {
+    id: 34,
+    name: "Harri Hämäläinen",
+    role: "Senior Partner",
+    location: "Finland",
+    service: [" Executive Search", "Leadership Advisory and Performance"],
+    phone: "+358 44 3200 233",
+    email: "harri.hamalainen@taplow.fi",
+    image: HarriHämäläinen,
+    address: `TAPLOW Finland Oy,<br/>Mannerheimintie 113,<br/>Aitio Business Park,<br/>00280 HELSINKI,<br/>FINLAND`,
+    linkdine:
+      "https://www.linkedin.com/in/harri-h%C3%A4m%C3%A4l%C3%A4inen-6170112/",
+    industrySectors: [
+      "Financial Services",
+      "Digital",
+      "Industrial",
+      "Life Science",
+      "Professional Services",
+      "Real Estate",
+    ],
+    bio: `Harri is a senior partner at Taplow Finland, focusing on C-level and middle management search in domestic and global
+assignments. In addition to executive search, Harri works as a management coach, consulting on strategy projects
+and coaching leadership development. He has worked as an executive search consultant and a management
+consultant since 2004.<br/>
+Prior to his consulting career, he has held management positions (Finance, HR &amp; Corporate Communication) e.g. at a
+business law firm, information security consulting firm and at a real estate company.<br/>Harri has a M.Soc.Sc. and an MBA.`,
+  },
+  {
+    id: 35,
+    name: "Matti Copeland",
+    role: "Senior Partner",
+    location: "Finland",
+    service: [" Executive Search"],
+    phone: "+358 44 3200 233",
+    email: "matti.copeland@taplow.fi",
+    image: MattiCopeland,
+    address: `TAPLOW Finland Oy,<br/>Mannerheimintie 113,<br/>Aitio Business Park,<br/>00280 HELSINKI,<br/>FINLAND`,
+    linkdine: "https://www.linkedin.com/in/matti-copeland/",
+    industrySectors: [
+      "Financial Services",
+      "Private Equity",
+      "Investment Banking",
+      "Professional Services",
+      "Enterprise Software",
+    ],
+    bio: `Matti has a Masters degree from Aalto University School of Business and is a Stanford Graduate School of Business
+alumni and alumni President in Finland.<br/>
+Matti has spend over 30 years in leadership roles in investment banking, private equity and professional services. He
+has worked for companies like Citibank, Nordea, Capman, Deloitte, Basware and most recently with EY. He also
+serves on numerous corporate boards and acts as an angel investor supporting Finnish technology entrepreneurs.
+He is known for his passion for curiosity. He even calls himself &quot;Chief Curiosity Officer&quot;.`,
+  },
+  {
+    id: 36,
+    name: "Johanna Autio",
+    role: "Senior Partner",
+    location: "Finland",
+    service: [" Executive Search"],
+    phone: "+358 50 544 2857",
+    email: "johanna.autio@taplow.fi",
+    image: Johanna,
+    address: `TAPLOW Finland Oy,<br/>Mannerheimintie 113, Aitio Business Park<br/>00280 HELSINKI,<br/>00280 HELSINKI,<br/>FINLAND`,
+    linkdine: "https://www.linkedin.com/in/johanna-autio/",
+    industrySectors: [
+      " Sustainability",
+      "Strategic Communication",
+      "Marketing",
+      "Forest Policy",
+      "Strategy Consulting",
+      "Exports",
+    ],
+    bio: `Johanna has worked in a variety of communications, marketing and business consulting positions for over two
+decades. The career has afforded her the opportunity to immerse herself in marketing and communications contexts,
+operating environments, export trade, strategies and business development tasks within a wide array of sectors.
+Johanna has especially vast experience from forest industry.<br/>
+Johanna holds a Master’s degree from Aalto University School of Business and also a Master’s degree from University
+of Helsinki in Forest Sciences. She started as a Senior Partner of Taplow Finland in 2022.<br/>
+At Taplow Johanna is focusing on Executive Search for the assignments covering C-level and middle management
+positions in domestic and global assignments. She’s also helping companies in strategic communication and consulting.`,
+  },
+  {
+    id: 37,
+    name: "Sheldon Zhou",
+    role: "Managing Partner",
+    location: "P.R.China",
+    service: [" Executive Search"],
+    phone: "86-13801632778",
+    email: "szhou@taplowgroup.com.cn",
+    image: SheldonZhou,
+    address: `Room 1505, Ying’s Building, 180 Tianjin Road<br/>Shanghai, P. R. China 200001<br/>M.P.: 86 1380 163 2778`,
+    linkdine: "https://www.linkedin.com/in/sheldon-zhou-9a7926/",
+    industrySectors: [
+      "Consumer Products",
+      "Financial Services",
+      "Digital",
+      "Industrial",
+      "Life Science",
+      "Not for Profit",
+      "Professional Services",
+      "Real Estate",
+    ],
+    bio: `Sheldon has a wide range of experiences in leadership coaching, management development and business advisory.
+He was Chief Representative China with The Amrop Hever Group. Before that experience, he was General Manager of
+Moore Hong Leong Guangzhou and China operations. Prior to his general management career, he was with Avery
+Dennison China in a couple of senior executive roles for finance，business development and human resources
+functions. He possesses a good understanding of major leadership challenges facing various types of organizations in
+China.<br/>
+Sheldon graduated with a Master’s from the Management Department at Nankai University of China in 1988, and later
+furthered his studies at McMaster University in Canada. Between 1992 and 1994, he was a Lecturer at Fudan
+University in Shanghai.<br/>`,
+  },
+  {
+    id: 38,
+    name: "Stig Heggertveit",
+    role: "Partner",
+    location: "Norway",
+    service: ["Executive Search"],
+    phone: "+47 957 93 632",
+    email: "sh@taplow.no",
+    image: StigHeggertveit,
+    address: `Taplow Norway AS<br/>Henrik Ibsens gate 90<br/>0255 Oslo<br/>Norway`,
+    linkdine: "www.linkedin.com/in/stig-heggertveit-408168/",
+    industrySectors: ["Financial Services", "Digital"],
+    bio: `Stig has been an executive search professional since 2004 focusing on IT and Financial Services. He holds a BSc in
+Business from Colorado University, Boulder.<br/>
+Prior to his executive search role, he has 6 years’ experience as Senior Financial Analyst in two major investment
+banks cowering companies within IT and SMB in the Nordics.<br/>
+Stig also has 12 years’ experience from a large international IT company, with roles in sales, channels, product
+management, and as Marketing Director.`,
+  },
+  {
+    id: 39,
+    name: "Hans Holter-Sorensen",
+    role: "Managing Partner",
+    location: "Norway",
+    service: ["Executive Search", "Board Services", "Leadership advisory"],
+    phone: "+47 4143 1847",
+    email: "hhs@taplow.no",
+    image: HansHolterSorensen,
+    address: `Taplow Norway<br/>Henrik Ibsens gate 90<br/>N-0255 Oslo<br/>Norway`,
+    linkdine: "https://www.linkedin.com/in/hans-holter-sørensen-b29572/",
+    industrySectors: [
+      "Real Estate",
+      "Industrial",
+      "Energy",
+      "Financial Services",
+      " Consumer Products",
+      "Professional Services",
+    ],
+    bio: `Hans Holter-Sorensen has more than 20 years of experience as a consultant in Executive Search and
+Leadership advisory. He has contributed in hiring more than 600 people in a wide range of job categories in
+the first years, to more focused on managerial positions and business development in recent years.
+Business sectors covered has also changed throughout the years.<br/>
+Prior to joining The Taplow Group, Hans worked as a consultant at EY Consulting and Cap Gemini. Before he
+started as an advisor, he worked for several years as a financial consultant, and 2 years as departement
+head. Hans has also experience as a product and marketing manager in a small industrial company.<br/>
+Hans Holter-Sorensen has served severel years as a non-executive board member in Scandinavian
+businesses.<br/>
+Hans has also been involved in the management of The Taplow Group, and has a master&#39;s degree in
+business administration from Norway and the United States.`,
+  },
+  {
+    id: 40,
+    name: "Mats Marino Nygren",
+    role: "Researcher",
+    location: "Norway",
+    service: ["Research and analysis"],
+    phone: "+47 911 64 134",
+    email: "mmn@taplow.no",
+    image: Mats,
+    address: `Henrik Ibsens gate 90<br/>N-0255 Oslo<br/>Norway`,
+    linkdine: "https://www.linkedin.com/in/mats-marino-nygren-3221ab299/",
+    industrySectors: [
+      "Industrial",
+      "Construction",
+      "Real Estate",
+      "Consumer Products",
+      "Professional Services",
+    ],
+    bio: `Mats Marino Nygren works with research and analysis at Taplow. He works with administration and assists
+in search projects in most sectors. He contributes to our assignments with the main emphasis on follow-up
+of candidates in the early phase.<br/>
+Mats has worked with research for other headhunters before he joined Taplow in 2024. He has previously
+worked in sales, and is studying administration, HR and management at the University of Oslo alongside his
+job at Taplow.<br/>
+`,
+  },
+  {
+    id: 41,
+    name: "Sunil Gandhi",
+    role: "Managing Director – Technology and Professional Services Practice",
+    location: "United States",
+    service: ["Executive Search"],
+    phone: "+732 771 5414",
+    email: "sgandhi@taplowes.com",
+    image: SunilGandhi,
+    address: `33 Wood Avenue S<br/>Iselin NJ 08830<br/>`,
+    linkdine: "http://www.linkedin.com/in/sunilgandhi",
+    industrySectors: [
+      "Professional Services",
+      " Digital And ICT",
+      "Banking and Financial Services",
+      " Life Sciences and Healthcare",
+    ],
+    bio: `Sunil Gandhi joined Taplow Executive Search with over 20 years of Executive Search, HR Consulting and
+Management experience across the technology sector. He has a successful track record recruiting senior
+leadership in areas such as Cyber/Information Security, Digital Transformation, IoT, Cloud, Virtualization,
+AI and Machine Learning, Infrastructure and Analytics for a variety of industries including, but not limited
+to, Banking &amp; Financial Services, Insurance, High Tech, Healthcare, and Travel &amp; Logistics. Most recently,
+Sunil has been dedicated to the professional services arena, working closely with clients on management
+consulting, technology outsourcing and information services.<br/>
+Prior to joining Taplow, Sunil worked as a Director of Executive Search &amp; Permanent Placement at
+Randstad in US and General Manager at Randstad India. He is also a Co-Founder of Dextpro, a highly
+successful executive search practice. Sunil’s engaging attitude, deep understanding of diverse cultures,
+candid style of communication, and attention to detail work together to enable him to generate long-term,
+trusted relationships with both clients and candidates. Sunil resides in New Jersey and has an MBA in
+Marketing and International Business.<br/>
+`,
+  },
+  {
+    id: 42,
+    name: "Karina Kratholm",
+    role: "Leadership Development Partner",
+    location: "United Kingdom",
+    service: ["Executive Search", "Leadership Advisory and Performance"],
+    phone: "+44 (0) 7795 436 726",
+    email: "kkratholm@taplowgroup.com",
+    image: KarinaKratholm,
+    address: `Taplow Executive Search,<br/>33, St James Square<br/>London<br/>SW1Y 4JS
+UK`,
+    linkdine: "https://www.linkedin.com/in/karina-kratholm-052721/",
+    industrySectors: [
+      "Consumer Products",
+      "Industrial",
+      "Not for Profit",
+      "Professional Services",
+    ],
+    bio: `HR Partner, Taplow Executive Search UK, Dealing with UK based organizations requiring additional HR expertise.
+Experience in assisting client develop policies and procedures and also developing and implementing team
+development strategies.<br/>
+Previously based in Denmark: HR Manager – Lejerbo, Denmark’s largest Housing Association, HR Manager – Maersk
+(IBM) and HR Consultant – Lego.<br/>
+Part of my duties is to represent The Taplow Group S.A. as the primary administrator, dealing with our global partner,
+suppliers and organising meetings including our partners global conference.
+`,
+  },
+  {
+    id: 43,
+    name: "Mark Firth",
+    role: "Managing Partner",
+    location: "United Kingdom",
+    service: ["Executive Search", "Leadership Advisory and Performance"],
+    phone: "+44(0)7887 922 766",
+    email: "mfirth@taplowgroup.com",
+    image: MarkFirth,
+    address: `Taplow Executive Search,<br/>33, St James Square<br/>London<br/>SW1Y 4JS
+UK`,
+    linkdine: "https://www.linkedin.com/in/markfirth/",
+    industrySectors: [
+      "Consumer Products",
+      "Financial Services",
+      "Industrial",
+      "Not for Profit",
+      "Professional Services",
+      "Real Estate",
+    ],
+    bio: `Managing Partner of the Taplow UK office and Chairman of The Taplow Group S.A, 30+ years of Executive Search
+Experience, I aim to become a trusted partner and advisor for client management teams, from start-ups, through
+growth opportunities, new product launches , new geographic development and everything in between, I bring a track
+record of assisting companies enter and expand into the UK, and UK companies expand internationally, including into
+Australia, Canada, China, India, The Middle East and USA. And within the European market including Denmark,
+France, Germany, Ireland, Italy, Poland and Spain.<br/>
+Experience in recruiting Mid to Board level people within Consumer Products, Financial Services, Industrial,
+Manufacturing, Not for Profit, Professional Services and Real Estate sectors.<br/>
+Expertise in evaluating clients’ goals, developing and actioning bespoke solutions, my ability is to define a client’s
+needs , develop clear messaging, that will attract talent that are not openly seeking a new role, whilst ensuring my
+clients brand is enhanced throughout the recruitment process.`,
   },
 ];
