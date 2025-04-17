@@ -95,7 +95,7 @@ We have in house linguistic skills to conduct our work in German, French, Danish
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
       />
-      <GlobalLocation />
+      {/* <GlobalLocation /> */}
     </>
   );
 };

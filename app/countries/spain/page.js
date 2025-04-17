@@ -94,7 +94,7 @@ const page = () => {
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
       />
-      <GlobalLocation />
+      {/* <GlobalLocation /> */}
     </>
   );
 };

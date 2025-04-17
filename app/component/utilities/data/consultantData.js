@@ -46,6 +46,7 @@ import EllinorDam from "../../../assets/globalpage/teamsweden/Ellinor-Dam.webp";
 import HelenHafström from "../../../assets/globalpage/teamsweden/Helen-Hafström.webp";
 import MariaLindahl from "../../../assets/globalpage/teamsweden/MariaLindahl.webp";
 import CharlotteRamstedt from "../../../assets/globalpage/teamsweden/Charlotte-Ramstedt.webp";
+import IsabelleKarmsten from "../../../assets/globalpage/teamsweden/Isabelle-Karmsten.webp";
 export const consultantData = [
   {
     id: 1,
@@ -1358,6 +1359,34 @@ Carlsgatan 12 A, <br/>211 20 Malmö, <br/>Sweden`,
       "Energy",
       "Financial services",
       "Real Estate",
+    ],
+  },
+  {
+    id: 50,
+    name: "Isabelle Karmsten",
+    role: "Researcher",
+    location: "Sweden",
+    services: ["Executive Search"],
+    phone: "+46 (0) 79-098 08 18 ",
+    email: "Isabelle.karmsten@atalent.se ",
+    image: IsabelleKarmsten,
+    bio: `Researcher Executive Search at Taplow. 
+
+With several years of experience in headhunting, executive search, and team leadership, I have developed expertise in identifying, attracting, and recruiting top talent for both leadership and specialist roles. My passion lies in building strong relationships and delivering value through efficient and high-quality recruitment processes. 
+
+ `,
+    address: `Hyllie Boulevard 35<br/>215 37 Malmo <br/>`,
+    linkdine: " https://www.linkedin.com/in/isabelle-karmsten-23a810198/ ",
+    industrySectors: [
+      "Financial Services ",
+      "Management ",
+      "Digital ",
+      "Energy ",
+      "Industry ",
+      "Life Science",
+      " Building Services Engineering ",
+      "Tech ",
+      "Sales",
     ],
   },
 ];

@@ -61,7 +61,7 @@ office that span the country coast-to-coast.`,
     Aboutheading: "Taplow Canada:Driving Leadership and Diversity Excellence",
     aboutContentpara1: `Officesin Vancouver, Calgary, Edmonton,<br/> Halifax, Moncton, Ottawa, Toronto and Montreal Established in 2010, our partner in Canada is MacDonald Search Group operating under Taplow Canada for global projects. `,
     aboutContentpara2: `MSG is one
-of Canada’s largest Executive Search Firms with a team of 22 Search Consultants, Researchers and Marketing Admin spread across 8office that span the country coast-to-coast.  The firm was founded by Bruce MacDonald who has over 25 years of executive search
+of Canada’s largest Executive Search Firms with a team of 22 Search Consultants, Researchers and Marketing Admin spread across 8 office that span the country coast-to-coast.  The firm was founded by Bruce MacDonald who has over 25 years of executive search
 experience.`,
     aboutContentpara3:
       "What sets us apart is that most of our team of Search Consultants all came to us with prior corporate experience in their area of focus.  As well, each Consultant personally manages the search.  We do not pass the baton … our Search Consultants manage the entire process – candidate contact, interviews, references and the offer stage.",
@@ -121,7 +121,7 @@ experience.`,
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
       />
-      <GlobalLocation />
+      {/* <GlobalLocation /> */}
     </>
   );
 };

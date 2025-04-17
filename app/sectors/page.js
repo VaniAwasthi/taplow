@@ -1,10 +1,18 @@
 "use client";
+import Image from "next/image";
 import React from "react";
+import sectorImg from "../assets/sector.webp";
 
 const Sectors = () => {
   return (
-    <div className="container mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold text-center">Sectors</h1>
+    <div className=" relative">
+      <Image
+        src={sectorImg}
+        alt="Sector"
+        width={1500}
+        height={1500}
+        className="w-full h-full"
+      />
     </div>
   );
 };
