@@ -2,10 +2,7 @@
 import React, { useEffect, useState } from "react";
 import HeroSecLayout from "../../component/utilities/HeroSecLayout";
 import Location from "../../assets/globalpage/location.webp";
-import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
-import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
-import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
-import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
+
 import Image from "next/image";
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -32,34 +29,7 @@ export const GlobalpageBanner = ({ title, desc, Banner }) => {
     </>
   );
 };
-export const SuccessStory = () => {
-  const slides = [
-    {
-      image: Ethical1,
-      title: "Compliance with global laws and best practices.",
-    },
-    {
-      image: Ethical2,
-      title: "A professional, inclusive, and respectful workplace.",
-    },
-    {
-      image: Ethical3,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical4,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
-    },
-    {
-      image: Ethical1,
-      title: "Compliance with global laws and best practices.",
-    },
-    {
-      image: Ethical2,
-      title: "A professional, inclusive, and respectful workplace.",
-    },
-  ];
-
+export const SuccessStory = ({ SuccessData, heading }) => {
   const [swiperInstance, setSwiperInstance] = useState(null);
   const [isBeginning, setIsBeginning] = useState(true);
   const [isEnd, setIsEnd] = useState(false);
@@ -72,11 +42,10 @@ export const SuccessStory = () => {
       });
     }
   }, [swiperInstance]);
-  const heading = "Recent Success Stories From Sweden";
   return (
     <>
-      <section className="bg-[#F0F0F0] py-10 md:py-16 px-4">
-        <div className="max-w-6xl mx-auto">
+      <section className="bg-[#F0F0F0] py-10 md:py-10 px-4">
+        <div className="max-w-7xl mx-auto">
           <div className="flex md:flex-row flex-col  justify-between">
             <div className="w-full md:w-1/2">
               <h2 className="text-3xl font-normal redhat mb-6  text-[#111D15]">
@@ -124,10 +93,10 @@ export const SuccessStory = () => {
                 prevEl: ".swiper-button-prev",
               }}
             >
-              {slides.map((slide, index) => (
+              {SuccessData.map((slide, index) => (
                 <SwiperSlide key={index}>
                   <div
-                    className="relative rounded-xl overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105"
+                    className="relative rounded-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105"
                     style={{
                       boxShadow: `0px 9px 19px 0px #0000001A,
                                                         0px 34px 34px 0px #00000017,
@@ -139,7 +108,7 @@ export const SuccessStory = () => {
                     <Image
                       src={slide.image}
                       alt={slide.title}
-                      className="w-full h-full"
+                      className="w-full h-[20rem]"
                     />
                     <p className="text-lg md:text-xl redhat font-semibold absolute bottom-4 w-3/4  left-1/2 -translate-x-2/4 mx-auto text-white z-10">
                       {slide.title}

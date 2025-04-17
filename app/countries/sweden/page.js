@@ -1,4 +1,8 @@
-import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
+import {
+  GlobalLocation,
+  GlobalpageBanner,
+  SuccessStory,
+} from "@/app/component/coun-layout/GlobalpageBanner";
 import React from "react";
 import Banner from "../../assets/globalpage/SwedenBanner.webp";
 import SliderImg1 from "../../assets/Consultantpage/heroImage.webp";
@@ -8,6 +12,11 @@ import Swedanflag from "../../assets/globalpage/flag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import DrivingLeadership from "@/app/component/coun-layout/DrivingLeadership";
 import IndustrySlider from "@/app/component/home/Industries";
+import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
+import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
+import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
+import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
+import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow Sweden</b>`,
@@ -55,6 +64,34 @@ const page = () => {
     aboutContentpara4:
       "Our proven methodology, deep market insights, and a strong commitment to leadership excellence and inclusion continue to impact businesses across Sweden. ",
   };
+  const Successheading = "Recent Success Stories From Sweden";
+
+  const SuccessStoryslidesData = [
+    {
+      image: Ethical1,
+      title: "Compliance with global laws and best practices.",
+    },
+    {
+      image: Ethical2,
+      title: "A professional, inclusive, and respectful workplace.",
+    },
+    {
+      image: Ethical3,
+      title: "Trust-based relationships with clients and candidates.",
+    },
+    {
+      image: Ethical4,
+      title: "Confidentiality, fairness, and anti-corruption standards.",
+    },
+    {
+      image: Ethical1,
+      title: "Compliance with global laws and best practices.",
+    },
+    {
+      image: Ethical2,
+      title: "A professional, inclusive, and respectful workplace.",
+    },
+  ];
   return (
     <>
       <GlobalpageBanner
@@ -74,6 +111,12 @@ const page = () => {
         ColImg={DiversityImg}
       />
       <IndustrySlider />
+      <TeamSection country="Sweden" />
+      <SuccessStory
+        SuccessData={SuccessStoryslidesData}
+        heading={Successheading}
+      />
+      <GlobalLocation />
     </>
   );
 };
