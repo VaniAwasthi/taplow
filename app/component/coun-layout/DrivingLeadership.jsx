@@ -11,6 +11,8 @@ const DrivingLeadership = ({
   aboutContentpara3,
   aboutContentpara4,
   ColImg,
+  aboutheadingclass,
+  firstparaclass,
 }) => {
   return (
     <section className="container mx-auto px-4 lg:max-w-7xl py-6 ">
@@ -26,13 +28,15 @@ const DrivingLeadership = ({
         {/* Content Section */}
         <div className="relative z-10 flex flex-col md:flex-row items-start justify-between max-w-7xl mx-auto px-6 md:px-12 w-full text-white">
           <p
-            className="text-md font-normal text-center"
+            className="text-md font-normal text-left"
             dangerouslySetInnerHTML={{ __html: greenDescription }}
           ></p>
         </div>
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center mt-4">
-        <h2 className="md:w-[300px] text-2xl redhat font-normal md:text-3xl mt-8 mb-4">
+        <h2
+          className={`md:w-[300px] text-2xl redhat font-normal md:text-3xl mt-8 mb-4 ${aboutheadingclass}`}
+        >
           {Aboutheading}
         </h2>
         <div className="flex md:flex-row md:ml-3">
@@ -48,16 +52,17 @@ const DrivingLeadership = ({
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center">
-        <div className="w-full md:w-[400px] text-sm text-[#666666] redhat text-left">
-          <p className="py-2 px-2 mx-3 my-3 w-full md:w-[300px]">
-            {aboutContentpara1}
-          </p>
+        <div className="w-full md:w-[350px] text-sm text-[#666666] redhat text-left">
+          <p
+            className={`pb-4 px-2 mx-3 my-3 w-full md:w-[250px] ${firstparaclass}`}
+            dangerouslySetInnerHTML={{ __html: aboutContentpara1 }}
+          ></p>
           <p className="py-2 px-2 mx-3 my-3 w-full md:w-[300px]">
             {aboutContentpara2}
           </p>
         </div>
-        <div className="w-full md:w-[400px] text-sm text-[#666666] redhat text-left">
-          <p className=" py-2 px-2 mx-3 my-3 w-full md:w-[300px]">
+        <div className="w-full md:w-[300px] text-sm text-[#666666] redhat text-left">
+          <p className=" py-2 px-2 mx-3 my-3 w-full md:w-[250px]">
             {aboutContentpara3}
           </p>
           <p className="py-2 px-2 mx-3 my-3 w-full md:w-[300px]">

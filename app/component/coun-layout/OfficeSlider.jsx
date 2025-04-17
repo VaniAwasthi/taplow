@@ -11,9 +11,7 @@ import {
   Phone,
   Mail,
   Navigation2,
-  MailIcon,
 } from "lucide-react";
-import { FaEnvelope } from "react-icons/fa6";
 
 const OfficeSlider = ({ heading, officeData }) => {
   const [hovered, setHovered] = useState(null);
