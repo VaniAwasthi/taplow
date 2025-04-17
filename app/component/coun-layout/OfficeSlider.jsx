@@ -55,7 +55,7 @@ const OfficeSlider = ({ heading, officeData }) => {
                 {office.image ? (
                   // 👉 Card with Image
                   <div
-                    className="bg-white md:w-[350px] rounded-lg shadow-lg overflow-hidden max-w-sm transition-all duration-300 hover:scale-105"
+                    className="bg-white md:w-[350px] rounded-lg shadow-lg overflow-hidden max-w-sm transition-all duration-300 hover:scale-105 h-[360px]"
                     onMouseEnter={() => setHovered(index)}
                     onMouseLeave={() => setHovered(null)}
                   >
