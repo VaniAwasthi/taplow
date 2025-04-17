@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../../assets/globalpage/norwayBanner.webp";
+import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
 
 const page = () => {
   const BannerData = {
