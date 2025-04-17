@@ -35,7 +35,7 @@ const DrivingLeadership = ({
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center mt-4">
         <h2
-          className={`md:w-[300px] text-2xl redhat font-normal md:text-3xl mt-8 mb-4 ${aboutheadingclass}`}
+          className={`md:w-[400px] text-2xl redhat font-normal md:text-3xl mt-8 mb-4 ${aboutheadingclass}`}
         >
           At the Heart of Leadership, Wherever You Are.{" "}
         </h2>
