@@ -1,6 +1,7 @@
 import Image from "next/image";
 import MapBg from "../../assets/globalpage/mapwithlocation.webp";
 import Link from "next/link";
+import InteractiveMap from "./Maplayout";
 
 const countries = [
   { index: 1, name: "Australia", link: "/countries/australia" },
@@ -28,10 +29,8 @@ export default function GlobalLocations() {
       <div className="relative w-full h-auto bg-white p-6  flex flex-col md:flex-row gap-8 md:gap-16">
         {/* Left Column */}
         <div className="md:w-1/4 w-full text-left">
-          <h2 className="text-3xl font-bold text-teal-800 mb-4">
-            Global Locations:
-          </h2>
-          <ul className="flex flex-wrap gap-x-4 gap-y-4 md:block md:space-y-2 text-sm md:text-[18px] font-bold text-teal-800">
+          <h2 className="text-3xl font-bold  mb-4">Global Locations:</h2>
+          <ul className="flex flex-wrap gap-x-4 gap-y-4 md:block md:space-y-2 text-sm md:text-[18px]  ">
             {countries.map((country) => (
               <li key={country.index}>
                 <Link
@@ -58,6 +57,7 @@ export default function GlobalLocations() {
             />
           </div>
         </div>
+        {/* <InteractiveMap /> */}
       </div>
     </div>
   );

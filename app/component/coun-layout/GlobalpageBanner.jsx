@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import HeroSecLayout from "../../component/utilities/HeroSecLayout";
-import Location from "../../assets/globalpage/location.webp";
+import Location from "../../assets/globalpage/mapwithlocation.webp";
 
 import Image from "next/image";
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";

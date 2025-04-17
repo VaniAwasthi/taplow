@@ -1,52 +1,52 @@
+"use client";
 import Image from "next/image";
+import Link from "next/link";
 import MapBg from "../../assets/globalpage/map.png";
 
 const countries = [
-  { name: "Canada", top: "15%", left: "20%" },
-  { name: "United States", top: "35%", left: "22%" },
-  { name: "Brazil", top: "65%", left: "30%" },
-  { name: "UK", top: "32%", left: "47%" },
-  { name: "France", top: "38%", left: "48%" },
-  { name: "Germany", top: "35%", left: "50%" },
-  { name: "Netherlands", top: "33%", left: "49%" },
-  { name: "Belgium", top: "34%", left: "48.5%" },
-  { name: "Luxembourg", top: "35%", left: "48.7%" },
-  { name: "Sweden", top: "25%", left: "52%" },
-  { name: "Denmark", top: "30%", left: "51%" },
-  { name: "Finland", top: "20%", left: "55%" },
-  { name: "Spain", top: "45%", left: "44%" },
-  { name: "Italy", top: "44%", left: "50.5%" },
-  { name: "Bulgaria", top: "46%", left: "54%" },
-  { name: "Norway", top: "21%", left: "50%" },
-  { name: "Switzerland", top: "39%", left: "49.5%" },
-  { name: "India", top: "55%", left: "70%" },
-  { name: "China", top: "40%", left: "75%" },
-  { name: "Singapore", top: "65%", left: "78%" },
-  { name: "Australia", top: "80%", left: "85%" },
-  { name: "New Zealand", top: "85%", left: "90%" },
+  { name: "Canada", href: "/country/canada", x: "14%", y: "12%" },
+  { name: "United States", href: "/country/united-states", x: "13%", y: "28%" },
+  { name: "UK", href: "/country/uk", x: "41.5%", y: "29%" },
+  { name: "France", href: "/country/france", x: "39%", y: "38%" },
+  { name: "Germany", href: "/country/germany", x: "43%", y: "33%" },
+  { name: "Italy", href: "/country/italy", x: "44%", y: "43%" },
+  { name: "Spain", href: "/country/spain", x: "36.5%", y: "43%" },
+  { name: "Bulgaria", href: "/country/bulgaria", x: "50%", y: "47%" },
+  { name: "Sweden", href: "/country/sweden", x: "44%", y: "16%" },
+  { name: "Finland", href: "/country/finland", x: "47%", y: "10%" },
+  { name: "Norway", href: "/country/norway", x: "41%", y: "13%" },
+  { name: "Denmark", href: "/country/denmark", x: "42.5%", y: "28%" },
+  { name: "India", href: "/country/india", x: "67%", y: "56%" },
+  { name: "China", href: "/country/china", x: "71%", y: "35%" },
+  { name: "Singapore", href: "/country/singapore", x: "74%", y: "65%" },
+  { name: "Australia", href: "/country/australia", x: "82%", y: "80%" },
+  { name: "New Zealand", href: "/country/new-zealand", x: "87%", y: "90%" },
 ];
 
-export default function GlobalMapLabels() {
+export default function WorldMap() {
   return (
-    <div className="relative w-full h-[800px] bg-black p-6">
-      {/* Map Background */}
+    <div className="relative w-full max-w-[1200px] mx-auto">
       <Image
         src={MapBg}
         alt="World Map"
-        fill
-        className="object-contain opacity-90"
-        priority
+        width={1200}
+        height={650}
+        className="w-full h-auto"
       />
-
-      {/* Country Labels */}
-      {countries.map((country, index) => (
-        <div
-          key={index}
-          className="absolute text-xs text-cyan-300 font-semibold whitespace-nowrap"
-          style={{ top: country.top, left: country.left }}
+      {countries.map((country) => (
+        <Link
+          key={country.name}
+          href={country.href}
+          className="absolute text-blue-600 font-medium hover:underline text-sm sm:text-base"
+          style={{
+            left: country.x,
+            top: country.y,
+            transform: "translate(-50%, -50%)",
+          }}
         >
+          <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-1"></span>
           {country.name}
-        </div>
+        </Link>
       ))}
     </div>
   );
