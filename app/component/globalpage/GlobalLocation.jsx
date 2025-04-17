@@ -16,7 +16,7 @@ const countries = [
   { index: 11, name: "Norway", link: "/countries/norway" },
   { index: 12, name: "New Zealand", link: "/countries/new-zealand" },
   { index: 13, name: "Spain", link: "/countries/spain" },
-  { index: 14, name: "Swedan", link: "/countries/sweden" },
+  { index: 14, name: "Sweden", link: "/countries/sweden" },
   { index: 15, name: "Singapore", link: "/countries/singapore" },
   { index: 16, name: "US", link: "/countries/us" },
   { index: 17, name: "UK", link: "/countries/uk" },
