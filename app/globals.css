@@ -95,7 +95,7 @@ body {
 }
 
 .cls-2 {
-  fill: #565656;
+  fill: #817f7f;
 }
 
 .cls-2,
@@ -132,7 +132,9 @@ body {
 .cls-3 {
   fill: #63d1f0;
 }
-
+.cls-3:hover {
+  width: 13px;
+}
 .cls-4 {
   fill: #dbdbdb;
 }

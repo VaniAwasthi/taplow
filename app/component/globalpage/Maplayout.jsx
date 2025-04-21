@@ -6067,7 +6067,7 @@ export default function WorldMap() {
           </path>
         </a>
         {/* cananda */}
-        <a style={{ cursor: "pointor" }} href="/countries/cananda">
+        <a style={{ cursor: "pointor" }} href="/countries/canada">
           <path
             className="cls-3"
             d="M478.09,326.01c-3.4,0-6.16,2.76-6.16,6.16,0,4.04,4.21,8.73,5.67,10.24.27.28.71.28.98,0,1.46-1.5,5.67-6.19,5.67-10.24,0-3.4-2.76-6.16-6.16-6.16h0ZM478.09,334.91c-1.51,0-2.74-1.23-2.74-2.74s1.23-2.74,2.74-2.74,2.74,1.23,2.74,2.74-1.23,2.74-2.74,2.74Z"
@@ -6199,7 +6199,7 @@ export default function WorldMap() {
           </path>
         </a>
         {/* NewZeland */}
-        <a style={{ cursor: "pointor" }} href="/country/new-zealand">
+        <a style={{ cursor: "pointor" }} href="/countries/new-zealand">
           <path
             className="cls-3"
             d="M1674.67,986.6c-3.4,0-6.16,2.76-6.16,6.16,0,4.04,4.21,8.73,5.67,10.24.27.28.71.28.98,0,1.46-1.5,5.67-6.19,5.67-10.24,0-3.4-2.76-6.16-6.16-6.16h0ZM1674.67,995.5c-1.51,0-2.74-1.23-2.74-2.74s1.23-2.74,2.74-2.74,2.74,1.23,2.74,2.74-1.23,2.74-2.74,2.74Z"
