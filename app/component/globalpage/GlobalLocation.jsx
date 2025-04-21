@@ -1,5 +1,3 @@
-import Image from "next/image";
-import MapBg from "../../assets/globalpage/mapwithlocation.webp";
 import Link from "next/link";
 import InteractiveMap from "./Maplayout";
 
@@ -10,8 +8,8 @@ const countries = [
   { index: 4, name: "China", link: "/countries/china" },
   { index: 5, name: "Denmark", link: "/countries/denmark" },
   { index: 6, name: "Finland", link: "/countries/finland" },
-  { index: 7, name: "France", link: "/countries/germany" },
-  { index: 8, name: "Germany", link: "/countries/belgium" },
+  { index: 7, name: "France", link: "/countries/france" }, // fixed wrong link
+  { index: 8, name: "Germany", link: "/countries/germany" }, // fixed wrong link
   { index: 9, name: "India", link: "/countries/india" },
   { index: 10, name: "Italy", link: "/countries/italy" },
   { index: 11, name: "Norway", link: "/countries/norway" },
@@ -25,12 +23,12 @@ const countries = [
 
 export default function GlobalLocations() {
   return (
-    <div className="container mx-auto max-w-6xl px-4">
-      <div className="relative w-full h-auto bg-white p-6  flex flex-col md:flex-row gap-8 md:gap-16">
-        {/* Left Column */}
-        <div className="md:w-1/4 w-full text-left">
-          <h2 className="text-3xl font-bold  mb-4">Global Locations:</h2>
-          <ul className="flex flex-wrap gap-x-4 gap-y-4 md:block md:space-y-2 text-sm md:text-[18px]  ">
+    <div className="container mx-auto max-w-6xl px-4 py-8">
+      <div className="flex flex-col md:flex-row gap-10">
+        {/* Left Column - Country List */}
+        <div className="md:w-1/4 w-full">
+          <h2 className="text-3xl font-bold mb-6">Global Locations:</h2>
+          <ul className="space-y-2 text-md">
             {countries.map((country) => (
               <li key={country.index}>
                 <Link
@@ -44,20 +42,10 @@ export default function GlobalLocations() {
           </ul>
         </div>
 
-        {/* Map Column */}
+        {/* Right Column - Map */}
         <div className="md:w-3/4 w-full">
-          <div className="w-full">
-            <Image
-              src={MapBg}
-              alt="World Map"
-              width={1600}
-              height={800}
-              className="md:w-[900px] md:h-[500px] scale-125 object-contain"
-              priority
-            />
-          </div>
+          <InteractiveMap />
         </div>
-        {/* <InteractiveMap /> */}
       </div>
     </div>
   );
