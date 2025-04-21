@@ -44,7 +44,9 @@ export default function GlobalLocations() {
 
         {/* Right Column - Map */}
         <div className="md:w-3/4 w-full">
-          <InteractiveMap />
+          <div className="w-full scale-110 md:scale-125">
+            <InteractiveMap />
+          </div>
         </div>
       </div>
     </div>
