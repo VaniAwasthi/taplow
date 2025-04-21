@@ -29,6 +29,7 @@ import ShaistaSabharwal from "../../../assets/Consultantpage/Consultant/Shaista-
 import PriyankaMazumdar from "../../../assets/Consultantpage/Consultant/Priyanka-Mazumdar.webp";
 import SanjayGhosh from "../../../assets/Consultantpage/Consultant/Sanjay-Ghosh.webp";
 import Ritu from "../../../assets/Consultantpage/Consultant/Ritu.webp";
+import RituAcharya from "../../../assets/Consultantpage/Consultant/RituAcharya.webp";
 import ClausRosenstand from "../../../assets/Consultantpage/Consultant/ClausRosenstand.webp";
 import HannuÖversti from "../../../assets/Consultantpage/Consultant/Hannu.webp";
 import TimoToivann from "../../../assets/Consultantpage/Consultant/Timo.webp";
@@ -1388,5 +1389,24 @@ With several years of experience in headhunting, executive search, and team lead
       "Tech ",
       "Sales",
     ],
+  },
+  {
+    id: 51,
+    name: "Rituparna Acharyya",
+    role: "Associate Principal ",
+    location: "India",
+    services: ["Executive Search"],
+    phone: "+91 9953 559 369",
+    email: "rituparna.acharyya@taplowgroupindia.com",
+    linkdine: "https://www.linkedin.com/in/rituparna-acharyya-342642113/",
+    industrySectors: ["Non-Profit ", "Philanthropy and Impact Sector "],
+    image: RituAcharya,
+    bio: `Rituparna is an accomplished executive search professional with a strong focus on the non-profit and philanthropy sector. As an Associate Principal at The Taplow Group S.A., she has successfully led complex, high-level talent searches across Asia and Africa, helping organizations secure mission-driven leaders. Her expertise extends beyond the development sector, as she also facilitates private sector professionals transitioning into social impact roles, bridging talent across industries.<br/>
+With over nine years in executive search, Rituparna has developed a keen ability to identify and place top-tier leadership for non-profits, foundations, and international development organizations. Additionally, she contributes to for-profit sector searches, leveraging her deep industry insights.<br/>
+Beyond executive search, Rituparna is adept at business development and stakeholder engagement. She has successfully led strategic initiatives to expand The Taplow Group’s footprint in the social impact sector. Most notably, she spearheaded a roadshow in Bangladesh to identify and tap into leadership hiring needs within the development sector, strengthening connections with key organizations and stakeholders.<br/>
+Before joining The Taplow Group, Rituparna spent eight years at HSBC, where she held key roles across branch banking, customer relationship management, international trade and foreign exchange services, and SME commercial banking. Her extensive corporate experience enhances her ability to align candidates’ strengths with organizational needs.
+Known for her high energy, strategic approach, and commitment to excellence, Rituparna is skilled in relationship management, business development, and talent strategy. She brings a determined and focused approach to every search, ensuring the best fit for both clients and candidates.
+`,
+    address: `The Taplow Group, Office No. 306-307<br/>3rd Floor, Tower B, Emaar Digital Greens<br/>Golf Course Extension Road, Sector 61, Gurgaon-122002, Haryana`,
   },
 ];
