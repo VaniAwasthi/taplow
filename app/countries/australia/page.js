@@ -7,6 +7,7 @@ import officeImage from "../../assets/globalpage/AustraliaOffice.webp";
 import DrivingLeadership from "@/app/component/coun-layout/DrivingLeadership";
 import Australiaflag from "../../assets/globalpage/australiaflag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
+import generalImg from "../../assets/globalpage/generalImg.webp";
 import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
 import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
@@ -46,7 +47,7 @@ const page = () => {
         "Taplow Australia is set apart from its competitors by our longstanding business relationships that have been developed over more than 25 years and provide to both clients and candidates wide access to a significant pool of talent and employers of choice.",
         "Taplow Australia – delivering exceptional, personalised service for executive level and board appointments.",
       ],
-      image: DiversityImg, // replace with your actual image path
+      image: generalImg, // replace with your actual image path
     },
     specific: {
       title: "Specific Information",
