@@ -10,7 +10,7 @@ const TaplowInfoSection = ({
   aboutheadingclass,
 }) => {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12 space-y-12">
+    <div className="max-w-7xl mx-auto px-4 py-12 ">
       {/* Green Box */}
       <div className="relative w-full md:h-40 h-64 flex items-center overflow-hidden transition-transform duration-300  hover:scale-105">
         <div className="absolute inset-0 w-full h-full">
@@ -64,21 +64,21 @@ const TaplowInfoSection = ({
           <Image
             src={general.image}
             alt="General Info Image"
-            width={400}
-            height={400}
+            width={500}
+            height={500}
             className="object-contain"
           />
         </div>
       </div>
       <div className="bg-[#83A790] my-4 h-[2px] w-full md:w-full"></div>
       {/* Specific Section */}
-      <div className="grid md:grid-cols-2 gap-12 items-start">
+      <div className="grid md:grid-cols-2 gap-16 items-start">
         <div className="flex justify-center md:order-1">
           <Image
-            src={general.image}
+            src={specific.image}
             alt="Specific Info Image"
-            width={400}
-            height={400}
+            width={500}
+            height={500}
             className="object-contain"
           />
         </div>

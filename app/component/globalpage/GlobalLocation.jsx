@@ -23,30 +23,28 @@ const countries = [
 
 export default function GlobalLocations() {
   return (
-    <div className="container mx-auto max-w-6xl px-4 py-8">
-      <div className="flex flex-col md:flex-row gap-10">
-        {/* Left Column - Country List */}
-        <div className="md:w-1/4 w-full">
-          <h2 className="text-3xl font-bold mb-6">Global Locations:</h2>
-          <ul className="space-y-2 text-md">
-            {countries.map((country) => (
-              <li key={country.index}>
-                <Link
-                  href={country.link}
-                  className="hover:text-green-600 transition-colors duration-200"
-                >
-                  • {country.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+    <div className="max-w-7xl mx-auto  flex flex-col md:flex-row items-center justify-between p-0 m-0">
+      {/* Left Column - Country List */}
+      <div className="md:w-1/6 w-full px-4 py-8">
+        <h2 className="text-3xl font-bold mb-6">Global Locations:</h2>
+        <ul className="space-y-2 text-md">
+          {countries.map((country) => (
+            <li key={country.index}>
+              <Link
+                href={country.link}
+                className="hover:text-green-600 transition-colors duration-200"
+              >
+                • {country.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
 
-        {/* Right Column - Map */}
-        <div className="md:w-3/4 w-full">
-          <div className="w-full scale-110 md:scale-125">
-            <InteractiveMap />
-          </div>
+      {/* Right Column - Map */}
+      <div className="md:w-5/6 w-full overflow-hidden  h-full flex justify-center items-center">
+        <div className="ransform scale-[1.4]  w-full h-full">
+          <InteractiveMap />
         </div>
       </div>
     </div>
