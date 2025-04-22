@@ -1,3 +1,4 @@
+"use client";
 import { AboutBanner, ItAllStarted } from "../component/aboutUs/AboutBanner";
 import {
   OurFoundingPartner,

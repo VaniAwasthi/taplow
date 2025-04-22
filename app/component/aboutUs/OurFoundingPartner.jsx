@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import GlobalImg from "../../assets/aboutuspage/global-img.webp";
 import LftsecImg from "../../assets/aboutuspage/global-left.webp";
