@@ -97,7 +97,10 @@ export default function OurConsultants() {
           modules={[Navigation, Pagination]}
           slidesPerView={1}
           spaceBetween={1}
-          navigation={{ prevEl: prevRef.current, nextEl: nextRef.current }}
+          navigation={{
+            prevEl: paginationRef.current,
+            nextEl: paginationRef.current,
+          }}
           pagination={{ clickable: true, el: paginationRef.current }}
           onSwiper={(swiper) => (swiperRef.current = swiper)}
           onSlideChange={() => scrollToConsultants()}

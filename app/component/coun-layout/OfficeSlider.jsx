@@ -83,7 +83,7 @@ const OfficeSlider = ({ heading, officeData }) => {
                         <Phone className="w-5 h-5 text-[#00B2A9] mr-2" />
                         <span>{office.phone}</span>
                       </div>
-                      <div className="flex items-center text-gray-700 text-sm">
+                      {/* <div className="flex items-center text-gray-700 text-sm">
                         <Mail className="w-5 h-5 text-[#00B2A9] mr-2" />
                         <a
                           href={`mailto:${office.email}`}
@@ -91,7 +91,7 @@ const OfficeSlider = ({ heading, officeData }) => {
                         >
                           {office.email}
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 ) : (
@@ -113,7 +113,7 @@ const OfficeSlider = ({ heading, officeData }) => {
                         <Phone className="w-5 h-5 text-white" />
                         <p>{office.phone}</p>
                       </div>
-                      <div className="flex items-center text-gray-700 text-sm mt-4">
+                      {/* <div className="flex items-center text-gray-700 text-sm mt-4">
                         <Mail className="w-6 h-6 text-white mr-2" />
                         <a
                           href={`mailto:${office.email}`}
@@ -121,7 +121,7 @@ const OfficeSlider = ({ heading, officeData }) => {
                         >
                           {office.email}
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 )}
