@@ -1,6 +1,5 @@
 "use client";
 import {
-  GlobalLocation,
   GlobalpageBanner,
   SuccessStory,
 } from "@/app/component/coun-layout/GlobalpageBanner";
@@ -33,8 +32,7 @@ const page = () => {
   };
 
   const AboutContent = {
-    greenDescription: `Whilst we are a generalist search firm, we have expertise in the Financial Services, Energy and Utilities, Life Sciences and Pharmaceutical, Retail, Publishing, Manufacturing and Logistics sectors.<br/>
-We have in house linguistic skills to conduct our work in German, French, Danish, Swedish, Norwegian and English.`,
+    greenDescription: `We help UK firms grow and support global companies expanding into the UK. As a founding partner of The Taplow Group S.A., we bring global reach with local expertise — backed by in-house fluency in German, French, Danish, Swedish, Norwegian, and English`,
     Aboutheading: "Taplow UK:Driving Leadership and Diversity Excellence",
     aboutContentpara1:
       "Our focus is within the Executive Search sector, C level and Directorship roles, primarily within the Sales, Marketing, Manufacturing and Finance areas of a clients business, we aim to add value to clients recruitment processes, both strategically and administratively.",
