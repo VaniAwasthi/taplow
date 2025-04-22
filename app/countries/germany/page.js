@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Banner from "../../assets/globalpage/germanyBanner.webp";
 import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";

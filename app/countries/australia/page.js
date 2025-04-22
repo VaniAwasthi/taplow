@@ -47,12 +47,12 @@ const page = () => {
         "Taplow Australia is set apart from its competitors by our longstanding business relationships that have been developed over more than 25 years and provide to both clients and candidates wide access to a significant pool of talent and employers of choice.",
         "Taplow Australia – delivering exceptional, personalised service for executive level and board appointments.",
       ],
-      image: generalImg, // replace with your actual image path
+      image: DiversityImg, // replace with your actual image path
     },
     specific: {
       title: "Specific Information",
       heading: "Taplow Australia: Vision & Mission",
-      image: DiversityImg, // replace with your actual image path
+      image: generalImg, // replace with your actual image path
       services: [
         {
           title: "Executive Search",
