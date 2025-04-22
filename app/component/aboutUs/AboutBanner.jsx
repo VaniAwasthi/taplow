@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import HeroSecLayout from "../utilities/HeroSecLayout";
 import Banner from "../../assets/aboutuspage/aboutBg.webp";

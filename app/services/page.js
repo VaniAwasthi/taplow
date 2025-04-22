@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import HeroSection from "../component/services/HeroSection";
 import LeadershipRight from "../component/services/LeadershipRight";

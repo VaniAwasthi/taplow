@@ -1,7 +1,4 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
-import MapBg from "../../assets/globalpage/map.png";
 export default function WorldMap() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1192.13">

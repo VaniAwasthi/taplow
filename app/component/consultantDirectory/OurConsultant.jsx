@@ -1,3 +1,4 @@
+"use client";
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation"; // ✅ Correct import
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -209,31 +210,36 @@ export default function OurConsultants() {
         </Swiper>
 
         {/* Centered Navigation & Pagination */}
-        <div className="flex mx-auto justify-center items-center">
-          <div className="flex justify-center items-center mt-[2rem]  mb-[2rem]">
-            <button
-              ref={prevRef}
-              className="text-[#ccc] cursor-pointer"
-              onClick={() => {
-                swiperRef.current?.slidePrev(); // move slide
-                scrollToConsultants(); // scroll to section
-              }}
-            >
-              <ChevronLeft size={30} />
-            </button>
-            <div ref={paginationRef} className="custom-pagination flex "></div>
-            <button
-              ref={nextRef}
-              className="text-[#ccc] cursor-pointer"
-              onClick={() => {
-                swiperRef.current?.slideNext(); // move slide
-                scrollToConsultants(); // scroll to section
-              }}
-            >
-              <ChevronRight size={30} />
-            </button>
+        {consultantGroups.length > 1 && (
+          <div className="flex mx-auto justify-center items-center">
+            <div className="flex justify-center items-center mt-[2rem]  mb-[2rem]">
+              <button
+                ref={prevRef}
+                className="text-[#ccc] cursor-pointer"
+                onClick={() => {
+                  swiperRef.current?.slidePrev(); // move slide
+                  scrollToConsultants(); // scroll to section
+                }}
+              >
+                <ChevronLeft size={30} />
+              </button>
+              <div
+                ref={paginationRef}
+                className="custom-pagination flex "
+              ></div>
+              <button
+                ref={nextRef}
+                className="text-[#ccc] cursor-pointer"
+                onClick={() => {
+                  swiperRef.current?.slideNext(); // move slide
+                  scrollToConsultants(); // scroll to section
+                }}
+              >
+                <ChevronRight size={30} />
+              </button>
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </div>
   );
