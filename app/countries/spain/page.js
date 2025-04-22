@@ -27,7 +27,7 @@ const page = () => {
   const officeData = {
     id: 1,
     image: officeImage,
-    name: "MAdrid",
+    name: "Madrid",
     address: "Fernando el Santo 25, 4º dcha - 28010 Madrid, Spain",
     phone: "604-687-6464",
     email: "eric@macdonaldsearchgroup.com",

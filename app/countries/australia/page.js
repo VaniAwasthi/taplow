@@ -18,6 +18,7 @@ import {
   GlobalpageBanner,
   SuccessStory,
 } from "@/app/component/coun-layout/GlobalpageBanner";
+import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
 
 const page = () => {
   const BannerData = {
@@ -34,19 +35,46 @@ const page = () => {
     phone: "+44(0)1442 383361",
     email: "eric@macdonaldsearchgroup.com",
   };
-
+  const greenDescriptionBox =
+    "The Taplow Group was established in Australia in 2002 and brings to clients both traditional and contemporary recruitment methodologies. Our focus is on delivering a service that identifies the best talent for your business.";
   const AboutContent = {
-    greenDescription: `Taplow Australia is set apart from its competitors by our longstanding business relationships that have been developed over more than 25 years and provide to both clients and candidates alike access to a significant pool of talent and employers of choice.`,
-    Aboutheading:
-      "Taplow Australia: Driving Leadership and Diversity Excellence",
-    aboutContentpara1:
-      "We hold in the highest esteem the values of trust, quality, professionalism, integrity, honesty and commitment to customer service, and these are clearly apparent in the work we do on a day-to-day basis.",
-    aboutContentpara2:
-      "Our industry knowledge, gathered over more than 25 years, and our candidate networks, are second to none, ensuring the right candidate fit, first time every time.",
-    aboutContentpara3:
-      "Taplow Australia is set apart from its competitors by our longstanding business relationships that have been developed over more than 25 years and provide to both clients and candidates alike access to a significant pool of talent and employers of choice.",
-    aboutContentpara4:
-      "The Taplow Group was established in Australia in 2002 and brings to clients both traditional and contemporary recruitment methodologies. Our focus is on delivering a service that identifies the best talent for your business.",
+    general: {
+      title: "General Information",
+      paragraphs: [
+        "We hold in the highest esteem the values of trust, quality, professionalism, integrity, honesty, and commitment to customer service, and these are clearly apparent in the work we do on a day-to-day basis.",
+        "Our industry knowledge, gathered over more than 25 years, and our candidate networks, are second to none, ensuring the right candidate fit, first time every time.",
+        "Taplow Australia is set apart from its competitors by our longstanding business relationships that have been developed over more than 25 years and provide to both clients and candidates wide access to a significant pool of talent and employers of choice.",
+        "Taplow Australia – delivering exceptional, personalised service for executive level and board appointments.",
+      ],
+      image: DiversityImg, // replace with your actual image path
+    },
+    specific: {
+      title: "Specific Information",
+      heading: "Taplow Australia: Vision & Mission",
+      image: DiversityImg, // replace with your actual image path
+      services: [
+        {
+          title: "Executive Search",
+          content:
+            "Senior level appointments can often be complex and require a careful, discreet approach. Taplow Australia uses both traditional and contemporary recruitment methods focused on identifying the best talent for your business.",
+        },
+        {
+          title: "Human Capital Services",
+          content:
+            "Taplow Group partners offer Human Capital Services including executive search, interim management, and board services to fully utilize the talent within organizations.",
+        },
+        {
+          title: "CEO Services",
+          content:
+            "Taplow specializes in identifying and placing talented candidates at top levels in public and private organizations through its global partner network.",
+        },
+        {
+          title: "Board Appointments",
+          content:
+            "Organisations can access our extensive board candidate network and assessment support for suitable board appointments with confidence.",
+        },
+      ],
+    },
   };
   const SuccessStoryslidesData = [
     {
@@ -83,15 +111,10 @@ const page = () => {
         Banner={Banner}
       />
       <OneOffice officeData={officeData} heading={officeSecHeading} />
-      <DrivingLeadership
-        greenDescription={AboutContent.greenDescription}
-        Aboutheading={AboutContent.Aboutheading}
+      <TaplowInfoSection
+        {...AboutContent}
+        greenDescription={greenDescriptionBox}
         flag={Australiaflag}
-        aboutContentpara1={AboutContent.aboutContentpara1}
-        aboutContentpara2={AboutContent.aboutContentpara2}
-        aboutContentpara3={AboutContent.aboutContentpara3}
-        aboutContentpara4={AboutContent.aboutContentpara4}
-        ColImg={DiversityImg}
       />
       <IndustrySlider />
       <TeamSection country="Australia" />

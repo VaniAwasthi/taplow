@@ -48,6 +48,12 @@ import HelenHafström from "../../../assets/globalpage/teamsweden/Helen-Hafströ
 import MariaLindahl from "../../../assets/globalpage/teamsweden/MariaLindahl.webp";
 import CharlotteRamstedt from "../../../assets/globalpage/teamsweden/Charlotte-Ramstedt.webp";
 import IsabelleKarmsten from "../../../assets/globalpage/teamsweden/Isabelle-Karmsten.webp";
+import IanStacy from "../../../assets/Consultantpage/Consultant/IanStacy.webp";
+import PeterTanner from "../../../assets/Consultantpage/Consultant/PeterTanner.webp";
+import eleniatsalakis from "../../../assets/Consultantpage/Consultant/eleni-atsalakis.webp";
+import kellyrigg from "../../../assets/Consultantpage/Consultant/kelly-rigg.webp";
+import TiffanyQuinlan from "../../../assets/Consultantpage/Consultant/Tiffany-Quinlan.webp";
+
 export const consultantData = [
   {
     id: 1,
@@ -1270,7 +1276,7 @@ Carlsgatan 12 A  <br/> 221119 Malmö<br/>
     id: 46,
     name: "Ellinor Dam",
     role: "COO, Recruitment Consultant Sweden",
-    location: "Sweden ",
+    location: "Sweden",
     services: ["Executive Search Cosultant", "Interim Management"],
     phone: "+46 708468856",
     email: "ellinor.dam@atalent.se",
@@ -1408,5 +1414,173 @@ Before joining The Taplow Group, Rituparna spent eight years at HSBC, where she 
 Known for her high energy, strategic approach, and commitment to excellence, Rituparna is skilled in relationship management, business development, and talent strategy. She brings a determined and focused approach to every search, ensuring the best fit for both clients and candidates.
 `,
     address: `The Taplow Group, Office No. 306-307<br/>3rd Floor, Tower B, Emaar Digital Greens<br/>Golf Course Extension Road, Sector 61, Gurgaon-122002, Haryana`,
+  },
+  {
+    id: 52,
+    name: "Ian Stacy",
+    role: "Managing Partner",
+    location: "Australia",
+    services: ["Executive Search", "Board Advisory", "Executive Interim"],
+    phone: "+61 417 478 229",
+    email: "istacy@taplowgroup.com.au",
+    linkdine: "https://www.linkedin.com/in/ianstacy/",
+    industrySectors: [
+      "Consumer Products ",
+      "Energy and Infrastructure",
+      "Information Technology",
+      "Not For Profit",
+      "Professional Services",
+      "Consumer &amp; Manufacturing",
+      "Government",
+      "Agribusiness",
+    ],
+    image: IanStacy,
+    address: `Melbourne Quarter,<br/> Building Two, Level 3,<br/>#309, 697 Collins Street,<br/>Melbourne, Victoria,<br/>
+Australia, 3008.`,
+    bio: `Ian has considerable experience with international executive search, human capital management solutions and
+organisational talent assessment and leadership development.<br/>
+His professional career includes private and both New York and Australian Stock Exchange listed companies. His
+experience is predominantly Australia and Asia however he has considerable experience in New Zealand, the USA and
+Europe.<br/>
+Experienced and qualified as a company director, he continues to act in this capacity and has been a Director and
+President of companies and Industry Associations.<br/>
+His qualifications include Master of Business Administration, Bachelor of Arts, Fellow of the Recruitment and
+Consulting Services Association.
+`,
+  },
+  {
+    id: 53,
+    name: "Peter Tanner AM",
+    role: "Managing Partner",
+    location: "Australia",
+    phone: "+61 419 826 637",
+    email: "ptanner@taplowgroup.com.au",
+    linkdine: "https://www.linkedin.com/in/peter-tanner-am-b350531/",
+    services: ["Executive Search", "Board Advisory", "Executive Interim"],
+    industrySectors: [
+      "Life Science and Healthcare",
+      "Biotechnology",
+      "FMCG and Industrial",
+      "Not For Profit",
+      "Utilities",
+      "Banking and Finance",
+      "Government",
+      "Agribusiness",
+    ],
+    image: PeterTanner,
+    address: `Melbourne Quarter,<br/> Building Two, Level 3,<br/>#309, 697 Collins Street,<br/>Melbourne, Victoria,<br/>
+Australia, 3008.`,
+    bio: `Peter was Founder and Managing Director of Tanner Menzies in 1988, which went on to become one of Australia’s
+leading Executive Recruitment firms.<br/>
+Peter and his then partners sold to Randstad in 2001. He stayed with the company until establishing Taplow Australia
+in 2012.<br/>
+Prior to establishing Tanner Menzies Peter worked for an Australian Biotech company as General Manager.<br/>
+Peter’s experience encompasses executive search and selection, throughout Australia, New Zealand and Hong Kong.
+He has recruited across all levels of management to CEO/Board level.
+`,
+  },
+  {
+    id: 54,
+    name: "Eleni Atsalakis",
+    role: "Coaching Psychologist",
+    location: "Australia",
+    phone: "+61 3 91908904",
+    email: "admin@taplowgroup.com.au",
+    linkdine: "https://www.linkedin.com/in/peter-tanner-am-b350531/",
+    services: ["Executive Search", "Leadership Advisory and Performance"],
+    industrySectors: [
+      "Life Science and Healthcare",
+      "Biotechnology",
+      "FMCG and Industrial",
+      "Not For Profit",
+      "Utilities",
+      "Banking and Finance",
+      "Government",
+    ],
+    image: eleniatsalakis,
+    address: `Melbourne Quarter,<br/> Building Two, Level 3,<br/>#309, 697 Collins Street,<br/>Melbourne, Victoria,<br/>
+Australia, 3008.`,
+    bio: `Eleni specialises in workplace psychology and the application of evidence-based methods in the design and
+implementation of organisational development and talent programs. Eleni is passionate about helping individuals,
+teams and organisations and has extensive experience consulting to national, not-for-profit, government and
+multinational organisations as well as working as part of internal People and Development teams.<br/>
+Eleni uses this unique perspective and experience to achieve the goal of effective and optimum performance with
+every client she works with. Eleni&#39;s experience incorporates the design &amp; delivery of personalised programs on a
+variety of subjects ranging from:<br/>
+individual coaching – executive and emerging leaders<br/>
+<ul>
+<li>team coaching</li>
+<li>high-potential identification</li>
+<li>high-potential development programs</li>
+<li>executive performance management</li>
+<li>employee experience</li>
+<li>job skill profiling</li>
+<li>assessment centre development and rating</li>
+<li>career development</li>
+<li>executive assessment for selection</li>
+</ul>
+`,
+  },
+  {
+    id: 55,
+    name: "Kellie Rigg",
+    role: "Coaching Psychologist",
+    location: "Australia",
+    phone: "+61 3 91908904",
+    email: "admin@taplowgroup.com.au",
+    linkdine: "https://www.linkedin.com/in/kellierigg/",
+    services: ["Executive Search", "Leadership Advisory and Performance"],
+    industrySectors: [
+      "Life Science and Healthcare",
+      "Biotechnology",
+      "FMCG and Industrial",
+      "Not For Profit",
+      "Utilities",
+      "Banking and Finance",
+      "Government",
+    ],
+    image: kellyrigg,
+    address: `Melbourne Quarter,<br/> Building Two, Level 3,<br/>#309, 697 Collins Street,<br/>Melbourne, Victoria,<br/>
+Australia, 3008.`,
+    bio: `EKellie Rigg is a registered Organisational Psychologist, Coach and Business Leader. Through a unique style combining
+psychological principals with diverse and practical leadership and business management experience, Kellie provides
+clients with a powerful experience that produces meaningful results that will transform careers, workplaces and
+organisations.<br/>
+EKellie’s passion and purpose is to facilitate individuals and collective leadership to achieve their potential, enhance
+performance and shape their talent for tomorrow.<br/>
+Kellie’s approach is grounded in proven evidence based methodologies adapted to individual needs and communicated
+effectively to her audience, and their unique circumstances. She is recognised by her clients as a trusted advisor, and
+for her insights, passion, and energy. As a coach, her clients appreciate her feedback, support and respectful
+challenging to help them reach their potential.<br/>
+`,
+  },
+  {
+    id: 56,
+    name: "Tiffany Quinlan",
+    role: "Leadership Advisory and Performance Coach",
+    location: "Australia",
+    phone: "+61 412 251 373",
+    email: "tquinlan@taplowgroup.com",
+    linkdine: "www.linkedin.com/in/tiffany-quinlan-4029161a",
+    services: ["Executive Search", "Leadership Advisory and Performance"],
+    industrySectors: [
+      "Life Science and Healthcare",
+      "Biotechnology",
+      "FMCG and Industrial",
+      "Not For Profit",
+      "Utilities",
+      "Banking and Finance",
+      "Government",
+    ],
+    image: TiffanyQuinlan,
+    address: `Melbourne Quarter,<br/> Building Two, Level 3,<br/>#309, 697 Collins Street,<br/>Melbourne, Victoria,<br/>
+Australia, 3008.`,
+    bio: `Tiffany is an experienced HR Director who marries the commercial business realities with investing in an
+organisation’s most unique asset – its people.<br/>
+A qualified Chartered Accountant with over 17 years’ Executive Human Resources experience.<br/>
+Having project-led the integration of 27 organisations into one, Tiffany has learnt more about cultural and
+organisational change than any textbook could teach.<br/>
+As an IECL accredited coach, Tiffany works with organisations to shape the human capital landscape for the future.
+`,
   },
 ];

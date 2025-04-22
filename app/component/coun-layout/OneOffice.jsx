@@ -68,7 +68,7 @@ const OneOffice = ({ heading, officeData }) => {
                 <Phone className="w-5 h-5 text-white" />
                 <p>{officeData.phone}</p>
               </div>
-              <div className="flex items-center text-gray-700 text-sm mt-4">
+              {/* <div className="flex items-center text-gray-700 text-sm mt-4">
                 <Mail className="w-6 h-6 text-white mr-2" />
                 <a
                   href={`mailto:${officeData.email}`}
@@ -76,7 +76,7 @@ const OneOffice = ({ heading, officeData }) => {
                 >
                   {officeData.email}
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
