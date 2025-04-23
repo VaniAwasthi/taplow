@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import InteractiveMap from "./Maplayout";
+import InteractiveMap, { Maplayout } from "./Maplayout";
 import { GreenMap } from "./Worldmap";
 
 const countries = [
@@ -45,8 +45,8 @@ export default function GlobalLocations() {
 
       {/* Right Column - Map */}
       <div className="md:w-5/6 w-full overflow-hidden  h-full flex justify-center">
-        {/* <InteractiveMap /> */}
-        <GreenMap />
+        <Maplayout />
+        {/* <GreenMap /> */}
       </div>
     </div>
   );
