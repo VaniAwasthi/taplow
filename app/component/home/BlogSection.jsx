@@ -38,7 +38,7 @@ const blogData = [
 const BlogSection = () => {
   return (
     <div className="bg-[#F0F0F0] py-12">
-      <div className="container mx-auto px-4 md:max-w-6xl">
+      <div className="container mx-auto px-4 md:max-w-7xl">
         {/* Header Section */}
         <div className="block md:flex justify-between items-center mb-8">
           <h2 className="redhat text-2xl font-semibold pb-1">Read Our Blogs</h2>

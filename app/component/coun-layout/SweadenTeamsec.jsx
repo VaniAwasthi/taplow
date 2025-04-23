@@ -89,7 +89,7 @@ export const TeamSection = ({ country }) => {
               onMouseEnter={() => setHovered(index)}
               onMouseLeave={() => setHovered(null)}
             >
-              <div className="relative p-4 text-left">
+              <div className="relative  text-left">
                 {/* Image wrapper */}
                 <div className="relative">
                   <Image
