@@ -1583,4 +1583,32 @@ organisational change than any textbook could teach.<br/>
 As an IECL accredited coach, Tiffany works with organisations to shape the human capital landscape for the future.
 `,
   },
+  {
+    id: 57,
+    name: "Anna Nuzzi",
+    role: "Partner Value Search",
+    location: "Italy",
+    phone: "+39 335 56 06620",
+    email: "anna.nuzzi@valuesearch.it",
+    linkdine: "https://www.linkedin.com/in/anna-nuzzi/",
+    services: ["Executive Search"],
+    industrySectors: ["Industrial Energy", "Life Sciences", "Consumer Goods"],
+    image: TiffanyQuinlan,
+    address: `Galleria San Babila,<br/>4C,<br/>Milan,<br/>Italy<br/>
+Australia, 3008.`,
+    bio: `Graduated in Economics from Bocconi University in Milan, Anna began her career in the automotive sector within a
+well-known German group.<br/>
+She later developed her career in the Media &amp; Communications sector, working for several major companies in the
+Italian publishing landscape, holding roles of increasing responsibility in the marketing field.
+In 1999, she started her career in Executive Search at a top ten firm, where she managed search projects in the
+industrial, energy, and media sectors. In 2001, she co-founded an Executive Search boutique firm in Milan, where she
+serves as a partner and shareholder. In the following years, she expanded her experience to middle management,
+collaborating with various brands in the sector.
+Anna manages numerous international projects with German-speaking countries and works with multinational and
+entrepreneurial clients, particularly in the Industrial, Consumer Electronics, Pharma, and Healthcare sectors. She has
+developed a strong focus on Operations, Manufacturing, Procurement, and Sales &amp; Marketing functions.
+In 2021, she joined Value Search as a Partner.<br/>
+Fluent in German, English, and French.
+`,
+  },
 ];
