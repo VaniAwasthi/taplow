@@ -66,7 +66,7 @@ const IndustrySlider = () => {
   const [swiperInstance, setSwiperInstance] = useState(null);
 
   return (
-    <div className="relative w-full max-w-6xl mx-auto py-10 px-4">
+    <div className="relative w-full max-w-7xl mx-auto py-10 px-4">
       <h2 className="text-2xl text-center md:text-left font-semibold mb-6 ">
         Industries We Serve
       </h2>

@@ -40,7 +40,7 @@ const OneOffice = ({ heading, officeData }) => {
       </div>
       <div className="max-w-6xl mx-auto relative -mt-10 ">
         <div className="flex flex-col md:flex-row items-center gap-2 justify-center mb-10">
-          <div className="bg-white md:w-[340px] rounded-lg shadow-xl overflow-hidden max-w-sm transition-all duration-300 hover:scale-105">
+          <div className="bg-white w-[320px] md:w-[340px] rounded-lg shadow-xl overflow-hidden max-w-sm transition-all duration-300 hover:scale-105">
             {/* Image with Overlay */}
             <div className="relative p-2">
               <Image
@@ -51,7 +51,7 @@ const OneOffice = ({ heading, officeData }) => {
             </div>
           </div>
 
-          <div className="bg-[#9DB54D] text-white p-6 rounded-md max-w-sm shadow-lg h-[320px] md:w-[340px]">
+          <div className="bg-[#9DB54D] w-[320px] text-white p-6 rounded-md max-w-sm shadow-lg h-[320px] md:w-[340px]">
             <div className="flex">
               <div className="my-4 h-[2px] w-[10%] bg-white"></div>
               <h2 className="text-xl w-2/4 font-semibold mb-4">
