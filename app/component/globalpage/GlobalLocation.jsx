@@ -25,7 +25,7 @@ const countries = [
 
 export default function GlobalLocations() {
   return (
-    <div className="max-w-7xl mx-auto  flex flex-col md:flex-row  justify-between p-0 my-4">
+    <div className="max-w-7xl lg:w-6xl mx-auto  flex flex-col md:flex-row  justify-between p-0 my-4">
       {/* Left Column - Country List */}
       <div className="md:w-1/6 w-full px-4 py-8">
         <h2 className="text-3xl font-bold mb-6">Global Locations:</h2>
