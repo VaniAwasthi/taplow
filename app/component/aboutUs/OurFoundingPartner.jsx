@@ -113,12 +113,15 @@ export const VissionSec = () => {
   const content = [
     {
       title: "Mission",
-      description: `<p>To accelerate organizational growth by providing <b>leadership advisory services</b>, ensuring businesses have the right people to lead in an evolving world.</p>`,
+      description: `<p>Empower organizations’ development by providing comprehensive, trusted executive search
+and people advisory services globally, using local expertise and insights.
+</p>`,
       image: Mission,
     },
     {
       title: "Vision",
-      description: `<p>To be the global leader in <b>executive search and CEO development</b>, shaping industries through strong and effective leadership.</p>`,
+      description: `<p>Be the leading catalyst in the growth of organizations and people,
+by maximizing the value of human capital across the globe.</p>`,
       image: VissionImg,
     },
   ];

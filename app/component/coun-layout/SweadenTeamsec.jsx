@@ -124,12 +124,12 @@ export const TeamSection = ({ country }) => {
                       </div>
 
                       {/* Email */}
-                      <div className="flex items-center text-white text-sm font-medium mb-3 w-full">
+                      {/* <div className="flex items-center text-white text-sm font-medium mb-3 w-full">
                         <Mail className="text-white w-3 h-3 mr-2 flex-shrink-0" />
                         <a href={`mailto:${team.email}`}>
                           <span className="break-all w-full">{team.email}</span>
                         </a>
-                      </div>
+                      </div> */}
 
                       {/* See Full Bio */}
                       <div
