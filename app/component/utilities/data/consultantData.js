@@ -54,6 +54,8 @@ import eleniatsalakis from "../../../assets/Consultantpage/Consultant/eleni-atsa
 import kellyrigg from "../../../assets/Consultantpage/Consultant/kelly-rigg.webp";
 import TiffanyQuinlan from "../../../assets/Consultantpage/Consultant/Tiffany-Quinlan.webp";
 import Annanuzzi from "../../../assets/Consultantpage/Consultant/annanuzzi.webp";
+import BerndSchlosshauer from "../../../assets/Consultantpage/Consultant/BerndSchlosshauer.webp";
+import HelmutBoehler from "../../../assets/Consultantpage/Consultant/HelmutBoehler.webp";
 
 export const consultantData = [
   {
@@ -1248,31 +1250,31 @@ clients brand is enhanced throughout the recruitment process.`,
       "Retail",
     ],
   },
-  {
-    id: 45,
-    name: "Ann Winsborn",
-    role: "Recruitment consultant Taplow Sweden",
-    location: "Sweden",
-    services: ["Executive Search", "Executive Interim"],
-    phone: "+46 (0) 70-881 05 89",
-    email: "ann.winsborn@atalent.se",
-    image: Winsborn,
-    bio: `Ann is a recruiter specializing in executive search for the construction and finance industries and a professional who excels in identifying and hiring top talent for leadership positions within organizations. Ann is a professional who specializes in identifying and hiring skilled individuals to contribute to the development and growth of communities.<br/><br/>
-    She is responsible for sourcing and screening candidates for a variety of positions in fields such as urban planning, construction, architecture, and engineering. With a strong track record of success in the recruitment industry, Ann is known for her exceptional ability to identify top talent and match them with the right organizations.<br/><br/>
-    She has a deep understanding of the unique challenges and requirements of finance services, engineering, and urban planning, and works closely with clients to deliver tailored solutions that meet their specific needs.<br/>`,
-    address: `Taplow 
-Carlsgatan 12 A  <br/> 221119 Malmö<br/>
-    Sweden`,
-    linkdine: "https://www.linkedin.com/in/ann-winsborn-64b552a0/",
-    industrySectors: [
-      "Energy",
-      "Sustainability",
-      "Real estate",
-      "Infrastructure",
-      "Community building",
-      "Process Industry",
-    ],
-  },
+  //   {
+  //     id: 45,
+  //     name: "Ann Winsborn",
+  //     role: "Recruitment consultant Taplow Sweden",
+  //     location: "Sweden",
+  //     services: ["Executive Search", "Executive Interim"],
+  //     phone: "+46 (0) 70-881 05 89",
+  //     email: "ann.winsborn@atalent.se",
+  //     image: Winsborn,
+  //     bio: `Ann is a recruiter specializing in executive search for the construction and finance industries and a professional who excels in identifying and hiring top talent for leadership positions within organizations. Ann is a professional who specializes in identifying and hiring skilled individuals to contribute to the development and growth of communities.<br/><br/>
+  //     She is responsible for sourcing and screening candidates for a variety of positions in fields such as urban planning, construction, architecture, and engineering. With a strong track record of success in the recruitment industry, Ann is known for her exceptional ability to identify top talent and match them with the right organizations.<br/><br/>
+  //     She has a deep understanding of the unique challenges and requirements of finance services, engineering, and urban planning, and works closely with clients to deliver tailored solutions that meet their specific needs.<br/>`,
+  //     address: `Taplow
+  // Carlsgatan 12 A  <br/> 221119 Malmö<br/>
+  //     Sweden`,
+  //     linkdine: "https://www.linkedin.com/in/ann-winsborn-64b552a0/",
+  //     industrySectors: [
+  //       "Energy",
+  //       "Sustainability",
+  //       "Real estate",
+  //       "Infrastructure",
+  //       "Community building",
+  //       "Process Industry",
+  //     ],
+  //   },
   {
     id: 46,
     name: "Ellinor Dam",
@@ -1349,26 +1351,26 @@ Carlsgatan 12 A, <br/>211 20 Malmö, <br/>Sweden`,
       "Retail",
     ],
   },
-  {
-    id: 49,
-    name: "Charlotte Ramstedt",
-    role: "Researcher Taplow Sweden",
-    location: "Sweden",
-    services: ["Executive Search"],
-    phone: "+46 (0) 76 - 781 97 53",
-    email: "charlotte.ramstedt@atalent.se",
-    image: CharlotteRamstedt,
-    bio: `Charlotte has 1 years of experience of sourcing positions such as System Responsible, Group Accounting Manager and Project Manager. Charlotte works proactively with a strong focus on attracting candidates, candidate experience and creating a strong external talent network.`,
-    address: `Nya Tingstadsgatan 1<br/>422 44 Hisings Backa<br/>Gothenburg`,
-    linkdine: "https://www.linkedin.com/in/charlotte-ramstedt-9b1abb152/",
-    industrySectors: [
-      "ICT",
-      "Engineering",
-      "Energy",
-      "Financial services",
-      "Real Estate",
-    ],
-  },
+  // {
+  //   id: 49,
+  //   name: "Charlotte Ramstedt",
+  //   role: "Researcher Taplow Sweden",
+  //   location: "Sweden",
+  //   services: ["Executive Search"],
+  //   phone: "+46 (0) 76 - 781 97 53",
+  //   email: "charlotte.ramstedt@atalent.se",
+  //   image: CharlotteRamstedt,
+  //   bio: `Charlotte has 1 years of experience of sourcing positions such as System Responsible, Group Accounting Manager and Project Manager. Charlotte works proactively with a strong focus on attracting candidates, candidate experience and creating a strong external talent network.`,
+  //   address: `Nya Tingstadsgatan 1<br/>422 44 Hisings Backa<br/>Gothenburg`,
+  //   linkdine: "https://www.linkedin.com/in/charlotte-ramstedt-9b1abb152/",
+  //   industrySectors: [
+  //     "ICT",
+  //     "Engineering",
+  //     "Energy",
+  //     "Financial services",
+  //     "Real Estate",
+  //   ],
+  // },
   {
     id: 50,
     name: "Isabelle Karmsten",
@@ -1609,6 +1611,69 @@ entrepreneurial clients, particularly in the Industrial, Consumer Electronics, P
 developed a strong focus on Operations, Manufacturing, Procurement, and Sales &amp; Marketing functions.
 In 2021, she joined Value Search as a Partner.<br/>
 Fluent in German, English, and French.
+`,
+  },
+  {
+    id: 58,
+    name: "Bernd Schlosshauer",
+    role: "Managing Partner",
+    location: "Germany",
+    phone: "+49 171 5158 048",
+    email: "bernd.schlosshauer@taplow.biz",
+    linkdine:
+      "https://www.linkedin.com/in/bernd-schlosshauer-1a900366?authType=NAME_SEARCH&authToken=LDvk&locale=de_DE&srchid=371253501474892419459&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A371253501474892419459%2CVSRPtargetId%3A232912209%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH",
+    services: ["Executive Search"],
+    industrySectors: [
+      "Financial Services ",
+      "Professional Services",
+      "Real Estate ",
+    ],
+    image: BerndSchlosshauer,
+    address: `Taplow Executive Search  
+Opernplatz 14
+60313 Frankfurt, Germany
+
+Taplow Executive Search   
+Warburgstr. 32
+20354 Hamburg, Germany 
+`,
+    bio: `Bernd is a Managing Partner at Taplow Executive Search in Germany. He has successfully conducted various high profile executive search mandates within The Taplow Group since 2013: many senior roles for leading international companies, business & operational responsibilities and senior advisory positions in Financial Services, Real Estate and in Professional Services.<br/>
+His focus segments are Financial Services including Asset Management, Corporate & Investment Banking, Private Wealth Management, Venture Capital, Mergers & Acquisitions, Risk, Sustainability, Digitalization, Fin-Techs, Insurances and Real Estate & Infrastructure including Capital Raising and Investments, furthermore Management & Strategy Consulting. Roles include Director, Managing Director, Divisional Head, C-Level and Partner w/o team.<br/>
+Earlier Bernd held different leadership positions, as head of business units and areas and as head of sales and marketing, as interim manager and as strategy & management consultant - for large international US based and European companies.<br/>
+His background includes Advanced Management Programs at INSEAD and at ESMT and a Master of Science in Informatics of University of Karlsruhe – KIT.
+Bernd is member of various organizations.
+
+`,
+  },
+  {
+    id: 59,
+    name: "Helmut Boehler",
+    role: "Senior Consultant",
+    location: "Germany",
+    phone: "+49 171 1212984",
+    email: "hboehler@taplowgroup.com",
+    linkdine: "https://www.linkedin.com/in/helmutboehler/",
+    services: ["Executive Search"],
+    industrySectors: [
+      "Information Communication Technology",
+      "Industrial",
+      "Retail",
+      "Health Care",
+    ],
+    image: HelmutBoehler,
+    address: `Taplow Executive Search  
+Opernplatz 14
+60313 Frankfurt, Germany
+Taplow Executive Search   
+Warburgstr. 32
+20354 Hamburg, Germany 
+ 
+`,
+    bio: `Helmut is Senior Advisor to the Taplow Group and Senior Consultant for the German Speaking area. He is one of the founding Members of the Taplow Group in 2002. He had been Regional Director Europe for more than 10 years before he took over the responsibility for Germany as a Managing Partner.<br/>
+Helmut has a Master degree in Industrial Economy and Human Resources Management. He started his career with Philips Industries in Hamburg as a HR-Specialist followed by HR-Roles in Mailorder (Otto Group) Computers (Siemens-Nixdorf) and Telecom-Industry (Avaya) where he was responsible Director for the HR-Management in Germany and selected branches overseas.
+In 1990 Helmut became Managing Director for Boyden International Executive Search in Frankfurt, Germany with responsibility for the northern office in Hamburg.
+
+
 `,
   },
 ];
