@@ -60,6 +60,7 @@ import DarrylMiller from "../../../assets/Consultantpage/Consultant/DarrylMiller
 import StéphaneMARTINOD from "../../../assets/Consultantpage/Consultant/StéphaneMARTINOD.webp";
 import MarineDUMONT from "../../../assets/Consultantpage/Consultant/MarineDUMONT.webp";
 import JeanMarcBURY from "../../../assets/Consultantpage/Consultant/JeanMarcBURY.webp";
+import AnkerEriksen from "../../../assets/Consultantpage/Consultant/AnkerEriksen.webp";
 
 export const consultantData = [
   {
@@ -1682,7 +1683,7 @@ In 1990 Helmut became Managing Director for Boyden International Executive Searc
     id: 60,
     name: "Darryl Miller",
     role: "Managing Director",
-    location: "USA",
+    location: "United States",
     phone: "+1 212 729 6693",
     email: "DMiller@taplowes.com",
     linkdine: "https://www.linkedin.com/in/darrylmiller1/",
@@ -1858,5 +1859,50 @@ positions. He forged bonds with key accounts in the transport industry, with whi
 operational experts in order to provide clients with a general offer in HR Consultancy.
 Along with his partner, they bought out a pure player in Executive Interim field for 10 years in 2018, Aptimen
 Managers, and develop since then the Executive Interim practice with Taplow France.<br/>`,
+  },
+  {
+    id: 65,
+    name: "Anker Eriksen",
+    role: "Executive Partner",
+    location: "Denmark",
+    phone: "0045 28291537",
+    email: "aer@taplow.dk",
+    linkdine: "https://www.linkedin.com/in/anker/",
+    services: [
+      "Executive Search",
+      "Interim",
+      "Leadership Advisory &amp; Performance",
+    ],
+    industrySectors: [
+      "Consumer Products",
+      "Financial Services",
+      "Digital",
+      "Industrial",
+      "Life Science",
+      "Professional Services",
+      "Real Estate",
+      "Non-Profit",
+    ],
+    image: AnkerEriksen,
+    address: `Slotsmarken 11, 2.
+2970 Hoersholm
+Denmark`,
+    bio: `With 25 years of international leadership experience at the Director and VP levels in global corporations such as Philips, Maersk, IBM,
+DXC Technology, SimCorp, and Nets, Anker brings deep expertise in executive search, interim services, and leadership advisory. His
+background in digital transformation, IT, and business strategy enables him to identify and secure top-tier leaders who drive innovation,
+growth, and operational excellence.<br/>
+Anker specializes in recruiting executives at the Director, VP, and CxO levels, as well as highly skilled individual contributors where
+demand and supply align. His expertise spans industries such as logistics, manufacturing, healthcare, finance, insurance, and the public
+sector, ensuring clients gain access to top talent with the right industry knowledge and strategic vision. In addition, he plays a key role in
+Taplow’s interim services, supporting businesses in securing experienced interim executives who can step in quickly and deliver
+measurable impact during transformation projects, crisis situations, or leadership transitions.<br/>
+Beyond recruitment, Anker provides strategic leadership advisory, working closely with organizations to assess, develop, and optimize
+leadership teams. His expertise covers leadership assessment, cultural transformation, team performance, and succession planning,
+ensuring companies have the right leadership in place for long-term success. With a strong understanding of emerging technologies,
+cybersecurity, and agile methodologies, he helps businesses find leaders capable of navigating today’s complex and rapidly evolving
+business landscape.<br/>
+Anker’s pragmatic and results-driven approach ensures that his clients receive tailored leadership solutions that align with their strategic
+objectives and long-term growth plans. Whether working with startups, mid-sized firms, or multinational corporations, he is committed
+to helping businesses build high-performance leadership teams that drive sustainable success in a competitive market.<br/>`,
   },
 ];
