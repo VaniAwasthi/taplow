@@ -56,6 +56,10 @@ import TiffanyQuinlan from "../../../assets/Consultantpage/Consultant/Tiffany-Qu
 import Annanuzzi from "../../../assets/Consultantpage/Consultant/annanuzzi.webp";
 import BerndSchlosshauer from "../../../assets/Consultantpage/Consultant/BerndSchlosshauer.webp";
 import HelmutBoehler from "../../../assets/Consultantpage/Consultant/HelmutBoehler.webp";
+import DarrylMiller from "../../../assets/Consultantpage/Consultant/DarrylMiller.webp";
+import StéphaneMARTINOD from "../../../assets/Consultantpage/Consultant/StéphaneMARTINOD.webp";
+import MarineDUMONT from "../../../assets/Consultantpage/Consultant/MarineDUMONT.webp";
+import JeanMarcBURY from "../../../assets/Consultantpage/Consultant/JeanMarcBURY.webp";
 
 export const consultantData = [
   {
@@ -1672,8 +1676,187 @@ Warburgstr. 32
     bio: `Helmut is Senior Advisor to the Taplow Group and Senior Consultant for the German Speaking area. He is one of the founding Members of the Taplow Group in 2002. He had been Regional Director Europe for more than 10 years before he took over the responsibility for Germany as a Managing Partner.<br/>
 Helmut has a Master degree in Industrial Economy and Human Resources Management. He started his career with Philips Industries in Hamburg as a HR-Specialist followed by HR-Roles in Mailorder (Otto Group) Computers (Siemens-Nixdorf) and Telecom-Industry (Avaya) where he was responsible Director for the HR-Management in Germany and selected branches overseas.
 In 1990 Helmut became Managing Director for Boyden International Executive Search in Frankfurt, Germany with responsibility for the northern office in Hamburg.
-
-
 `,
+  },
+  {
+    id: 60,
+    name: "Darryl Miller",
+    role: "Managing Director",
+    location: "USA",
+    phone: "+1 212 729 6693",
+    email: "DMiller@taplowes.com",
+    linkdine: "https://www.linkedin.com/in/darrylmiller1/",
+    services: ["Executive Search", "Board Services"],
+    industrySectors: [
+      "Consumer Goods",
+      "Financial Services",
+      "Professional Services",
+      "Real Estate",
+      "Non-Profit",
+    ],
+    image: DarrylMiller,
+    address: `Suite 204 1201 North 3rd Street,Philadelphia, PA 19122. USA`,
+    bio: `Darryl has over 30 years of successful Business Growth, Executive Search, HR Executive Leadership and Management
+Consulting experience across several industries including Consumer Package Goods, Financial Services, Non-Profit,
+Media &amp; Entertainment, Life Sciences and Management Consulting.<br/>
+His business growth and executive search experience has concentrated on C-level and strategic leadership roles.
+Successes have included general management, human resources, legal and professional services, marketing, sales
+and business development, product management, and business development.<br/>
+Prior to joining Taplow, Darryl held enterprise-wide senior executive decision-making roles with industry leading
+organizations such as Revlon Inc., Aon , DHR and Cushman &amp; Wakefield.<br/>
+During his tenure with Revlon, the global colour cosmetics, and beauty goods manufacturer as their US Head of
+Talent Acquisition. Darryl was instrumental in the development of a best-in-class talent acquisition team.
+`,
+  },
+  //   {
+  //     id: 61,
+  //     name: "Caterina Tortorella",
+  //     role: "Partner",
+  //     location: "Italy",
+  //     phone: "+39 349 3240802",
+  //     email: "caterina.tortorella@valuesearch.it",
+  //     linkdine: "https://www.linkedin.com/in/caterina-tortorella/",
+  //     services: ["Executive Search"],
+  //     industrySectors: [
+  //       "Professional Services",
+  //       "System Integration",
+  //       "Information Technology sectors and deepexpertise in Digital",
+  //       "Cloud",
+  //       "Cyber and AI topics",
+  //     ],
+  //     image: DarrylMiller,
+  //     address: `Galleria San Babila 4`,
+  //     bio: `Caterina holds a degree in Philosophy from the University of Milan.
+  // She has over 25 years of experience in Executive Search, with a focus on executives and top management within the
+  // IT, Digital and Professional Services sectors.<br/>
+  // She has matured a vertical market expertise, collaborating with the most relevant hardware/software vendors,
+  // system integrators and management consulting firms and acquiring a deep knowledge of Digital, Cloud, Cyber
+  // security and AI topics.<br/>
+  // She is also familiar with the search for CIO and CISO functions for medium and large Italian companies.
+  // Fluent in Italian and English.<br/>
+  // `,
+  //   },
+  {
+    id: 62,
+    name: "Stéphane MARTINOD",
+    role: "Managing Director",
+    location: "France",
+    phone: "+33 620 60 33 90",
+    email: "smartinod@taplow.fr",
+    linkdine:
+      "https://www.linkedin.com/in/st%C3%A9phane-martinod/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&amp;originalSubdomain=fr",
+    services: ["Executive Search and Executive Interim"],
+    industrySectors: [
+      "Consumer Products",
+      "Financial Services",
+      "Digital",
+      "Industrial",
+      "Life Science",
+      "Professional Services",
+      "Real Estate",
+      "Non-Profit",
+      "Manufacturing &amp; industrial",
+      "Energy &amp; Infrastructure",
+      "Technology",
+    ],
+    image: StéphaneMARTINOD,
+    address: `19 rue Maurice Bouchor 69007 Lyon`,
+    bio: `Stéphane is Managing Director of Taplow Consulting France / Practice Lead for Executive Interim
+Stéphane has a Master’s degree from a French Business School, majoring in Audit and finance.<br/>
+HHe started his career in audit, accounting and finance for a big English Consulting firm.
+He then joined other sectors: Insurance, IT, Consulting for cost optimisation as a Business or Key Account Manager
+for middle-market companies as well as larger accounts.<br/>
+In 2007, he entered a executive search firm, renowned nationally and based in Lyon and Paris. He accompanied key
+accounts in the assessment and selection of managers and engineers specialised in their field or operating in support
+functions mainly in the following sectors: industry, services and distribution.
+He joined Taplow Consulting France in 2013 and broadened his area of intervention towards the selection of directors,
+experts and top managers.<br/>
+He became an associate member in 2015.
+Along with his partner, they bought out a pure player in Executive Interim field for 10 years in 2018, Aptimen
+Managers, and develop since then the Executive Interim practice with Taplow France.
+`,
+  },
+  {
+    id: 63,
+    name: "Marine DUMONT",
+    role: "Leadership Advisory and Performance",
+    location: "France",
+    phone: "+33 635 45 75 76",
+    email: "mdumont@taplow.fr",
+    linkdine: "https://www.linkedin.com/in/marine-dumont-57a46a12/",
+    services: ["Leadership Advisory and Performance and Executive Interim"],
+    industrySectors: [
+      "Consumer Products",
+      "Financial Services",
+      "Digital",
+      "Industrial",
+      "Life Science",
+      "Professional Services",
+      "Real Estate",
+      "Non-Profit",
+      "Manufacturing &amp; industrial",
+      "Energy &amp; Infrastructure",
+      "Technology",
+    ],
+    image: MarineDUMONT,
+    address: `19 rue Maurice Bouchor 69007 Lyon`,
+    bio: `Managing Partner at Taplow Consulting France | Practice Lead for Human Capital Services<br/>
+Marine brings 12+ years of international experience across Europe, Asia, and the USA, specializing in governance and
+change management for complex projects. With a master’s in mechanical engineering from INSA Lyon, she began her
+career in industrial environments, managing technical sales, product development, and business growth. Leading
+multidisciplinary teams worldwide has honed her expertise in strategic transformation and organizational
+engagement.<br/>
+Since 2019, Marine has supported individuals, teams, and organizations in transformation as a certified Hogan,
+mPEAK, and NLP Practitioner, Coach, and Facilitator. She blends structured methodologies with human-centric
+coaching to enhance performance and professional growth.<br/>
+<b>Her expertise includes:</b><br/>
+<ul>
+<li>Organizational diagnostics</li>
+<li>Strategic and co-creation workshop facilitation</li>
+<li>Leadership training and coaching</li>
+<li>Change management implementation</li>
+</ul>
+Committed to sustainable leadership, Marine is an Engaged Coach with SF Coach, promoting responsible management
+practices.`,
+  },
+  {
+    id: 64,
+    name: "Jean-Marc BURY",
+    role: "Chairman",
+    location: "France",
+    phone: "+33 620 14 55 60",
+    email: "jmbury@taplow.fr",
+    linkdine:
+      "https://www.linkedin.com/in/jean-marc-bury-90070626/?originalSubdomain=fr",
+    services: [
+      "Executive Search",
+      "Executive Interim and leadership Advisory and Performance",
+    ],
+    industrySectors: [
+      "Consumer Products",
+      "Financial Services",
+      "Digital",
+      "Industrial",
+      "Life Science",
+      "Professional Services",
+      "Real Estate",
+      "Non-Profit",
+      "Manufacturing &amp; industrial",
+      "Energy &amp; Infrastructure",
+      "Technology",
+    ],
+    image: JeanMarcBURY,
+    address: `19 rue Maurice Bouchor 69007 Lyon`,
+    bio: `Jean-Marc is Chairman of Taplow Consulting France / Practice Lead for Executive Search<br/>
+MAfter a degree in Labour law, Jean-Marc held positions as an HR expert within two French groups specialised in the
+construction and transport industries for 15 years. He started his career with a position in social relations before
+expanding his skills in HR development (recruitment and training) in a high-growth SME, where he created the
+Employment and Training Department.<br/>
+He joined the consulting industry in 1998 by working for a Parisian recruitment firm specialised in commercial
+positions. He forged bonds with key accounts in the transport industry, with which he still collaborates.
+10 years later, he participated in the takeover of Taplow Consulting France with the view of gathering a team of
+operational experts in order to provide clients with a general offer in HR Consultancy.
+Along with his partner, they bought out a pure player in Executive Interim field for 10 years in 2018, Aptimen
+Managers, and develop since then the Executive Interim practice with Taplow France.<br/>`,
   },
 ];
