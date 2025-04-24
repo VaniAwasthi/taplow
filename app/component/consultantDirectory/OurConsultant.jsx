@@ -150,14 +150,14 @@ export default function OurConsultants() {
                             </div>
 
                             {/* Email */}
-                            <div className="flex items-center text-white text-sm font-medium mb-3 w-full">
+                            {/* <div className="flex items-center text-white text-sm font-medium mb-3 w-full">
                               <Mail className="text-white w-3 h-3 mr-2 flex-shrink-0" />
                               <a href={`mailto:${consultant.email}`}>
                                 <span className="break-all w-full">
                                   {consultant.email}
                                 </span>
                               </a>
-                            </div>
+                            </div> */}
 
                             {/* See Full Bio with Arrow */}
                             <div

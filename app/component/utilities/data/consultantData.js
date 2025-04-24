@@ -53,6 +53,7 @@ import PeterTanner from "../../../assets/Consultantpage/Consultant/PeterTanner.w
 import eleniatsalakis from "../../../assets/Consultantpage/Consultant/eleni-atsalakis.webp";
 import kellyrigg from "../../../assets/Consultantpage/Consultant/kelly-rigg.webp";
 import TiffanyQuinlan from "../../../assets/Consultantpage/Consultant/Tiffany-Quinlan.webp";
+import Annanuzzi from "../../../assets/Consultantpage/Consultant/annanuzzi.webp";
 
 export const consultantData = [
   {
@@ -1573,7 +1574,7 @@ challenging to help them reach their potential.<br/>
       "Government",
     ],
     image: TiffanyQuinlan,
-    address: `Melbourne Quarter,<br/> Building Two, Level 3,<br/>#309, 697 Collins Street,<br/>Melbourne, Victoria,<br/>
+    address: `Melbourne Quarter, Building Two, Level 3,#309, 697 Collins Street,Melbourne, Victoria,<br/>
 Australia, 3008.`,
     bio: `Tiffany is an experienced HR Director who marries the commercial business realities with investing in an
 organisation’s most unique asset – its people.<br/>
@@ -1593,9 +1594,8 @@ As an IECL accredited coach, Tiffany works with organisations to shape the human
     linkdine: "https://www.linkedin.com/in/anna-nuzzi/",
     services: ["Executive Search"],
     industrySectors: ["Industrial Energy", "Life Sciences", "Consumer Goods"],
-    image: TiffanyQuinlan,
-    address: `Galleria San Babila,<br/>4C,<br/>Milan,<br/>Italy<br/>
-Australia, 3008.`,
+    image: Annanuzzi,
+    address: `Galleria San Babila,4C,Milan,Italy`,
     bio: `Graduated in Economics from Bocconi University in Milan, Anna began her career in the automotive sector within a
 well-known German group.<br/>
 She later developed her career in the Media &amp; Communications sector, working for several major companies in the
