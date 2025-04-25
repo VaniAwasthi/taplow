@@ -104,7 +104,7 @@ const page = () => {
       title: "Confidentiality, fairness, and anti-corruption standards.",
     },
   ];
-  const Successheading = "Recent Success Stories From Australia";
+  const Successheading = "Recent Success Stories From Norway";
   return (
     <>
       <GlobalpageBanner

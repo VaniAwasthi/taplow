@@ -62,6 +62,7 @@ import MarineDUMONT from "../../../assets/Consultantpage/Consultant/MarineDUMONT
 import JeanMarcBURY from "../../../assets/Consultantpage/Consultant/JeanMarcBURY.webp";
 import AnkerEriksen from "../../../assets/Consultantpage/Consultant/AnkerEriksen.webp";
 import SangeetaSabharwal from "../../../assets/Consultantpage/Consultant/sangeeta-sabarwal.webp";
+import VijayBajaj from "../../../assets/Consultantpage/Consultant/VijayBajaj.webp";
 
 export const consultantData = [
   {
@@ -1905,5 +1906,47 @@ business landscape.<br/>
 Anker’s pragmatic and results-driven approach ensures that his clients receive tailored leadership solutions that align with their strategic
 objectives and long-term growth plans. Whether working with startups, mid-sized firms, or multinational corporations, he is committed
 to helping businesses build high-performance leadership teams that drive sustainable success in a competitive market.<br/>`,
+  },
+  {
+    id: 66,
+    name: "Vijay Bajaj",
+    role: "Managing Director",
+    location: "Singapore",
+    phone: "+65 9752 9020",
+    email: "vijay@cognasiatalent.com",
+    linkdine: "https://www.linkedin.com/in/vijay-bajaj-9916b24/",
+    services: ["Executive Search", "Board Services"],
+    industrySectors: [
+      "Consumer Products",
+      "Financial Services",
+      "Digital",
+      "Industrial",
+      "Life Science",
+      "Professional Services",
+      "Real Estate",
+      "Non-Profit",
+    ],
+    image: VijayBajaj,
+    address: `Taplow Singapore
+8 Marina View
+#43*01 Asia Square Tower 1
+Singapore 018960`,
+    bio: `Vijay has a successful record of over 15 years of HR experience in Asian markets, built on a strong foundation of HR
+experience in a variety of roles in banking and financial services.<br/>
+Vijay headed the Singapore business for an international Search firm, responsible for P&amp;L Management, business
+development, Client Engagement and mandate delivery of positions in Asia for all key sectors.<br/>
+He has deep knowledge of talent availability in Corporate Banking, Consumer and Private Banking, and Insurance
+Industry along with Staff Group Functions in Asia; and in non-financial sectors such as Natural Resources (Mining), Oil
+&amp; Gas and Power &amp; Infrastructure and FMCG. He has successfully delivered mandates for C-Suite roles and other
+Regional Leadership positions across the Asia.<br/>
+Vijay worked for over a decade in various roles in American Express. His responsibilities included consulting senior
+business leaders on organizational effectiveness strategies, talent &amp; succession planning processes and supporting
+implementation of key HR initiatives. Later, Vijay worked in HSBC, Singapore as the Vice President for Corporate,
+Investment &amp; Commercial Banking and Global Transaction Banking &amp; Global Markets.<br/>Vijay has the intrinsic ability to build strong collaborative relationships and proven competence in working with
+business leaders to deliver value-added outcomes. Having worked in MNCs in complex matrix-managed
+environments, he brings with him the astute skills in HR with an eye for Talent and an ability to provide business
+transformation expertise.
+
+Vijay has a master’s degree in human resources management from the Tata Institute of Social Sciences, in India.`,
   },
 ];
