@@ -1927,7 +1927,7 @@ to helping businesses build high-performance leadership teams that drive sustain
       "Non-Profit",
     ],
     image: VijayBajaj,
-    address: `STaplow Singapore
+    address: `Taplow Singapore
 8 Marina View
 #43*01 Asia Square Tower 1
 Singapore 018960`,
