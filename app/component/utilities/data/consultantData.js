@@ -61,6 +61,7 @@ import StéphaneMARTINOD from "../../../assets/Consultantpage/Consultant/Stépha
 import MarineDUMONT from "../../../assets/Consultantpage/Consultant/MarineDUMONT.webp";
 import JeanMarcBURY from "../../../assets/Consultantpage/Consultant/JeanMarcBURY.webp";
 import AnkerEriksen from "../../../assets/Consultantpage/Consultant/AnkerEriksen.webp";
+import SangeetaSabharwal from "../../../assets/Consultantpage/Consultant/sangeeta-sabarwal.webp";
 
 export const consultantData = [
   {
@@ -799,31 +800,31 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     Before joining The Taplow Group, Priyanka served as Principal at TRANSEARCH India and Vice President and part of the founding team at Third Sector Partners, a boutique search firm specializing in C-suite hiring for the impact sector.
 `,
   },
-  //   {
-  //     id: 28,
-  //     name: "Sangeeta Sabharwal",
-  //     role: "Co-Founder & Managing Partner – The Taplow Group, India",
-  //     location: "India",
-  //     services: ["Global Executive Search & Interim"],
-  //     phone: "+91 98 1008 9864",
-  //     email: "sangeeta.sabharwal@taplowgroupindia.com",
-  //     image: MarkFirth,
-  //     address: `Office No. 306- 307, 3rd Floor, Tower-B,<br/>Emaar Digital Greens, Golf Course Extension Road,<br/>Sector-61, Gurgaon-122102, Haryana, India.`,
-  //     linkdine:
-  //       "https://www.linkedin.com/in/sangeeta-sabharwal-5347985/?originalSubdomain=in",
-  //     industrySectors: [
-  //       "Consumer Retail",
-  //       "Life Science",
-  //       "Not for Profit",
-  //       "Industrial",
-  //       "Professional Services",
-  //     ],
-  //     bio: `Sangeeta Sabharwal is the Co-Founder & Managing Partner of The Taplow Group in India, bringing over 30 years of experience in Executive Search. She has held leadership roles across organizations she has been a part of, along with Global Board positions at The Taplow Group for nearly a decade, serving first as APAC Regional Director and later as Chief Operating Officer.<br/><br/>
-  //     With expertise spanning engineering, manufacturing, infrastructure, consumer, and retail, Sangeeta has successfully executed leadership searches across 14 industry segments on six continents, working with both multinational and Indian organizations.<br/><br/>
-  //     Having been a CEO herself, she brings a strategic perspective to leadership hiring, ensuring alignment between business priorities and executive talent. She is also a trained & certified Hogan Consultant, adding value to leadership assessment.<br/>
-  //     Before co-founding The Taplow Group in India, Sangeeta was a Senior Partner at Transearch India, where she was a top-performing consultant and a member of the million-dollar club. She pioneered the executive search industry in India, starting her career at Ma Foi, later serving as CEO of Ma Foi Global Search Services, where she built the business from the ground up across multiple countries.
-  // `,
-  //   },
+  {
+    id: 28,
+    name: "Sangeeta Sabharwal",
+    role: "Co-Founder & Managing Partner – The Taplow Group, India",
+    location: "India",
+    services: ["Global Executive Search & Interim"],
+    phone: "+91 98 1008 9864",
+    email: "sangeeta.sabharwal@taplowgroupindia.com",
+    image: SangeetaSabharwal,
+    address: `Office No. 306- 307, 3rd Floor, Tower-B,<br/>Emaar Digital Greens, Golf Course Extension Road,<br/>Sector-61, Gurgaon-122102, Haryana, India.`,
+    linkdine:
+      "https://www.linkedin.com/in/sangeeta-sabharwal-5347985/?originalSubdomain=in",
+    industrySectors: [
+      "Consumer Retail",
+      "Life Science",
+      "Not for Profit",
+      "Industrial",
+      "Professional Services",
+    ],
+    bio: `Sangeeta Sabharwal is the Co-Founder & Managing Partner of The Taplow Group in India, bringing over 30 years of experience in Executive Search. She has held leadership roles across organizations she has been a part of, along with Global Board positions at The Taplow Group for nearly a decade, serving first as APAC Regional Director and later as Chief Operating Officer.<br/><br/>
+      With expertise spanning engineering, manufacturing, infrastructure, consumer, and retail, Sangeeta has successfully executed leadership searches across 14 industry segments on six continents, working with both multinational and Indian organizations.<br/><br/>
+      Having been a CEO herself, she brings a strategic perspective to leadership hiring, ensuring alignment between business priorities and executive talent. She is also a trained & certified Hogan Consultant, adding value to leadership assessment.<br/>
+      Before co-founding The Taplow Group in India, Sangeeta was a Senior Partner at Transearch India, where she was a top-performing consultant and a member of the million-dollar club. She pioneered the executive search industry in India, starting her career at Ma Foi, later serving as CEO of Ma Foi Global Search Services, where she built the business from the ground up across multiple countries.
+  `,
+  },
   {
     id: 29,
     name: "Sanjay Ghosh",

@@ -8,6 +8,7 @@ const TaplowInfoSection = ({
   flag,
   greenDescription,
   aboutheadingclass,
+  sepecificationHeading,
 }) => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 ">
@@ -86,7 +87,9 @@ const TaplowInfoSection = ({
           <span className="bg-[#96A94A] text-white text-sm px-4 py-1 rounded-md inline-block font-medium">
             {specific.title}
           </span>
-          <h2 className="text-3xl font-normal redhat w-100 md:2/4 mt-4 mb-6">
+          <h2
+            className={`text-3xl font-normal redhat w-full md:w-2/4 mt-4 mb-6 ${sepecificationHeading}`}
+          >
             {specific.heading}
           </h2>
 
@@ -96,7 +99,10 @@ const TaplowInfoSection = ({
                 <h3 className="font-semibold uppercase text-sm">
                   {service.title}
                 </h3>
-                <p>{service.content}</p>
+                <div
+                  className="list-disc list-inside leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: service.content }}
+                ></div>
               </div>
             ))}
           </div>

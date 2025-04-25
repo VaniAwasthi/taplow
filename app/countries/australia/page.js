@@ -1,10 +1,8 @@
 "use client";
 import React from "react";
-
 import Banner from "../../assets/globalpage/australiaBanner.webp";
 import OneOffice from "@/app/component/coun-layout/OneOffice";
 import officeImage from "../../assets/globalpage/AustraliaOffice.webp";
-import DrivingLeadership from "@/app/component/coun-layout/DrivingLeadership";
 import Australiaflag from "../../assets/globalpage/australiaflag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import generalImg from "../../assets/globalpage/generalImg.webp";
@@ -15,7 +13,6 @@ import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
 import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
 import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
 import {
-  GlobalLocation,
   GlobalpageBanner,
   SuccessStory,
 } from "@/app/component/coun-layout/GlobalpageBanner";
@@ -52,27 +49,23 @@ const page = () => {
     specific: {
       title: "Specific Information",
       heading: "Taplow Australia: Vision & Mission",
-      image: generalImg, // replace with your actual image path
+      image: generalImg,
       services: [
         {
           title: "Executive Search",
-          content:
-            "Senior level appointments can often be complex and require a careful, discreet approach. Taplow Australia uses both traditional and contemporary recruitment methods focused on identifying the best talent for your business.",
+          content: `<p>Senior level appointments can often be complex and require a careful, discreet approach. Taplow Australia uses both traditional and contemporary recruitment methods focused on identifying the best talent for your business.</p>`,
         },
         {
           title: "Human Capital Services",
-          content:
-            "Taplow Group partners offer Human Capital Services including executive search, interim management, and board services to fully utilize the talent within organizations.",
+          content: `<p>Taplow Group partners offer Human Capital Services including executive search, interim management, and board services to fully utilize the talent within organizations.</p>`,
         },
         {
           title: "CEO Services",
-          content:
-            "Taplow specializes in identifying and placing talented candidates at top levels in public and private organizations through its global partner network.",
+          content: `<p> Taplow specializes in identifying and placing talented candidates at top levels in public and private organizations through its global partner network.</p>`,
         },
         {
           title: "Board Appointments",
-          content:
-            "Organisations can access our extensive board candidate network and assessment support for suitable board appointments with confidence.",
+          content: `<p> Organisations can access our extensive board candidate network and assessment support for suitable board appointments with confidence.</p>`,
         },
       ],
     },
