@@ -52,31 +52,29 @@ const DrivingLeadership = ({
           <div className="bg-[#83A790] my-4 h-[2px] w-[150px] md:w-[200px] xl:w-[200px]"></div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-center md:justify-between items-center">
-        <div className="w-full md:w-[350px] text-sm text-[#666666] redhat text-left">
-          <p
-            className={`pb-4 px-2 mx-3 my-3 w-full md:w-[250px] ${firstparaclass}`}
-            dangerouslySetInnerHTML={{ __html: aboutContentpara1 }}
-          ></p>
-          <p className="py-2 px-2 mx-3 my-3 w-full md:w-[300px]">
-            {aboutContentpara2}
-          </p>
+      <div className="grid md:grid-cols-2 gap-12 items-center my-5 md:my-2">
+        {/* Text Section */}
+        <div className="space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700 text-sm leading-relaxed">
+            <p dangerouslySetInnerHTML={{ __html: aboutContentpara1 }} />
+            <p>{aboutContentpara2}</p>
+            <p>{aboutContentpara3}</p>
+            <p>{aboutContentpara4}</p>
+          </div>
         </div>
-        <div className="w-full md:w-[300px] text-sm text-[#666666] redhat text-left">
-          <p className=" py-2 px-2 mx-3 my-3 w-full xl:w-[250px]">
-            {aboutContentpara3}
-          </p>
-          <p className="py-2 px-2 mx-3 my-3 w-full md:w-[300px]">
-            {aboutContentpara4}
-          </p>
+
+        {/* Image Section */}
+        <div className="flex justify-center">
+          <Image
+            src={ColImg}
+            alt="diversity"
+            width={500}
+            height={500}
+            className="object-contain transition-transform duration-300 hover:scale-105"
+          />
         </div>
-        <Image
-          src={ColImg}
-          alt="diversity"
-          // width={500}
-          className="w-full 2xl:w-[500px] transition-transform duration-300  hover:scale-105"
-        />
       </div>
+
       <div className="bg-[#83A790] my-4 h-[2px] w-full "></div>
     </section>
   );
