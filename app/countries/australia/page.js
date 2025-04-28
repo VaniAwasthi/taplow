@@ -107,6 +107,7 @@ const page = () => {
       <OneOffice officeData={officeData} heading={officeSecHeading} />
       <TaplowInfoSection
         {...AboutContent}
+        isImage={true}
         greenDescription={greenDescriptionBox}
         flag={Australiaflag}
       />

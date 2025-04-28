@@ -114,11 +114,13 @@ export const SuccessStory = ({ SuccessData, heading }) => {
                       {slide.title}
                     </p>
                     <div
-                      className={`${
-                        index % 2 === 0
-                          ? "bg-[#96A94A] mix-blend-multiply"
-                          : "bg-black/30 mix-blend-multiply"
-                      } text-white p-6 min-h-full flex items-end absolute bottom-0 w-full mx-auto`}
+                      className={`
+                        ${
+                          index % 2 === 0
+                            ? "bg-[#96A94A] mix-blend-multiply"
+                            : "bg-black/30 mix-blend-multiply"
+                        }
+                       text-white p-6 min-h-full flex items-end absolute bottom-0 w-full mx-auto`}
                     ></div>
                   </div>
                 </SwiperSlide>
