@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
 import Banner from "../../assets/globalpage/franceBanner.webp";
-import {
-  GlobalpageBanner,
-  SuccessStory,
-} from "@/app/component/coun-layout/GlobalpageBanner";
+import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
 import officeImage1 from "../../assets/globalpage/franceLyon.webp";
 import officeImage2 from "../../assets/globalpage/Franceparis.webp";
 import generalImg from "../../assets/globalpage/generalImg.webp";
@@ -12,12 +9,14 @@ import Frenchflag from "../../assets/globalpage/frenchflag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
-import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
-import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
-import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
-import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
+import Success1 from "../../assets/globalpage/Success1.webp";
+import Success2 from "../../assets/globalpage/Success2.webp";
+import Success3 from "../../assets/globalpage/Success3.webp";
+import Success4 from "../../assets/globalpage/Success4.webp";
+import Success5 from "../../assets/globalpage/Success5.webp";
 import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
 import { TwoOffice } from "@/app/component/coun-layout/TwoOfficeLay";
+import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow France</b>`,
@@ -72,16 +71,13 @@ It is focused on managers’ daily issues in the broad sense and assists them in
         },
 
         {
-          title: "EVALUATION & ASSESMENT CENTER",
-          content: `<p>valuation is carried out by our experts and enables companies to objectively assess their employees’ skills and motivations. By evaluating your managers and senior executives, we help you make the right decisions. For these services, we rely on efficient and diversified tools, which complete our approach in face-to-face interviews (e.g.: personality questionnaires, aptitude tests, 360-degree feedback…). We are thus able to support you on different fields such as internal mobility, final phase of recruitment, management to identify high performers, and individual performance improvement.</p> `,
-        },
-
-        {
           title: "TEAM BUILDING & TRAININGS",
           content: `<p>As part of its interventions, TAPLOW CONSULTING FRANCE first focuses its attention on the project and the company’s values. A diagnosis carried out in situ enables us to build and deliver tailored and innovative modules focused on development of each one’s professionalism.</p> `,
         },
-      ],
-      specificTraingle: [
+        {
+          title: "EVALUATION & ASSESMENT CENTER",
+          content: `<p>valuation is carried out by our experts and enables companies to objectively assess their employees’ skills and motivations. By evaluating your managers and senior executives, we help you make the right decisions. For these services, we rely on efficient and diversified tools, which complete our approach in face-to-face interviews (e.g.: personality questionnaires, aptitude tests, 360-degree feedback…). We are thus able to support you on different fields such as internal mobility, final phase of recruitment, management to identify high performers, and individual performance improvement.</p> `,
+        },
         {
           title: "INTERIM MANAGEMENT",
           content: `<p>Through our firm, APTIMEN MANAGERS, interim management expert, TAPLOW CONSULTING FRANCE is able to deploy quickly any operational project.
@@ -96,29 +92,26 @@ Within 3 days after your call, we introduce you to a manager with the right cred
   };
   const SuccessStoryslidesData = [
     {
-      image: Ethical1,
+      image: Success1,
       title: "Development of a management program",
     },
     {
-      image: Ethical2,
+      image: Success2,
       title:
         "Executive search for an experienced manager “cold chain logistics”",
     },
     {
-      image: Ethical3,
+      image: Success3,
       title: "Executive assessment services for a global life sciences company",
     },
     {
-      image: Ethical4,
+      image: Success4,
       title: "CFO Search for French International Transportation Company",
     },
     {
-      image: Ethical1,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical2,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
+      image: Success5,
+      title:
+        "Feedback culture management programme for a Global Aero structure Company",
     },
   ];
   const Successheading = "Recent Success Stories From France";
@@ -129,20 +122,20 @@ Within 3 days after your call, we introduce you to a manager with the right cred
         desc={BannerData.desc}
         Banner={Banner}
       />
-      {/* <TwoOffice Officeheading={officeSecHeading} offices={officeData} />
+      <TwoOffice Officeheading={officeSecHeading} offices={officeData} />
       <TaplowInfoSection
+        isImage={false}
         {...AboutContent}
         greenDescription={greenDescriptionBox}
         flag={Frenchflag}
         SpecificlongData={true}
-        sepecificationHeading="md:!w-[250px]"
       />
       <IndustrySlider />
       <TeamSection country="France" />
-      <SuccessStory
+      <CaseStudies
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
-      /> */}
+      />
       {/* <GlobalLocation /> */}
     </>
   );

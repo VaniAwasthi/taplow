@@ -9,6 +9,7 @@ const TaplowInfoSection = ({
   greenDescription,
   aboutheadingclass,
   sepecificationHeading,
+  isImage,
 }) => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 ">
@@ -74,26 +75,36 @@ const TaplowInfoSection = ({
       <div className="bg-[#83A790] my-4 h-[2px] w-full md:w-full"></div>
       {/* Specific Section */}
       <div className="grid md:grid-cols-2 gap-16 items-start">
-        <div className="flex justify-center md:order-1 order-2">
-          <Image
-            src={specific.image}
-            alt="Specific Info Image"
-            width={500}
-            height={500}
-            className="object-contain"
-          />
-        </div>
-        <div className="md:order-1">
+        {isImage ? (
+          <div className="flex justify-center md:order-1 order-2">
+            <Image
+              src={specific.image}
+              alt="Specific Info Image"
+              width={500}
+              height={500}
+              className="object-contain"
+            />
+          </div>
+        ) : null}
+
+        <div className={`${isImage ? "md:order-1" : "col-span-3"}`}>
           <span className="bg-[#96A94A] text-white text-sm px-4 py-1 rounded-md inline-block font-medium">
             {specific.title}
           </span>
+
           <h2
-            className={`text-3xl font-normal redhat w-full md:w-2/4 mt-4 mb-6 ${sepecificationHeading}`}
+            className={`text-3xl font-normal redhat w-full ${
+              isImage ? "md:w-2/4" : "md:w-full"
+            } mt-4 mb-6 ${sepecificationHeading}`}
           >
             {specific.heading}
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-gray-700">
+          <div
+            className={`grid grid-cols-1 ${
+              isImage ? "md:grid-cols-2" : "md:grid-cols-3"
+            } gap-6 text-sm text-gray-700`}
+          >
             {specific.services.map((service, idx) => (
               <div className="space-y-2" key={idx}>
                 <h3 className="font-semibold uppercase text-sm">
