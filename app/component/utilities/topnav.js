@@ -41,6 +41,7 @@ const navigation = [
       { name: "Spain", href: "/countries/spain" },
       { name: "Sweden", href: "/countries/sweden" },
       { name: "UK", href: "/countries/uk" },
+      { name: "US", href: "/countries/us" },
     ],
   },
   { name: "Consultant Directory", href: "/consultant-directory" },

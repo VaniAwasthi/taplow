@@ -119,6 +119,7 @@ const page = () => {
         greenDescription={greenDescriptionBox}
         flag={Norwayflag}
         sepecificationHeading="md:!w-[250px]"
+        isGeneralImage={true}
       />
       <IndustrySlider />
       <TeamSection country="Norway" />

@@ -128,6 +128,7 @@ Within 3 days after your call, we introduce you to a manager with the right cred
         {...AboutContent}
         greenDescription={greenDescriptionBox}
         flag={Frenchflag}
+        isGeneralImage={true}
         SpecificlongData={true}
       />
       <IndustrySlider />

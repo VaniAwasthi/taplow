@@ -10,6 +10,7 @@ const TaplowInfoSection = ({
   aboutheadingclass,
   sepecificationHeading,
   isImage,
+  isGeneralImage,
 }) => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 ">
@@ -51,27 +52,38 @@ const TaplowInfoSection = ({
         </div>
       </div>
       {/* General Section */}
-      <div className="grid md:grid-cols-2 gap-12 items-center my-5 md:my-2">
+      <div
+        className={`grid gap-12 items-center my-5 md:my-2 ${
+          isGeneralImage ? "md:grid-cols-2" : ""
+        }`}
+      >
         <div className="space-y-6">
           <span className="bg-[#8A9C3E] text-white text-sm px-4 py-1 rounded-md inline-block font-medium">
             {general.title}
           </span>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700 text-sm leading-relaxed">
+          <div
+            className={`grid grid-cols-1 ${
+              isGeneralImage ? "md:grid-cols-2" : "md:grid-cols-3"
+            } gap-6 text-gray-700 text-sm leading-relaxed`}
+          >
             {general.paragraphs.map((para, i) => (
               <p key={i}>{para}</p>
             ))}
           </div>
         </div>
-        <div className="flex justify-center">
-          <Image
-            src={general.image}
-            alt="General Info Image"
-            width={500}
-            height={500}
-            className="object-contain"
-          />
-        </div>
+        {isGeneralImage ? (
+          <div className="flex justify-center">
+            <Image
+              src={general.image}
+              alt="General Info Image"
+              width={500}
+              height={500}
+              className="object-contain"
+            />
+          </div>
+        ) : null}
       </div>
+
       <div className="bg-[#83A790] my-4 h-[2px] w-full md:w-full"></div>
       {/* Specific Section */}
       <div className="grid md:grid-cols-2 gap-16 items-start">

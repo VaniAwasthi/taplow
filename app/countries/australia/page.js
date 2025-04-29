@@ -106,6 +106,7 @@ const page = () => {
       />
       <OneOffice officeData={officeData} heading={officeSecHeading} />
       <TaplowInfoSection
+        isGeneralImage={true}
         {...AboutContent}
         isImage={true}
         greenDescription={greenDescriptionBox}
