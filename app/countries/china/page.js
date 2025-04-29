@@ -56,8 +56,7 @@ const page = () => {
   ];
 
   const AboutContent = {
-    greenDescription: ` 
-Full function service includes: HR and finance, marketing and sales, R&D and production, supply chain, IT, market access, government relations and corporate affairs, legal and IPR, etc.
+    greenDescription: `Full function service includes: HR and finance, marketing and sales, R&D and production, supply chain, IT, market access, government relations and corporate affairs, legal and IPR, etc.
  
 `,
     Aboutheading: "Taplow Spain:Driving Leadership and Diversity Excellence",
