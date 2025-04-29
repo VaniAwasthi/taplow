@@ -62,7 +62,7 @@ import JeanMarcBURY from "../../../assets/Consultantpage/Consultant/JeanMarcBURY
 import AnkerEriksen from "../../../assets/Consultantpage/Consultant/AnkerEriksen.webp";
 import SangeetaSabharwal from "../../../assets/Consultantpage/Consultant/sangeeta-sabarwal.webp";
 import VijayBajaj from "../../../assets/Consultantpage/Consultant/VijayBajaj.webp";
-import SunilGandhi from "../../../assets/Consultantpage/Consultant/Sunilgandhi.webp";
+import SunilGandhi from "../../../assets/Consultantpage/Consultant/SunilImg.webp";
 export const consultantData = [
   {
     id: 1,
