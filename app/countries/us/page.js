@@ -11,7 +11,7 @@ import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
 import officeImage from "../../assets/globalpage/USAOffice.webp";
 import OneOffice from "@/app/component/coun-layout/OneOffice";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
-import USAflag from "../../assets/globalpage/usaflag.webp";
+import USAflag from "../../assets/globalpage/flgUsa.webp";
 import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
 import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
 import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
