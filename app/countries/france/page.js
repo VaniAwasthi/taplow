@@ -94,24 +94,29 @@ Within 3 days after your call, we introduce you to a manager with the right cred
     {
       image: Success1,
       title: "Development of a management program",
+      link: "https://france.taplowgroup.com/Portals/10/Case%20France%201.pdf",
     },
     {
       image: Success2,
       title:
         "Executive search for an experienced manager “cold chain logistics”",
+      link: "https://france.taplowgroup.com/Portals/10/Case%20France%202.pdf",
     },
     {
       image: Success3,
       title: "Executive assessment services for a global life sciences company",
+      link: "https://france.taplowgroup.com/Portals/10/DNNGalleryPro/uploads/2019/3/7/TAPLOW%20CASE%201.pdf",
     },
     {
       image: Success4,
       title: "CFO Search for French International Transportation Company",
+      link: "https://france.taplowgroup.com/Portals/10/DNNGalleryPro/uploads/2019/3/7/case%203.pdf",
     },
     {
       image: Success5,
       title:
         "Feedback culture management programme for a Global Aero structure Company",
+      link: "https://france.taplowgroup.com/Portals/10/DNNGalleryPro/uploads/2019/3/7/case%202.pdf",
     },
   ];
   const Successheading = "Recent Success Stories From France";
