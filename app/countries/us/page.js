@@ -11,8 +11,7 @@ import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
 import officeImage from "../../assets/globalpage/USAOffice.webp";
 import OneOffice from "@/app/component/coun-layout/OneOffice";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
-import USAflag from "../../assets/globalpage/USAflag.webp";
-import SpecifcImg from "../../assets/globalpage/generalImg.webp";
+import USAflag from "../../assets/globalpage/USAFlag.webp";
 import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
 import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
 import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
@@ -37,19 +36,16 @@ const page = () => {
     general: {
       title: "General Information",
       paragraphs: [
-        "We consider ourselves to be a challenger brand.  We recognize that the Taplow brand is not as well-known as some of our larger North American and Global competitors.  What sets us apart is a question we answer every day as we work for exceptionally well known and highly regarded global firms as well as with numerous entrepreneurial and founder owned business.  Taplow consultants and advisors are senior experts in many business areas and approach each client asking a simple question. “Please tell us about the opportunities and challenges you are facing”. Only then, can we really advise you about the solutions to best assist you and your business.",
-        "We provide North American and Global clients retained executive recruitment services from board to divisional management levels as well as highly specialized senior professionals that positively impact their organization. Perhaps the most importantly for clients in the current environment, is our success in doing searches for “first ever” and urgent replacement positions as well as leadership roles requiring highly nuanced, complex convergence leadership expertise. We assure that diversity and inclusion is a priority in every search undertaken. We successfully complete well over 90% of all search assignments and have virtually no first year attrition.",
-        "As you consider the highly complicated and nuanced requirements for new product or service lines, new capital raising initiatives or new geographical markets we add value by quickly finding the right executive to move expeditiously – avoiding the distraction of too many discussions or relying on opportunistically available executives and professionals.  Our research oriented approach produces great hires as well as strategic acquisitions, alliances and joint ventures.",
-        "Occasionally you may have the need to replace a key member of your team. In some cases, you are anticipating a departure. We have a 100% track record of projects remaining confidential until a new hire is announced.",
-        "Perhaps you are considering an internal promotion but want the certainty that you are picking the best candidate for the role.  We have “benchmarking” solutions and we have the ability to conduct these projects with complete confidentiality.",
-        "As many of our clients have opportunities and challenges associated with organizational change, in addition to our retained Executive Search services, our highly experienced Human Capital Advisors provide clients with expert advice and implementation solutions.",
+        `We consider ourselves to be a challenger brand.  We recognize that the Taplow brand is not as well-known as some of our larger North American and Global competitors.  What sets us apart is a question we answer every day as we work for exceptionally well known and highly regarded global firms as well as with numerous entrepreneurial and founder owned business.  Taplow consultants and advisors are senior experts in many business areas and approach each client asking a simple question. “Please tell us about the opportunities and challenges you are facing”. Only then, can we really advise you about the solutions to best assist you and your business.<br/><br/>Occasionally you may have the need to replace a key member of your team. In some cases, you are anticipating a departure. We have a 100% track record of projects remaining confidential until a new hire is announced.`,
+        `We provide North American and Global clients retained executive recruitment services from board to divisional management levels as well as highly specialized senior professionals that positively impact their organization. Perhaps the most importantly for clients in the current environment, is our success in doing searches for “first ever” and urgent replacement positions as well as leadership roles requiring highly nuanced, complex convergence leadership expertise. We assure that diversity and inclusion is a priority in every search undertaken. We successfully complete well over 90% of all search assignments and have virtually no first year attrition.<br/><br/>Perhaps you are considering an internal promotion but want the certainty that you are picking the best candidate for the role.  We have “benchmarking” solutions and we have the ability to conduct these projects with complete confidentiality.`,
+        `As you consider the highly complicated and nuanced requirements for new product or service lines, new capital raising initiatives or new geographical markets we add value by quickly finding the right executive to move expeditiously – avoiding the distraction of too many discussions or relying on opportunistically available executives and professionals.  Our research oriented approach produces great hires as well as strategic acquisitions, alliances and joint ventures.<br/> <br/> As many of our clients have opportunities and challenges associated with organizational change, in addition to our retained Executive Search services, our highly experienced Human Capital Advisors provide clients with expert advice and implementation solutions.`,
       ],
       image: DiversityImg,
     },
     specific: {
       title: "Specific Information",
       heading: "Taplow USA: Vision & Mission",
-      image: SpecifcImg,
+      image: DiversityImg,
       services: [
         {
           title: "OUR FOCUS",
@@ -103,6 +99,7 @@ const page = () => {
         {...AboutContent}
         greenDescription={greenDescriptionBox}
         flag={USAflag}
+        sepecificationHeading="!w-[250px]"
         isGeneralImage={false}
       />
       <IndustrySlider />

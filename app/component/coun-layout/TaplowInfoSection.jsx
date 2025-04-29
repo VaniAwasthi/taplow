@@ -66,13 +66,17 @@ const TaplowInfoSection = ({
               isGeneralImage ? "md:grid-cols-2" : "md:grid-cols-3"
             } gap-6 text-gray-700 text-sm leading-relaxed`}
           >
-            {general.paragraphs.map((para, i) => (
-              <p key={i}>{para}</p>
-            ))}
+            {general.paragraphs.map((para, i) =>
+              para.includes("<") ? (
+                <p key={i} dangerouslySetInnerHTML={{ __html: para }} />
+              ) : (
+                <p key={i}>{para}</p>
+              )
+            )}
           </div>
         </div>
         {isGeneralImage ? (
-          <div className="flex justify-center">
+          <div className="flex justify-center ">
             <Image
               src={general.image}
               alt="General Info Image"

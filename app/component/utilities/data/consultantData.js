@@ -40,7 +40,6 @@ import SheldonZhou from "../../../assets/Consultantpage/Consultant/SheldonZhou.w
 import StigHeggertveit from "../../../assets/Consultantpage/Consultant/StigHeggertveit.webp";
 import Mats from "../../../assets/Consultantpage/Consultant/Mats.webp";
 import HansHolterSorensen from "../../../assets/Consultantpage/Consultant/HansHolterSorensen.webp";
-import SunilGandhi from "../../../assets/Consultantpage/Consultant/SunilGandhi.webp";
 import Tilson from "../../../assets/globalpage/teamsweden/trilson.webp";
 import Winsborn from "../../../assets/globalpage/teamsweden/Ann-Winsborn.webp";
 import EllinorDam from "../../../assets/globalpage/teamsweden/Ellinor-Dam.webp";
@@ -63,7 +62,7 @@ import JeanMarcBURY from "../../../assets/Consultantpage/Consultant/JeanMarcBURY
 import AnkerEriksen from "../../../assets/Consultantpage/Consultant/AnkerEriksen.webp";
 import SangeetaSabharwal from "../../../assets/Consultantpage/Consultant/sangeeta-sabarwal.webp";
 import VijayBajaj from "../../../assets/Consultantpage/Consultant/VijayBajaj.webp";
-
+import SunilGandhi from "../../../assets/Consultantpage/Consultant/Sunilgandhi.webp";
 export const consultantData = [
   {
     id: 1,
