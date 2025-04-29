@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 import { Navigation } from "swiper/modules";
@@ -86,9 +87,11 @@ const CaseStudies = ({ SuccessData, heading }) => {
 
                   {/* Bottom Gradient + Text */}
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                    <p className="text-white text-sm md:text-base font-semibold leading-snug">
-                      {slide.title}
-                    </p>
+                    <Link href={slide.link}>
+                      <p className="text-white text-sm md:text-base font-semibold leading-snug">
+                        {slide.title}
+                      </p>
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
