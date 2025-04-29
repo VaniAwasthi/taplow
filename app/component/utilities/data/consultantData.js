@@ -1036,7 +1036,7 @@ positions in domestic and global assignments. She’s also helping companies in 
     id: 37,
     name: "Sheldon Zhou",
     role: "Managing Partner",
-    location: "P.R.China",
+    location: "China",
     services: [" Executive Search"],
     phone: "86-13801632778",
     email: "szhou@taplowgroup.com.cn",
