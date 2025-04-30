@@ -63,6 +63,9 @@ import AnkerEriksen from "../../../assets/Consultantpage/Consultant/AnkerEriksen
 import SangeetaSabharwal from "../../../assets/Consultantpage/Consultant/sangeeta-sabarwal.webp";
 import VijayBajaj from "../../../assets/Consultantpage/Consultant/VijayBajaj.webp";
 import SunilGandhi from "../../../assets/Consultantpage/Consultant/SunilImg.webp";
+import ManuelVermeer from "../../../assets/Consultantpage/Consultant/ManuelVermeer.webp";
+import Dimitar from "../../../assets/Consultantpage/Consultant/Dimitar.webp";
+import Elibulgaria from "../../../assets/Consultantpage/Consultant/Eli-bulgaria.webp";
 export const consultantData = [
   {
     id: 1,
@@ -1947,5 +1950,79 @@ environments, he brings with him the astute skills in HR with an eye for Talent 
 transformation expertise.
 
 Vijay has a master’s degree in human resources management from the Tata Institute of Social Sciences, in India.`,
+  },
+  {
+    id: 67,
+    name: "Prof. Dr. Manuel Vermeer",
+    role: "Owner, Dr. Vermeer Consult",
+    location: "Germany",
+    phone: "+49 171 7868546",
+    email: "asia@vermeer-consult.com",
+    linkdine:
+      "https://www.linkedin.com/in/prof-dr-manuel-vermeer-5b608361/?originalSubdomain=de",
+    services: [
+      "Executive Search and Coaching",
+      "Consulting for Asian companies in Europe and vice versa",
+    ],
+    industrySectors: [
+      "Consumer Products",
+      "Financial Services",
+      "Digital",
+      "Industrial",
+      "Life Science",
+      "Professional Services",
+      "Real Estate",
+      "Non-Profit",
+      "All",
+    ],
+    image: ManuelVermeer,
+    address: `Taplow Executive Search  
+Opernplatz 14
+60313 Frankfurt, Germany`,
+    bio: `Consultant on doing business in Asia, fluent in Mandarin, extensive work with
+Sangeeta Sabharwal in India, conducting Executive Search for European companies in China/India and
+Chinese/Indian companies in Germany.`,
+  },
+  {
+    id: 68,
+    name: "Dimitar Kalev",
+    role: "Managing Partner",
+    location: "Bulgaria",
+    phone: "+359 883 395 194",
+    email: "dkalev@taplowgroup.com",
+    linkdine: "https://www.linkedin.com/in/dimitarkalev/",
+    services: ["Executive Search", "HR Services"],
+    industrySectors: [
+      "ICT & Digital",
+      "Business Process Outsourcing",
+      "Financial Services",
+      "Industry",
+      "Construction & Engineering ",
+    ],
+    image: Dimitar,
+    address: `TAPLOW BULGARIA
+Petar Parchevich 9 Str.
+1000, Sofia, Bulgaria`,
+    bio: `Dimitar Kalev is Managing Partner of Taplow Group Bulgaria. He has been in headhunting and recruitment since 2015 working with international clients on various assignments across several areas such as: ICT & Digital, Outsourcing, Finance, Industry and others. Currently Dimitar is primarily focused on Executive Search on the Bulgarian market and manages high-profile projects for talent acquisition of top professionals for Mid-level and C-level management positions.<br/>Prior to joining The Taplow Group, Dimitar has worked in leading organizations in the technological and finance sectors such as IBM and Raiffeisen Bank. He held positions as a Sales, Business Development Consultant and Project Manager.<br/>Dimitar is a dynamic professional that possesses extensive industry knowledge and at the same time has the attention to detail needed for accurately identifying the right professionals for the right roles. He always aims at building long-term relationships and is results-oriented focusing on delivering service excellence to clients.`,
+  },
+  {
+    id: 69,
+    name: "Eli Stoyneva",
+    role: "Managing Partner",
+    location: "Bulgaria",
+    phone: "+359  898 886  264",
+    email: "estoyneva@taplowgroup.com",
+    linkdine: "https://www.linkedin.com/in/eli-stoyneva/",
+    services: ["Executive Search", "HR Services"],
+    industrySectors: [
+      "ICT & Digital",
+      "Business Process Outsourcing",
+      "Marketing",
+    ],
+    image: Elibulgaria,
+    address: `TAPLOW BULGARIA
+Petar Parchevich 9 Str.
+1000, Sofia, Bulgaria`,
+    bio: `Eli Stoyneva is Managing Partner of Taplow Group Bulgaria. Working in the recruitment field since 2015, she has been part of international projects across several areas such as ICT & Digital, Outsourcing, Finance, Industry and others. Eli is an experienced Team Leader and Business Development expert, currently focusing on Executive Search on the Bulgarian market.<br/> Prior to joining The Taplow Group, Eli has worked in leading organizations in the technological sector such as IBM and Concentrix. Thanks to her fluent Portuguese skills, she has been recruiting Team Leaders and Senior IT Specialists from Portuguese speaking countries across the world.<br/>Eli is a creative and energetic professional that possesses in-depth industry knowledge, she is client-driven focusing on delivering service excellence to clients and always aims at building long-term relationships.`,
   },
 ];
