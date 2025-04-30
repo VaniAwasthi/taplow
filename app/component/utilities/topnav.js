@@ -32,6 +32,7 @@ const navigation = [
     href: "/globals",
     submenu: [
       { name: "Australia", href: "/countries/australia" },
+      { name: "Bulgaria", href: "/countries/bulgaria" },
       { name: "Canada", href: "/countries/canada" },
       { name: "China", href: "/countries/china" },
       { name: "France", href: "/countries/france" },

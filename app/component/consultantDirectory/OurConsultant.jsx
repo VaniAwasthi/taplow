@@ -42,7 +42,7 @@ export default function OurConsultants() {
   // for location Dropdown
   const uniqueLocations = [
     ...new Set(consultantData.map((c) => c.location).filter(Boolean)),
-  ];
+  ].sort();
   //for roles Dropdown
   const uniqueRoles = [
     ...new Set(consultantData.map((c) => c.role).filter(Boolean)),

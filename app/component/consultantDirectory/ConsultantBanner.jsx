@@ -74,7 +74,6 @@ export default function SearchBar({ onSearch, locations, roles }) {
             },
             label: "Service",
             options: [
-              "All",
               "Consulting",
               "Executive Search",
               "Leadership Advisory and Performance",
@@ -88,7 +87,7 @@ export default function SearchBar({ onSearch, locations, roles }) {
               triggerSearch({ role: val });
             },
             label: "Role",
-            options: ["All", ...roles],
+            options: [...roles],
           },
           {
             value: location,
@@ -97,7 +96,7 @@ export default function SearchBar({ onSearch, locations, roles }) {
               triggerSearch({ location: val });
             },
             label: "Location",
-            options: ["All", ...locations],
+            options: [...locations],
           },
         ].map(({ value, setter, label, options }, index) => (
           <select
