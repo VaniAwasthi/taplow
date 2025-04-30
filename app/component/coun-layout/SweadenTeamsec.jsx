@@ -97,7 +97,7 @@ export const TeamSection = ({ country }) => {
                     alt={team.name}
                     width={350}
                     height={350}
-                    className="w-full h-[350px] md:h-72 object-cover rounded-lg shadow"
+                    className="w-full h-[350px] md:h-[350px] object-cover rounded-lg shadow"
                   />
 
                   {/* Hover Overlay on Image only */}

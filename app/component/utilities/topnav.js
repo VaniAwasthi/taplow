@@ -35,6 +35,7 @@ const navigation = [
       { name: "Bulgaria", href: "/countries/bulgaria" },
       { name: "Canada", href: "/countries/canada" },
       { name: "China", href: "/countries/china" },
+      { name: "Finland", href: "/countries/finland" },
       { name: "France", href: "/countries/france" },
       { name: "Germany", href: "/countries/germany" },
       { name: "New Zealand", href: "/countries/new-zealand" },
