@@ -15,6 +15,7 @@ const page = () => {
         desc={BannerData.desc}
         Banner={Banner}
       />
+      {/* test */}
     </>
   );
 };
