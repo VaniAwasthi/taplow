@@ -48,8 +48,8 @@ const page = () => {
       title: "General Information",
       paragraphs: [
         "TAPLOW CONSULTING FRANCE uses both traditional and contemporary recruitment methods, focused on identifying the best talent for your business. Partnering with your organisation to thoroughly understand your goals and drivers, our team of consultants and researchers ensure you make successful executive level appointments.",
-        "Through our intimate knowledge of the talent pool in our key industry segments, we are able to approach the most suitable candidates professionally and with discretion.",
         " We use behavioural-based interviewing techniques to ensure a thorough and accurate understanding of all candidates under consideration. Through regular communication between all parties, we aim to have the most transparent and timely recruitment process possible.",
+        "Through our intimate knowledge of the talent pool in our key industry segments, we are able to approach the most suitable candidates professionally and with discretion.",
         "Precise identification and approach of potential candidates, in-depth interviews to assess their skills and motivation, as well as the quality of their professional experiences, and to give them more information about the company and the position.",
       ],
       image: DiversityImg,
@@ -60,23 +60,8 @@ const page = () => {
       image: generalImg,
       services: [
         {
-          title: "EXECUTIVE SEARCH",
-          content: `<p>Senior level appointments can often be complex and require a careful, discreet approach.
-<b>TAPLOW CONSULTING FRANCE</b> uses both traditional and contemporary recruitment methods, focused on identifying the best talent for your business. Partnering with your organisation to thoroughly understand your goals and drivers, our team of consultants and researchers ensure you make successful executive level appointments.</p>`,
-        },
-        {
-          title: "COACHING",
-          content: `<p>Coaching is a personalised support process which aims at developping individual and collective performances to the advantage of their company.
-It is focused on managers’ daily issues in the broad sense and assists them in realising their professional objectives. It helps them place themselves within the exercise of authority, handle communication and information problems as well as conflicts among people.</p> `,
-        },
-
-        {
           title: "TEAM BUILDING & TRAININGS",
           content: `<p>As part of its interventions, TAPLOW CONSULTING FRANCE first focuses its attention on the project and the company’s values. A diagnosis carried out in situ enables us to build and deliver tailored and innovative modules focused on development of each one’s professionalism.</p> `,
-        },
-        {
-          title: "EVALUATION & ASSESMENT CENTER",
-          content: `<p>valuation is carried out by our experts and enables companies to objectively assess their employees’ skills and motivations. By evaluating your managers and senior executives, we help you make the right decisions. For these services, we rely on efficient and diversified tools, which complete our approach in face-to-face interviews (e.g.: personality questionnaires, aptitude tests, 360-degree feedback…). We are thus able to support you on different fields such as internal mobility, final phase of recruitment, management to identify high performers, and individual performance improvement.</p> `,
         },
         {
           title: "INTERIM MANAGEMENT",
@@ -86,6 +71,21 @@ Within 3 days after your call, we introduce you to a manager with the right cred
         {
           title: "HUMAN CAPITAL SERVICES",
           content: `<p>We understand that successful companies attract and retain the best not by just offering highly competitive salaries but by constantly striving to make the work environment somewhere employees want to be.</p>`,
+        },
+
+        {
+          title: "EVALUATION & ASSESMENT CENTER",
+          content: `<p>valuation is carried out by our experts and enables companies to objectively assess their employees’ skills and motivations. By evaluating your managers and senior executives, we help you make the right decisions. For these services, we rely on efficient and diversified tools, which complete our approach in face-to-face interviews (e.g.: personality questionnaires, aptitude tests, 360-degree feedback…). We are thus able to support you on different fields such as internal mobility, final phase of recruitment, management to identify high performers, and individual performance improvement.</p> `,
+        },
+        {
+          title: "EXECUTIVE SEARCH",
+          content: `<p>Senior level appointments can often be complex and require a careful, discreet approach.
+<b>TAPLOW CONSULTING FRANCE</b> uses both traditional and contemporary recruitment methods, focused on identifying the best talent for your business. Partnering with your organisation to thoroughly understand your goals and drivers, our team of consultants and researchers ensure you make successful executive level appointments.</p>`,
+        },
+        {
+          title: "COACHING",
+          content: `<p>Coaching is a personalised support process which aims at developping individual and collective performances to the advantage of their company.
+It is focused on managers’ daily issues in the broad sense and assists them in realising their professional objectives. It helps them place themselves within the exercise of authority, handle communication and information problems as well as conflicts among people.</p> `,
         },
       ],
     },
