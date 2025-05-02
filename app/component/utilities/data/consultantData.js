@@ -66,6 +66,11 @@ import SunilGandhi from "../../../assets/Consultantpage/Consultant/SunilImg.webp
 import ManuelVermeer from "../../../assets/Consultantpage/Consultant/ManuelVermeer.webp";
 import Dimitar from "../../../assets/Consultantpage/Consultant/Dimitar.webp";
 import Elibulgaria from "../../../assets/Consultantpage/Consultant/Eli-bulgaria.webp";
+import CaterinaTortorella from "../../../assets/Consultantpage/Consultant/CaterinaTortorella.webp";
+import LoryYedid from "../../../assets/Consultantpage/Consultant/LoryYedid.webp";
+import GiovannaBrambilla from "../../../assets/Consultantpage/Consultant/GiovannaBrambilla.webp";
+import PaolaBasaglia from "../../../assets/Consultantpage/Consultant/PaolaBasaglia.webp";
+
 export const consultantData = [
   {
     id: 1,
@@ -1713,34 +1718,34 @@ During his tenure with Revlon, the global colour cosmetics, and beauty goods man
 Talent Acquisition. Darryl was instrumental in the development of a best-in-class talent acquisition team.
 `,
   },
-  //   {
-  //     id: 61,
-  //     name: "Caterina Tortorella",
-  //     role: "Partner",
-  //     location: "Italy",
-  //     phone: "+39 349 3240802",
-  //     email: "caterina.tortorella@valuesearch.it",
-  //     linkdine: "https://www.linkedin.com/in/caterina-tortorella/",
-  //     services: ["Executive Search"],
-  //     industrySectors: [
-  //       "Professional Services",
-  //       "System Integration",
-  //       "Information Technology sectors and deepexpertise in Digital",
-  //       "Cloud",
-  //       "Cyber and AI topics",
-  //     ],
-  //     image: DarrylMiller,
-  //     address: `Galleria San Babila 4`,
-  //     bio: `Caterina holds a degree in Philosophy from the University of Milan.
-  // She has over 25 years of experience in Executive Search, with a focus on executives and top management within the
-  // IT, Digital and Professional Services sectors.<br/>
-  // She has matured a vertical market expertise, collaborating with the most relevant hardware/software vendors,
-  // system integrators and management consulting firms and acquiring a deep knowledge of Digital, Cloud, Cyber
-  // security and AI topics.<br/>
-  // She is also familiar with the search for CIO and CISO functions for medium and large Italian companies.
-  // Fluent in Italian and English.<br/>
-  // `,
-  //   },
+  {
+    id: 61,
+    name: "Caterina Tortorella",
+    role: "Partner",
+    location: "Italy",
+    phone: "+39 349 3240802",
+    email: "caterina.tortorella@valuesearch.it",
+    linkdine: "https://www.linkedin.com/in/caterina-tortorella/",
+    services: ["Executive Search"],
+    industrySectors: [
+      "Professional Services",
+      "System Integration",
+      "Information Technology sectors and deepexpertise in Digital",
+      "Cloud",
+      "Cyber and AI topics",
+    ],
+    image: CaterinaTortorella,
+    address: `Galleria San Babila 4`,
+    bio: `Caterina holds a degree in Philosophy from the University of Milan.
+  She has over 25 years of experience in Executive Search, with a focus on executives and top management within the
+  IT, Digital and Professional Services sectors.<br/>
+  She has matured a vertical market expertise, collaborating with the most relevant hardware/software vendors,
+  system integrators and management consulting firms and acquiring a deep knowledge of Digital, Cloud, Cyber
+  security and AI topics.<br/>
+  She is also familiar with the search for CIO and CISO functions for medium and large Italian companies.
+  Fluent in Italian and English.<br/>
+  `,
+  },
   {
     id: 62,
     name: "Stéphane MARTINOD",
@@ -2024,5 +2029,87 @@ Petar Parchevich 9 Str.
 Petar Parchevich 9 Str.
 1000, Sofia, Bulgaria`,
     bio: `Eli Stoyneva is Managing Partner of Taplow Group Bulgaria. Working in the recruitment field since 2015, she has been part of international projects across several areas such as ICT & Digital, Outsourcing, Finance, Industry and others. Eli is an experienced Team Leader and Business Development expert, currently focusing on Executive Search on the Bulgarian market.<br/> Prior to joining The Taplow Group, Eli has worked in leading organizations in the technological sector such as IBM and Concentrix. Thanks to her fluent Portuguese skills, she has been recruiting Team Leaders and Senior IT Specialists from Portuguese speaking countries across the world.<br/>Eli is a creative and energetic professional that possesses in-depth industry knowledge, she is client-driven focusing on delivering service excellence to clients and always aims at building long-term relationships.`,
+  },
+  {
+    id: 70,
+    name: "Lory Yedid",
+    role: "Partner Value Search",
+    location: "Italy",
+    phone: "+39 335 472851",
+    email: "lory.yedid@valuesearch.it",
+    linkdine: "https://www.linkedin.com/in/lory-yedid-b189432b/",
+    services: ["Executive Search"],
+    industrySectors: ["Fashion", "Retail", "Luxury Goods", "Consumer Goods"],
+    image: LoryYedid,
+    address: `Galleria San Babila 4C, Milan, Italy`,
+    bio: `Lory has gained over 20 years of experience in Executive Search, focusing on the Fashion, Retail, and Luxury Goods
+sectors, first in Paris and later in Milan. She began her career holding managerial positions in leading Fashion
+companies. In 2005, she joined Value Search as a Partner, increasingly specializing in Fashion, Retail, Luxury Goods,
+and Consumer Goods, operating both in Italy and worldwide. She has become a recognized expert in the dynamics,
+changes, and evolutionary trends of these industries, working closely with C-level executives, Top Management, and
+Creative Directors.`,
+  },
+  {
+    id: 71,
+    name: "Giovanna Brambilla",
+    role: "Partner Value Search",
+    location: "Italy",
+    phone: "+39 335 472851",
+    email: "giovanna.brambilla@valuesearch.it",
+    linkdine: "https://www.linkedin.com/in/lory-yedid-b189432b/",
+    services: ["Executive Search"],
+    industrySectors: [
+      "Fashion",
+      "Retail",
+      "Luxury Goods",
+      "Finance",
+      "FMCG",
+      "Industrial",
+    ],
+    image: GiovannaBrambilla,
+    address: `Galleria San Babila 4C, Milan, Italy`,
+    bio: `Giovanna holds a Degree in Economics from Bocconi University in Milan.
+She began her career as a Marketing Manager in the fashion sector and later joined, as a Partner, the Milan office of
+an Executive Search firm, part of a worldwide group.<br/>
+In 2003, she founded Value Search, an Executive Search firm with a client-centric and international approach since its
+foundation. The company joined The Taplow Group in 2005.
+Over the last 20 years, Giovanna has led several international CEO and C-level Executive Searches for both local and
+international clients, supporting them through the different stages of their lifecycle. She has a keen eye for
+entrepreneurial companies as well as public companies.<br/>She has deep expertise in the Luxury Goods, Retail, Consumer and Industrial sectors.
+Giovanna is currently a Board Member of The Taplow Group and has been a Lecturer at the Business School of Il
+Sole24 Ore.<br/>She is deeply passionate about ongoing business and worldwide customer trends and is frequently invited as a guest
+speaker at conferences on Fashion, Luxury and Retail business trends.
+Fluent in Italian, English and French.`,
+  },
+  {
+    id: 72,
+    name: "Paola Basaglia",
+    role: "Partner Value Search",
+    location: "Italy",
+    phone: "+39 338 2700186",
+    email: "paola.basaglia@valuesearch.it",
+    linkdine: "https://www.linkedin.com/in/paolabasaglia/",
+    services: ["Executive Search"],
+    industrySectors: [
+      "CFO Practice",
+      "Professional Services",
+      "Management Consulting/Strategy",
+      "Private Equity",
+    ],
+    image: PaolaBasaglia,
+    address: `Galleria San Babila 4C, Milan, Italy`,
+    bio: `Paola holds a degree in Philosophy from the University of Milan.
+She developed a passion for the HR sector early on, and has over 20 years of experience in Executive Search,
+specializing in the selection of executives and top management for Corporate functions, particularly in Finance. She
+joined Value Search in 2023, an executive search firm that has been part of The Taplow Group since 2005.
+During her first two years, she worked for a recruitment firm specializing in middle management searches,
+particularly for medium-sized entrepreneurial companies. In 2002, she was part of a newly established Executive
+Search Firm. In the early years, Paola focused on Executive Searches across various sectors, including Industrial,
+Information Technology, and Telecommunications. In the following years, she managed senior and top management
+Finance positions across the board, particularly for publicly listed companies, those preparing for IPOs, and
+entrepreneurial firms.<br/>
+Paola has also led projects in collaboration with Private Equity and venture capital funds. Additionally, she has
+specialized in projects within the Professional Services sector, contributing to the development of the Practice.
+Fluent in Italian and English.`,
   },
 ];
