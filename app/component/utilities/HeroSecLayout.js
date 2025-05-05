@@ -11,6 +11,7 @@ const HeroSection = ({
   ButtonText,
   ButtonImage,
   HoverImage,
+  HeroSecDiv,
   mainDivClass = "",
   leftSecClass = "",
   rightSecClass = "",
@@ -22,7 +23,9 @@ const HeroSection = ({
   dividerBackground,
 }) => {
   return (
-    <div className="relative w-full min-h-screen flex items-center overflow-hidden">
+    <div
+      className={`relative w-full min-h-screen flex items-center overflow-hidden ${HeroSecDiv}`}
+    >
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <Image

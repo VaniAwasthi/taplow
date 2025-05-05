@@ -2,6 +2,8 @@
 import React from "react";
 import HeroSecLayout from "../utilities/HeroSecLayout";
 import Banner from "../../assets/aboutuspage/aboutBg.webp";
+// import VideoBanner from "../../assets/aboutuspage/gifnew.mp4";
+// import Banner from "../../assets/aboutuspage/compress.gif";
 import BannerImg from "../../assets/aboutuspage/aboutImage.webp";
 import AllStartedImg from "../../assets/aboutuspage/Group 1000005942.webp";
 import LogoNameImg from "../../assets/aboutuspage/aboutsec.webp";
@@ -16,6 +18,7 @@ export const AboutBanner = () => {
   return (
     <>
       <HeroSecLayout
+        HeroSecDiv="lg:hidden block"
         heroBg={Banner}
         rightImage={BannerImg}
         Heading={Data.title}
@@ -29,6 +32,18 @@ export const AboutBanner = () => {
         ImageClass="transition-transform duration-300  ease-in-out hover:scale-110"
         dividerBackground="linear-gradient(to right, #96A94A 30%, #005581 30%)"
       />
+      <div className="relative hidden lg:block w-full lg:h-[650px] overflow-hidden">
+        <video
+          className="absolute top-0 left-0 w-full h-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src="/videos/gifnew.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </>
   );
 };
