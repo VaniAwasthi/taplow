@@ -121,7 +121,7 @@ export default function OurConsultants() {
                         <Image
                           src={consultant.image}
                           alt={consultant.name}
-                          className="w-[350px] md:w-full h-[350px] md:h-72 object-cover rounded-lg shadow"
+                          className="w-[350px] md:w-full h-[350px] md:h-96 object-cover rounded-lg shadow"
                         />
 
                         {/* Hover Effect */}
