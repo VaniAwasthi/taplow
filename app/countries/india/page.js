@@ -132,6 +132,7 @@ const page = () => {
       <CaseStudies
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
+        textClass="text-sm md:text-lg"
       />
     </>
   );
