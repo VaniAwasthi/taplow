@@ -87,7 +87,7 @@ const CaseStudies = ({ SuccessData, heading }) => {
 
                   {/* Bottom Gradient + Text */}
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                    <Link href={slide.link}>
+                    <Link href={slide.link} target="_blank">
                       <p className="text-white text-sm md:text-base font-semibold leading-snug">
                         {slide.title}
                       </p>
