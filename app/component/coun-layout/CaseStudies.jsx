@@ -6,7 +6,7 @@ import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const CaseStudies = ({ SuccessData, heading }) => {
+const CaseStudies = ({ SuccessData, heading, textClass }) => {
   const [swiperInstance, setSwiperInstance] = useState(null);
   const [isBeginning, setIsBeginning] = useState(true);
   const [isEnd, setIsEnd] = useState(false);
@@ -88,7 +88,9 @@ const CaseStudies = ({ SuccessData, heading }) => {
                   {/* Bottom Gradient + Text */}
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
                     <Link href={slide.link} target="_blank">
-                      <p className="text-white text-sm md:text-base font-semibold leading-snug">
+                      <p
+                        className={`text-white text-sm ${textClass} font-semibold leading-snug`}
+                      >
                         {slide.title}
                       </p>
                     </Link>
