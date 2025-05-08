@@ -2,6 +2,8 @@
 import Link from "next/link";
 import InteractiveMap, { Maplayout } from "./Maplayout";
 import { GreenMap } from "./Worldmap";
+import Mobileview from "../../assets/globalpage/Mobileview.svg";
+import Image from "next/image";
 
 const countries = [
   { index: 1, name: "Australia", link: "/countries/australia" },
@@ -29,7 +31,7 @@ export default function GlobalLocations() {
       {/* Left Column - Country List */}
       <div className="md:w-1/6 w-full px-4 py-8">
         <h2 className="text-3xl font-bold mb-6">Global Locations:</h2>
-        <ul className="space-y-2 text-md">
+        <ul className="grid md:grid-cols-1 grid-cols-3 gap-2 text-md">
           {countries.map((country) => (
             <li key={country.index}>
               <Link
@@ -44,7 +46,10 @@ export default function GlobalLocations() {
       </div>
 
       {/* Right Column - Map */}
-      <div className="md:w-5/6 w-full overflow-hidden  h-full flex justify-center">
+      <div className="w-full block md:hidden">
+        <Image src={Mobileview} alt="map" />
+      </div>
+      <div className="md:flex md:w-5/6 w-full overflow-hidden  md:h-full hidden justify-center">
         <Maplayout />
         {/* <GreenMap /> */}
       </div>

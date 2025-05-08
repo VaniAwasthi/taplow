@@ -153,7 +153,11 @@ const TopNav = () => {
                       {({ open }) => (
                         <>
                           <DisclosureButton className="w-full px-3 py-2 font-medium text-left text-black hover:text-[#98AE40]">
-                            {item.name}
+                            <Link key={item.name} href={item.href}>
+                              <span className="block py-1 text-sm text-black hover:text-[#98AE40]">
+                                {item.name}
+                              </span>
+                            </Link>
                           </DisclosureButton>
                           <DisclosurePanel className="pl-6">
                             {item.submenu.map((sub) => (
