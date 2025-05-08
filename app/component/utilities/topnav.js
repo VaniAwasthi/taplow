@@ -16,14 +16,28 @@ import logo from "../../assets/homePage/logo.png";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about-us" },
-  { name: "Services", href: "/services" },
+  {
+    name: "Services",
+    href: "/services",
+    submenu: [
+      { name: "Executive Search ", href: "/services" },
+      { name: "Executive Interim ", href: "/services" },
+      { name: "Leadership Advisory ", href: "/services" },
+      { name: "Leadership Training", href: "/services" },
+    ],
+  },
   {
     name: "Sectors",
     href: "/sectors",
     submenu: [
-      { name: "Consumer Product", href: "/sectors" },
-      { name: "Financial Service", href: "/sectors" },
+      { name: "Consumer Products", href: "/sectors" },
+      { name: "Financial Services", href: "/sectors" },
       { name: "Digital ITC", href: "/sectors" },
+      { name: "Not for Profit", href: "/sectors" },
+      { name: "Life Science", href: "/sectors" },
+      { name: "Professional Services", href: "/sectors" },
+      { name: "Real Estates", href: "/sectors" },
+      { name: "Industrials", href: "/sectors" },
     ],
   },
   { name: "Insights", href: "/insights" },
@@ -91,7 +105,7 @@ const TopNav = () => {
                             {item.name}
                           </span>
                         </Link>
-                        <div className="absolute left-0 mt-2 hidden group-hover:block bg-white shadow-lg rounded-md z-50 min-w-[180px]">
+                        <div className="absolute left-0 mt-2 hidden group-hover:block bg-white shadow-lg rounded-md z-50 min-w-[180px] overflow-y-scroll h-40">
                           {item.submenu.map((sub) => (
                             <Link key={sub.name} href={sub.href}>
                               <div className="px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-[#98AE40]">
