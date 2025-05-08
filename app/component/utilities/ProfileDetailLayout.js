@@ -45,14 +45,14 @@ const ProfileDetailLayout = ({ consultant }) => {
             ></span>
           </div>
         </div>
-        <a
-          href={consultant.linkedin}
+        <Link
+          href={consultant.linkdine}
           target="_blank"
           className="mt-4 flex items-center justify-center bg-blue-600 text-white py-2 rounded-lg"
         >
           <FaLinkedin className="text-white w-5 h-5 mr-2" />
           <span className="ml-2">Connect on LinkedIn</span>
-        </a>
+        </Link>
       </div>
 
       {/* Bio Section */}
