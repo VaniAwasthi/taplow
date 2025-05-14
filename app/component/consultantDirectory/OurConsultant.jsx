@@ -44,9 +44,7 @@ export default function OurConsultants() {
     ...new Set(consultantData.map((c) => c.location).filter(Boolean)),
   ].sort();
   //for roles Dropdown
-  const uniqueRoles = [
-    ...new Set(consultantData.map((c) => c.role).filter(Boolean)),
-  ];
+  const uniqueRoles = ["Consultant", "Managing Partner", "Researcher"];
   // for search functionality
   const filteredConsultants = consultantData.filter((c) => {
     const matchesSearch =
@@ -121,7 +119,7 @@ export default function OurConsultants() {
                         <Image
                           src={consultant.image}
                           alt={consultant.name}
-                          className="w-[350px] md:w-full h-[350px] md:h-96 object-cover rounded-lg shadow"
+                          className="w-[350px] md:w-full h-[350px] md:h-[19rem] object-cover rounded-lg shadow"
                         />
 
                         {/* Hover Effect */}

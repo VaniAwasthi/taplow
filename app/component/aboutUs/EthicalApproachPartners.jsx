@@ -13,8 +13,11 @@ import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
 import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
 import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
 import img from "../../assets/aboutuspage/Approach.webp";
-import partner1 from "../../assets/aboutuspage/Taplow1.webp";
-import partner2 from "../../assets/aboutuspage/Taplow2.webp";
+import partner1 from "../../assets/aboutuspage/partner1.webp";
+import partner2 from "../../assets/aboutuspage/partner2.webp";
+import partner3 from "../../assets/aboutuspage/partner3.webp";
+import partner4 from "../../assets/aboutuspage/partner4.webp";
+import partner5 from "../../assets/aboutuspage/partner5.webp";
 
 export const Ethical = () => {
   const slides = [
@@ -212,21 +215,21 @@ export const Partners = () => {
       title: "A professional, inclusive, and respectful workplace.",
     },
     {
-      image: partner1,
+      image: partner3,
       title: "Compliance with global laws and best practices.",
     },
     {
-      image: partner2,
+      image: partner4,
       title: "A professional, inclusive, and respectful workplace.",
     },
     {
-      image: partner1,
+      image: partner5,
       title: "Compliance with global laws and best practices.",
     },
-    {
-      image: partner2,
-      title: "A professional, inclusive, and respectful workplace.",
-    },
+    // {
+    //   image: partner2,
+    //   title: "A professional, inclusive, and respectful workplace.",
+    // },
   ];
 
   const [swiperInstance, setSwiperInstance] = useState(null);

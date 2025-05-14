@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Links */}
-        <div className="grid grid-cols-3 gap-12 text-left">
+        <div className="pl-[8rem] grid grid-cols-4 gap-12 text-left">
           {/* Company */}
           <div>
             <h4 className="font-semibold mb-2 text-black">Company</h4>
@@ -62,24 +62,29 @@ const Footer = () => {
               </li>
               <li>
                 <a href="/sectors" className="no-underline">
-                  Sectors Insights
+                  Sectors
+                </a>
+              </li>
+              <li>
+                <a href="/insights" className="no-underline">
+                  Insights
                 </a>
               </li>
               <li>
                 <a href="/globals" className="no-underline">
-                  Global Consultant
+                  Global Location
                 </a>
               </li>
               <li>
                 <a href="/consultant-directory" className="no-underline">
-                  Directory
+                  Consultant Directory
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/contact" className="no-underline">
                   Contact Us
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -107,11 +112,11 @@ const Footer = () => {
                   Board Advisory Services
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/services" className="no-underline">
                   Virtual Leadership Training
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -127,6 +132,14 @@ const Footer = () => {
               <li>Not For Profit Professional Services</li>
               <li>Real Estate</li>
             </ul>
+          </div>
+          {/* contactUs */}
+          <div>
+            <h4 className="font-semibold mb-2 text-black">
+              <a href="/contact" className="no-underline">
+                Contact Us
+              </a>
+            </h4>
           </div>
         </div>
       </div>

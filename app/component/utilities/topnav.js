@@ -22,8 +22,8 @@ const navigation = [
     submenu: [
       { name: "Executive Search ", href: "/services" },
       { name: "Executive Interim ", href: "/services" },
-      { name: "Leadership Advisory ", href: "/services" },
-      { name: "Leadership Training", href: "/services" },
+      { name: "Board Advisory ", href: "/services" },
+      { name: "Leadership Performance and Advisory", href: "/services" },
     ],
   },
   {
@@ -42,7 +42,7 @@ const navigation = [
   },
   { name: "Insights", href: "/insights" },
   {
-    name: "Global",
+    name: "Global Location",
     href: "/globals",
     submenu: [
       { name: "Australia", href: "/countries/australia" },
@@ -72,7 +72,7 @@ const TopNav = () => {
   const pathname = usePathname();
 
   return (
-    <header className="top-0 z-[99]">
+    <header className="top-0 z-50 bg-white">
       <Disclosure as="nav" className="pt-4">
         {({ open }) => (
           <>
@@ -96,9 +96,9 @@ const TopNav = () => {
                       <div key={item.name} className="relative group">
                         <Link href={item.href}>
                           <span
-                            className={`px-3 py-2 text-base font-normal cursor-pointer ${
+                            className={`px-3 py-1 text-base font-normal cursor-pointer ${
                               pathname.startsWith(item.href)
-                                ? "text-white bg-[#98AE40] pb-5"
+                                ? "text-white bg-[#98AE40] pb-[0.7rem]"
                                 : "text-black hover:text-black"
                             }`}
                           >
@@ -120,7 +120,7 @@ const TopNav = () => {
                         <span
                           className={`px-3 py-2 text-base font-normal ${
                             pathname === item.href
-                              ? "text-white bg-[#98AE40] pb-5"
+                              ? "text-white bg-[#98AE40] pb-[10px]"
                               : "text-black hover:text-black"
                           }`}
                         >

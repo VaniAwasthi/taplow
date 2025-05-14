@@ -17,8 +17,9 @@ const ProfileDetailLayout = ({ consultant }) => {
         <Image
           src={consultant.image}
           alt={consultant.name}
-          width={200}
+          width={400}
           height={200}
+          className="h-[25rem] md:h-[21rem]"
         />
         <h2 className="text-2xl font-bold text-left mt-4 mb-2">
           {consultant.name}
