@@ -58,7 +58,7 @@ const ServicesSlider = () => {
   }, [swiperInstance]);
 
   return (
-    <div className="container mx-auto px-4 md:max-w-6xl">
+    <div className="container mx-auto px-4 md:max-w-7xl">
       <div className="relative w-full flex flex-col items-start ustify-center md:justify-left space-y-6">
         <h2 className="text-4xl redhat font-base pb-[1.5rem] text-center md:text-left j">
           {data.heading}
