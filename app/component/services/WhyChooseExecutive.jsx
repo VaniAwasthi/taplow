@@ -10,48 +10,8 @@ import "swiper/css/autoplay";
 // Import your images
 import LeftArrow from "../../assets/servicepage/arrow-lef.png";
 import RightArrow from "../../assets/homePage/rightarrow.png";
-import Icon1 from "../../assets/servicepage/Icon1.png";
-import Icon2 from "../../assets/servicepage/Icon2.png";
-import Icon3 from "../../assets/servicepage/Icon3.png";
-import Icon4 from "../../assets/servicepage/Icon4.png";
-import Icon5 from "../../assets/servicepage/Icon5.png";
-import Icon6 from "../../assets/servicepage/Icon6.png";
 
-const WhyChooseExecutive = () => {
-  const heading = "Why Choose Taplow for Executive Search?";
-
-  const cards = [
-    {
-      img: Icon1,
-      title: "Bespoke Talent Solutions",
-      desc: "Every executive role is unique. We customize searches to align with your business goals, industry trends, and leadership requirements.",
-    },
-    {
-      img: Icon2,
-      title: "Global Reach, Local Expertise",
-      desc: "With consultants across key global markets, we identify top talent wherever your business operates.",
-    },
-    {
-      img: Icon3,
-      title: "Deep Industry Knowledge",
-      desc: "Our sector specialists understand the challenges and opportunities specific to your industry.",
-    },
-    {
-      img: Icon4,
-      title: "Commitment to Long-Term Success",
-      desc: "Our candidates aren’t just hires—they are future leaders who drive transformation and growth.",
-    },
-    {
-      img: Icon5,
-      title: "Rigorous Candidate Evaluation",
-      desc: "We assess skills, mindset, leadership potential, and cultural alignment for long-term success.",
-    },
-    {
-      img: Icon6,
-      title: "End-to-End Leadership Support",
-      desc: "Beyond search, we offer leadership advisory, succession planning, and talent retention strategies.",
-    },
-  ];
+const WhyChooseExecutive = ({ heading, cards }) => {
   const swiperRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [swiperInstance, setSwiperInstance] = useState(null);
