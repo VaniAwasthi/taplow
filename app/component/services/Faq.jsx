@@ -51,10 +51,10 @@ const Faq = () => {
 
   return (
     <div className="container mx-auto px-4 md:max-w-6xl my-4">
-      <div className="flex flex-col md:flex-row justify-center md:justify-start items-start redhat">
+      <div className="flex flex-col lg:flex-row justify-center md:justify-start items-start redhat">
         {/* Left Section */}
-        <div className="w-full md:w-1/2 p-4 md:p-6">
-          <h2 className="text-lg md:text-3xl md:w-[300px] w-full font-normal text-center redhat mt-[1rem]">
+        <div className="w-full lg:w-1/2 p-4 md:p-6">
+          <h2 className="text-lg md:text-3xl lg:w-[300px] w-full font-normal text-center redhat mt-[1rem]">
             Frequently Asked Questions for Executive Search
           </h2>
         </div>
