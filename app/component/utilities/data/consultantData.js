@@ -1788,7 +1788,7 @@ Managers, and develop since then the Executive Interim practice with Taplow Fran
   },
   {
     id: 63,
-    name: "Marine DUMONT",
+    name: "Marine Dumont",
     role: "Leadership Advisory and Performance",
     location: "France",
     phone: "+33 635 45 75 76",

@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Links */}
-        <div className="pl-[8rem] grid grid-cols-4 gap-12 text-left">
+        <div className="pl-2 md:pl-[8rem] grid grid-cols-4 gap-12 text-left">
           {/* Company */}
           <div>
             <h4 className="font-semibold mb-2 text-black">Company</h4>

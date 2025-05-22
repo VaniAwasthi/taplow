@@ -23,7 +23,10 @@ const navigation = [
       { name: "Executive Search ", href: "/services" },
       { name: "Executive Interim ", href: "/services" },
       { name: "Board Advisory ", href: "/services" },
-      { name: "Leadership Performance and Advisory", href: "/services" },
+      {
+        name: "Leadership Performance and Advisory",
+        href: "/services/leadershipboardadvisoryandperformance",
+      },
     ],
   },
   {
@@ -152,12 +155,24 @@ const TopNav = () => {
                     <Disclosure key={item.name} as="div" className="w-full">
                       {({ open }) => (
                         <>
-                          <DisclosureButton className="w-full px-3 py-2 font-medium text-left text-black hover:text-[#98AE40]">
-                            <Link key={item.name} href={item.href}>
-                              <span className="block py-1 text-sm text-black hover:text-[#98AE40]">
-                                {item.name}
-                              </span>
-                            </Link>
+                          <DisclosureButton className="w-full px-3 py-2 font-medium text-left text-black hover:text-[#98AE40] flex justify-between items-center">
+                            <span>{item.name}</span>
+                            {/* Optional arrow icon */}
+                            <svg
+                              className={`w-4 h-4 transform transition-transform duration-300 ${
+                                open ? "rotate-180" : ""
+                              }`}
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M19 9l-7 7-7-7"
+                              />
+                            </svg>
                           </DisclosureButton>
                           <DisclosurePanel className="pl-6">
                             {item.submenu.map((sub) => (
