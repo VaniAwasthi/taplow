@@ -1,11 +1,15 @@
 "use client";
-import { HeroSection } from "@/app/component/boardadvisory/HeroAboutWhy";
+import {
+  AboutBoard,
+  HeroSection,
+} from "@/app/component/boardadvisory/HeroAboutWhy";
 import React from "react";
 
 const Page = () => {
   return (
     <>
       <HeroSection />
+      <AboutBoard />
     </>
   );
 };

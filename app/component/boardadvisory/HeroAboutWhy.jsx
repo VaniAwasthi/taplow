@@ -2,6 +2,8 @@
 import React from "react";
 import heroBg from "../../assets/servicepage/boardadvisory/boardAdvisoryBanner.webp";
 import Image from "next/image";
+import ExecutiveSearch from "../services/ExecutiveSearch";
+import BoardImage from "../../assets/servicepage/boardadvisory/BoardAdvisory.webp";
 export const HeroSection = () => {
   const Heading =
     "Guiding Boards. Empowering Leadership. Enabling Performance.";
@@ -37,5 +39,18 @@ export const HeroSection = () => {
         </p>
       </div>
     </div>
+  );
+};
+
+export const AboutBoard = () => {
+  const data = {
+    heading: " Our Board Advisory Expertise",
+    Img: BoardImage,
+    description: `Board leadership today demands more than oversight—it requires foresight, diversity of thought, and the ability to guide through complexity. At The Taplow Group, our consultants draw on years of executive experience and global insight to support board effectiveness, governance best practices, and leadership succession at the highest levels. <br>Our work spans both mature and emerging markets, offering board-level advisory services to public companies, private enterprises, family-led businesses, and mission-driven organisations. Whether supporting board recruitment, refining board composition, or facilitating CEO succession planning, we help boards fulfil their responsibilities while preparing for the future.`,
+  };
+  return (
+    <>
+      <ExecutiveSearch ExecutiveData={data} />
+    </>
   );
 };

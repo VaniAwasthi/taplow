@@ -40,17 +40,17 @@ const page = () => {
       id: 2,
       image: officeImage2,
       name: "Toronto",
-      address: "33, St James Square, London, SW1Y 4JS, UK",
-      phone: "+44(0)1442 383361",
-      email: "eric@macdonaldsearchgroup.com",
+      // address: "33, St James Square, London, SW1Y 4JS, UK",
+      // phone: "+44(0)1442 383361",
+      // email: "eric@macdonaldsearchgroup.com",
     },
     {
       id: 3,
       image: officeImage3,
       name: "Edmonton",
-      address: "33, St James Square, London, SW1Y 4JS, UK",
-      phone: "+44(0)1442 383361",
-      email: "eric@macdonaldsearchgroup.com",
+      // address: "33, St James Square, London, SW1Y 4JS, UK",
+      // phone: "+44(0)1442 383361",
+      // email: "eric@macdonaldsearchgroup.com",
     },
   ];
 

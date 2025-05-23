@@ -28,9 +28,9 @@ const page = () => {
       id: 1,
       image: officeImage2,
       name: "Paris",
-      address: "19 rue Maurice Bouchor, 69007 Lyon, France",
-      phone: "+44(0)1442 383361",
-      email: "eric@macdonaldsearchgroup.com",
+      // address: "19 rue Maurice Bouchor, 69007 Lyon, France",
+      // phone: "+44(0)1442 383361",
+      // email: "eric@macdonaldsearchgroup.com",
     },
     {
       id: 2,

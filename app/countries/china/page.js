@@ -32,7 +32,7 @@ const page = () => {
       name: "Beijing",
       address:
         "2301, Huai Hai Zhong Hua Building, 885 Ren Min Rd. Shanghai 200010, PR China.",
-      phone: "+44(0)1442 383361",
+      // phone: "+44(0)1442 383361",
       email: "eric@macdonaldsearchgroup.com",
     },
     {
@@ -41,7 +41,7 @@ const page = () => {
       name: "Shanghai",
       address:
         "2301, Huai Hai Zhong Hua Building, 885 Ren Min Rd. Shanghai 200010, PR China.",
-      phone: "+44(0)1442 383361",
+      // phone: "+44(0)1442 383361",
       email: "eric@macdonaldsearchgroup.com",
     },
     {
@@ -50,7 +50,7 @@ const page = () => {
       name: "Qingdao",
       address:
         "Suite 801, Central Plaza, No. 227 Huangpi North Road, Huangpu District, Shanghai, 200003, PR China",
-      phone: "+44(0)1442 383361",
+      // phone: "+44(0)1442 383361",
       email: "eric@macdonaldsearchgroup.com",
     },
   ];
