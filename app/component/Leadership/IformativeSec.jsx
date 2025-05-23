@@ -22,20 +22,23 @@ import { consultantData } from "../utilities/data/consultantData";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 export const PerformanceLeadershipSection = () => {
+  const HeadingDiv =
+    "flex space-y-2 space-x-2 md:space-x-4 justify-center items-center";
+  const HeadingText =
+    "w-full text-center md:text-left text-[24px] md:text-[27px] font-normal";
+  const Divider = "h-[5px] w-full md:w-[250px] bg-[#859839] rounded-xl";
   return (
     <section className="max-w-7xl mx-auto px-4 py-12 space-y-16">
       {/* Section 1: Team Performance Enhancement */}
-      <div>
-        <div className="flex space-y-2 justify-center items-center">
-          <div className="w-1/3 ">
-            <h2 className=" w-full text-[27px] font-normal ">
-              Team Performance Enhancement
-            </h2>
-            <div className="h-[5px] w-[100px] md:w-[250px] bg-[#859839] rounded-xl"></div>
+      <div id="team-performance">
+        <div className={HeadingDiv}>
+          <div className="md:w-1/3 w-full ">
+            <h2 className={HeadingText}>Team Performance Enhancement</h2>
+            <div className={Divider}></div>
           </div>
-          <div className="h-[1px] w-2/3 bg-[#C1C1C1]"></div>
+          <div className="h-[1px] hidden md:block w-2/3 bg-[#C1C1C1]"></div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 text-[#666666]">
+        <div className="px-2 mt-10 grid grid-cols-1 lg:grid-cols-2 gap-8 text-[#666666]">
           <div>
             <p className="mb-4 text-[14px]">
               We leverage our expertise to design customised team optimisation
@@ -83,17 +86,15 @@ export const PerformanceLeadershipSection = () => {
       </div>
 
       {/* Section 2: Leadership Development */}
-      <div>
-        <div className="flex space-y-2 justify-center items-center mb-6">
-          <div className="h-[1px] mx-3 w-2/3 bg-[#C1C1C1]"></div>
-          <div className="w-1/3 ">
-            <h2 className=" w-full text-[27px] font-normal ">
-              Leadership Development
-            </h2>
-            <div className="h-[5px] w-[100px] md:w-[250px] bg-[#859839] rounded-xl"></div>
+      <div id="leadership-development">
+        <div className={HeadingDiv}>
+          <div className="h-[1px] hidden md:block w-2/3 bg-[#C1C1C1]"></div>
+          <div className="md:w-1/3 w-full ">
+            <h2 className={HeadingText}>Leadership Development</h2>
+            <div className={Divider}></div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="px-4 mt-8 grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Column 1 */}
           <div>
             <h3 className="text-2xl text-[#005581] font-bold redhat mb-4">
@@ -181,17 +182,15 @@ export const PerformanceLeadershipSection = () => {
         </div>
       </div>
       {/* Section-3 Change management */}
-      <div>
-        <div className="flex space-y-2 justify-center items-center mb-6">
-          <div className="w-1/3 ">
-            <h2 className=" w-full text-[27px] font-normal ">
-              Change Management
-            </h2>
-            <div className="h-[5px] w-[100px] md:w-[250px] bg-[#859839] rounded-xl mt-1 mx-auto"></div>
+      <div id="change-management">
+        <div className={HeadingDiv}>
+          <div className="md:w-1/3 w-full ">
+            <h2 className={HeadingText}>Change Management</h2>
+            <div className={Divider}></div>
           </div>
-          <div className="h-[1px] w-2/3 bg-[#C1C1C1]"></div>
+          <div className="h-[1px] hidden md:block w-2/3 bg-[#C1C1C1]"></div>
         </div>
-        <div className="grid grid-cols-1 gap-8 text-[#666666]">
+        <div className="px-4  mt-8 grid grid-cols-1 gap-8 text-[#666666]">
           <div>
             <p className="mb-4 text-[14px]">
               Our expert change management process helps organisations smoothly
@@ -218,17 +217,15 @@ export const PerformanceLeadershipSection = () => {
         </div>
       </div>
       {/* Section-4 Assessment Insight */}
-      <div>
-        <div className="flex space-y-2 justify-center items-center mb-6">
-          <div className="h-[1px] w-2/3 bg-[#C1C1C1]"></div>
-          <div className="w-1/3 ">
-            <h2 className=" w-full text-[27px] font-normal ">
-              Assessment Insights
-            </h2>
-            <div className="h-[5px] w-[100px] md:w-[250px] bg-[#859839] rounded-xl mt-1 "></div>
+      <div id="assessment-insights">
+        <div className={HeadingDiv}>
+          <div className="h-[1px] hidden md:block w-2/3 bg-[#C1C1C1]"></div>
+          <div className="md:w-1/3 w-full ">
+            <h2 className={HeadingText}>Assessment Insights</h2>
+            <div className={Divider}></div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div className="px-4 mt-8 grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Column 1 */}
           <div>
             <h3 className="text-2xl text-[#005581] font-bold redhat mb-4">
@@ -376,17 +373,15 @@ export const PerformanceLeadershipSection = () => {
         </div>
       </div>
       {/* Section-5 Advisory Services */}
-      <div>
-        <div className="flex space-y-2 justify-center items-center">
-          <div className="w-1/3 ">
-            <h2 className=" w-full text-[27px] font-normal ">
-              Advisory Services
-            </h2>
-            <div className="h-[5px] w-[100px] md:w-[250px] bg-[#859839] rounded-xl"></div>
+      <div id="advisory-services">
+        <div className={HeadingDiv}>
+          <div className="md:w-1/3 w-full ">
+            <h2 className={HeadingText}>Advisory Services</h2>
+            <div className={Divider}></div>
           </div>
-          <div className="h-[1px] w-2/3 bg-[#C1C1C1]"></div>
+          <div className="h-[1px] hidden md:block w-2/3 bg-[#C1C1C1]"></div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 text-[#666666]">
+        <div className="px-4 mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8 text-[#666666]">
           {/* columm-1 */}
           <div>
             <h3 className="text-2xl text-[#005581] font-bold redhat mb-4">
@@ -484,8 +479,9 @@ export const AdvisoryLeader = () => {
   return (
     <div className="p-6 md:max-w-7xl mx-auto" ref={consultantSectionRef}>
       <h2 className="text-left text-3xl md:text-4xl font-normal my-8 py-2 relative w-full md:w-2/3">
-        Engage with our Key Global Leadership Advisors and Performance Experts
-        <div className="w-60 h-1 md:ml-[3rem] bg-[#96A94A]  mt-2"></div>
+        Engage with our Key Global <br />
+        Leadership Advisors and Performance Experts
+        <div className="w-70 h-1 md:ml-[1rem] bg-[#96A94A]  mt-2"></div>
       </h2>
 
       <div className="relative mt-6">

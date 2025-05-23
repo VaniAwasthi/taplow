@@ -5,7 +5,7 @@ import BackgroundImage from "../../assets/homePage/getintouchbg.webp";
 import ButtonImg from "../../assets/homePage/getintouchIcon.png";
 const ContcatSection = ({}) => {
   const ContactData = {
-    heading: "Talk to an Executive Search Expert",
+    heading: "Talk to an Expert",
     buttonText: "Get In Touch!",
     description:
       "Ready to find your next great leader? Fill out the form below to connect with our executive search consultants and discuss your hiring needs.",
