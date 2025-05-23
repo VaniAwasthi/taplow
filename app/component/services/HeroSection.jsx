@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import BannerLayout from "../utilities/BannerLayout";
 import heroBg from "../../assets/servicepage/herobg.webp";
 import ButtonImage from "../../assets/homePage/btn-img.svg";
 import HoverImage from "../../assets/homePage/hover.svg";

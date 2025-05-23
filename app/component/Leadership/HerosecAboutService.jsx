@@ -44,31 +44,33 @@ export const HeroSection = () => {
 };
 
 export const AboutServices = () => {
+  const heading = "Our Leadership Board Advisory and Performance";
   const Content =
     "At The Taplow Group, we deliver leadership advisory services that elevate both individual capability and team performance. Our approach integrates deep assessment insights, leadership management expertise, and strategic advice to help organisations build high-performing, aligned, and resilient teams. From enhancing leadership potential to driving team effectiveness, we support you in navigating complexity and accelerating success through impactful, people-focused solutions.";
 
   return (
     <>
-      <div className="mx-auto relative mt-[10rem] mb-[4rem] md:mt-6 md:mb-[2rem] w-full max-w-7xl px-6 md:px-12">
-        <div className="flex flex-col-reverse md:flex-row items-stretch gap-0 h-[200px] ">
+      <div className="mx-auto  relative mt-[10rem] mb-[4rem] md:mt-6 md:mb-[2rem] w-full max-w-7xl px-6 md:px-12">
+        <div className="flex flex-col-reverse md:flex-row  gap-0 ">
           {/* Left Section: Content */}
-          <div className="relative w-full md:left-[2rem]  md:w-2/3 bg-[#859839] p-6 md:p-8 shadow-xl text-white rounded-lg  flex flex-col justify-center hover:scale-105 transition-transform duration-300 hover:cursor-pointer">
+          <div className="relative w-full md:left-[2rem]  bg-[#859839] p-6 md:p-6 shadow-xl text-white rounded-lg  flex flex-col justify-center hover:scale-105 transition-transform duration-300 hover:cursor-pointer">
             {/* Blue Bar on Top */}
             <div className="absolute -top-2 left-[2rem] w-[70px] h-2 bg-[#024996] rounded-md"></div>
-
+            <h2 className="text-[28px] redhat font-normal mb-2 leading-relaxed text-left">
+              {heading}
+            </h2>
+            <div className="mb-4 w-[300px] h-[2px] bg-[#024996] "></div>
             <p className="text-sm md:text-[15px] leading-snug redhat">
               {Content}
             </p>
           </div>
 
           {/* Right Section: Image */}
-          <div className="w-full md:w-1/3">
+          <div className="w-full ">
             <Image
               src={AboutleaderImg}
               alt="Executive Search"
-              width={700}
-              height={400}
-              className="w-full h-full object-cover rounded-lg shadow-xl"
+              className="w-[100%] h-full object-fill rounded-lg shadow-xl"
             />
           </div>
         </div>
@@ -88,6 +90,7 @@ export const ServicesSection = () => {
         "Strategic Workshop Facilitation",
       ],
       icon: Icon1,
+      id: "team-performance",
     },
     {
       title: "Leadership Development",
@@ -98,6 +101,7 @@ export const ServicesSection = () => {
         "High Performing Executive Program",
       ],
       icon: Icon2,
+      id: "leadership-development",
     },
     {
       title: "Change Management",
@@ -111,6 +115,7 @@ export const ServicesSection = () => {
         "Change Sustainability & Reinforcement",
       ],
       icon: Icon3,
+      id: "change-management",
     },
     {
       title: "Assessment Insights",
@@ -122,6 +127,7 @@ export const ServicesSection = () => {
         "Organizational Assessment",
       ],
       icon: Icon4,
+      id: "assessment-insights",
     },
     {
       title: "Advisory Services",
@@ -134,9 +140,16 @@ export const ServicesSection = () => {
         "Diversity and Inclusion Advisory",
       ],
       icon: Icon5,
+      id: "advisory-services",
     },
   ];
-
+  // for section scroll
+  const scrollToSection = (id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   const swiperRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -156,7 +169,10 @@ export const ServicesSection = () => {
         >
           {data.map((item, idx) => (
             <SwiperSlide key={idx}>
-              <div key={idx} className="relative text-center">
+              <div
+                className="relative text-center cursor-pointer"
+                onClick={() => scrollToSection(item.id)}
+              >
                 {/* Polygon Background with Overlay Text */}
                 <div className="relative ">
                   <Image
@@ -167,7 +183,7 @@ export const ServicesSection = () => {
 
                   <div className="absolute inset-0 flex flex-col justify-between items-center px-4 py-6 text-white">
                     {/* Title */}
-                    <h3 className="text-[20px] text-wrap w-[120px] md:w-full font-semibold leading-tight text-[#006174] text-center  xl:px-10">
+                    <h3 className="text-[18px] text-wrap w-[120px] md:w-full font-semibold leading-tight text-[#006174] text-center py-8  xl:px-10">
                       {item.title}
                     </h3>
 

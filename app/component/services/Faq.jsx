@@ -41,12 +41,6 @@ const Faq = () => {
       answer:
         "We provide a personalized, hands-on approach with a strong global network.",
     },
-    {
-      index: 6,
-      question: "What sets AlignUI apart from other copy-paste libraries?",
-      answer:
-        "AlignUI is built for flexibility and customization, unlike rigid, pre-made libraries.",
-    },
   ];
 
   return (
