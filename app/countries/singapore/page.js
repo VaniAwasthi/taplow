@@ -8,7 +8,7 @@ import {
 import OneOffice from "@/app/component/coun-layout/OneOffice";
 import officeImage from "../../assets/globalpage/singaporeOffice.webp";
 import DrivingLeadership from "@/app/component/coun-layout/DrivingLeadership";
-import Singaporeflag from "../../assets/globalpage/SingaporeFlag.webp";
+import Singaporeflag from "../../assets/globalpage/Singapore.svg";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";

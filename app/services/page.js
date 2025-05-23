@@ -17,6 +17,7 @@ import Icon3 from "../assets/servicepage/Icon3.png";
 import Icon4 from "../assets/servicepage/Icon4.png";
 import Icon5 from "../assets/servicepage/Icon5.png";
 import Icon6 from "../assets/servicepage/Icon6.png";
+import SearchImage from "../assets/servicepage/ExecutiveSearch.png";
 
 const Services = () => {
   const heading = "Why Choose Taplow for Executive Search?";
@@ -53,10 +54,16 @@ const Services = () => {
       desc: "Beyond search, we offer leadership advisory, succession planning, and talent retention strategies.",
     },
   ];
+  const ExecutiveData = {
+    heading: " Our Executive Search Expertise",
+    Img: SearchImage,
+    description:
+      "With over 150 consultants across the globe, The Taplow Group has a proven track record of delivering high-caliber executive talent for organisations worldwide. We go beyond traditional recruitment, using in-depth market insights, cultural assessments, and leadership evaluation tools to find the right executives for your business.",
+  };
   return (
     <>
       <HeroSection />
-      <ExecutiveSearch />
+      <ExecutiveSearch ExecutiveData={ExecutiveData} />
       <ExecutiveSearchProcess />
       <WhyChooseExecutive heading={heading} cards={cards} />
       <IndustrySlider />

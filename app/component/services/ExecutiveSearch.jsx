@@ -1,21 +1,15 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import SearchImage from "../../assets/servicepage/ExecutiveSearch.png";
 
-const ExecutiveSearch = () => {
-  const ExecutiveData = {
-    heading: " Our Executive Search Expertise",
-    description:
-      "With over 150 consultants across the globe, The Taplow Group has a proven track record of delivering high-caliber executive talent for organisations worldwide. We go beyond traditional recruitment, using in-depth market insights, cultural assessments, and leadership evaluation tools to find the right executives for your business.",
-  };
+const ExecutiveSearch = ({ ExecutiveData }) => {
   return (
     <>
       <div className="mx-auto relative mt-[2rem] mb-[14rem] md:mb-[2rem] w-full max-w-8xl flex flex-col md:flex-row items-center justify-between gap-10 px-6 md:px-12">
         {/* Left Section: Image */}
         <div className="relative w-full md:w-4/5">
           <Image
-            src={SearchImage}
+            src={ExecutiveData.Img}
             alt="Executive Search"
             width={700}
             height={400}
@@ -32,9 +26,10 @@ const ExecutiveSearch = () => {
               {ExecutiveData.heading}
             </h2>
             <div className=" my-[1rem] w-[300] h-[1px] bg-[#024996] "></div>
-            <p className="text-sm leading-relaxed text-center">
-              {ExecutiveData.description}
-            </p>
+            <p
+              className="text-sm leading-relaxed text-center"
+              dangerouslySetInnerHTML={{ __html: ExecutiveData.description }}
+            ></p>
           </div>
         </div>
 

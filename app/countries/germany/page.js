@@ -40,18 +40,18 @@ const page = () => {
       id: 2,
       image: officeImage2,
       name: "Frankfurt",
-      address:
-        "Opernplatz 14, 60313 Frankfurt, Germany and Warburgstr. 32, 20354 Hamburg, Germany.",
-      phone: "+44(0)1442 383361",
+      // address:
+      //   "Opernplatz 14, 60313 Frankfurt, Germany and Warburgstr. 32, 20354 Hamburg, Germany.",
+      // phone: "+44(0)1442 383361",
       email: "eric@macdonaldsearchgroup.com",
     },
     {
       id: 3,
       image: officeImage3,
       name: "Berlin",
-      address:
-        "Opernplatz 14, 60313 Frankfurt, Germany and Warburgstr. 32, 20354 Hamburg, Germany.",
-      phone: "+44(0)1442 383361",
+      // address:
+      //   "Opernplatz 14, 60313 Frankfurt, Germany and Warburgstr. 32, 20354 Hamburg, Germany.",
+      // phone: "+44(0)1442 383361",
       email: "eric@macdonaldsearchgroup.com",
     },
   ];

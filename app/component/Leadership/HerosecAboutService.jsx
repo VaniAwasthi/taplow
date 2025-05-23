@@ -170,7 +170,7 @@ export const ServicesSection = () => {
           {data.map((item, idx) => (
             <SwiperSlide key={idx}>
               <div
-                className="relative text-center cursor-pointer"
+                className="relative text-center cursor-pointer hover:scale-110 z-50 hover:top-10 hover:mb-20"
                 onClick={() => scrollToSection(item.id)}
               >
                 {/* Polygon Background with Overlay Text */}
@@ -178,12 +178,12 @@ export const ServicesSection = () => {
                   <Image
                     src={item.polygon}
                     alt="polygon"
-                    className="w-full h-[700px] "
+                    className="w-full h-[650px] hover:h-[600px] "
                   />
 
                   <div className="absolute inset-0 flex flex-col justify-between items-center px-4 py-6 text-white">
                     {/* Title */}
-                    <h3 className="text-[18px] text-wrap w-[120px] md:w-full font-semibold leading-tight text-[#006174] text-center py-8  xl:px-10">
+                    <h3 className="text-[18px] text-wrap w-[120px] md:w-full font-semibold leading-tight text-[#006174] text-center py-8  xl:px-10 hover:text-[#859839] ">
                       {item.title}
                     </h3>
 

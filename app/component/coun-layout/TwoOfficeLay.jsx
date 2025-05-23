@@ -43,23 +43,29 @@ export const TwoOffice = ({ Officeheading, offices }) => {
               <Image
                 src={office.image}
                 alt={office.name}
-                className="w-full h-48 object-cover rounded"
+                className={`w-full object-cover rounded ${
+                  !office.address && !office.phone ? "h-[360px]" : "h-48"
+                }`}
               />
               <div className="absolute bottom-0 left-0 w-full p-6">
                 <h3 className="text-white font-bold text-lg">{office.name}</h3>
               </div>
             </div>
 
-            <div className="p-5 space-y-3">
-              <div className="flex items-start text-gray-700 text-sm">
-                <Navigation2 className="w-5 h-5 text-[#00B2A9] mr-2" />
-                <span>{office.address}</span>
+            {office.address || office.phone ? (
+              <div className="p-5 space-y-3">
+                <div className="flex items-start text-gray-700 text-sm">
+                  <Navigation2 className="w-5 h-5 text-[#00B2A9] mr-2" />
+                  <span>{office.address}</span>
+                </div>
+                {office.phone ? (
+                  <div className="flex items-center text-gray-700 text-sm">
+                    <Phone className="w-5 h-5 text-[#00B2A9] mr-2" />
+                    <span>{office.phone}</span>
+                  </div>
+                ) : null}
               </div>
-              <div className="flex items-center text-gray-700 text-sm">
-                <Phone className="w-5 h-5 text-[#00B2A9] mr-2" />
-                <span>{office.phone}</span>
-              </div>
-            </div>
+            ) : null}
           </div>
         ))}
       </div>
