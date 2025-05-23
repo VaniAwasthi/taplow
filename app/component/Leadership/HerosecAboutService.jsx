@@ -44,7 +44,7 @@ export const HeroSection = () => {
 };
 
 export const AboutServices = () => {
-  const heading = "Our Leadership Performance and Advisory Service";
+  const heading = "Our Leadership Performance and Advisory Services";
   const Content =
     "At The Taplow Group, we deliver leadership advisory services that elevate both individual capability and team performance. Our approach integrates deep assessment insights, leadership management expertise, and strategic advice to help organisations build high-performing, aligned, and resilient teams. From enhancing leadership potential to driving team effectiveness, we support you in navigating complexity and accelerating success through impactful, people-focused solutions.";
 
