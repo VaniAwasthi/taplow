@@ -12,7 +12,7 @@ const BannerLayout = ({
   bgColor,
   overlayOpacity,
   zIndex,
-  BgClassname = "object-cover w-full h-full [object-position:76%_61%] md:object-center ",
+  BgClassname = "object-cover w-full h-[600px] md:min-h-screen [object-position:76%_61%] md:object-center ",
 }) => {
   return (
     <div className="relative w-full min-h-screen flex items-center overflow-hidden">

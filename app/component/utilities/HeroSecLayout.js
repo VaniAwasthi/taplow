@@ -24,7 +24,7 @@ const HeroSection = ({
 }) => {
   return (
     <div
-      className={`relative w-full min-h-screen flex items-center overflow-hidden ${HeroSecDiv}`}
+      className={`relative w-full h-[600px] md:min-h-screen flex items-center overflow-hidden ${HeroSecDiv}`}
     >
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">

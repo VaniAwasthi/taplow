@@ -47,7 +47,7 @@ export default function Carousel() {
   }, []);
 
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-[700px] md:min-h-screen">
       <Swiper
         modules={[Autoplay]}
         autoplay={false}
