@@ -11,7 +11,7 @@ import "swiper/css/autoplay";
 import LeftArrow from "../../assets/servicepage/arrow-lef.png";
 import RightArrow from "../../assets/homePage/rightarrow.png";
 
-const WhyChooseExecutive = ({ heading, cards }) => {
+const WhyChooseExecutive = ({ heading, cards, headingClass }) => {
   const swiperRef = useRef(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [swiperInstance, setSwiperInstance] = useState(null);
@@ -19,7 +19,9 @@ const WhyChooseExecutive = ({ heading, cards }) => {
     <div className="relative bg-[#f0f0f0] ">
       <div className=" container mx-auto max-w-7xl py-10 px-4">
         <div className="block md:flex items-center md:justify-between justify-center mt-4 mb-[2rem]">
-          <h2 className="text-3xl font-regular text-center md:text-center redhat md:w-[300px] ">
+          <h2
+            className={`text-3xl font-regular text-center md:text-center redhat md:w-[300px] ${headingClass} `}
+          >
             {heading}
           </h2>
           {/* navigation */}

@@ -13,7 +13,7 @@ const InightRelated = () => {
     buttonText: "Explore Insights",
   };
   return (
-    <div className="relative h-full md:h-[540px] flex items-center justify-center px-6 md:px-12">
+    <div className="relative h-[700px] md:h-[540px] flex items-center justify-center px-6 md:px-12">
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <Image
