@@ -2,12 +2,6 @@
 import React from "react";
 import Banner from "../../assets/globalpage/indiaBanner.webp";
 import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
-import officeImage1 from "../../assets/globalpage/IndiaGurgaon.webp";
-import officeImage2 from "../../assets/globalpage/IndiaMumbai.webp";
-import generalImg from "../../assets/globalpage/generalImg.webp";
-import IndiaFlag from "../../assets/globalpage/IndiaFlag.webp";
-import DiversityImg from "../../assets/globalpage/diversity.webp";
-import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
 import Success1 from "../../assets/globalpage/India/Success1.webp";
 import Success2 from "../../assets/globalpage/India/Success2.webp";

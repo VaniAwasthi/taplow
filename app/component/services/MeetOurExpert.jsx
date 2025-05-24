@@ -15,7 +15,7 @@ const MeetOurExperts = () => {
   };
 
   return (
-    <div className="container max-w-[300px]  md:max-w-6xl mx-auto relative h-full md:h-[300px] flex items-center justify-center  px-6 my-[2rem] md:px-12">
+    <div className="container max-w-[300px]  md:max-w-6xl mx-auto relative h-[400px] md:h-[300px] flex items-center justify-center  px-6 my-[2rem] md:px-12">
       <Image
         src={BackgroundImage}
         alt="Background"
