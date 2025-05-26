@@ -11,17 +11,7 @@ const HeroSection = () => {
     " The right leaders drive success. With global reach and industry expertise, we help you find executives who fit, perform, and thrive.";
   const ButtonText = "Contact an Expert";
   return (
-    <div className="relative w-full min-h-screen flex items-center overflow-hidden">
-      {/* Overlay */}
-      {/* <div
-        className="absolute inset-0 w-full h-full top-0 left-0"
-        style={{
-          backgroundColor: "#2e2b2b",
-          opacity: "0.2",
-          zIndex: 1,
-        }}
-      ></div> */}
-
+    <div className="relative w-full h-[700px] md:min-h-screen flex items-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <Image
@@ -39,7 +29,7 @@ const HeroSection = () => {
           {Heading}
         </h2>
         <div
-          className="my-4 h-[1px] w-[80%] md:w-[320px]  mx-0 mb-[32rem] md:mb-[1rem]"
+          className="my-4 h-[1px] w-[80%] md:w-[320px]  mx-0 mb-[10rem] md:mb-[1rem]"
           style={{
             background: "linear-gradient(to right, #D9D9D9 30%, #96A94A 30%)",
           }}

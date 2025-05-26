@@ -151,10 +151,10 @@ export const OurOffering = () => {
     <>
       <div className="container mx-auto px-4 md:max-w-7xl my-6">
         <div className="relative w-full flex flex-col md:items-start item-center justify-center md:justify-left space-y-6">
-          <h2 className="text-4xl font-normal redhat font-base pb-[0.5rem] text-center md:text-left">
+          <h2 className="text-[30px] md:text-[32px] font-normal redhat font-base pb-[2px] text-center md:text-left">
             {data.heading}
           </h2>
-          <p className="text-xl font-normal redhat font-base pb-[0.5rem] text-center md:text-left">
+          <p className="text-lg text-[#666666] font-normal redhat font-base pb-[0.5rem] text-center md:text-left">
             {data.content}
           </p>
           <Swiper
@@ -175,13 +175,13 @@ export const OurOffering = () => {
                   <Image
                     src={service.img}
                     alt={service.heading}
-                    className="w-full md:h-[420px] h-[480px] object-cover transition-transform duration-300 group-hover:scale-105"
+                    className="w-full md:h-[450px] h-[480px] object-cover transition-transform duration-300 group-hover:scale-105"
                   />
-                  <div className="absolute bottom-0 left-0 w-full p-5 ">
-                    <h2 className="text-white text-3xl pb-9 px-4 font-regular">
+                  <div className="absolute bottom-0 left-0 w-full px-3 ">
+                    <h2 className="text-white text-[20px] md:text-[28px]  pb-4  font-regular">
                       {service.heading}
                     </h2>
-                    <p className="text-white text-md pb-[2rem] font-regular">
+                    <p className="text-white text-sm pb-[2rem] font-regular">
                       {service.content}
                     </p>
                   </div>
