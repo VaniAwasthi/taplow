@@ -21,7 +21,7 @@ const navigation = [
     href: "/services",
     submenu: [
       { name: "Executive Search ", href: "/services" },
-      { name: "Executive Interim ", href: "/services" },
+      { name: "Executive Interim ", href: "/services/entrim-management" },
       { name: "Board Advisory ", href: "/services/board-advisory-services" },
       {
         name: "Leadership Performance and Advisory",
