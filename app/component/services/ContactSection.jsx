@@ -23,10 +23,12 @@ const ContcatSection = ({}) => {
         {/* Left Text Section */}
         <div className="text-white md:w-1/2 mb-6 md:mb-0">
           <h2 className="text-3xl py-4 text-center md:text-left w-[320px]  redhat md:text-4xl font-base mb-4 leading-normal md:leading-[3.5rem]">
-            {ContactData.heading}
+            {ContactData.heading ? ContactData.heading : "Talk to an Expert"}
           </h2>
           <p className="text-sm text-center md:text-left  text-white font-base w-[350px]">
-            {ContactData.description}
+            {ContactData.description
+              ? ContactData.description
+              : "Ready to find your next great leader? Fill out the form below to connect with our executive search consultants and discuss your hiring needs."}
           </p>
         </div>
 
@@ -56,7 +58,7 @@ const ContcatSection = ({}) => {
 
                 {/* Button Text (Turns White on Hover) */}
                 <span className="relative z-10 font-redhat text-sm transition-colors duration-500 ease-out">
-                  {ContactData.buttonText}
+                  Get In Touch!
                 </span>
 
                 {/* Button Icon (Stays Visible) */}
