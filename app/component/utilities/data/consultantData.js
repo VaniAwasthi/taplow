@@ -70,6 +70,10 @@ import CaterinaTortorella from "../../../assets/Consultantpage/Consultant/Cateri
 import LoryYedid from "../../../assets/Consultantpage/Consultant/LoryYedid.webp";
 import GiovannaBrambilla from "../../../assets/Consultantpage/Consultant/GiovannaBrambilla.webp";
 import PaolaBasaglia from "../../../assets/Consultantpage/Consultant/PaolaBasaglia.webp";
+import LilyBi from "../../../assets/Consultantpage/Consultant/LilyBi.webp";
+import DannyZhang from "../../../assets/Consultantpage/Consultant/DannyZhang.webp";
+import Alexguo from "../../../assets/Consultantpage/Consultant/alexguo.webp";
+import JoyceShengv from "../../../assets/Consultantpage/Consultant/JoyceShengv.webp";
 
 export const consultantData = [
   {
@@ -2111,5 +2115,118 @@ entrepreneurial firms.<br/>
 Paola has also led projects in collaboration with Private Equity and venture capital funds. Additionally, she has
 specialized in projects within the Professional Services sector, contributing to the development of the Practice.
 Fluent in Italian and English.`,
+  },
+  {
+    id: 73,
+    name: "Lily Bi",
+    role: "Joint Managing Partner",
+    location: "China",
+    phone: "+86 139 1631 2420",
+    email: "lily.bi@lnsrecruitment.com",
+    linkdine: "linkedin.com/in/lily-bi-0a97168",
+    services: [
+      "Recruitment Service",
+      "Talent Mapping Service",
+      "Outsourced Staffing Services",
+    ],
+    industrySectors: [
+      "Professional Services",
+      "Not for Profit",
+      "Digital",
+      "Life Science",
+    ],
+    image: LilyBi,
+    address: `13A, Jing An New Century Plaza | 881 West Nanjing Road | JingAn District
+Shanghai, China`,
+    bio: `Lily has accumulated 24 years of work experience in the executive search industry in China. She has built and
+developed the Consumer and Healthcare &amp; Life Sciences, Chemical portfolio’s from scratch and in her previous role
+with Hudson China, grew the Advertising &amp; Communications, Chemical &amp; Energy and Supply Chain practices into
+highly profitable and successful businesses.
+Lily started her career as first local consultant across China for Hudson China and her last position was the East China
+Regional GM. Lily was the first local person to be appointed to a senior executive role in this company. In 2016, Lily
+set up Leading &amp; Selective(Shanghai) Limited from green field with her rich experience in China recruitment industry.<br/>
+`,
+  },
+  {
+    id: 74,
+    name: "Danny Zhang",
+    role: "Commercial &amp;Marketing",
+    location: "China",
+    phone: "+86 135 6415 5370",
+    email: "Danny.Zhang@lnsrecruitment.com",
+    linkdine: "https://www.linkedin.com/in/danny-zhang79/",
+    services: [
+      "Recruitment Service",
+      "Talent Mapping Service",
+      "Outsourced Staffing Services",
+    ],
+    industrySectors: ["Healthcare", "Agriscience", "Animal"],
+    image: DannyZhang,
+    address: `13A, Jing An New Century Plaza | 881 West Nanjing Road | JingAn District
+Shanghai, China`,
+    bio: `Danny has more than 17 years of recruitment experience working in the contingency, in house and retainer search
+environments.<br/>
+Danny started his career working at OOCL Shipping and Logistics as North America Territory Operation Supervisor.
+Later he joined MSP/DRILEX (Oil gas upper stream) as Kuwait Office Manager, then moving to roles with CEVA
+Logistics (1800 employees) and Firmenich Aromatics (800 employees) as Greater China Talent Acquisition Head.<br/>
+Danny has acquired vast contacts, networks which had directly benefited him developing a diverse portfolio of clients
+in the successful closure of their confidential and strategic search assignments.
+`,
+  },
+  {
+    id: 75,
+    name: "Alex Guo",
+    role: "Translational Medicine/Bioinformatics/Biology/BD&amp;Alliance",
+    location: "China",
+    phone: "+86 18017218854",
+    email: "alex.guo@lnsrecruitment.com",
+    linkdine: "http://linkedin.com/in/alex-guo-0b5724182",
+    services: [
+      "Recruitment Service",
+      "Talent Mapping Service",
+      "Outsourced Staffing Services",
+    ],
+    industrySectors: ["Healthcare", "Life Sciences"],
+    image: Alexguo,
+    address: `13A, Jing An New Century Plaza | 881 West Nanjing Road | JingAn District
+Shanghai, China`,
+    bio: `A professional with 6 years of experience as a headhunter in the pharmaceutical and healthcare industry. Well-
+versed in the business development (BD) strategies of pharmaceutical companies, Has in-depth knowledge of various
+functional areas, such as early stage research, translational medicine, and bioinformatics.<br/>
+Focuses on offering search services for middle and senior management positions for large Chinese pharmaceutical
+and MNC as well as Biotechcompanies. Has accumulated full mapping experience within the domains of translational
+medicine and BD.
+`,
+  },
+  {
+    id: 76,
+    name: "Joyce Sheng",
+    role: "Head of Clinical Development/Medical Affairs/RA",
+    location: "China",
+    phone: "+86 13301866273",
+    email: "joyce.sheng@lnsrecruitment.com",
+    linkdine: "linkedin.com/in/lily-bi-0a97168",
+    services: [
+      "Recruitment Service",
+      "Talent Mapping Service",
+      "Outsourced Staffing Services",
+    ],
+    industrySectors: [
+      "Consumer",
+      "Healthcare & Life Sciences",
+      "Chemical",
+      "Retail",
+    ],
+    image: JoyceShengv,
+    address: `13A, Jing An New Century Plaza | 881 West Nanjing Road | JingAn District
+Shanghai, China`,
+    bio: `Joyce has 13 years recruitment experience in the Pharmaceutical area especially focused on clinical development
+stage.<br/>
+Joyce has a successful record of recruiting for positions in Clinical Operations and related areas, GCP Quality, Portfolio
+Management, Biostatistics, Drug Safety, Medical Writing as well as discovery positions, from Manager to Executive
+Director.<br/>Joyce‘s rich experience of serving clients from global pharmas, big local companies, biotech/biopharmas, etc provides
+her with the vision and insight of talent market in her expert areas.
+Joyce graduated from Fudan University, majoring in Pharmacy.
+`,
   },
 ];
