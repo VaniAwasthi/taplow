@@ -8,15 +8,11 @@ import NZflag from "../../assets/globalpage/NZflag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
-import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
-import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
-import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
-import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
-import {
-  GlobalLocation,
-  GlobalpageBanner,
-  SuccessStory,
-} from "@/app/component/coun-layout/GlobalpageBanner";
+import Success1 from "../../assets/globalpage/CaseStudies/NZcase1.webp";
+import Success2 from "../../assets/globalpage/CaseStudies/NZcase2.webp";
+import Success3 from "../../assets/globalpage/CaseStudies/NZcase3.webp";
+import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
+import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 
 const page = () => {
   const BannerData = {
@@ -48,28 +44,20 @@ const page = () => {
   };
   const SuccessStoryslidesData = [
     {
-      image: Ethical1,
-      title: "Compliance with global laws and best practices.",
+      image: Success1,
+      title: "Transformational Change Programme",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/NZ/TransformationalChangeProgramme.pdf",
     },
     {
-      image: Ethical2,
-      title: "A professional, inclusive, and respectful workplace.",
+      image: Success2,
+      title: "Managing Director – Diagnostics Organisation",
+
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/NZ/ManagingDirectorDiagnosticsOrganisation.pdf",
     },
     {
-      image: Ethical3,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical4,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
-    },
-    {
-      image: Ethical1,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical2,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
+      image: Success3,
+      title: "Transformational Change Programme",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/NZ/TransformationalChangeProgrammediff.pdf",
     },
   ];
   const Successheading = "Recent Success Stories From New Zealand";
@@ -93,9 +81,11 @@ const page = () => {
       />
       <IndustrySlider />
       <TeamSection country="New Zealand" />
-      <SuccessStory
+
+      <CaseStudies
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
+        textClass="text-xs md:text-xl text-bold"
       />
       {/* <GlobalLocation /> */}
     </>

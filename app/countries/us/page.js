@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
 import Banner from "../../assets/globalpage/usaBanner.webp";
-import {
-  GlobalpageBanner,
-  SuccessStory,
-} from "@/app/component/coun-layout/GlobalpageBanner";
+import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
 import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
 import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
@@ -12,10 +9,10 @@ import officeImage from "../../assets/globalpage/USAOffice.webp";
 import OneOffice from "@/app/component/coun-layout/OneOffice";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import USAflag from "../../assets/globalpage/flgUsa.webp";
-import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
-import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
-import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
-import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
+import Success1 from "../../assets/globalpage/CaseStudies/USACase1.webp";
+import Success2 from "../../assets/globalpage/CaseStudies/USACase2.webp";
+import Success3 from "../../assets/globalpage/CaseStudies/USACase3.webp";
+import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow USA</b>`,
@@ -61,28 +58,21 @@ const page = () => {
   };
   const SuccessStoryslidesData = [
     {
-      image: Ethical1,
-      title: "Compliance with global laws and best practices.",
+      image: Success1,
+      title: "A challenge to assure Excellence & Diversity",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/USA/AchallengetoassureExcellenceDiversity.pdf",
     },
     {
-      image: Ethical2,
-      title: "A professional, inclusive, and respectful workplace.",
+      image: Success2,
+      title:
+        "Identifying Country Head – USA: For a global innovator in AR / VR",
+
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/USA/IdentifyingCountryHead –USAForaglobalinnovatorinARVR.pdf",
     },
     {
-      image: Ethical3,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical4,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
-    },
-    {
-      image: Ethical1,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical2,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
+      image: Success3,
+      title: "Global Clinical Leadership Opportunity – Research to Market",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/USA/GlobalClinicalLeadershipOpportunity–ResearchtoMarket.pdf",
     },
   ];
   const Successheading = "Recent Success Stories From US";
@@ -104,9 +94,10 @@ const page = () => {
       />
       <IndustrySlider />
       <TeamSection country="United States" />
-      <SuccessStory
+      <CaseStudies
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
+        textClass="text-xs md:text-xl text-bold"
       />
       {/* <GlobalLocation /> */}
     </>
