@@ -14,10 +14,10 @@ import BoardImage from "../../assets/servicepage/EntrimMangement/AbotImage.webp"
 import offer1 from "../../assets/servicepage/EntrimMangement/offer1.webp";
 import offer2 from "../../assets/servicepage/EntrimMangement/offer2.webp";
 import offer3 from "../../assets/servicepage/EntrimMangement/offer3.webp";
-import Succes1 from "../../assets/servicepage/EntrimMangement/Success1.webp";
-import Succes2 from "../../assets/servicepage/EntrimMangement/Success2.webp";
-import Succes3 from "../../assets/servicepage/EntrimMangement/Success3.webp";
-import Succes4 from "../../assets/servicepage/EntrimMangement/Success4.webp";
+import Success1 from "../../assets/globalpage/CaseStudies/FranceCase1.webp";
+import Success2 from "../../assets/globalpage/CaseStudies/FranceCase2.webp";
+import Success3 from "../../assets/globalpage/CaseStudies/FranceCase3.webp";
+import Success4 from "../../assets/globalpage/CaseStudies/FranceCase4.webp";
 import Icon1 from "../../assets/servicepage/EntrimMangement/chooseIcon1.svg";
 import Icon2 from "../../assets/servicepage/EntrimMangement/chooseIcon2.svg";
 import Icon3 from "../../assets/servicepage/EntrimMangement/chooseIcon3.svg";
@@ -249,20 +249,25 @@ export const WhyChooseEntrimManagement = () => {
 export const SuccesStoryEntrim = () => {
   const SuccessStoryslidesData = [
     {
-      image: Succes1,
-      title: "Head Of Manufacturing - Japan",
+      image: Success1,
+      title: "Interim Managing Director in the Industrial sector",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/InterimManagingDirectorintheIndustyfield.pdf",
     },
     {
-      image: Succes2,
-      title: "Redefining And Refocusing HR",
+      image: Success2,
+      title: "R & D Director",
+
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/TheTaplowGroupInterimExecutiveRDDirectorCaseStudy.pdf",
     },
     {
-      image: Succes3,
-      title: "Goverment Stakeholder Engagement For Start Up Ecosystem",
+      image: Success3,
+      title: "Interim Managing Director in the Industry field",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/InterimManagingDirectorintheIndustrialsector.pdf",
     },
     {
-      image: Succes4,
-      title: "Transforming HR",
+      image: Success4,
+      title: "Interim Human Resources Director",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/InterimHumanResourcesDirector.pdf",
     },
   ];
 

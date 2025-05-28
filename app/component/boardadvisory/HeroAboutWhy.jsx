@@ -12,9 +12,10 @@ import BoardImage from "../../assets/servicepage/boardadvisory/BoardAdvisory.web
 import offer1 from "../../assets/servicepage/boardadvisory/offer1.webp";
 import offer2 from "../../assets/servicepage/boardadvisory/offer2.webp";
 import offer3 from "../../assets/servicepage/boardadvisory/offer3.webp";
-import Succes1 from "../../assets/servicepage/boardadvisory/Success1.webp";
-import Succes2 from "../../assets/servicepage/boardadvisory/Success2.webp";
-import Succes3 from "../../assets/servicepage/boardadvisory/Success3.webp";
+import Success1 from "../../assets/globalpage/CaseStudies/FranceCase5.webp";
+import Success2 from "../../assets/globalpage/CaseStudies/FranceCase6.webp";
+import Success3 from "../../assets/globalpage/CaseStudies/FranceCase7.webp";
+import Success4 from "../../assets/globalpage/CaseStudies/FranceCase8.webp";
 import Icon1 from "../../assets/servicepage/boardadvisory/chooseIcon1.svg";
 import Icon2 from "../../assets/servicepage/boardadvisory/chooseIcon2.svg";
 import Icon3 from "../../assets/servicepage/boardadvisory/chooseIcon3.svg";
@@ -22,6 +23,7 @@ import Icon4 from "../../assets/servicepage/boardadvisory/chooseIcon4.svg";
 import WhyChooseExecutive from "../services/WhyChooseExecutive";
 import { SuccessStory } from "../coun-layout/GlobalpageBanner";
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
+import CaseStudies from "../coun-layout/CaseStudies";
 export const HeroSection = () => {
   const Heading =
     "Guiding Boards. Empowering Leadership. Enabling Performance.";
@@ -252,115 +254,38 @@ export const WhyChooseBoardAdvisory = () => {
 export const SuccesStoryBoard = () => {
   const SuccessStoryslidesData = [
     {
-      image: Succes1,
-      title: "Local BecomesGlobal",
+      image: Success1,
+      title: "Organizational & Leadership Transformation",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/Organizational&LeadershipTransformation.pdf",
     },
     {
-      image: Succes2,
-      title: "Succession at the top of a FTSE 250 organization",
+      image: Success2,
+      title:
+        "Shaping a High-Performing Leadership Team Through Hogan Assessment",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/Shaping aHighPerformingLeadershipTeamThroughHoganAssessment.pdf",
     },
     {
-      image: Succes3,
-      title: "Leadership In The Digital Age",
+      image: Success3,
+      title:
+        "Coaching : Enabling Leadership Evolution in a Post-Acquisition Context",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/Evolution in a PostAcquisitionContext.pdf",
+    },
+    {
+      image: Success4,
+      title: "Customized Journey from Management to Leadership",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/CustomizedJourneyfromManagementtoLeadership.pdf",
     },
   ];
 
   const Successheading = "Recent Success Stories";
-  const [swiperInstance, setSwiperInstance] = useState(null);
-  const [isBeginning, setIsBeginning] = useState(true);
-  const [isEnd, setIsEnd] = useState(false);
-
-  useEffect(() => {
-    if (swiperInstance) {
-      swiperInstance.on("slideChange", () => {
-        setIsBeginning(swiperInstance.isBeginning);
-        setIsEnd(swiperInstance.isEnd);
-      });
-    }
-  }, [swiperInstance]);
 
   return (
-    <section className="bg-[#F0F0F0] py-10 px-4">
-      <div className="max-w-7xl mx-auto">
-        <div className="flex md:flex-row flex-col justify-between">
-          <div className="w-full md:w-1/2">
-            <h2 className="text-3xl font-normal redhat mb-6 text-[#111D15]">
-              {Successheading}
-            </h2>
-          </div>
-          <div className="w-full md:w-1/2">
-            <div className="flex gap-8 items-center justify-end white_arrow mb-6 md:mb-0 md:hidden ">
-              <button
-                className={`swiper-button-prev !relative !w-10 !mt-auto !h-10 z-10 p-2 rounded-full border-2  cursor-pointer ${
-                  isBeginning
-                    ? "bg-transparent text-[#CACACA] border-[#CACACA] disabled"
-                    : "bg-[#005581] fill-white border-[#005581]"
-                }`}
-              >
-                <HiOutlineChevronLeft size={20} />
-              </button>
-
-              <button
-                className={`swiper-button-next !relative !mt-auto !w-10 !h-10 z-10 p-2 rounded-full border-2  cursor-pointer ${
-                  isEnd
-                    ? "bg-transparent text-[#CACACA] border-[#CACACA] disabled"
-                    : "bg-[#005581] text-white border-[#005581]"
-                }`}
-              >
-                <HiOutlineChevronRight size={20} />
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* Mobile Swiper (below md) */}
-        <div className="relative mt-4 md:hidden">
-          <Swiper
-            modules={[Navigation]}
-            spaceBetween={20}
-            slidesPerView={1}
-            onSwiper={setSwiperInstance}
-            navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            }}
-          >
-            {SuccessStoryslidesData.map((slide, index) => (
-              <SwiperSlide key={index} className="flex justify-center">
-                <div className="relative w-full overflow-hidden transition-transform duration-300 ease-in-out">
-                  <Image
-                    src={slide.image}
-                    alt={slide.title}
-                    className="w-full h-[27rem] object-cover rounded-xl hover:scale-105"
-                  />
-                  <p className="text-lg md:text-2xl redhat font-semibold absolute bottom-4 w-3/4 left-[40%] -translate-x-2/4 mx-auto text-white z-10 text-left">
-                    {slide.title}
-                  </p>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
-
-        {/* Desktop Static Grid (md and up) */}
-        <div className="hidden md:grid grid-cols-3 gap-6 mt-4">
-          {SuccessStoryslidesData.map((slide, index) => (
-            <div
-              key={index}
-              className="relative overflow-hidden transition-transform duration-300 ease-in-out"
-            >
-              <Image
-                src={slide.image}
-                alt={slide.title}
-                className="w-full h-[27rem] object-cover rounded-xl hover:scale-105"
-              />
-              <p className="text-lg md:text-2xl redhat font-semibold absolute bottom-4 w-3/4 left-[40%] -translate-x-2/4 mx-auto text-white z-10 text-left">
-                {slide.title}
-              </p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+    <>
+      <CaseStudies
+        SuccessData={SuccessStoryslidesData}
+        heading={Successheading}
+        textClass="text-sm md:text-lg"
+      />
+    </>
   );
 };
