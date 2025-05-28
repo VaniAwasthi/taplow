@@ -8,15 +8,14 @@ import DiversityImg from "../../assets/globalpage/diversity.webp";
 import generalImg from "../../assets/globalpage/generalImg.webp";
 import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
-import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
-import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
-import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
-import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
+import Success1 from "../../assets/globalpage/CaseStudies/austriliaCase1.webp";
+import Success2 from "../../assets/globalpage/CaseStudies/austriliaCase2.webp";
 import {
   GlobalpageBanner,
   SuccessStory,
 } from "@/app/component/coun-layout/GlobalpageBanner";
 import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
+import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 
 const page = () => {
   const BannerData = {
@@ -72,28 +71,15 @@ const page = () => {
   };
   const SuccessStoryslidesData = [
     {
-      image: Ethical1,
-      title: "Compliance with global laws and best practices.",
+      image: Success1,
+      title: "Producer of Polypropylene and Polyolefin Films",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/austrilia/ProducerofPolypropyleneandPolyolefinFilms.pdf",
     },
     {
-      image: Ethical2,
-      title: "A professional, inclusive, and respectful workplace.",
-    },
-    {
-      image: Ethical3,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical4,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
-    },
-    {
-      image: Ethical1,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical2,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
+      image: Success2,
+      title: "Leadership Development Across Multi-Brand Teams",
+
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/austrilia/LeadershipDevelopmentAcrossMultiBrandTeams.pdf",
     },
   ];
   const Successheading = "Recent Success Stories From Australia";
@@ -114,9 +100,10 @@ const page = () => {
       />
       <IndustrySlider />
       <TeamSection country="Australia" />
-      <SuccessStory
+      <CaseStudies
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
+        textClass="text-xs md:text-base"
       />
       {/* <GlobalLocation /> */}
     </>

@@ -162,7 +162,6 @@ It is focused on managers’ daily issues in the broad sense and assists them in
         heading={Successheading}
         textClass="text-xs md:text-base"
       />
-      {/* <GlobalLocation /> */}
     </>
   );
 };
