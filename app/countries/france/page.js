@@ -9,11 +9,14 @@ import Frenchflag from "../../assets/globalpage/frenchflag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
-import Success1 from "../../assets/globalpage/Success1.webp";
-import Success2 from "../../assets/globalpage/Success2.webp";
-import Success3 from "../../assets/globalpage/Success3.webp";
-import Success4 from "../../assets/globalpage/Success4.webp";
-import Success5 from "../../assets/globalpage/Success5.webp";
+import Success1 from "../../assets/globalpage/CaseStudies/FranceCase1.webp";
+import Success2 from "../../assets/globalpage/CaseStudies/FranceCase2.webp";
+import Success3 from "../../assets/globalpage/CaseStudies/FranceCase3.webp";
+import Success4 from "../../assets/globalpage/CaseStudies/FranceCase4.webp";
+import Success5 from "../../assets/globalpage/CaseStudies/FranceCase5.webp";
+import Success6 from "../../assets/globalpage/CaseStudies/FranceCase6.webp";
+import Success7 from "../../assets/globalpage/CaseStudies/FranceCase7.webp";
+import Success8 from "../../assets/globalpage/CaseStudies/FranceCase8.webp";
 import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
 import { TwoOffice } from "@/app/component/coun-layout/TwoOfficeLay";
 import CaseStudies from "@/app/component/coun-layout/CaseStudies";
@@ -93,30 +96,46 @@ It is focused on managers’ daily issues in the broad sense and assists them in
   const SuccessStoryslidesData = [
     {
       image: Success1,
-      title: "Development of a management program",
-      link: "https://france.taplowgroup.com/Portals/10/Case%20France%201.pdf",
+      title: "Interim Managing Director in the Industrial sector",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/InterimManagingDirectorintheIndustyfield.pdf",
     },
     {
       image: Success2,
-      title:
-        "Executive search for an experienced manager “cold chain logistics”",
-      link: "https://france.taplowgroup.com/Portals/10/Case%20France%202.pdf",
+      title: "R & D Director",
+
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/TheTaplowGroupInterimExecutiveRDDirectorCaseStudy.pdf",
     },
     {
       image: Success3,
-      title: "Executive assessment services for a global life sciences company",
-      link: "https://france.taplowgroup.com/Portals/10/DNNGalleryPro/uploads/2019/3/7/TAPLOW%20CASE%201.pdf",
+      title: "Interim Managing Director in the Industry field",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/InterimManagingDirectorintheIndustrialsector.pdf",
     },
     {
       image: Success4,
-      title: "CFO Search for French International Transportation Company",
-      link: "https://france.taplowgroup.com/Portals/10/DNNGalleryPro/uploads/2019/3/7/case%203.pdf",
+      title: "Interim Human Resources Director",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/InterimHumanResourcesDirector.pdf",
     },
     {
       image: Success5,
+      title: "Organizational & Leadership Transformation",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/Organizational&LeadershipTransformation.pdf",
+    },
+    {
+      image: Success6,
       title:
-        "Feedback culture management programme for a Global Aero structure Company",
-      link: "https://france.taplowgroup.com/Portals/10/DNNGalleryPro/uploads/2019/3/7/case%202.pdf",
+        "Shaping a High-Performing Leadership Team Through Hogan Assessment",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/Shaping aHighPerformingLeadershipTeamThroughHoganAssessment.pdf",
+    },
+    {
+      image: Success7,
+      title:
+        "Coaching : Enabling Leadership Evolution in a Post-Acquisition Context",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/Evolution in a PostAcquisitionContext.pdf",
+    },
+    {
+      image: Success8,
+      title: "Customized Journey from Management to Leadership",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/CustomizedJourneyfromManagementtoLeadership.pdf",
     },
   ];
   const Successheading = "Recent Success Stories From France";
