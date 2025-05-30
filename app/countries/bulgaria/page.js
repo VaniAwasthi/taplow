@@ -28,8 +28,8 @@ const page = () => {
     image: officeImage,
     name: "Sofia",
     address: "Petar Parchevich 9 Str.1000, Sofia, Bulgaria",
-    phone: "604-687-6464",
-    email: "eric@macdonaldsearchgroup.com",
+    // phone: "604-687-6464",
+    // email: "eric@macdonaldsearchgroup.com",
   };
   const AboutContent = {
     greenDescription: `The majority of our clients are international companies based in Bulgaria and we’re collaborating with the global network of The Taplow partners to raise the pressence of Bulgaria as an ideal location for other growing companies. Our work philosophy is that the client should be at the very heart of everything we do. `,
