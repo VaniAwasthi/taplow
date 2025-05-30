@@ -1,9 +1,14 @@
 "use client";
 import React from "react";
 import Banner from "../../assets/globalpage/CanandaBanner.webp";
-import officeImage1 from "../../assets/globalpage/officeOne.webp";
-import officeImage2 from "../../assets/globalpage/officeTwo.webp";
-import officeImage3 from "../../assets/globalpage/officeThree.webp";
+import VancouverOffice from "../../assets/globalpage/cannadaOffice/VancouverOffice.webp";
+import torontoOffice from "../../assets/globalpage/cannadaOffice/torontoOffice.webp";
+import EdmontonOffice from "../../assets/globalpage/cannadaOffice/EdmontonOffice.webp";
+import CalgaryOffice from "../../assets/globalpage/cannadaOffice/CalgaryOffice.webp";
+import HalifaxOffice from "../../assets/globalpage/cannadaOffice/HalifaxOffice.webp";
+import MonctonOffice from "../../assets/globalpage/cannadaOffice/MonctonOffice.webp";
+import ottawaOffice from "../../assets/globalpage/cannadaOffice/ottawaOffice.webp";
+import Montrealoffice from "../../assets/globalpage/cannadaOffice/Montrealoffice.webp";
 import DrivingLeadership from "@/app/component/coun-layout/DrivingLeadership";
 import Canadaflag from "../../assets/globalpage/canadaflag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
@@ -25,26 +30,66 @@ const page = () => {
   const officeData = [
     {
       id: 1,
-      image: officeImage1,
+      image: VancouverOffice,
       name: "Vancouver",
-      address: "Suite 720 475 West Georgia St. Vancouver, BC V6B 4M9",
-      phone: "+(604) 687-6464",
+      address: "Suite 720475 West Georgia St.Vancouver, BC V6B 4M9",
+      phone: "(604) 687-6464",
       email: "eric@macdonaldsearchgroup.com",
     },
     {
       id: 2,
-      image: officeImage2,
+      image: CalgaryOffice,
+      name: "Calgary",
+      address: "Suite 503 2303 - 4th Street SWCalgary, AB T2S 2S7",
+      phone: "(403) 444-6487",
+      // email: "eric@macdonaldsearchgroup.com",
+    },
+    {
+      id: 3,
+      image: torontoOffice,
       name: "Toronto",
       address: "Suite 300 5100 Orbitor Drive Mississauga, ON L4W 4Z4",
       phone: "(416) 342-1505",
       // email: "eric@macdonaldsearchgroup.com",
     },
     {
-      id: 3,
-      image: officeImage3,
-      name: "Edmonton",
+      id: 4,
+      image: HalifaxOffice,
+      name: "Halifax ",
+      address: "Suite 301 168 Hobsons Lake Drive Halifax, NS B3S 0G4",
+      phone: "(902) 593-0565",
+      // email: "eric@macdonaldsearchgroup.com",
+    },
+    {
+      id: 5,
+      image: EdmontonOffice,
+      name: "Edmonton  ",
       address: "Suite 2020, Tower One 10060 Jasper Avenue Edmonton, AB T5J 3R8",
-      // phone: "+44(0)1442 383361",
+      // phone: "(902) 593-0565",
+      // email: "eric@macdonaldsearchgroup.com",
+    },
+    {
+      id: 6,
+      image: Montrealoffice,
+      name: "Montreal  ",
+      address: "Suite 1800 500 Place d'Armes Montreal, QC H2Y 2W2",
+      // phone: "(902) 593-0565",
+      // email: "eric@macdonaldsearchgroup.com",
+    },
+    {
+      id: 8,
+      image: ottawaOffice,
+      name: "Ottawa   ",
+      address: "Unit 6 430 Hazeldean Road Ottawa, ON K2L 1T9",
+      phone: "(613) 912-1156",
+      // email: "eric@macdonaldsearchgroup.com",
+    },
+    {
+      id: 9,
+      image: MonctonOffice,
+      name: "Moncton",
+      address: "Suite 300 795 Main Street Moncton, NB E1C 1E9",
+      phone: "(902) 593-0565",
       // email: "eric@macdonaldsearchgroup.com",
     },
   ];
