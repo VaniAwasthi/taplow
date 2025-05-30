@@ -11,11 +11,10 @@ import Bulgariaflag from "../../assets/globalpage/finlandflag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
-import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
-import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
-import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
-import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
+import Success1 from "../../assets/globalpage/CaseStudies/finlindCase1.webp";
+import Success2 from "../../assets/globalpage/CaseStudies/finlindCase2.webp";
 import DrivingLeadership from "@/app/component/coun-layout/DrivingLeadership";
+import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow Finland</b>`,
@@ -28,7 +27,7 @@ const page = () => {
     name: "Helsinki",
     address:
       "Mannerheimintie 113, Aitio Business Park, 00280 Helsinki, Finland.",
-    phone: "604-687-6464",
+    // phone: "604-687-6464",
     email: "eric@macdonaldsearchgroup.com",
   };
   const AboutContent = {
@@ -43,28 +42,15 @@ const page = () => {
   };
   const SuccessStoryslidesData = [
     {
-      image: Ethical1,
-      title: "Compliance with global laws and best practices.",
+      image: Success1,
+      title: "Wood Industry New Market Strategy",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/finland/WoodIndustryNewMarketStrategy.pdf",
     },
     {
-      image: Ethical2,
-      title: "A professional, inclusive, and respectful workplace.",
-    },
-    {
-      image: Ethical3,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical4,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
-    },
-    {
-      image: Ethical1,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical2,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
+      image: Success2,
+      title: "Property Development Company Leadership Hire",
+
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/finland/PropertyDevelopmentCompanyLeadershipHire.pdf",
     },
   ];
   const Successheading = "Recent Success Stories From Finland";
@@ -88,9 +74,10 @@ const page = () => {
       />
       <IndustrySlider />
       <TeamSection country="Finland" />
-      <SuccessStory
+      <CaseStudies
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
+        textClass="text-md md:text-2xl text-bold"
       />
     </>
   );
