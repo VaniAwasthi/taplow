@@ -24,8 +24,8 @@ const page = () => {
     image: officeImage,
     name: "USA",
     address: "Post Office Box 20108. Fountain Hills, AZ 85269, USA",
-    phone: "604-687-6464",
-    email: "eric@macdonaldsearchgroup.com",
+    // phone: "604-687-6464",
+    // email: "eric@macdonaldsearchgroup.com",
   };
   const greenDescriptionBox =
     "We support global growth by assisting companies to build teams, create joint ventures and strategic alliances to develop commercial capabilities world-wide. Our North American team are expert across many vertical markets, we have uniquely strong expertise in Financial Services, Real Assets, Energy and Utilities, Life Sciences, Manufacturing and Logistics.";
