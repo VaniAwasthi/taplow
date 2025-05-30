@@ -28,7 +28,7 @@ const page = () => {
     image: officeImage,
     name: "Oslo",
     address: "Henrik Ibsens gate 90, 0255 Oslo, Norway",
-    phone: "604-687-6464",
+    // phone: "604-687-6464",
     email: "eric@macdonaldsearchgroup.com",
   };
   const greenDescriptionBox =
