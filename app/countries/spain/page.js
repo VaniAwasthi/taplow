@@ -34,9 +34,9 @@ const page = () => {
     aboutContentpara1: `Our structure is based on three Senior Partners, with international experience and background. We operate in Iberia (Spain &amp; Portugal) as well as in Latin American countries.`,
     aboutContentpara2: `Our client base is very wide and diverse, counting among them entrepreneurs, global firms and Private Equity firms and VCs. We search for candidates that can lead the growth and international expansion of the companies.`,
     aboutContentpara3:
-      "Our advantage lies in a thorough understanding of our clients&#39; needs. We take great pride in our fast response and sharp analysis, all of this, with at results in the quality of our services.",
+      "Our advantage lies in a thorough understanding of our clients needs. We take great pride in our fast response and sharp analysis, all of this, with at results in the quality of our services.",
     aboutContentpara4:
-      "Our firm also provides Strategy Consulting Services in projects such as M&amp;A, Restructuring, Board Advisory, etc. Recently our firm has been very involved in Digital projects and online start-ups and VC.",
+      "Our firm also provides Strategy Consulting Services in projects such as M&A, Restructuring, Board Advisory, etc. Recently our firm has been very involved in Digital projects and online start-ups and VC.",
   };
   const SuccessStoryslidesData = [
     {
