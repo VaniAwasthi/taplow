@@ -81,7 +81,7 @@ const page = () => {
       <CaseStudies
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
-        textClass="text-xs md:text-xl text-bold"
+        textClass="text-md md:text-2xl text-bold"
       />
     </>
   );
