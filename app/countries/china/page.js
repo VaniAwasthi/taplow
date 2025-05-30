@@ -1,9 +1,8 @@
 "use client";
 import React from "react";
 import Banner from "../../assets/globalpage/chinaBanner.webp";
-import officeImage1 from "../../assets/globalpage/BeijingChina.webp";
-import officeImage2 from "../../assets/globalpage/ShanghaiChina.webp";
-import officeImage3 from "../../assets/globalpage/QingdaoChina.webp";
+import officeImage1 from "../../assets/globalpage/ShanghaiChinaoffice.webp";
+import officeImage2 from "../../assets/globalpage/officeChina2.webp";
 import DrivingLeadership from "@/app/component/coun-layout/DrivingLeadership";
 import ChinaFlag from "../../assets/globalpage/flagChina.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
@@ -11,13 +10,9 @@ import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
 import Success1 from "../../assets/globalpage/CaseStudies/ChinaCase1.webp";
 import Success2 from "../../assets/globalpage/CaseStudies/ChinaCase2.webp";
-import {
-  GlobalLocation,
-  GlobalpageBanner,
-  SuccessStory,
-} from "@/app/component/coun-layout/GlobalpageBanner";
-import OfficeSlider from "@/app/component/coun-layout/OfficeSlider";
+import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
 import CaseStudies from "@/app/component/coun-layout/CaseStudies";
+import { TwoOffice } from "@/app/component/coun-layout/TwoOfficeLay";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow China</b>`,
@@ -27,30 +22,21 @@ const page = () => {
   const officeData = [
     {
       id: 1,
-      image: officeImage1,
-      name: "Beijing",
-      address:
-        "2301, Huai Hai Zhong Hua Building, 885 Ren Min Rd. Shanghai 200010, PR China.",
-      // phone: "+44(0)1442 383361",
-      email: "eric@macdonaldsearchgroup.com",
-    },
-    {
-      id: 2,
       image: officeImage2,
       name: "Shanghai",
       address:
         "2301, Huai Hai Zhong Hua Building, 885 Ren Min Rd. Shanghai 200010, PR China.",
       // phone: "+44(0)1442 383361",
-      email: "eric@macdonaldsearchgroup.com",
+      // email: "eric@macdonaldsearchgroup.com",
     },
     {
-      id: 3,
-      image: officeImage3,
-      name: "Qingdao",
+      id: 2,
+      image: officeImage1,
+      name: "JingAn",
       address:
-        "Suite 801, Central Plaza, No. 227 Huangpi North Road, Huangpu District, Shanghai, 200003, PR China",
+        "13A, Jing An New Century Plaza | 881 West Nanjing Road | JingAn District Shanghai, China",
       // phone: "+44(0)1442 383361",
-      email: "eric@macdonaldsearchgroup.com",
+      // email: "eric@macdonaldsearchgroup.com",
     },
   ];
 
@@ -89,7 +75,7 @@ Development. Our clientele is inclusive of a wide range of multinational and loc
         desc={BannerData.desc}
         Banner={Banner}
       />
-      <OfficeSlider officeData={officeData} heading={officeSecHeading} />
+      <TwoOffice Officeheading={officeSecHeading} offices={officeData} />
       <DrivingLeadership
         greenDescription={AboutContent.greenDescription}
         Aboutheading={AboutContent.Aboutheading}

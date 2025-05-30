@@ -2,8 +2,7 @@
 import React from "react";
 import Banner from "../../assets/globalpage/franceBanner.webp";
 import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
-import officeImage1 from "../../assets/globalpage/franceLyon.webp";
-import officeImage2 from "../../assets/globalpage/Franceparis.webp";
+import officeImage from "../../assets/globalpage/franceLyon.webp";
 import generalImg from "../../assets/globalpage/generalImg.webp";
 import Frenchflag from "../../assets/globalpage/frenchflag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
@@ -18,32 +17,23 @@ import Success6 from "../../assets/globalpage/CaseStudies/FranceCase6.webp";
 import Success7 from "../../assets/globalpage/CaseStudies/FranceCase7.webp";
 import Success8 from "../../assets/globalpage/CaseStudies/FranceCase8.webp";
 import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
-import { TwoOffice } from "@/app/component/coun-layout/TwoOfficeLay";
 import CaseStudies from "@/app/component/coun-layout/CaseStudies";
+import OneOffice from "@/app/component/coun-layout/OneOffice";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow France</b>`,
     desc: " Created in 1989 to follow the strong development of HR market in Hi-Tech, Construction, Automotive and Life science sectors, TAPLOW CONSULTING FRANCE has offices in Paris and Lyon.",
   };
-  const officeSecHeading = "Our office in France";
-  const officeData = [
-    {
-      id: 1,
-      image: officeImage2,
-      name: "Paris",
-      // address: "19 rue Maurice Bouchor, 69007 Lyon, France",
-      // phone: "+44(0)1442 383361",
-      // email: "eric@macdonaldsearchgroup.com",
-    },
-    {
-      id: 2,
-      image: officeImage1,
-      name: "Lyon",
-      address: "19 rue Maurice Bouchor, 69007 Lyon, France",
-      phone: "+44(0)1442 383361",
-      email: "eric@macdonaldsearchgroup.com",
-    },
-  ];
+  const officeSecHeading = "Our office in Singapore";
+  const officeData = {
+    id: 1,
+    image: officeImage,
+    name: "Lyon",
+    address: "19 rue Maurice Bouchor, 69007 Lyon, France",
+    // phone: "+44(0)1442 383361",
+    // email: "eric@macdonaldsearchgroup.com",
+  };
+
   const greenDescriptionBox =
     "We are now present in the main sectors of industry (FMCG, Transportation, Construction, Automotive, Life Science, Energy, Hi-Tech, Retail, Financial Services, etc.). ";
   const AboutContent = {
@@ -146,7 +136,7 @@ It is focused on managers’ daily issues in the broad sense and assists them in
         desc={BannerData.desc}
         Banner={Banner}
       />
-      <TwoOffice Officeheading={officeSecHeading} offices={officeData} />
+      <OneOffice officeData={officeData} heading={officeSecHeading} />
       <TaplowInfoSection
         isImage={false}
         {...AboutContent}

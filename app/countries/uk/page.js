@@ -1,8 +1,5 @@
 "use client";
-import {
-  GlobalpageBanner,
-  SuccessStory,
-} from "@/app/component/coun-layout/GlobalpageBanner";
+import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
 import React from "react";
 import Banner from "../../assets/globalpage/UKBanner.webp";
 import OneOffice from "@/app/component/coun-layout/OneOffice";
@@ -27,8 +24,8 @@ const page = () => {
     image: officeImage,
     name: "London",
     address: "33, St James Square, London, SW1Y 4JS, UK",
-    phone: "+44(0)1442 383361",
-    email: "eric@macdonaldsearchgroup.com",
+    // phone: "+44(0)1442 383361",
+    // email: "eric@macdonaldsearchgroup.com",
   };
 
   const AboutContent = {
