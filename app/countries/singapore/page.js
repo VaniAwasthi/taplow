@@ -27,8 +27,8 @@ const page = () => {
     image: officeImage,
     name: "Singapore",
     address: "8 Marina View, #43*01 Asia Square Tower 1, Singapore 018960",
-    phone: "604-687-6464",
-    email: "eric@macdonaldsearchgroup.com",
+    // phone: "604-687-6464",
+    // email: "eric@macdonaldsearchgroup.com",
   };
 
   const AboutContent = {
