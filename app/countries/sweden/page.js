@@ -16,6 +16,7 @@ import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
 import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
 import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
 import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
+import OneOffice from "@/app/component/coun-layout/OneOffice";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow Sweden</b>`,
