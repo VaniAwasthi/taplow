@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Banner from "../../assets/globalpage/germanyBanner.webp";
-import officeImage1 from "../../assets/globalpage/Germanyhamburg.webp";
+import officeImage from "../../assets/globalpage/Germanyhamburg.webp";
 import DrivingLeadership from "@/app/component/coun-layout/DrivingLeadership";
 import Germanyflag from "../../assets/globalpage/germanyflag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
@@ -25,7 +25,7 @@ const page = () => {
   const officeSecHeading = "Our Offices in Germany";
   const officeData = {
     id: 1,
-    image: officeImage1,
+    image: officeImage,
     name: "Hamburg",
     address:
       "Opernplatz 14, 60313 Frankfurt, Germany and Warburgstr. 32, 20354 Hamburg, Germany.",
