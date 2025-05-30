@@ -9,16 +9,15 @@ import ChinaFlag from "../../assets/globalpage/flagChina.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
-import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
-import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
-import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
-import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
+import Success1 from "../../assets/globalpage/CaseStudies/ChinaCase1.webp";
+import Success2 from "../../assets/globalpage/CaseStudies/ChinaCase2.webp";
 import {
   GlobalLocation,
   GlobalpageBanner,
   SuccessStory,
 } from "@/app/component/coun-layout/GlobalpageBanner";
 import OfficeSlider from "@/app/component/coun-layout/OfficeSlider";
+import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow China</b>`,
@@ -71,28 +70,15 @@ Development. Our clientele is inclusive of a wide range of multinational and loc
   };
   const SuccessStoryslidesData = [
     {
-      image: Ethical1,
-      title: "Compliance with global laws and best practices.",
+      image: Success1,
+      title: "Work with investor to hire talent for their post-investment",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/china/Workwithinvestortohiretalentfortheirpostinvestment.pdf",
     },
     {
-      image: Ethical2,
-      title: "A professional, inclusive, and respectful workplace.",
-    },
-    {
-      image: Ethical3,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical4,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
-    },
-    {
-      image: Ethical1,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical2,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
+      image: Success2,
+      title: "Interim Hiring in Japan",
+
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/china/InterimHiringinJapan.pdf",
     },
   ];
   const Successheading = "Recent Success Stories From China";
@@ -116,9 +102,10 @@ Development. Our clientele is inclusive of a wide range of multinational and loc
       />
       <IndustrySlider />
       <TeamSection country="China" />
-      <SuccessStory
+      <CaseStudies
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
+        textClass="text-xs md:text-base"
       />
     </>
   );
