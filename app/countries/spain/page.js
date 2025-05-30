@@ -16,7 +16,7 @@ import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow Spain </b>`,
-    desc: "TAPLOW SPAIN, founded in 1997 in Madrid, is an independent Human Resources Consulting and Executive Search firm, with a particular focus in the Financial, Professional Services, Real Estate, Retail and Infrastructure sectors. Our firm also provides Strategy Consulting Services in projects such as M&amp;A, Restructuring, Board Advisory, etc",
+    desc: "TAPLOW SPAIN, founded in 1997 in Madrid, is an independent Human Resources Consulting and Executive Search firm, with a particular focus in the Financial, Professional Services, Real Estate, Retail and Infrastructure sectors. Our firm also provides Strategy Consulting Services in projects such as M&A, Restructuring, Board Advisory, etc",
   };
   const officeSecHeading = "Our office in Spain";
   const officeData = {
