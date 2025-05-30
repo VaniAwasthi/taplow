@@ -35,6 +35,7 @@ const HeroSection = ({
           className="object-cover w-full h-full [object-position:27%_25%] md:object-center"
           priority
         />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-black/20 to-transparent"></div>
       </div>
 
       {/* Content Section */}
