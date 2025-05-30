@@ -1,21 +1,18 @@
 "use client";
 import React from "react";
 import Banner from "../../assets/globalpage/denmarkBanner.webp";
-import {
-  GlobalpageBanner,
-  SuccessStory,
-} from "@/app/component/coun-layout/GlobalpageBanner";
+import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
 import OneOffice from "@/app/component/coun-layout/OneOffice";
 import officeImage from "../../assets/globalpage/denmarkOffice.webp";
 import DenmarkFlag from "../../assets/globalpage/denmarkFlag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
-import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
-import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
-import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
-import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
+import Success1 from "../../assets/globalpage/CaseStudies/denmarkCase1.webp";
+import Success2 from "../../assets/globalpage/CaseStudies/denmarkCase2.webp";
+import Success3 from "../../assets/globalpage/CaseStudies/denmarkCase3.webp";
 import DrivingLeadership from "@/app/component/coun-layout/DrivingLeadership";
+import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 
 const page = () => {
   const BannerData = {
@@ -26,9 +23,9 @@ const page = () => {
   const officeData = {
     id: 1,
     image: officeImage,
-    name: "Hørsholm",
+    name: "Slotsmarken",
     address: "Slotsmarken 11, 2970 Hørsholm, Denmark.",
-    phone: "604-687-6464",
+    // phone: "604-687-6464",
     email: "eric@macdonaldsearchgroup.com",
   };
   const AboutContent = {
@@ -44,28 +41,20 @@ const page = () => {
   };
   const SuccessStoryslidesData = [
     {
-      image: Ethical1,
-      title: "Compliance with global laws and best practices.",
+      image: Success1,
+      title: "Interim Finance Consultant",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/denmark/InterimFinanceConsultant.pdf",
     },
     {
-      image: Ethical2,
-      title: "A professional, inclusive, and respectful workplace.",
+      image: Success2,
+      title: "Technical People for client systems development",
+
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/denmark/TechnicalPeopleforclientsystemsdevelopment.pdf",
     },
     {
-      image: Ethical3,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical4,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
-    },
-    {
-      image: Ethical1,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical2,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
+      image: Success3,
+      title: "Transformation in CIMT Sector",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/denmark/TransformationinCIMTSector.pdf",
     },
   ];
   const Successheading = "Recent Success Stories From Denmark";
@@ -89,9 +78,10 @@ const page = () => {
       />
       <IndustrySlider />
       <TeamSection country="Denmark" />
-      <SuccessStory
+      <CaseStudies
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
+        textClass="text-md md:text-2xl text-bold"
       />
     </>
   );

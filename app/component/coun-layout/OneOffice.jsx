@@ -64,10 +64,12 @@ const OneOffice = ({ heading, officeData }) => {
                 <Navigation2 className="w-9 h-9 text-white mt-1" />
                 <p>{officeData.address}</p>
               </div>
-              <div className="flex items-center gap-2 pt-3">
-                <Phone className="w-5 h-5 text-white" />
-                <p>{officeData.phone}</p>
-              </div>
+              {officeData.phone ? (
+                <div className="flex items-center gap-2 pt-3">
+                  <Phone className="w-5 h-5 text-white" />
+                  <p>{officeData.phone}</p>
+                </div>
+              ) : null}
               {/* <div className="flex items-center text-gray-700 text-sm mt-4">
                 <Mail className="w-6 h-6 text-white mr-2" />
                 <a
