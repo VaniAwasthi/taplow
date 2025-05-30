@@ -6,7 +6,7 @@ import {
   SuccessStory,
 } from "@/app/component/coun-layout/GlobalpageBanner";
 import OneOffice from "@/app/component/coun-layout/OneOffice";
-import officeImage from "../../assets/globalpage/finlandOffice.webp";
+import officeImage from "../../assets/globalpage/italyOffice.webp";
 import ItalyFlag from "../../assets/globalpage/ItalyFlag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import IndustrySlider from "@/app/component/home/Industries";
@@ -27,8 +27,8 @@ const page = () => {
     image: officeImage,
     name: "Milan",
     address: "Galleria San Babila 4C, Milan, Italy",
-    phone: "604-687-6464",
-    email: "eric@macdonaldsearchgroup.com",
+    // phone: "604-687-6464",
+    // email: "eric@macdonaldsearchgroup.com",
   };
   const AboutContent = {
     greenDescription: `Executive Search firm established in 2003 and based in Milan,Italy. We offer services for search, evaluation and selection of specialists and managers`,
