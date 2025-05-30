@@ -8,15 +8,10 @@ import SpainFlag from "../../assets/globalpage/spainFlag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
-import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
-import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
-import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
-import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
-import {
-  GlobalLocation,
-  GlobalpageBanner,
-  SuccessStory,
-} from "@/app/component/coun-layout/GlobalpageBanner";
+import Success1 from "../../assets/globalpage/CaseStudies/spainCase1.webp";
+import Success2 from "../../assets/globalpage/CaseStudies/spainCase2.webp";
+import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
+import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 
 const page = () => {
   const BannerData = {
@@ -28,8 +23,8 @@ const page = () => {
     id: 1,
     image: officeImage,
     name: "Madrid",
-    address: "Fernando el Santo 25, 4º dcha - 28010 Madrid, Spain",
-    phone: "604-687-6464",
+    address: "Fernando el Santo 25, 4-D 28001 Madrid-Spain",
+    phone: "+34 656 844 582",
     email: "eric@macdonaldsearchgroup.com",
   };
 
@@ -45,28 +40,15 @@ const page = () => {
   };
   const SuccessStoryslidesData = [
     {
-      image: Ethical1,
-      title: "Compliance with global laws and best practices.",
+      image: Success1,
+      title: "Hiring in a Fully Inflated Market",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/spain/HiringinaFullyInflatedMarket.pdf",
     },
     {
-      image: Ethical2,
-      title: "A professional, inclusive, and respectful workplace.",
-    },
-    {
-      image: Ethical3,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical4,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
-    },
-    {
-      image: Ethical1,
-      title: "Trust-based relationships with clients and candidates.",
-    },
-    {
-      image: Ethical2,
-      title: "Confidentiality, fairness, and anti-corruption standards.",
+      image: Success2,
+      title: "Innovation and Growth in Mature Markets",
+
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/spain/InnovationandGrowthinMatureMarkets.pdf",
     },
   ];
   const Successheading = "Recent Success Stories From Spain";
@@ -90,9 +72,10 @@ const page = () => {
       />
       <IndustrySlider />
       <TeamSection country="Spain" />
-      <SuccessStory
+      <CaseStudies
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
+        textClass="text-xs md:text-base"
       />
       {/* <GlobalLocation /> */}
     </>
