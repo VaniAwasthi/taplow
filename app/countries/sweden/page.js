@@ -6,9 +6,7 @@ import {
 } from "@/app/component/coun-layout/GlobalpageBanner";
 import React from "react";
 import Banner from "../../assets/globalpage/SwedenBanner.webp";
-import SliderImg1 from "../../assets/Consultantpage/heroImage.webp";
-import SliderImg2 from "../../assets/globalpage/officeSlide.webp";
-import OfficeSlider from "@/app/component/coun-layout/OfficeSlider";
+import officeImage from "../../assets/globalpage/officeSweden.webp";
 import Swedanflag from "../../assets/globalpage/flag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import DrivingLeadership from "@/app/component/coun-layout/DrivingLeadership";
@@ -24,35 +22,14 @@ const page = () => {
     desc: "Since 1991, we have helped businesses find top leaders through executive search and leadership advisory, combining global reach with local expertise to drive success.",
   };
   const officeSecHeading = "Our office in Sweden";
-  const officeData = [
-    {
-      id: 1,
-      name: "Stockholm",
-      image: SliderImg1,
-      address:
-        "Taplow Sweden(A-Search ABC)O WeWork, Malmskillnadsgatan 32 111 51 Stockholm",
-      phone: "604-687-6464",
-      email: "ericmacdonald@searchgroup.com",
-    },
-    {
-      id: 2,
-      name: "Gothenburg",
-      image: SliderImg2,
-      address:
-        "Taplow Sweden(A-Search ABC)O WeWork, Malmskillnadsgatan 32 111 51 Stockholm",
-      phone: "604-687-6464",
-      email: "ericmacdonald@searchgroup.com",
-    },
-    {
-      id: 3,
-      name: "Malmö",
-      // image: SliderImg1,
-      address:
-        "Taplow Sweden(A-Search ABC)O WeWork, Malmskillnadsgatan 32 111 51 Stockholm",
-      phone: "604-687-6464",
-      email: "ericmacdonald@searchgroup.com",
-    },
-  ];
+  const officeData = {
+    id: 1,
+    image: officeImage,
+    name: "Malmö",
+    address: "Taplow Sweden AB , Skrivaregatan 21, 215 32 Malmö, Sweden",
+    // phone: "+44(0)1442 383361",
+    // email: "eric@macdonaldsearchgroup.com",
+  };
   const AboutContent = {
     greenDescription: `With over 25 years of experience and offices in <b>Stockholm, Gothenburg, and Malmö</b>, Taplow Sweden is a leading name in executive search and strategic diversity recruitment. Our commitment to quality, speed, and precision ensures that we identify and place the best candidates across a wide range of industries.`,
     Aboutheading: "Taplow Sweden: Driving Leadership and Diversity Excellence",
@@ -100,7 +77,7 @@ const page = () => {
         desc={BannerData.desc}
         Banner={Banner}
       />
-      <OfficeSlider officeData={officeData} heading={officeSecHeading} />
+      <OneOffice officeData={officeData} heading={officeSecHeading} />
       <DrivingLeadership
         greenDescription={AboutContent.greenDescription}
         Aboutheading={AboutContent.Aboutheading}
