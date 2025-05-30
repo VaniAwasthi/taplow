@@ -75,7 +75,7 @@ const page = () => {
       <CaseStudies
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
-        textClass="text-xs md:text-base"
+        textClass="text-xs md:text-2xl"
       />
       {/* <GlobalLocation /> */}
     </>
