@@ -1,9 +1,7 @@
 "use client";
 import React from "react";
 import Banner from "../../assets/globalpage/germanyBanner.webp";
-import officeImage1 from "../../assets/globalpage/Germanyhamburg.webp";
-import officeImage2 from "../../assets/globalpage/Germanyfrankfurt.webp";
-import officeImage3 from "../../assets/globalpage/Germanyberlin.webp";
+import officeImage from "../../assets/globalpage/Germanyhamburg.webp";
 import DrivingLeadership from "@/app/component/coun-layout/DrivingLeadership";
 import Germanyflag from "../../assets/globalpage/germanyflag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
@@ -14,11 +12,10 @@ import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
 import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
 import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
 import {
-  GlobalLocation,
   GlobalpageBanner,
   SuccessStory,
 } from "@/app/component/coun-layout/GlobalpageBanner";
-import OfficeSlider from "@/app/component/coun-layout/OfficeSlider";
+import OneOffice from "@/app/component/coun-layout/OneOffice";
 
 const page = () => {
   const BannerData = {
@@ -26,35 +23,15 @@ const page = () => {
     desc: "Our success is built on our clients’ success. Therefore, we focus on our clients’ objectives and exceed their expectations by personal attention, advice and appropriate action, also in case of unexpected events.",
   };
   const officeSecHeading = "Our Offices in Germany";
-  const officeData = [
-    {
-      id: 1,
-      image: officeImage1,
-      name: "Hamburg",
-      address:
-        "Opernplatz 14, 60313 Frankfurt, Germany and Warburgstr. 32, 20354 Hamburg, Germany.",
-      phone: "+44(0)1442 383361",
-      email: "eric@macdonaldsearchgroup.com",
-    },
-    {
-      id: 2,
-      image: officeImage2,
-      name: "Frankfurt",
-      // address:
-      //   "Opernplatz 14, 60313 Frankfurt, Germany and Warburgstr. 32, 20354 Hamburg, Germany.",
-      // phone: "+44(0)1442 383361",
-      email: "eric@macdonaldsearchgroup.com",
-    },
-    {
-      id: 3,
-      image: officeImage3,
-      name: "Berlin",
-      // address:
-      //   "Opernplatz 14, 60313 Frankfurt, Germany and Warburgstr. 32, 20354 Hamburg, Germany.",
-      // phone: "+44(0)1442 383361",
-      email: "eric@macdonaldsearchgroup.com",
-    },
-  ];
+  const officeData = {
+    id: 1,
+    image: officeImage,
+    name: "Hamburg",
+    address:
+      "Opernplatz 14, 60313 Frankfurt, Germany and Warburgstr. 32, 20354 Hamburg, Germany.",
+    // phone: "604-687-6464",
+    // email: "eric@macdonaldsearchgroup.com",
+  };
 
   const AboutContent = {
     greenDescription: `We always put a special attention to the fact that our Senior Partners have a wide and deep experience in running international assignments – both in their period as line managers as well as within their background and history in the international Executive Search industry`,
@@ -103,7 +80,7 @@ practices. They know client’s markets well.`,
         desc={BannerData.desc}
         Banner={Banner}
       />
-      <OfficeSlider officeData={officeData} heading={officeSecHeading} />
+      <OneOffice officeData={officeData} heading={officeSecHeading} />
       <DrivingLeadership
         aboutheadingclass="md:w-[400px]"
         firstparaclass="!md:w-[300px]"
