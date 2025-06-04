@@ -1,9 +1,6 @@
 "use client";
 import Banner from "../../assets/sectors/consumerBaner.webp";
 import AboutImage from "../../assets/sectors/AboutConsumer.webp";
-import ButtonImage from "../../assets/homePage/btn-img.svg";
-import HoverImage from "../../assets/homePage/hover.svg";
-import Button from "../utilities/Button";
 import Image from "next/image";
 import Faq from "../services/Faq";
 import ExperImage from "../../assets/sectors/ConsumerExpertSec.webp";
@@ -14,50 +11,18 @@ import Icon2 from "../../assets/sectors/consumerchoose2.svg";
 import Icon3 from "../../assets/sectors/consumerchoose3.svg";
 import Icon4 from "../../assets/sectors/consumerchoose4.svg";
 import Icon5 from "../../assets/sectors/consumerchoose5.svg";
+import { SectorBanner } from "../utilities/SectorBanner";
 export const ConsumerHeroSec = () => {
   return (
     <>
-      <div className="relative w-full min-h-[300px] md:min-h-screen block md:flex  items-center overflow-hidden">
-        {/* Overlay */}
-
-        {/* Background Image */}
-        <div className="absolute inset-0 w-full h-[300px] md:h-full">
-          <Image
-            src={Banner}
-            alt="Background Image"
-            fill
-            className="object-cover w-full h-[400px] md:min-h-screen "
-            priority
-          />
-        </div>
-
-        {/* Content Section */}
-        <div className="relative z-10 flex flex-col items-start justify-start md:justify-center  px-6 md:px-32 max-w-7xl mt-[3rem] md:mt-2">
-          <h2 className="text-lg md:text-[40px] leading-normal font-normal text-left w-[150px] md:w-[350px] text-black md:text-black">
-            Visionary Leaders Build Exceptional Consumer Brands
-          </h2>
-          <div
-            className="mt-3 md:mb-[3rem] h-[1px] w-[50%] md:w-[320px]  md:mx-0"
-            style={{
-              background: "linear-gradient(to right, #005581 20%, #96A94A 30%)",
-            }}
-          ></div>
-
-          <p className="mt-[1rem] md:mt-[3rem] text-xs md:text-base leading-snug max-w-[40%] md:max-w-[400px] ">
-            In a rapidly evolving market, leadership isn’t just about keeping
-            pace—it’s about setting it.
-          </p>
-
-          {/* Button */}
-          <div className="mt-6">
-            <Button
-              text="Know More"
-              image={ButtonImage}
-              hoverImage={HoverImage}
-            />
-          </div>
-        </div>
-      </div>
+      <SectorBanner
+        textColor="text-black"
+        Banner={Banner}
+        heading="Visionary Leaders Build Exceptional Consumer Brands"
+        description="In a rapidly evolving market, leadership isn’t just about keeping
+            pace—it’s about setting it."
+        buttonText="Know More"
+      />
     </>
   );
 };
@@ -73,9 +38,9 @@ In an environment where growth can be global overnight and disruption can strike
   return (
     <>
       <div className="mx-auto relative mt-[2rem] mb-[4rem] md:mt-6 md:mb-[2rem] w-full max-w-7xl px-6 md:px-12">
-        <div className="flex flex-col md:flex-row gap-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-0 relative">
           {/* Left Section: Image */}
-          <div className="w-full md:w-[100%] h-[300px] md:h-[600px] lg:h-[600px]">
+          <div className="relative w-full md:w-[150%] h-[300px] md:h-[600px] lg:h-[600px] overflow-hidden">
             <Image
               src={AboutImage}
               alt="ConsumerProduct"
@@ -84,7 +49,7 @@ In an environment where growth can be global overnight and disruption can strike
           </div>
 
           {/* Right Section: Content */}
-          <div className="relative w-full md:w-[80%] top-0 md:top-[2rem] md:left-[-7rem] bg-[#859839] p-6 md:p-6 shadow-xl text-white rounded-lg flex flex-col justify-center hover:scale-105 transition-transform duration-300 hover:cursor-pointer h-[550px]">
+          <div className="relative w-full md:w-[85%] md:ml-[3rem] top-0 md:top-[2rem] bg-[#859839] p-6 md:p-6 shadow-xl text-white rounded-lg flex flex-col justify-center hover:scale-105 transition-transform duration-300 hover:cursor-pointer h-[530px] z-10">
             {/* Blue Bar on Top */}
             <div className="absolute -top-2 right-[2rem] w-[70px] h-2 bg-[#024996] rounded-md"></div>
 

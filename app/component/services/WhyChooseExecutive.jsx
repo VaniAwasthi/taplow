@@ -20,7 +20,7 @@ const WhyChooseExecutive = ({ heading, cards, headingClass }) => {
       <div className=" container mx-auto max-w-7xl py-10 px-4">
         <div className="block md:flex items-center md:justify-between justify-center mt-4 mb-[2rem]">
           <h2
-            className={`text-3xl px-4 font-regular text-center md:text-left redhat md:w-[300px] ${headingClass} `}
+            className={`text-3xl px-4 font-regular text-center md:text-left redhat md:w-[350px] ${headingClass} `}
           >
             {heading}
           </h2>
@@ -95,9 +95,10 @@ const WhyChooseExecutive = ({ heading, cards, headingClass }) => {
                     {card.title}
                   </h3>
                   <div className=" my-[1rem] w-[200] h-[1px] bg-[#859839] "></div>
-                  <p className="text-[#666666] w-[200px] mt-2 text-sm">
-                    {card.desc}
-                  </p>
+                  <p
+                    className="text-[#666666] w-[200px] mt-2 text-sm"
+                    dangerouslySetInnerHTML={{ __html: card.desc }}
+                  ></p>
                 </div>
               </div>
             </SwiperSlide>

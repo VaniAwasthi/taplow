@@ -34,10 +34,10 @@ const navigation = [
   },
   {
     name: "Sectors",
-    href: "/sectors",
+    href: "/sectors/conusmer-sector",
     submenu: [
-      { name: "Consumer Products", href: "/sectors" },
-      { name: "Financial Services", href: "/sectors" },
+      { name: "Consumer Products", href: "/sectors/conusmer-sector" },
+      { name: "Financial Services", href: "/sectors/financial-service" },
       { name: "Digital ITC", href: "/sectors" },
       { name: "Not for Profit", href: "/sectors" },
       { name: "Life Science", href: "/sectors" },
