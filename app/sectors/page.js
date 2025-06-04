@@ -1,19 +1,48 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import sectorImg from "../assets/sector.webp";
+import {
+  AboutConsumerService,
+  ConsumerExpertSec,
+  ConsumerHeroSec,
+  ConsumerSectorFaq,
+  WhyChooseSec,
+} from "../component/consumer-sector/HeroAboutSect";
+import {
+  ConsumerProductsConsultants,
+  InsightsSection,
+} from "../component/consumer-sector/ConsultantInsights";
 
 const Sectors = () => {
+  const leaderData = [
+    { name: "Anna Nuzzi", id: 1 },
+    { name: "Anoop Semwal", id: 2 },
+    { name: "Bernd Schlosshauer", id: 3 },
+    { name: "Carmen Alarcon", id: 4 },
+    { name: "Darryl Miller", id: 5 },
+    { name: "Giovanna Brambilla", id: 6 },
+    { name: "Helmut Boehler", id: 7 },
+    { name: "Ian Stacy", id: 8 },
+    { name: "Pankaj Goswami", id: 9 },
+    { name: "Prof. Dr. Manuel Vermeer", id: 10 },
+    { name: "Peter Tanner AM", id: 11 },
+    { name: "Mark Firth", id: 12 },
+    { name: "Sangeeta Sabharwal", id: 13 },
+    { name: "Sheldon Zhou", id: 14 },
+  ];
   return (
-    <div className=" relative">
-      <Image
-        src={sectorImg}
-        alt="Sector"
-        width={1500}
-        height={1500}
-        className="w-full h-full"
+    <>
+      <ConsumerHeroSec />
+      <AboutConsumerService />
+      <ConsumerExpertSec />
+      <WhyChooseSec />
+      <ConsumerProductsConsultants
+        Heading="Meet Our Consumer Products Consultants"
+        leaderData={leaderData}
       />
-    </div>
+      <ConsumerSectorFaq />
+      <InsightsSection />
+    </>
   );
 };
 

@@ -60,6 +60,38 @@ const Services = () => {
     description:
       "With over 150 consultants across the globe, The Taplow Group has a proven track record of delivering high-caliber executive talent for organisations worldwide. We go beyond traditional recruitment, using in-depth market insights, cultural assessments, and leadership evaluation tools to find the right executives for your business.",
   };
+  const FaqData = [
+    {
+      index: 1,
+      question: "What industries does The Taplow Group specialise in?",
+      answer:
+        "We serve various industries, including finance, healthcare, technology, consumer goods, etc.",
+    },
+    {
+      index: 2,
+      question: "How does Taplow ensure the exemplary leadership fit?",
+      answer:
+        "We ensure leadership fit through a rigorous selection process tailored to each client's needs.",
+    },
+    {
+      index: 3,
+      question: "What is your executive search process?",
+      answer:
+        "Our process includes market research, candidate assessment, and in-depth interviews.",
+    },
+    {
+      index: 4,
+      question: "How long does an executive search typically take?",
+      answer:
+        "An executive search typically takes 6-12 weeks depending on role complexity.",
+    },
+    {
+      index: 5,
+      question: "How does Taplow differ from other executive search firms?",
+      answer:
+        "We provide a personalized, hands-on approach with a strong global network.",
+    },
+  ];
   return (
     <>
       <HeroSection />
@@ -70,7 +102,10 @@ const Services = () => {
       <MeetOurExperts />
       <SuccessStories />
       <ContactSection />
-      <Faq />
+      <Faq
+        heading="Frequently Asked Questions for Executive Search"
+        FaqData={FaqData}
+      />
       <InsightRelated />
       <LeadershipRight />
       {/* <Image src="/homePage/service.jpg" alt="Service" width={1920} height={1080} className="w-full" /> */}

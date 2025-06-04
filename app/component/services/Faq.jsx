@@ -3,45 +3,12 @@ import React, { useState } from "react";
 import Button from "../utilities/Button";
 import HoverImage from "../../assets/homePage/hover.svg";
 
-const Faq = () => {
+const Faq = ({ heading, FaqData }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const toggleFaq = (index) => {
     setActiveIndex(activeIndex === index ? 0 : index);
   };
-
-  const FaqData = [
-    {
-      index: 1,
-      question: "What industries does The Taplow Group specialise in?",
-      answer:
-        "We serve various industries, including finance, healthcare, technology, consumer goods, etc.",
-    },
-    {
-      index: 2,
-      question: "How does Taplow ensure the exemplary leadership fit?",
-      answer:
-        "We ensure leadership fit through a rigorous selection process tailored to each client's needs.",
-    },
-    {
-      index: 3,
-      question: "What is your executive search process?",
-      answer:
-        "Our process includes market research, candidate assessment, and in-depth interviews.",
-    },
-    {
-      index: 4,
-      question: "How long does an executive search typically take?",
-      answer:
-        "An executive search typically takes 6-12 weeks depending on role complexity.",
-    },
-    {
-      index: 5,
-      question: "How does Taplow differ from other executive search firms?",
-      answer:
-        "We provide a personalized, hands-on approach with a strong global network.",
-    },
-  ];
 
   return (
     <div className="container mx-auto px-4 md:max-w-6xl my-4">
@@ -49,7 +16,7 @@ const Faq = () => {
         {/* Left Section */}
         <div className="w-full lg:w-1/2 p-4 md:p-6">
           <h2 className="text-lg md:text-3xl lg:w-[300px] w-full font-normal text-center redhat mt-[1rem]">
-            Frequently Asked Questions for Executive Search
+            {heading}
           </h2>
         </div>
 

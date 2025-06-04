@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Button({
   text,
   onClick,
+  href,
   buttonImage,
   hoverImage,
   className = "",
@@ -14,9 +16,10 @@ export default function Button({
   filter = "brightness(0) invert(1)",
 }) {
   return (
-    <button
+    <Link
+      href={`${href ? href : "#"}`}
       onClick={onClick}
-      className={`relative group w-[242px] h-[42px] rounded-full flex items-center justify-center gap-2 transition-all duration-500 ease-out overflow-hidden transform hover:scale-105 ${className}`}
+      className={`relative group w-[150px] md:w-[242px] h-[42px] rounded-full flex items-center justify-center gap-2 transition-all duration-500 ease-out overflow-hidden transform hover:scale-105 ${className}`}
       style={{
         backgroundColor: bgColor,
         color: textColor,
@@ -49,6 +52,6 @@ export default function Button({
           className="absolute inset-0 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100"
         />
       </div>
-    </button>
+    </Link>
   );
 }

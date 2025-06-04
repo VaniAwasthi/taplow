@@ -3,6 +3,7 @@
 import {
   AboutEntrim,
   HeroSectionEntrim,
+  IntrimFaq,
   OurOfferingEntrim,
   SuccesStoryEntrim,
   WhyChooseEntrimManagement,
@@ -28,8 +29,7 @@ const Page = () => {
       <WhyChooseEntrimManagement />
       <IndustrySlider />
       <MeetOurExperts />
-      <SuccesStoryEntrim />
-      <Faq />
+      <IntrimFaq />
       <ContcatSection ContactData={ContactData} />
     </>
   );
