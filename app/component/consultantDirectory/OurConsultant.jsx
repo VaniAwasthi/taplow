@@ -81,6 +81,32 @@ export default function OurConsultants() {
   return (
     <div className="p-6 md:max-w-7xl mx-auto" ref={consultantSectionRef}>
       <SearchBar
+        inputs={[
+          { type: "text", key: "search", placeholder: "Search by name" },
+          {
+            type: "select",
+            key: "location",
+            label: "Location",
+            options: uniqueLocations,
+          },
+          {
+            type: "select",
+            key: "role",
+            label: "Role",
+            options: uniqueRoles,
+          },
+          {
+            type: "select",
+            key: "service",
+            label: "Service",
+            options: [
+              "Consulting",
+              "Executive Search",
+              "Leadership Advisory and Performance",
+              "Board Services",
+            ],
+          },
+        ]}
         onSearch={(filters) => setFilters(filters)}
         locations={uniqueLocations}
         roles={uniqueRoles}
