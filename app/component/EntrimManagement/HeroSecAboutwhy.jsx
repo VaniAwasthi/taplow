@@ -24,6 +24,7 @@ import Icon3 from "../../assets/servicepage/EntrimMangement/chooseIcon3.svg";
 import Icon4 from "../../assets/servicepage/EntrimMangement/chooseIcon4.svg";
 import WhyChooseExecutive from "../services/WhyChooseExecutive";
 import CaseStudies from "../coun-layout/CaseStudies";
+import Faq from "../services/Faq";
 export const HeroSectionEntrim = () => {
   const Heading = "Interim Management Solutions for Critical Business Moments";
   const Description =
@@ -280,6 +281,51 @@ export const SuccesStoryEntrim = () => {
         heading={Successheading}
         textClass="text-sm md:text-lg"
       />
+    </>
+  );
+};
+export const IntrimFaq = () => {
+  const FaqData = [
+    {
+      index: 1,
+      question: "What is Executive Interim Management?",
+      answer:
+        "It’s the placement of highly experienced leaders in senior roles for a defined period to manage specific challenges, transitions, or projects.",
+    },
+    {
+      index: 2,
+      question: "When should a company consider an interim executive?",
+      answer:
+        " During transformation, leadership gaps, crisis situations, M&A activities, or when specific expertise is needed for strategic execution.",
+    },
+    {
+      index: 3,
+      question: " How quickly can you place an interim executive?",
+      answer:
+        "Often within 5–10 business days, thanks to our global network and streamlined assessment process.",
+    },
+    {
+      index: 4,
+      question: "What levels of leadership do you provide?",
+      answer:
+        "We provide C-level executives (CEO, CFO, COO, CHRO, etc.), functional leaders, board-level support, and programme/project heads.",
+    },
+    {
+      index: 5,
+      question: "Are your interim executives full-time employees?",
+      answer:
+        " No—they are independent, contract-based professionals engaged for the duration of the assignment, with no long-term obligations.",
+    },
+    {
+      index: 6,
+      question: "Can interim leaders transition to permanent roles?",
+      answer:
+        "While the primary goal is short-term delivery, some clients choose to transition interims to full-time positions when mutually beneficial.",
+    },
+  ];
+  return (
+    <>
+      <Faq heading="Frequently Asked Questions (FAQs)" FaqData={FaqData} />
     </>
   );
 };

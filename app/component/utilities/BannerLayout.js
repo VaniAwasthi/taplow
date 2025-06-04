@@ -38,7 +38,9 @@ const BannerLayout = ({
       </div>
 
       {/* Content Section */}
-      <div className="relative z-10 flex flex-col items-start justify-start md:justify-center text-white px-6 md:px-32 max-w-7xl ">
+      <div
+        className={`relative z-10 flex flex-col items-start justify-start md:justify-center text-white px-6 md:px-32 max-w-7xl`}
+      >
         <h2 className="text-lg md:text-4xl font-normal text-left ">{title}</h2>
         <h2 className="text-lg md:text-4xl font-normal mt-2">{title2}</h2>
 

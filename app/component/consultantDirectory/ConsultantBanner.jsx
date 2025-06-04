@@ -29,100 +29,66 @@ export const ConsultantBanner = () => {
   );
 };
 
-export default function SearchBar({ onSearch, locations, roles }) {
-  const [search, setSearch] = useState("");
-  const [service, setService] = useState("");
-  const [role, setRole] = useState("");
-  const [location, setLocation] = useState("");
+export default function SearchBar({ onSearch, inputs, filterText = false }) {
+  // Maintain local state for each input key
+  const [filters, setFilters] = useState({});
 
-  const triggerSearch = (next = {}) => {
-    const updated = {
-      search,
-      service,
-      role,
-      location,
-      ...next,
-    };
+  // When input changes
+  const handleChange = (key, value) => {
+    const updated = { ...filters, [key]: value };
+    setFilters(updated);
     onSearch(updated);
   };
+
   return (
     <div className="flex flex-col sm:flex-row flex-wrap items-center gap-4 bg-white p-3 rounded-lg w-full">
-      {/* Search Input */}
-      <input
-        type="text"
-        placeholder="Search by name"
-        className="px-4 py-2 border border-green-500 rounded-full focus:outline-none w-full sm:w-[220px]"
-        value={search}
-        onChange={(e) => {
-          const val = e.target.value;
-          setSearch(val);
-          triggerSearch({ search: val });
-        }}
-      />
+      {filterText ? (
+        <span className="text-[#9E9E9E] text-[14px]">Filter by:</span>
+      ) : null}
+      {inputs.map((input) => {
+        if (input.type === "text") {
+          return (
+            <input
+              key={input.key}
+              type="text"
+              placeholder={input.placeholder}
+              className="px-4 py-2 border border-[#96A94A] rounded-full focus:outline-none w-full sm:w-[220px]"
+              value={filters[input.key] || ""}
+              onChange={(e) => handleChange(input.key, e.target.value)}
+            />
+          );
+        }
 
-      {/* Filter Text (Hidden on Mobile) */}
-      <span className="text-gray-600 hidden md:inline-block">Filter by:</span>
+        if (input.type === "select") {
+          return (
+            <select
+              key={input.key}
+              className="px-4 py-2 border border-[#96A94A] rounded-full focus:outline-none w-full sm:w-[200px] max-w-full"
+              value={filters[input.key] || ""}
+              onChange={(e) =>
+                handleChange(
+                  input.key,
+                  e.target.value === "All" ? "" : e.target.value
+                )
+              }
+            >
+              <option value="">{input.label}</option>
+              {input.options.map((option) => (
+                <option key={option} value={option}>
+                  {option}
+                </option>
+              ))}
+            </select>
+          );
+        }
 
-      {/* Select Inputs */}
-      <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-        {[
-          {
-            value: service,
-            setter: (val) => {
-              setService(val);
-              triggerSearch({ service: val });
-            },
-            label: "Service",
-            options: [
-              "Consulting",
-              "Executive Search",
-              "Leadership Advisory and Performance",
-              "Board Services",
-            ],
-          },
-          {
-            value: role,
-            setter: (val) => {
-              setRole(val);
-              triggerSearch({ role: val });
-            },
-            label: "Role",
-            options: [...roles],
-          },
-          {
-            value: location,
-            setter: (val) => {
-              setLocation(val);
-              triggerSearch({ location: val });
-            },
-            label: "Location",
-            options: [...locations],
-          },
-        ].map(({ value, setter, label, options }, index) => (
-          <select
-            key={index}
-            className="px-4 py-2 border border-green-500 rounded-full focus:outline-none w-full sm:w-[200px] max-w-full"
-            value={value}
-            onChange={(e) =>
-              setter(e.target.value === "All" ? "" : e.target.value)
-            }
-          >
-            <option value="">{label}</option>
-            {options.map((option) => (
-              <option key={option} value={option}>
-                {option}
-              </option>
-            ))}
-          </select>
-        ))}
-      </div>
+        return null;
+      })}
 
       {/* Search Button */}
       <button
-        className="bg-green-600 text-white p-3 rounded-full flex items-center justify-center w-12 h-12"
-        onClick={
-          () => onSearch({ search, service, role, location }) // fallback use
-        }
+        className="bg-[#96A94A] text-white p-3 rounded-full flex items-center justify-center w-12 h-12"
+        onClick={() => onSearch(filters)}
       >
         <Search size={20} />
       </button>

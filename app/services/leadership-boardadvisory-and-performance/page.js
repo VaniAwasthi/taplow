@@ -10,6 +10,7 @@ import Faq from "@/app/component/services/Faq";
 import SuccessStories from "@/app/component/services/SuccessStories";
 import {
   AdvisoryLeader,
+  Leadershipfaq,
   PerformanceLeadershipSection,
 } from "@/app/component/Leadership/IformativeSec";
 
@@ -23,7 +24,7 @@ const Page = () => {
       <AdvisoryLeader />
       <SuccessStories />
       <ContcatSection />
-      <Faq />
+      <Leadershipfaq />
     </>
   );
 };

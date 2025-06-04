@@ -6,6 +6,7 @@ import {
   SuccesStoryBoard,
   WhyChooseBoardAdvisory,
 } from "@/app/component/boardadvisory/HeroAboutWhy";
+import { IntrimFaq } from "@/app/component/EntrimManagement/HeroSecAboutwhy";
 import IndustrySlider from "@/app/component/home/Industries";
 import ContcatSection from "@/app/component/services/ContactSection";
 import Faq from "@/app/component/services/Faq";
@@ -28,7 +29,7 @@ const Page = () => {
       <IndustrySlider />
       <MeetOurExperts />
       <SuccesStoryBoard />
-      <Faq />
+      <IntrimFaq />
       <ContcatSection ContactData={ContactData} />
     </>
   );

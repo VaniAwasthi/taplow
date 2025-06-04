@@ -21,6 +21,7 @@ import {
 import { consultantData } from "../utilities/data/consultantData";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import Faq from "../services/Faq";
 export const PerformanceLeadershipSection = () => {
   const HeadingDiv =
     "flex space-y-2 space-x-2 md:space-x-4 justify-center items-center";
@@ -609,5 +610,45 @@ export const AdvisoryLeader = () => {
         )}
       </div>
     </div>
+  );
+};
+
+export const Leadershipfaq = () => {
+  const FaqData = [
+    {
+      index: 1,
+      question: "What industries does The Taplow Group specialise in?",
+      answer:
+        "We serve various industries, including finance, healthcare, technology, consumer goods, etc.",
+    },
+    {
+      index: 2,
+      question: "How does Taplow ensure the exemplary leadership fit?",
+      answer:
+        "We ensure leadership fit through a rigorous selection process tailored to each client's needs.",
+    },
+    {
+      index: 3,
+      question: "What is your executive search process?",
+      answer:
+        "Our process includes market research, candidate assessment, and in-depth interviews.",
+    },
+    {
+      index: 4,
+      question: "How long does an executive search typically take?",
+      answer:
+        "An executive search typically takes 6-12 weeks depending on role complexity.",
+    },
+    {
+      index: 5,
+      question: "How does Taplow differ from other executive search firms?",
+      answer:
+        "We provide a personalized, hands-on approach with a strong global network.",
+    },
+  ];
+  return (
+    <>
+      <Faq heading="Frequently Asked Questions (FAQs)" FaqData={FaqData} />
+    </>
   );
 };

@@ -20,7 +20,7 @@ const WhyChooseExecutive = ({ heading, cards, headingClass }) => {
       <div className=" container mx-auto max-w-7xl py-10 px-4">
         <div className="block md:flex items-center md:justify-between justify-center mt-4 mb-[2rem]">
           <h2
-            className={`text-3xl font-regular text-center md:text-center redhat md:w-[300px] ${headingClass} `}
+            className={`text-3xl px-4 font-regular text-center md:text-left redhat md:w-[300px] ${headingClass} `}
           >
             {heading}
           </h2>

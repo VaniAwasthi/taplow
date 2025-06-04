@@ -57,7 +57,6 @@ const ConsultantProfile = () => {
   const matchedImage = consultant
     ? countryImageData.find((item) => item.country === consultant.location)
     : null;
-  console.log(matchedImage, "data");
   const HeroImage = matchedImage?.image || DefaultHeroImage;
   return (
     <div>
