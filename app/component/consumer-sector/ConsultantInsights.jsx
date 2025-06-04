@@ -25,7 +25,7 @@ import Image from "next/image";
 import Button from "../utilities/Button";
 import SearchBar from "../consultantDirectory/ConsultantBanner";
 
-export const ConsumerProductsConsultants = ({ Heading, leaderData }) => {
+export const ConsumerProductsConsultants = ({ Heading, leaderData, desc }) => {
   const router = useRouter();
   const [hovered, setHovered] = useState(null);
   const prevRef = useRef(null);
@@ -101,6 +101,9 @@ export const ConsumerProductsConsultants = ({ Heading, leaderData }) => {
           {Heading}
           <div className="w-[80%] h-1 md:ml-[2rem] bg-[#96A94A]  mt-2"></div>
         </h2>
+        {desc ? (
+          <p className="text-[14px] redhat text-[#666666]">{desc}</p>
+        ) : null}
         <SearchBar
           onSearch={(newFilters) => setFilters(newFilters)}
           filterText={true}

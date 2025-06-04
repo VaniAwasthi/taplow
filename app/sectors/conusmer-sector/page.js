@@ -1,17 +1,17 @@
 "use client";
-import Image from "next/image";
-import React from "react";
+import {
+  ConsumerProductsConsultants,
+  InsightsSection,
+} from "@/app/component/consumer-sector/ConsultantInsights";
 import {
   AboutConsumerService,
   ConsumerExpertSec,
   ConsumerHeroSec,
   ConsumerSectorFaq,
   WhyChooseSec,
-} from "../component/consumer-sector/HeroAboutSect";
-import {
-  ConsumerProductsConsultants,
-  InsightsSection,
-} from "../component/consumer-sector/ConsultantInsights";
+} from "@/app/component/consumer-sector/HeroAboutSect";
+import Image from "next/image";
+import React from "react";
 
 const Sectors = () => {
   const leaderData = [
