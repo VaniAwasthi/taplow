@@ -22,7 +22,7 @@ const page = () => {
     title: `Welcome to <b>Taplow Norway</b>`,
     desc: "Taplow Norway has been member of the Taplow Group since 2004. We focus on retained executive search. We occationally assist in advertised recruiting as well as second opinions",
   };
-  const officeSecHeading = "Our office in Australia";
+  const officeSecHeading = "Our office in Norway";
   const officeData = {
     id: 1,
     image: officeImage,

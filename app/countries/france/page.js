@@ -24,7 +24,7 @@ const page = () => {
     title: `Welcome to <b>Taplow France</b>`,
     desc: " Created in 1989 to follow the strong development of HR market in Hi-Tech, Construction, Automotive and Life science sectors, TAPLOW CONSULTING FRANCE has offices in Paris and Lyon.",
   };
-  const officeSecHeading = "Our office in Singapore";
+  const officeSecHeading = "Our office in France";
   const officeData = {
     id: 1,
     image: officeImage,
