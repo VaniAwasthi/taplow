@@ -13,7 +13,7 @@ const ExpertiseSection = ({
   buttonLink = "#",
 }) => {
   return (
-    <section className=" w-full max-w-7xl mx-auto py-10 px-4">
+    <section className=" w-full max-w-7xl mx-auto py-7 md:py-4 px-4">
       <div className=" flex flex-col md:flex-row items-center justify-between py-12 px-4 md:px-3">
         {/* Left Side */}
         <div className="md:w-1/2 mb-8 md:mb-0">
