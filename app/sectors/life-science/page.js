@@ -19,35 +19,21 @@ import React from "react";
 const Sectors = () => {
   const leaderData = [
     { name: "Ana Sánchez-Asiain", id: 1 },
-    { name: "Carmen Alarcon", id: 2 },
-    { name: "Anoop Semwal", id: 3 },
-    { name: "Anna Nuzzi", id: 4 },
-    { name: "Giovanna Brambilla", id: 5 },
-    { name: "Dimitar Kalev", id: 7 },
-    { name: "Helmut Boehler", id: 8 },
+    { name: "Anoop Semwal", id: 2 },
+    { name: "Anna Nuzzi", id: 3 },
+    { name: "Carmen Alarcon", id: 4 },
+    { name: "Eli Stoyneva", id: 5 },
+    { name: "Graeme Sandri", id: 6 },
+    { name: "Helmut Boehler", id: 7 },
     { name: "Ian Stacy", id: 8 },
-    { name: "Sheldon Zhou", id: 9 },
-    { name: "Sunil Gandhi", id: 10 },
-    { name: "Peter Tanner AM", id: 11 },
-    { name: "Mark Firth", id: 12 },
-    { name: "Sangeeta Sabharwal", id: 13 },
-    { name: "Hannu Översti", id: 14 },
-    { name: "Graeme Sandri", id: 16 },
-    { name: "Vijay Bajaj", id: 17 },
-    { name: "Stig Heggertveit", id: 18 },
-    { name: "Sheldon Zhou", id: 19 },
-    { name: "Karina Kratholm", id: 20 },
-    { name: "Shaista Sabharwal", id: 21 },
-    { name: "Hans Holter-Sorensen", id: 22 },
-    { name: "Stéphane MARTINOD", id: 23 },
-    { name: "Harri Hämäläinen", id: 24 },
-    { name: "Helen Hafström", id: 25 },
-    { name: "Jean-Marc BURY", id: 26 },
-    { name: "Eli Stoyneva", id: 27 },
-    { name: "Timo Toivann", id: 28 },
-    { name: "Tony Walsh", id: 29 },
-    { name: "Matti Copeland", id: 30 },
-    { name: "Maria Lindahl", id: 30 },
+    { name: "Jean-Marc BURY", id: 9 },
+    { name: "Mark Firth", id: 10 },
+    { name: "Matti Copeland", id: 11 },
+    { name: "Maria Lindahl", id: 12 },
+    { name: "Peter Tanner AM", id: 13 },
+    { name: "Sangeeta Sabharwal", id: 14 },
+    { name: "Shaista Sabharwal", id: 15 },
+    { name: "Sheldon Zhou", id: 16 },
   ];
   return (
     <>
@@ -55,10 +41,10 @@ const Sectors = () => {
       <AboutLifeScience />
       <LifeScienceExpertSec />
       <WhyChooseSecLifeScience />
-      {/* <ConsumerProductsConsultants
+      <ConsumerProductsConsultants
         Heading="Meet Our Consumer Products Consultants"
         leaderData={leaderData}
-      /> */}
+      />
       <LifeSciSectorFaq />
       <InsightsSection />
     </>
