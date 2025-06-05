@@ -130,10 +130,6 @@ export const ConsumerProductsConsultants = ({ Heading, leaderData, desc }) => {
                 autoHeight={true} // Add this line!
                 slidesPerView={1}
                 spaceBetween={1}
-                navigation={{
-                  prevEl: prevRef.current,
-                  nextEl: nextRef.current,
-                }}
                 onSwiper={(swiper) => (swiperRef.current = swiper)}
                 onSlideChange={handleSlideChange}
               >
