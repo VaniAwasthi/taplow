@@ -34,6 +34,8 @@ const Sectors = () => {
     { name: "Sangeeta Sabharwal", id: 14 },
     { name: "Shaista Sabharwal", id: 15 },
     { name: "Sheldon Zhou", id: 16 },
+    { name: "Stig Heggertveit", id: 17 },
+    { name: "Sunil Gandhi", id: 18 },
   ];
   return (
     <>
