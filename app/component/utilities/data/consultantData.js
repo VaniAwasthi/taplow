@@ -76,6 +76,7 @@ import Alexguo from "../../../assets/Consultantpage/Consultant/alexguo.webp";
 import JoyceShengv from "../../../assets/Consultantpage/Consultant/JoyceShengv.webp";
 import CharlotteNissen from "../../../assets/Consultantpage/Consultant/CharlotteNissen.webp";
 import ole from "../../../assets/Consultantpage/Consultant/ole.webp";
+import KennethSaxskioldNoerup from "../../../assets/Consultantpage/Consultant/KennethSaxskioldNoerup.webp";
 
 export const consultantData = [
   {
@@ -2245,11 +2246,11 @@ Joyce graduated from Fudan University, majoring in Pharmacy.
   {
     id: 77,
     name: "Ole Norby",
-    role: "Managing Director Taplow Executive Search ApS &amp; Founder Taplow Executive Interim ApS",
+    role: "Managing Director Taplow Executive Search ApS & Founder Taplow Executive Interim ApS",
     location: "Denmark",
     phone: "0045 29 70 70 56",
     email: "onb@taplow.dk",
-    linkdine: "lhttps://www.linkedin.com/in/ole-norby-84b3074b/",
+    linkdine: "https://www.linkedin.com/in/ole-norby-84b3074b/",
     services: ["Executive Search", "Executive Interim"],
     industrySectors: [
       "Consumer Products",
@@ -2268,5 +2269,38 @@ DK 2970 Hoersholm`,
     bio: `Managing Director in Taplow Executive Search in DK
 Founder Interim Services in DK
 Long experience in varius C-Level positions in different industries`,
+  },
+  {
+    id: 78,
+    name: "Kenneth Saxskiold-Noerup",
+    role: "Executive Partner",
+    location: "Denmark",
+    phone: "+4530892427",
+    email: "sax@taplow.dk",
+    linkdine: "https://www.linkedin.com/in/saxskiold/",
+    services: [
+      "Executive Search",
+      "Executive Interim",
+      "Leadership & Performance",
+    ],
+    industrySectors: [
+      "Digital",
+      "Industrial",
+      "Life Science",
+      "Not for Profit",
+      "Professional Services",
+      "Real Estate",
+    ],
+    image: KennethSaxskioldNoerup,
+    address: `Slotsmarken 11
+2970 Hørsholm, Denmark`,
+    bio: `Kenneth is an executive partner and board member in the Danish Taplow Executive Search Organisation and
+chairman for the Taplow Interim Organisation. Kenneth is an accomplished executive with over 25 years of global
+experience in management consulting, executive search, strategic planning, and general business management and
+development. Kenneth has a proven track record in leading large teams, driving business transformations, and
+achieving significant growth and business results in complex international market dynamics.
+Strong expertise in talent acquisition, talent leadership, talent management, leadership organizational
+development, as well as in general strategic management. Kenneth is lead in supporting the global framework clients
+across the world.`,
   },
 ];
