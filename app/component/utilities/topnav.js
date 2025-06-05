@@ -38,7 +38,7 @@ const navigation = [
     submenu: [
       { name: "Consumer Products", href: "/sectors/conusmer-sector" },
       { name: "Financial Services", href: "/sectors/financial-service" },
-      { name: "Digital ITC", href: "#" },
+      { name: "Digital ICT", href: "/sectors/digital-ict" },
       { name: "Not for Profit", href: "#" },
       { name: "Life Science", href: "/sectors/life-science" },
       { name: "Professional Services", href: "#" },

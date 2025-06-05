@@ -74,6 +74,8 @@ import LilyBi from "../../../assets/Consultantpage/Consultant/LilyBi.webp";
 import DannyZhang from "../../../assets/Consultantpage/Consultant/DannyZhang.webp";
 import Alexguo from "../../../assets/Consultantpage/Consultant/alexguo.webp";
 import JoyceShengv from "../../../assets/Consultantpage/Consultant/JoyceShengv.webp";
+import CharlotteNissen from "../../../assets/Consultantpage/Consultant/CharlotteNissen.webp";
+import ole from "../../../assets/Consultantpage/Consultant/ole.webp";
 
 export const consultantData = [
   {
@@ -1369,26 +1371,37 @@ Carlsgatan 12 A, <br/>211 20 Malmö, <br/>Sweden`,
       "Retail",
     ],
   },
-  // {
-  //   id: 49,
-  //   name: "Charlotte Ramstedt",
-  //   role: "Researcher Taplow Sweden",
-  //   location: "Sweden",
-  //   services: ["Executive Search"],
-  //   phone: "+46 (0) 76 - 781 97 53",
-  //   email: "charlotte.ramstedt@atalent.se",
-  //   image: CharlotteRamstedt,
-  //   bio: `Charlotte has 1 years of experience of sourcing positions such as System Responsible, Group Accounting Manager and Project Manager. Charlotte works proactively with a strong focus on attracting candidates, candidate experience and creating a strong external talent network.`,
-  //   address: `Nya Tingstadsgatan 1<br/>422 44 Hisings Backa<br/>Gothenburg`,
-  //   linkdine: "https://www.linkedin.com/in/charlotte-ramstedt-9b1abb152/",
-  //   industrySectors: [
-  //     "ICT",
-  //     "Engineering",
-  //     "Energy",
-  //     "Financial services",
-  //     "Real Estate",
-  //   ],
-  // },
+  {
+    id: 49,
+    name: "Charlotte Nissen",
+    role: "Research Manager",
+    location: "Denmark",
+    services: ["Executive Search"],
+    phone: "+45 2560 9742",
+    email: "cni@taplow.dk",
+    image: CharlotteNissen,
+    bio: `Charlotte Nissen is a highly experienced Executive Search professional specializing in Research. She has
+extensive expertise in identifying top talent at specialist and C-level across various industries.<br>
+With many years of experience in recruitment and research, Charlotte has developed a strong track record
+in both consultancy and research roles. Throughout her career, she has worked as both a consultant and a
+research specialist, gaining in-depth knowledge of the executive search process from multiple perspectives.
+Since joining The Taplow Group, she has played a key role in delivering high-quality search solutions to
+clients. Prior to this, she has also worked within the temporary staffing industry.<br/>Her deep market knowledge, analytical skills, and ability to source high-caliber candidates make her a
+valuable asset in executive search projects.`,
+    address: `Taplow, Slotsmarken 11
+2970 Hørsholm, Denmark`,
+    linkdine: "https://www.linkedin.com/in/charlottenissen/",
+    industrySectors: [
+      "Professional Services",
+      "Telecommunications",
+      "Marketing & Communications",
+      "Life Science & Medico",
+      "Pharmaceuticals",
+      "Manufacturing",
+      "Real Estate",
+      "Industrial",
+    ],
+  },
   {
     id: 50,
     name: "Isabelle Karmsten",
@@ -2228,5 +2241,32 @@ Director.<br/>Joyce‘s rich experience of serving clients from global pharmas, 
 her with the vision and insight of talent market in her expert areas.
 Joyce graduated from Fudan University, majoring in Pharmacy.
 `,
+  },
+  {
+    id: 77,
+    name: "Ole Norby",
+    role: "Managing Director Taplow Executive Search ApS &amp; Founder Taplow Executive Interim ApS",
+    location: "Denmark",
+    phone: "0045 29 70 70 56",
+    email: "onb@taplow.dk",
+    linkdine: "lhttps://www.linkedin.com/in/ole-norby-84b3074b/",
+    services: ["Executive Search", "Executive Interim"],
+    industrySectors: [
+      "Consumer Products",
+      "Financial Services",
+      "TELCO",
+      "Industrial",
+      "Pharma &amp; Life Science",
+      "Professional Services",
+      "Real Estate",
+      "Construction",
+    ],
+    image: ole,
+    address: `Taplow Executive Search ApS
+Slotsmarken 11
+DK 2970 Hoersholm`,
+    bio: `Managing Director in Taplow Executive Search in DK
+Founder Interim Services in DK
+Long experience in varius C-Level positions in different industries`,
   },
 ];
