@@ -106,3 +106,14 @@ body {
   color: #009688;
   font-weight: bold;
 }
+/* in global.css */
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollbar::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #98ae40;
+  border-radius: 10px;
+}

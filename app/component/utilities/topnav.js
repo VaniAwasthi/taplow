@@ -96,29 +96,48 @@ const TopNav = () => {
                 </div>
 
                 {/* Desktop Navigation */}
+                {/* Desktop Navigation */}
                 <div className="hidden lg:flex space-x-4">
                   {navigation.map((item) =>
                     item.submenu ? (
                       <div key={item.name} className="relative group">
-                        <Link href={item.href}>
-                          <span
-                            className={`px-3 py-1 text-base font-normal cursor-pointer ${
-                              pathname.startsWith(item.href)
-                                ? "text-white bg-[#98AE40] pb-[0.7rem]"
-                                : "text-black hover:text-black"
-                            }`}
+                        <div className="relative">
+                          <Link href={item.href}>
+                            <span
+                              className={`px-3 py-1 text-base font-normal cursor-pointer ${
+                                pathname.startsWith(item.href)
+                                  ? "text-white bg-[#98AE40] pb-[0.7rem]"
+                                  : "text-black hover:text-black"
+                              }`}
+                            >
+                              {item.name}
+                            </span>
+                          </Link>
+                          {/* Dropdown with scrollbar and keep open on hover */}
+                          <div
+                            className="
+              absolute left-0 mt-2  
+          bg-white 
+              shadow-lg 
+              rounded-md 
+              z-50 
+              min-w-[180px] 
+              max-h-44 
+              overflow-y-auto 
+              pointer-events-auto 
+              scrollbar-thin 
+              scrollbar-thumb-[#98AE40] 
+              scrollbar-track-gray-200
+              invisible group-hover:opacity-100 group-hover:visible transition-all duration-300"
                           >
-                            {item.name}
-                          </span>
-                        </Link>
-                        <div className="absolute left-0 mt-2 hidden group-hover:block bg-white shadow-lg rounded-md z-50 min-w-[180px] overflow-y-scroll h-44">
-                          {item.submenu.map((sub) => (
-                            <Link key={sub.name} href={sub.href}>
-                              <div className="px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-[#98AE40]">
-                                {sub.name}
-                              </div>
-                            </Link>
-                          ))}
+                            {item.submenu.map((sub) => (
+                              <Link key={sub.name} href={sub.href}>
+                                <div className="px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-[#98AE40]">
+                                  {sub.name}
+                                </div>
+                              </Link>
+                            ))}
+                          </div>
                         </div>
                       </div>
                     ) : (
