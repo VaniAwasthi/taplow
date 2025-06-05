@@ -29,6 +29,7 @@ const ConnectExpert = () => {
           <div className="mt-[2rem] flex md:justify-start">
             <Link href="/consultant-directory">
               <Button
+                href="/consultant-directory"
                 text="Meet Consultants"
                 buttonImage={ButtonImg}
                 hoverImage={ButtonImg}

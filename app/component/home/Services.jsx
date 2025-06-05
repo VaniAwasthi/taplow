@@ -15,26 +15,25 @@ import NextArrow from "../../assets/homePage/NextArrow.png";
 import PrevArrow from "../../assets/homePage/prev-arrow.png";
 
 const services = [
-  { title: "Executive Search", image: Executive, link: "/services" },
+  {
+    title: "Executive Search",
+    image: Executive,
+    link: "/services/executive-search",
+  },
   {
     title: "Executive Interim Management",
     image: ExecutiveIntrim,
-    link: "/services",
+    link: "/services/executive-interim-management",
   },
   {
     title: "Leadership Advisory and Performance",
     image: Leadership,
-    link: "/services",
+    link: "/services/leadership-boardadvisory-and-performance",
   },
   {
     title: "Board Advisory Services",
     image: BoardAdvisory,
-    link: "/services",
-  },
-  {
-    title: "Virtual Leadership Training",
-    image: VirtualLeadership,
-    link: "/services",
+    link: "/services/board-advisory-services",
   },
 ];
 

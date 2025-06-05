@@ -1521,7 +1521,7 @@ He has recruited across all levels of management to CEO/Board level.
     location: "Australia",
     phone: "+61 3 91908904",
     email: "admin@taplowgroup.com.au",
-    linkdine: "https://www.linkedin.com/in/peter-tanner-am-b350531/",
+    linkdine: " https://www.linkedin.com/in/eleniatsalakis/",
     services: ["Executive Search", "Leadership Advisory and Performance"],
     industrySectors: [
       "Life Science and Healthcare",

@@ -16,47 +16,56 @@ import Life from "../../assets/homePage/lifeSci.webp";
 import Professional from "../../assets/homePage/professional.webp";
 import LeftArrow from "../../assets/homePage/arrow-left.png";
 import RightArrow from "../../assets/homePage/rightarrow.png";
+import Link from "next/link";
 
 const industries = [
   {
     title: "Consumer Products",
     text: "Driven by a passion to expedite change.",
     image: Consumer,
+    link: "/sectors/conusmer-sector",
   },
   {
     title: "Financial Services",
     text: "Delivering excellence in financial leadership.",
     image: Financial,
+    link: "/sectors/financial-service",
   },
   {
     title: "Digital and ICT",
     text: "Innovating through technology and ICT solutions.",
     image: Digi,
+    link: "/sectors/digital-ict",
   },
   {
     title: "Not for Profit",
     text: "Empowering social causes with leadership.",
     image: Notforprofit,
+    link: "#",
   },
   {
     title: "Industrial",
     text: "Optimizing supply chains with expert leadership.",
     image: Industrial,
+    link: "#",
   },
   {
     title: "Life Sciences",
     text: "Advancing healthcare and biotech solutions.",
     image: Life,
+    link: "/sectors/life-science",
   },
   {
     title: "Professional Services",
     text: "Enhancing advisory and leadership excellence.",
     image: Professional,
+    link: "#",
   },
   {
     title: "Real Estate",
     text: "Market insights and sustainable growth strategies.",
     image: Realestate,
+    link: "#",
   },
 ];
 
@@ -112,16 +121,19 @@ const IndustrySlider = () => {
                   <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-50"></div>
 
                   {/* Text Content */}
+
                   <div
                     className="absolute w-full px-4 text-white transition-all duration-300 bottom-4 text-left
                     group-hover:bottom-1/2 group-hover:translate-y-1/2 group-hover:text-center"
                   >
-                    <h3 className="px-2 font-semibold transition-all duration-300 group-hover:text-lg">
-                      {industry.title}
-                    </h3>
-                    <p className="text-sm opacity-100 transition-all duration-300 px-2 py-2">
-                      {industry.text}
-                    </p>
+                    <Link href={industry.link}>
+                      <h3 className="px-2 font-semibold transition-all duration-300 group-hover:text-lg">
+                        {industry.title}
+                      </h3>
+                      <p className="text-sm opacity-100 transition-all duration-300 px-2 py-2">
+                        {industry.text}
+                      </p>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -99,7 +99,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/services/executive-intrim-management"
+                  href="/services/executive-interim-management"
                   className="no-underline"
                 >
                   Executive Interim Management
