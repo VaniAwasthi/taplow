@@ -23,7 +23,7 @@ const navigation = [
       { name: "Executive Search ", href: "/services/executive-search" },
       {
         name: "Executive Interim ",
-        href: "/services/executive-intrim-management",
+        href: "/services/executive-interim-management",
       },
       { name: "Board Advisory ", href: "/services/board-advisory-services" },
       {
@@ -40,7 +40,7 @@ const navigation = [
       { name: "Financial Services", href: "/sectors/financial-service" },
       { name: "Digital ICT", href: "/sectors/digital-ict" },
       { name: "Not for Profit", href: "#" },
-      { name: "Life Science", href: "/sectors/life-science" },
+      { name: " Life Sciences and Pharma", href: "/sectors/life-science" },
       { name: "Professional Services", href: "#" },
       { name: "Real Estates", href: "#" },
       { name: "Industrials", href: "#" },
