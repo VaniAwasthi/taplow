@@ -61,7 +61,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/sectors" className="no-underline">
+                <a href="/sectors/conusmer-sector" className="no-underline">
                   Sectors
                 </a>
               </li>
@@ -93,22 +93,31 @@ const Footer = () => {
             <h4 className="font-semibold mb-2 text-black">Services</h4>
             <ul className="space-y-2 text-[14px] text-black">
               <li>
-                <a href="/services" className="no-underline">
+                <a href="/services/executive-search" className="no-underline">
                   Executive Search
                 </a>
               </li>
               <li>
-                <a href="/services" className="no-underline">
+                <a
+                  href="/services/executive-intrim-management"
+                  className="no-underline"
+                >
                   Executive Interim Management
                 </a>
               </li>
               <li>
-                <a href="/services" className="no-underline">
+                <a
+                  href="/services/leadership-boardadvisory-and-performance"
+                  className="no-underline"
+                >
                   Leadership Advisory and Performance
                 </a>
               </li>
               <li>
-                <a href="/services" className="no-underline">
+                <a
+                  href="/services/board-advisory-services"
+                  className="no-underline"
+                >
                   Board Advisory Services
                 </a>
               </li>
@@ -124,13 +133,41 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-2 text-black">Sectors</h4>
             <ul className="space-y-2  text-[14px]">
-              <li>Consumer Products</li>
-              <li>Financial Services</li>
-              <li>Digital and ICT</li>
-              <li>Industrial</li>
-              <li>Life Sciences</li>
-              <li>Not For Profit Professional Services</li>
-              <li>Real Estate</li>
+              <li>
+                <a href="/sectors/conusmer-sector" className="no-underline">
+                  Consumer Products
+                </a>
+              </li>
+              <li>
+                <a href="/sectors/financial-service" className="no-underline">
+                  Financial Services
+                </a>
+              </li>
+              <li>
+                <a href="/sectors/digital-ict" className="no-underline">
+                  Digital and ICT
+                </a>
+              </li>
+              <li>
+                <a href="/sectors/#" className="no-underline">
+                  Industrial
+                </a>
+              </li>
+              <li>
+                <a href="/sectors/#" className="no-underline">
+                  Life Sciences
+                </a>
+              </li>
+              <li>
+                <a href="/sectors/#" className="no-underline">
+                  Not For Profit Professional Services
+                </a>
+              </li>
+              <li>
+                <a href="/sectors/#" className="no-underline">
+                  Real Estate
+                </a>
+              </li>
             </ul>
           </div>
           {/* contactUs */}
