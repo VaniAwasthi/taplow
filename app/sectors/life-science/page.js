@@ -4,10 +4,6 @@ import {
   InsightsSection,
 } from "@/app/component/consumer-sector/ConsultantInsights";
 import {
-  AboutConsumerService,
-  ConsumerHeroSec,
-} from "@/app/component/consumer-sector/HeroAboutSect";
-import {
   AboutLifeScience,
   LifeScienceExpertSec,
   LifeScienceHeroSec,

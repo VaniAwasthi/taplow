@@ -36,9 +36,10 @@ const Faq = ({ heading, FaqData }) => {
                 </span>
               </button>
               {activeIndex === index && (
-                <p className="mt-2 text-md md:w-[450px] w-full ">
-                  {faq.answer}
-                </p>
+                <p
+                  className="mt-2 text-md md:w-[450px] w-full "
+                  dangerouslySetInnerHTML={{ __html: faq.answer }}
+                ></p>
               )}
             </div>
           ))}
