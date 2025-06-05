@@ -18,9 +18,9 @@ const navigation = [
   { name: "About Us", href: "/about-us" },
   {
     name: "Services",
-    href: "/services",
+    href: "/services/executive-search",
     submenu: [
-      { name: "Executive Search ", href: "/services" },
+      { name: "Executive Search ", href: "/services/executive-search" },
       {
         name: "Executive Interim ",
         href: "/services/executive-intrim-management",

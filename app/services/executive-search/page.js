@@ -1,23 +1,23 @@
 "use client";
 import React from "react";
-import HeroSection from "../component/services/HeroSection";
-import LeadershipRight from "../component/services/LeadershipRight";
-import InsightRelated from "../component/services/InsightRelated";
-import Faq from "../component/services/Faq";
-import ContactSection from "../component/services/ContactSection";
-import SuccessStories from "../component/services/SuccessStories";
-import MeetOurExperts from "../component/services/MeetOurExpert";
-import IndustrySlider from "../component/home/Industries";
-import ExecutiveSearch from "../component/services/ExecutiveSearch";
-import ExecutiveSearchProcess from "../component/services/ExecutiveSearchProcess";
-import WhyChooseExecutive from "../component/services/WhyChooseExecutive";
-import Icon1 from "../assets/servicepage/Icon1.png";
-import Icon2 from "../assets/servicepage/Icon2.png";
-import Icon3 from "../assets/servicepage/Icon3.png";
-import Icon4 from "../assets/servicepage/Icon4.png";
-import Icon5 from "../assets/servicepage/Icon5.png";
-import Icon6 from "../assets/servicepage/Icon6.png";
-import SearchImage from "../assets/servicepage/ExecutiveSearch.png";
+import Icon1 from "../../assets/servicepage/Icon1.png";
+import Icon2 from "../../assets/servicepage/Icon2.png";
+import Icon3 from "../../assets/servicepage/Icon3.png";
+import Icon4 from "../../assets/servicepage/Icon4.png";
+import Icon5 from "../../assets/servicepage/Icon5.png";
+import Icon6 from "../../assets/servicepage/Icon6.png";
+import SearchImage from "../../assets/servicepage/ExecutiveSearch.png";
+import HeroSection from "@/app/component/services/HeroSection";
+import ExecutiveSearch from "@/app/component/services/ExecutiveSearch";
+import ExecutiveSearchProcess from "@/app/component/services/ExecutiveSearchProcess";
+import WhyChooseExecutive from "@/app/component/services/WhyChooseExecutive";
+import IndustrySlider from "@/app/component/home/Industries";
+import MeetOurExperts from "@/app/component/services/MeetOurExpert";
+import SuccessStories from "@/app/component/services/SuccessStories";
+import Faq from "@/app/component/services/Faq";
+import LeadershipRight from "@/app/component/services/LeadershipRight";
+import ContcatSection from "@/app/component/services/ContactSection";
+import InightRelated from "@/app/component/services/InsightRelated";
 
 const Services = () => {
   const heading = "Why Choose Taplow for Executive Search?";
@@ -101,12 +101,12 @@ const Services = () => {
       <IndustrySlider />
       <MeetOurExperts />
       <SuccessStories />
-      <ContactSection />
+      <ContcatSection />
       <Faq
         heading="Frequently Asked Questions for Executive Search"
         FaqData={FaqData}
       />
-      <InsightRelated />
+      <InightRelated />
       <LeadershipRight />
       {/* <Image src="/homePage/service.jpg" alt="Service" width={1920} height={1080} className="w-full" /> */}
     </>
