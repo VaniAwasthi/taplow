@@ -24,6 +24,7 @@ import WhyChooseExecutive from "../services/WhyChooseExecutive";
 import { SuccessStory } from "../coun-layout/GlobalpageBanner";
 import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 import CaseStudies from "../coun-layout/CaseStudies";
+import Faq from "../services/Faq";
 export const HeroSection = () => {
   const Heading =
     "Guiding Boards. Empowering Leadership. Enabling Performance.";
@@ -286,6 +287,72 @@ export const SuccesStoryBoard = () => {
         heading={Successheading}
         textClass="text-sm md:text-lg"
       />
+    </>
+  );
+};
+
+export const BoardAdvisoryFaq = () => {
+  const FaqData = [
+    {
+      index: 1,
+      question: " What kinds of boards do you typically work with?",
+      answer:
+        " We advise a wide range of boards—including public companies, private businesses, family-led organisations, and mission-driven entities—across both mature and emerging markets.",
+    },
+    {
+      index: 2,
+      question:
+        " How do you ensure the board members you recommend are the right fit?",
+      answer:
+        " We leverage extensive assessment tools, sector-specific insights, and our deep network to ensure recommended directors bring the right mix of expertise, diversity, and cultural fit.",
+    },
+    {
+      index: 3,
+      question: "What’s involved in a Board Effectiveness Review?",
+      answer:
+        " We evaluate your board’s composition, dynamics, and processes, providing actionable insights to enhance alignment, decision-making, and performance.",
+    },
+    {
+      index: 4,
+      question: "Can you support CEO and C-suite succession planning?",
+      answer:
+        " Yes. We help boards identify and develop future-ready leadership, ensuring smooth transitions and sustained organisational success.",
+    },
+    {
+      index: 5,
+      question: "Do you provide interim leadership solutions for boards?",
+      answer:
+        " Yes, in situations requiring immediate expertise—such as transformation or crisis management—our interim executives and advisors can provide crucial support",
+    },
+    {
+      index: 6,
+      question: "What sets The Taplow Group apart in board advisory services?",
+      answer:
+        " Our board advisers are former senior leaders and directors who understand boardroom challenges firsthand. Coupled with our global reach and independent perspective, we bring both nuance and impact to every engagement.",
+    },
+    {
+      index: 7,
+      question:
+        "How do you help boards prepare for ESG and sustainability oversight?",
+      answer:
+        "We offer practical guidance to boards on ESG governance, investor expectations, and sustainability strategies—ensuring readiness and resilience for the future.",
+    },
+    {
+      index: 8,
+      question: "Can you work across international governance requirements?",
+      answer:
+        "Absolutely. With expertise spanning over 74 countries, we blend global best practices with local governance codes to support your board wherever you operate.",
+    },
+    {
+      index: 9,
+      question: "Do you only advise large organisations?",
+      answer:
+        " No. Our experience spans businesses of all sizes—from global corporations to regional leaders and growing start-ups.",
+    },
+  ];
+  return (
+    <>
+      <Faq heading="Frequently Asked Questions (FAQs)" FaqData={FaqData} />
     </>
   );
 };

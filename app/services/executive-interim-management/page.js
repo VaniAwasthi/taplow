@@ -6,7 +6,6 @@ import {
   HeroSectionEntrim,
   IntrimFaq,
   OurOfferingEntrim,
-  SuccesStoryEntrim,
   WhyChooseEntrimManagement,
 } from "@/app/component/EntrimManagement/HeroSecAboutwhy";
 import IndustrySlider from "@/app/component/home/Industries";
@@ -18,6 +17,9 @@ import Success1 from "../../assets/globalpage/CaseStudies/FranceCase1.webp";
 import Success2 from "../../assets/globalpage/CaseStudies/FranceCase2.webp";
 import Success3 from "../../assets/globalpage/CaseStudies/FranceCase3.webp";
 import Success4 from "../../assets/globalpage/CaseStudies/FranceCase4.webp";
+import Success5 from "../../assets/servicepage/EntrimMangement/Success5.webp";
+import Success6 from "../../assets/servicepage/EntrimMangement/Success6.webp";
+import Success7 from "../../assets/servicepage/EntrimMangement/Success7.webp";
 const Page = () => {
   const SuccessStoryslidesData = [
     {
@@ -41,6 +43,21 @@ const Page = () => {
       title: "Interim Human Resources Director",
       link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/InterimHumanResourcesDirector.pdf",
     },
+    // {
+    //   image: Success5,
+    //   title: "Interim Finance Consultant",
+    //   link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/InterimFinanceConsultant.pdf",
+    // },
+    // {
+    //   image: Success6,
+    //   title: "Technical People for client systems development",
+    //   link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/InterimFinanceConsultant.pdf",
+    // },
+    // {
+    //   image: Success7,
+    //   title: "Technical People for client systems development",
+    //   link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/InterimFinanceConsultant.pdf",
+    // },
   ];
   const Successheading = "Recent Success Stories";
   const ContactData = {

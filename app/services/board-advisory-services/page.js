@@ -1,6 +1,7 @@
 "use client";
 import {
   AboutBoard,
+  BoardAdvisoryFaq,
   HeroSection,
   OurOffering,
   SuccesStoryBoard,
@@ -33,7 +34,7 @@ const Page = () => {
         heading={Successheading}
         textClass="text-xs md:text-base"
       /> */}
-      {/* <IntrimFaq /> */}
+      <BoardAdvisoryFaq />
       <ContcatSection ContactData={ContactData} />
     </>
   );

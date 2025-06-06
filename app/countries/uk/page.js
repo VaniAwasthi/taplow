@@ -16,7 +16,7 @@ import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow UK</b>`,
-    desc: "Trusted since 1999, we help businesses grow, expand, and lead — locally and globally.",
+    desc: "“We help UK firms grow, locally and internationally whilst support companies expanding into the UK market. As a founding partner of The Taplow Group S.A., we bring a wealth of experience in multiple market sectors — backed by in-house fluency in German, French, Danish, Swedish, Norwegian, and English",
   };
   const officeSecHeading = "Our office in UK";
   const officeData = {
