@@ -16,7 +16,7 @@ import { TwoOffice } from "@/app/component/coun-layout/TwoOfficeLay";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow China</b>`,
-    desc: " Taplow China was founded in China in 2005 and has 150 consultants and 20 support teams located in six offices in Shanghai, Beijing, Guangzhou, Xi ‘an, Chengdu and Qingdao.",
+    desc: " Taplow China offers Executive Search and Leadership Advisory and Performance services via our experienced partners located in Shanghai.",
   };
   const officeSecHeading = "Our office in China";
   const officeData = [
