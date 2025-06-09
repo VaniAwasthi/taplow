@@ -12,7 +12,7 @@ import {
 } from "@/app/component/digitalItc/HeroAboutExpertFaq";
 import React from "react";
 
-const Sectors = () => {
+const Page = () => {
   const leaderData = [
     { name: "Bernd Schlosshauer", id: 1 },
     { name: "Anoop Semwal", id: 2 },
@@ -56,4 +56,4 @@ const Sectors = () => {
   );
 };
 
-export default Sectors;
+export default Page;

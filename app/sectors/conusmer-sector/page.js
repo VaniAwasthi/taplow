@@ -13,7 +13,7 @@ import {
 import Image from "next/image";
 import React from "react";
 
-const Sectors = () => {
+const Page = () => {
   const leaderData = [
     { name: "Anna Nuzzi", id: 1 },
     { name: "Anoop Semwal", id: 2 },
@@ -46,4 +46,4 @@ const Sectors = () => {
   );
 };
 
-export default Sectors;
+export default Page;
