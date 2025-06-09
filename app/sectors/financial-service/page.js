@@ -14,7 +14,7 @@ import {
 
 import React from "react";
 
-const Sectors = () => {
+const Page = () => {
   const leaderData = [
     { name: "Ana Sánchez-Asiain", id: 1 },
     { name: "Anker Eriksen", id: 2 },
@@ -62,4 +62,4 @@ const Sectors = () => {
   );
 };
 
-export default Sectors;
+export default Page;

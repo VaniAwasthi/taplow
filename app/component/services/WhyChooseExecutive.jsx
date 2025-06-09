@@ -81,7 +81,7 @@ const WhyChooseExecutive = ({ heading, cards, headingClass }) => {
             <SwiperSlide key={index}>
               <div className="flex justify-center mt-[1rem] mb-[1rem] md:mx-[1rem]">
                 <div
-                  className="bg-white p-6 rounded-xl border border-[#CFCFCF] shadow-md text-left w-full max-w-[290px] h-[350px] 
+                  className="bg-white p-6 rounded-xl border border-[#CFCFCF] shadow-md text-left w-full max-w-[290px] h-[400px] 
       transition-transform duration-300 hover:scale-105 hover:border-[#96A94A]"
                 >
                   <Image
