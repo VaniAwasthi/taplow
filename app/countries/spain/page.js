@@ -31,7 +31,7 @@ const page = () => {
   const AboutContent = {
     greenDescription: `TAPLOW SPAIN, founded in 1997 in Madrid, is an independent Human Resources Consulting and Executive Search firm, with a particular focus in the Financial, Professional Services, Real Estate, Retail and Manufacturing sectors`,
     Aboutheading: "Taplow Spain:Driving Leadership and Diversity Excellence",
-    aboutContentpara1: `Our structure is based on three Senior Partners, with international experience and background. We operate in Iberia (Spain &amp; Portugal) as well as in Latin American countries.`,
+    aboutContentpara1: `Our structure is based on three Senior Partners, with international experience and background. We operate in Iberia (Spain & Portugal) as well as in Latin American countries.`,
     aboutContentpara2: `Our client base is very wide and diverse, counting among them entrepreneurs, global firms and Private Equity firms and VCs. We search for candidates that can lead the growth and international expansion of the companies.`,
     aboutContentpara3:
       "Our advantage lies in a thorough understanding of our clients needs. We take great pride in our fast response and sharp analysis, all of this, with at results in the quality of our services.",

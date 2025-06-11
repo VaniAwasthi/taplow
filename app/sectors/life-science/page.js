@@ -12,7 +12,7 @@ import {
 } from "@/app/component/life-science/HeroAboutExpertFaq";
 import React from "react";
 
-const Sectors = () => {
+const Page = () => {
   const leaderData = [
     { name: "Ana Sánchez-Asiain", id: 1 },
     { name: "Anoop Semwal", id: 2 },
@@ -40,8 +40,9 @@ const Sectors = () => {
       <LifeScienceExpertSec />
       <WhyChooseSecLifeScience />
       <ConsumerProductsConsultants
-        Heading="Meet Our Consumer Products Consultants"
+        Heading="Meet Our Life Sciences and Pharma Consultants"
         leaderData={leaderData}
+        desc="Our consultants have first-hand experience in the sector—ensuring every search is guided by real-world insight and a deep commitment to your goals."
       />
       <LifeSciSectorFaq />
       <InsightsSection />
@@ -49,4 +50,4 @@ const Sectors = () => {
   );
 };
 
-export default Sectors;
+export default Page;

@@ -6,7 +6,7 @@ import Ana from "../../../assets/Consultantpage/Consultant/Ana-Sanchez-Asiain.we
 import Chris from "../../../assets/Consultantpage/Consultant/Chris-Gillard.webp";
 import Dana from "../../../assets/Consultantpage/Consultant/Dana-Lamanna.webp";
 import Eric from "../../../assets/Consultantpage/Consultant/Eric-Floyd.webp";
-import Jaime from "../../../assets/Consultantpage/Consultant/Jaime-Burke.webp";
+// import Jaime from "../../../assets/Consultantpage/Consultant/Jaime-Burke.webp";
 import James from "../../../assets/Consultantpage/Consultant/James-Palmer.webp";
 import Jennifer from "../../../assets/Consultantpage/Consultant/Jennifer-Klassen.webp";
 import Jesse from "../../../assets/Consultantpage/Consultant/Jesse-Zulak.webp";
@@ -18,7 +18,7 @@ import PaulMelanson from "../../../assets/Consultantpage/Consultant/Paul-Melanso
 import StuartGannon from "../../../assets/Consultantpage/Consultant/Stuart-Gannon.webp";
 import TrevorBaker from "../../../assets/Consultantpage/Consultant/Trevor-Baker.webp";
 import WadeSimmons from "../../../assets/Consultantpage/Consultant/Wade-Simmons.webp";
-import AnnaLisaFarina from "../../../assets/Consultantpage/Consultant/Anna-Lisa-Farina.webp";
+// import AnnaLisaFarina from "../../../assets/Consultantpage/Consultant/Anna-Lisa-Farina.webp";
 import BruceMacdonald from "../../../assets/Consultantpage/Consultant/Bruce-Macdonald.webp";
 import GraemeSandri from "../../../assets/Consultantpage/Consultant/Graeme-Sandri.webp";
 import TonyWalsh from "../../../assets/Consultantpage/Consultant/Tony-Walsh.webp";
@@ -94,12 +94,12 @@ export const consultantData = [
     image: Ivan,
     bio: `Ivan Gonzalez joined Taplow as Executive Partner in March 2024.<br/><br/>
 He started his career as consultant at Seeliger y Conde / Amrop and after that joined Ferrovial, where for more than
-20 years he has developed his career in senior leadership positions as Talent &amp; Engagement Corporate Director and
-as Human Resources &amp; Comms Director at Cintra (Toll Roads Division), all of them with a broad international
+20 years he has developed his career in senior leadership positions as Talent & Engagement Corporate Director and
+as Human Resources & Comms Director at Cintra (Toll Roads Division), all of them with a broad international
 perspective, covering USA, Canada, Europe and Australia.<br/><br/>
 He also has experience as member of the board, in different companies and sectors as A Contracorriente Films, Toll
 Road Madrid Levante and Amref Health Africa.<br/><br/>
-With a Degree in Political &amp; Social Sciences and MA in Degree in Political &amp; Social Sciences. Ivan also received an
+With a Degree in Political & Social Sciences and MA in Degree in Political & Social Sciences. Ivan also received an
 Advance Management Programme from IESE Business School.<br/> <br/>`,
     address: `Fernando el Santo, 25 4º-d <br/> Madrid 28010<br/>
 Spain`,
@@ -126,7 +126,7 @@ her career as a Consultant at Arthur Andersen in Madrid, taking on responsibilit
 for the Utility and Oil industries. She later joined JH Schroder as an Equity Financial Analyst, where she was responsible for
 assessing international client investments in the Spanish Stock Exchange.<br/><br/>
 She continued her career in Executive Search, working as a Consultant for international firms such as Ward Howell. In
-1997, she co-founded Alarcón &amp; Espinosa. Throughout her career, she has been closely involved in the Financial Industry,
+1997, she co-founded Alarcón & Espinosa. Throughout her career, she has been closely involved in the Financial Industry,
 managing projects for international banks and local financial institutions. Her experience also includes working with real
 estate companies and other sectors.<br/><br/>
 Carmen holds a Law degree and a Graduate Diploma in Business Administration from the Universidad Pontificia de
@@ -235,31 +235,31 @@ She received a Degree in International Relations from Le Mesnil in Montreux, Swi
       "Finance",
     ],
   },
-  {
-    id: 7,
-    name: "Jaime Burke",
-    role: "Senior Consultant - Vancouver",
-    location: "Canada",
-    services: ["Executive Search"],
-    phone: "604-687-6464",
-    email: "jaime@macdonaldsearchgroup.com",
-    image: Jaime,
-    bio: `Jaime Burke is a Vancouver local bringing over a decade of leadership in the Beverage Alcohol, Hospitality, and Consumer Goods industries. As a Senior Consultant at MacDonald Search Group, Jaime's extensive network and profound understanding of regional consumer products, food, and beverage alcohol clients make her an invaluable asset to her clients and candidates.<br/><br/>
-    Jaime's personal career journey boasts customer-facing sales roles with industry giants like Constellation Brands and Diageo, where she excelled in provincial leadership for a national agency. Her expertise spans retail and on-premise channels, showcasing her prowess in selling some of the world's most iconic wine and spirit brands.<br/><br/>
-    Armed with a Bachelor of Business Administration from Simon Fraser University and a prestigious WSET Diploma in Wine, Jaime combines academic excellence with hands-on experience. Her commitment to excellence and passion for the industry make her a standout professional in the world of executive search and consulting.<br/>
-    Beyond her impressive professional achievements, Jaime stands out for her commitment to, and passion for, fostering equality in the workplace. Known for championing diversity and inclusivity, Jaime actively contributes to creating environments where everyone's voice is heard and valued. Jaime believes in the power of a diverse and equitable workplace, recognizing that it not only enhances productivity but also fosters innovation.
-`,
-    address: `Suite 720<br/>475 West Georgia St.<br/>Vancouver, BC V6B 4M9`,
-    linkdine: "https://www.linkedin.com/in/jaime-burke-bop/ ",
-    industrySectors: [
-      "Consumer Goods",
-      "Beverage Alcohol",
-      "Food Service, Hospitality & Tourism",
-      "Cannabis",
-      "Marketing",
-      "Pharmaceuticals",
-    ],
-  },
+  //   {
+  //     id: 7,
+  //     name: "Jaime Burke",
+  //     role: "Senior Consultant - Vancouver",
+  //     location: "Canada",
+  //     services: ["Executive Search"],
+  //     phone: "604-687-6464",
+  //     email: "jaime@macdonaldsearchgroup.com",
+  //     image: Jaime,
+  //     bio: `Jaime Burke is a Vancouver local bringing over a decade of leadership in the Beverage Alcohol, Hospitality, and Consumer Goods industries. As a Senior Consultant at MacDonald Search Group, Jaime's extensive network and profound understanding of regional consumer products, food, and beverage alcohol clients make her an invaluable asset to her clients and candidates.<br/><br/>
+  //     Jaime's personal career journey boasts customer-facing sales roles with industry giants like Constellation Brands and Diageo, where she excelled in provincial leadership for a national agency. Her expertise spans retail and on-premise channels, showcasing her prowess in selling some of the world's most iconic wine and spirit brands.<br/><br/>
+  //     Armed with a Bachelor of Business Administration from Simon Fraser University and a prestigious WSET Diploma in Wine, Jaime combines academic excellence with hands-on experience. Her commitment to excellence and passion for the industry make her a standout professional in the world of executive search and consulting.<br/>
+  //     Beyond her impressive professional achievements, Jaime stands out for her commitment to, and passion for, fostering equality in the workplace. Known for championing diversity and inclusivity, Jaime actively contributes to creating environments where everyone's voice is heard and valued. Jaime believes in the power of a diverse and equitable workplace, recognizing that it not only enhances productivity but also fosters innovation.
+  // `,
+  //     address: `Suite 720<br/>475 West Georgia St.<br/>Vancouver, BC V6B 4M9`,
+  //     linkdine: "https://www.linkedin.com/in/jaime-burke-bop/ ",
+  //     industrySectors: [
+  //       "Consumer Goods",
+  //       "Beverage Alcohol",
+  //       "Food Service, Hospitality & Tourism",
+  //       "Cannabis",
+  //       "Marketing",
+  //       "Pharmaceuticals",
+  //     ],
+  //   },
   {
     id: 8,
     name: "James Palmer",
@@ -551,36 +551,36 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
     Wade’s experience and multifaceted management abilities will ensure the delivery of thorough and effective executive search work.
 `,
   },
-  {
-    id: 19,
-    name: "Anna Lisa Farina",
-    role: "Senior Consultant – Toronto & Montreal",
-    location: "Canada",
-    services: ["Executive Search"],
-    phone: "514-800-0233",
-    email: "annalisa@macdonaldsearchgroup.com",
-    image: AnnaLisaFarina,
-    address: `Suite 1800<br/>500 Place d'Armes<br/>Montréal, QC  H2Y 2W2`,
-    linkdine: "https://ca.linkedin.com/in/anna-lisa-farina ",
-    industrySectors: [
-      "Consumer Packaged Goods",
-      "Food Service",
-      "Cannabis",
-      "Beverage Alcohol",
-      "Life Sciences",
-      "Marketing",
-      "Advertising",
-      "Hospitality",
-      "QSR",
-      "Restaurant",
-      "Industrial/B2B",
-      "Operations",
-    ],
-    bio: `Anna Lisa is a business and sales leader with 15 years of experience in the retail and consumer goods industries. While attending the John Molson School of Business, she began her career as a sales representative for a national fashion importer, where she honed her skills and discovered her talent for building lasting client connections.<br/><br/>
-    She has since excelled in diverse leadership roles in retail, field sales, merchandising, and national account management within the fashion, home décor, and natural food and beverage industries. With a passion for developing and coaching high-performing teams, Anna Lisa recognizes the importance of finding the right fit for both the client and the candidate.<br/><br/>
-    She has since excelled in diverse leadership roles in retail, field sales, merchandising, and national account management within the fashion, home décor, and natural food and beverage industries. With a passion for developing and coaching high-performing teams, Anna Lisa recognizes the importance of finding the right fit for both the client and the candidate.
-`,
-  },
+  //   {
+  //     id: 19,
+  //     name: "Anna Lisa Farina",
+  //     role: "Senior Consultant – Toronto & Montreal",
+  //     location: "Canada",
+  //     services: ["Executive Search"],
+  //     phone: "514-800-0233",
+  //     email: "annalisa@macdonaldsearchgroup.com",
+  //     image: AnnaLisaFarina,
+  //     address: `Suite 1800<br/>500 Place d'Armes<br/>Montréal, QC  H2Y 2W2`,
+  //     linkdine: "https://ca.linkedin.com/in/anna-lisa-farina ",
+  //     industrySectors: [
+  //       "Consumer Packaged Goods",
+  //       "Food Service",
+  //       "Cannabis",
+  //       "Beverage Alcohol",
+  //       "Life Sciences",
+  //       "Marketing",
+  //       "Advertising",
+  //       "Hospitality",
+  //       "QSR",
+  //       "Restaurant",
+  //       "Industrial/B2B",
+  //       "Operations",
+  //     ],
+  //     bio: `Anna Lisa is a business and sales leader with 15 years of experience in the retail and consumer goods industries. While attending the John Molson School of Business, she began her career as a sales representative for a national fashion importer, where she honed her skills and discovered her talent for building lasting client connections.<br/><br/>
+  //     She has since excelled in diverse leadership roles in retail, field sales, merchandising, and national account management within the fashion, home décor, and natural food and beverage industries. With a passion for developing and coaching high-performing teams, Anna Lisa recognizes the importance of finding the right fit for both the client and the candidate.<br/><br/>
+  //     She has since excelled in diverse leadership roles in retail, field sales, merchandising, and national account management within the fashion, home décor, and natural food and beverage industries. With a passion for developing and coaching high-performing teams, Anna Lisa recognizes the importance of finding the right fit for both the client and the candidate.
+  // `,
+  //   },
   {
     id: 20,
     name: "Bruce Macdonald",
@@ -903,7 +903,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
       "Process Industry",
       "Construction",
       "Industry",
-      "Testing Inspection &amp; Certification Services",
+      "Testing Inspection & Certification Services",
     ],
     bio: `Claus Rosenstand is a seasoned executive with over 25 years of international experience in leadership, business development, and executive
 search. As Senior Partner at Taplow Executive Search, Claus specializes in identifying and developing top-tier C-level talent and strategic leaders for
@@ -991,7 +991,7 @@ assignment to successful end as well as his respect towards candidates.`,
 assignments. In addition to executive search, Harri works as a management coach, consulting on strategy projects
 and coaching leadership development. He has worked as an executive search consultant and a management
 consultant since 2004.<br/>
-Prior to his consulting career, he has held management positions (Finance, HR &amp; Corporate Communication) e.g. at a
+Prior to his consulting career, he has held management positions (Finance, HR & Corporate Communication) e.g. at a
 business law firm, information security consulting firm and at a real estate company.<br/>Harri has a M.Soc.Sc. and an MBA.`,
   },
   {
@@ -1175,10 +1175,10 @@ job at Taplow.<br/>
 Management experience across the technology sector. He has a successful track record recruiting senior
 leadership in areas such as Cyber/Information Security, Digital Transformation, IoT, Cloud, Virtualization,
 AI and Machine Learning, Infrastructure and Analytics for a variety of industries including, but not limited
-to, Banking &amp; Financial Services, Insurance, High Tech, Healthcare, and Travel &amp; Logistics. Most recently,
+to, Banking & Financial Services, Insurance, High Tech, Healthcare, and Travel & Logistics. Most recently,
 Sunil has been dedicated to the professional services arena, working closely with clients on management
 consulting, technology outsourcing and information services.<br/>
-Prior to joining Taplow, Sunil worked as a Director of Executive Search &amp; Permanent Placement at
+Prior to joining Taplow, Sunil worked as a Director of Executive Search & Permanent Placement at
 Randstad in US and General Manager at Randstad India. He is also a Co-Founder of Dextpro, a highly
 successful executive search practice. Sunil’s engaging attitude, deep understanding of diverse cultures,
 candid style of communication, and attention to detail work together to enable him to generate long-term,
@@ -1465,7 +1465,7 @@ Known for her high energy, strategic approach, and commitment to excellence, Rit
       "Information Technology",
       "Not For Profit",
       "Professional Services",
-      "Consumer &amp; Manufacturing",
+      "Consumer & Manufacturing",
       "Government",
       "Agribusiness",
     ],
@@ -1540,7 +1540,7 @@ implementation of organisational development and talent programs. Eleni is passi
 teams and organisations and has extensive experience consulting to national, not-for-profit, government and
 multinational organisations as well as working as part of internal People and Development teams.<br/>
 Eleni uses this unique perspective and experience to achieve the goal of effective and optimum performance with
-every client she works with. Eleni&#39;s experience incorporates the design &amp; delivery of personalised programs on a
+every client she works with. Eleni&#39;s experience incorporates the design & delivery of personalised programs on a
 variety of subjects ranging from:<br/>
 individual coaching – executive and emerging leaders<br/>
 <ul>
@@ -1632,7 +1632,7 @@ As an IECL accredited coach, Tiffany works with organisations to shape the human
     address: `Galleria San Babila,4C,Milan,Italy`,
     bio: `Graduated in Economics from Bocconi University in Milan, Anna began her career in the automotive sector within a
 well-known German group.<br/>
-She later developed her career in the Media &amp; Communications sector, working for several major companies in the
+She later developed her career in the Media & Communications sector, working for several major companies in the
 Italian publishing landscape, holding roles of increasing responsibility in the marketing field.
 In 1999, she started her career in Executive Search at a top ten firm, where she managed search projects in the
 industrial, energy, and media sectors. In 2001, she co-founded an Executive Search boutique firm in Milan, where she
@@ -1640,7 +1640,7 @@ serves as a partner and shareholder. In the following years, she expanded her ex
 collaborating with various brands in the sector.
 Anna manages numerous international projects with German-speaking countries and works with multinational and
 entrepreneurial clients, particularly in the Industrial, Consumer Electronics, Pharma, and Healthcare sectors. She has
-developed a strong focus on Operations, Manufacturing, Procurement, and Sales &amp; Marketing functions.
+developed a strong focus on Operations, Manufacturing, Procurement, and Sales & Marketing functions.
 In 2021, she joined Value Search as a Partner.<br/>
 Fluent in German, English, and French.
 `,
@@ -1726,12 +1726,12 @@ In 1990 Helmut became Managing Director for Boyden International Executive Searc
     address: `Suite 204 1201 North 3rd Street,Philadelphia, PA 19122. USA`,
     bio: `Darryl has over 30 years of successful Business Growth, Executive Search, HR Executive Leadership and Management
 Consulting experience across several industries including Consumer Package Goods, Financial Services, Non-Profit,
-Media &amp; Entertainment, Life Sciences and Management Consulting.<br/>
+Media & Entertainment, Life Sciences and Management Consulting.<br/>
 His business growth and executive search experience has concentrated on C-level and strategic leadership roles.
 Successes have included general management, human resources, legal and professional services, marketing, sales
 and business development, product management, and business development.<br/>
 Prior to joining Taplow, Darryl held enterprise-wide senior executive decision-making roles with industry leading
-organizations such as Revlon Inc., Aon , DHR and Cushman &amp; Wakefield.<br/>
+organizations such as Revlon Inc., Aon , DHR and Cushman & Wakefield.<br/>
 During his tenure with Revlon, the global colour cosmetics, and beauty goods manufacturer as their US Head of
 Talent Acquisition. Darryl was instrumental in the development of a best-in-class talent acquisition team.
 `,
@@ -1772,7 +1772,7 @@ Talent Acquisition. Darryl was instrumental in the development of a best-in-clas
     phone: "+33 620 60 33 90",
     email: "smartinod@taplow.fr",
     linkdine:
-      "https://www.linkedin.com/in/st%C3%A9phane-martinod/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&amp;originalSubdomain=fr",
+      "https://www.linkedin.com/in/st%C3%A9phane-martinod/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=fr",
     services: ["Executive Search and Executive Interim"],
     industrySectors: [
       "Consumer Products",
@@ -1783,8 +1783,8 @@ Talent Acquisition. Darryl was instrumental in the development of a best-in-clas
       "Professional Services",
       "Real Estate",
       "Non-Profit",
-      "Manufacturing &amp; industrial",
-      "Energy &amp; Infrastructure",
+      "Manufacturing & industrial",
+      "Energy & Infrastructure",
       "Technology",
     ],
     image: StéphaneMARTINOD,
@@ -1822,8 +1822,8 @@ Managers, and develop since then the Executive Interim practice with Taplow Fran
       "Professional Services",
       "Real Estate",
       "Non-Profit",
-      "Manufacturing &amp; industrial",
-      "Energy &amp; Infrastructure",
+      "Manufacturing & industrial",
+      "Energy & Infrastructure",
       "Technology",
     ],
     image: MarineDUMONT,
@@ -1869,8 +1869,8 @@ practices.`,
       "Professional Services",
       "Real Estate",
       "Non-Profit",
-      "Manufacturing &amp; industrial",
-      "Energy &amp; Infrastructure",
+      "Manufacturing & industrial",
+      "Energy & Infrastructure",
       "Technology",
     ],
     image: JeanMarcBURY,
@@ -1898,7 +1898,7 @@ Managers, and develop since then the Executive Interim practice with Taplow Fran
     services: [
       "Executive Search",
       "Interim",
-      "Leadership Advisory &amp; Performance",
+      "Leadership Advisory & Performance",
     ],
     industrySectors: [
       "Consumer Products",
@@ -1958,16 +1958,16 @@ to helping businesses build high-performance leadership teams that drive sustain
 Singapore 018960`,
     bio: `Vijay has a successful record of over 15 years of HR experience in Asian markets, built on a strong foundation of HR
 experience in a variety of roles in banking and financial services.<br/>
-Vijay headed the Singapore business for an international Search firm, responsible for P&amp;L Management, business
+Vijay headed the Singapore business for an international Search firm, responsible for P&L Management, business
 development, Client Engagement and mandate delivery of positions in Asia for all key sectors.<br/>
 He has deep knowledge of talent availability in Corporate Banking, Consumer and Private Banking, and Insurance
 Industry along with Staff Group Functions in Asia; and in non-financial sectors such as Natural Resources (Mining), Oil
-&amp; Gas and Power &amp; Infrastructure and FMCG. He has successfully delivered mandates for C-Suite roles and other
+& Gas and Power & Infrastructure and FMCG. He has successfully delivered mandates for C-Suite roles and other
 Regional Leadership positions across the Asia.<br/>
 Vijay worked for over a decade in various roles in American Express. His responsibilities included consulting senior
-business leaders on organizational effectiveness strategies, talent &amp; succession planning processes and supporting
+business leaders on organizational effectiveness strategies, talent & succession planning processes and supporting
 implementation of key HR initiatives. Later, Vijay worked in HSBC, Singapore as the Vice President for Corporate,
-Investment &amp; Commercial Banking and Global Transaction Banking &amp; Global Markets.<br/>Vijay has the intrinsic ability to build strong collaborative relationships and proven competence in working with
+Investment & Commercial Banking and Global Transaction Banking & Global Markets.<br/>Vijay has the intrinsic ability to build strong collaborative relationships and proven competence in working with
 business leaders to deliver value-added outcomes. Having worked in MNCs in complex matrix-managed
 environments, he brings with him the astute skills in HR with an eye for Talent and an ability to provide business
 transformation expertise.
@@ -2144,27 +2144,27 @@ Fluent in Italian and English.`,
       "Outsourced Staffing Services",
     ],
     industrySectors: [
-      "Professional Services",
-      "Not for Profit",
-      "Digital",
-      "Life Science",
+      "Consumer",
+      "Retail",
+      "Healthcare & Life Sciences",
+      "Chemicals",
     ],
     image: LilyBi,
     address: `13A, Jing An New Century Plaza | 881 West Nanjing Road | JingAn District
 Shanghai, China`,
     bio: `Lily has accumulated 24 years of work experience in the executive search industry in China. She has built and
-developed the Consumer and Healthcare &amp; Life Sciences, Chemical portfolio’s from scratch and in her previous role
-with Hudson China, grew the Advertising &amp; Communications, Chemical &amp; Energy and Supply Chain practices into
+developed the Consumer and Healthcare & Life Sciences, Chemical portfolio’s from scratch and in her previous role
+with Hudson China, grew the Advertising & Communications, Chemical & Energy and Supply Chain practices into
 highly profitable and successful businesses.
 Lily started her career as first local consultant across China for Hudson China and her last position was the East China
 Regional GM. Lily was the first local person to be appointed to a senior executive role in this company. In 2016, Lily
-set up Leading &amp; Selective(Shanghai) Limited from green field with her rich experience in China recruitment industry.<br/>
+set up Leading & Selective(Shanghai) Limited from green field with her rich experience in China recruitment industry.<br/>
 `,
   },
   {
     id: 74,
     name: "Danny Zhang",
-    role: "Commercial &amp;Marketing",
+    role: "Commercial &Marketing",
     location: "China",
     phone: "+86 135 6415 5370",
     email: "Danny.Zhang@lnsrecruitment.com",
@@ -2190,7 +2190,7 @@ in the successful closure of their confidential and strategic search assignments
   {
     id: 75,
     name: "Alex Guo",
-    role: "Translational Medicine/Bioinformatics/Biology/BD&amp;Alliance",
+    role: "Translational Medicine/Bioinformatics/Biology/BD&Alliance",
     location: "China",
     phone: "+86 18017218854",
     email: "alex.guo@lnsrecruitment.com",
@@ -2257,7 +2257,7 @@ Joyce graduated from Fudan University, majoring in Pharmacy.
       "Financial Services",
       "TELCO",
       "Industrial",
-      "Pharma &amp; Life Science",
+      "Pharma & Life Science",
       "Professional Services",
       "Real Estate",
       "Construction",

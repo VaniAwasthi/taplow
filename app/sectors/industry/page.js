@@ -13,7 +13,7 @@ import {
 
 import React from "react";
 
-const Sectors = () => {
+const Page = () => {
   const leaderData = [
     { name: "Ana Sánchez-Asiain", id: 1 },
     { name: "Anker Eriksen", id: 2 },
@@ -27,19 +27,19 @@ const Sectors = () => {
     { name: "Helmut Boehler", id: 10 },
     { name: "Ian Stacy", id: 11 },
     { name: "Ivan Gonzalez Garcia", id: 12 },
-    { name: "Jean-Marc BURY", id: 14 },
-    { name: "Johanna Autio", id: 15 },
-    { name: "Karina Kratholm", id: 16 },
-    { name: "Mark Firth", id: 17 },
-    { name: "Prof. Dr. Manuel Vermeer", id: 18 },
-    { name: "Ole Norby", id: 19 },
-    { name: "Peter Tanner AM", id: 20 },
-    { name: "Sangeeta Sabharwal", id: 21 },
-    { name: "Sanjay Ghosh", id: 22 },
-    { name: "Sheldon Zhou", id: 23 },
-    { name: "Stéphane MARTINOD", id: 24 },
-    { name: "Tim Rosenberg", id: 25 },
-    { name: "Vijay Bajaj", id: 26 },
+    { name: "Jean-Marc BURY", id: 13 },
+    { name: "Johanna Autio", id: 14 },
+    { name: "Karina Kratholm", id: 15 },
+    { name: "Mark Firth", id: 16 },
+    { name: "Prof. Dr. Manuel Vermeer", id: 17 },
+    { name: "Ole Norby", id: 18 },
+    { name: "Peter Tanner AM", id: 19 },
+    { name: "Sangeeta Sabharwal", id: 20 },
+    { name: "Sanjay Ghosh", id: 21 },
+    { name: "Sheldon Zhou", id: 22 },
+    { name: "Stéphane MARTINOD", id: 23 },
+    { name: "Tim Rosenberg", id: 24 },
+    { name: "Vijay Bajaj", id: 25 },
   ];
   return (
     <>
@@ -60,4 +60,4 @@ const Sectors = () => {
   );
 };
 
-export default Sectors;
+export default Page;
