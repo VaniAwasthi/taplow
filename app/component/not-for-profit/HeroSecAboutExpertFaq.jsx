@@ -1,16 +1,16 @@
 "use client";
-import Banner from "../../assets/sectors/ProfessionalBanner.webp";
-import AboutImage from "../../assets/sectors/AboutProfessional.webp";
+import Banner from "../../assets/sectors/NonProfitBanner.webp";
+import AboutImage from "../../assets/sectors/AboutNonProfit.webp";
 import Image from "next/image";
 import Faq from "../services/Faq";
-import ExperImage from "../../assets/sectors/ProfessionalExpertSec.webp";
+import ExperImage from "../../assets/sectors/NonProfitExpertSec.webp";
 import ExpertiseSection from "../services/ExperSection";
 import WhyChooseExecutive from "../services/WhyChooseExecutive";
-import Icon1 from "../../assets/sectors/Professionalchoose1.svg";
-import Icon2 from "../../assets/sectors/Professionalchoose2.svg";
-import Icon3 from "../../assets/sectors/Professionalchoose3.svg";
-import Icon4 from "../../assets/sectors/Professionalchoose4.svg";
-import Icon5 from "../../assets/sectors/Professionalchoose5.svg";
+import Icon1 from "../../assets/sectors/NonProfitchoose1.svg";
+import Icon2 from "../../assets/sectors/NonProfitchoose2.svg";
+import Icon3 from "../../assets/sectors/NonProfitchoose3.svg";
+import Icon4 from "../../assets/sectors/NonProfitchoose4.svg";
+import Icon5 from "../../assets/sectors/NonProfitchoose5.svg";
 
 import { SectorBanner } from "../utilities/SectorBanner";
 export const NotProfitHeroSec = () => {

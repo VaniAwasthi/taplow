@@ -297,7 +297,7 @@ export const Partners = () => {
                     <Image
                       src={slide.image}
                       alt={slide.title}
-                      className="w-full h-full "
+                      className="w-full h-[300px] "
                     />
                   </div>
                 </SwiperSlide>
