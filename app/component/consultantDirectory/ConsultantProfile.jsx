@@ -48,7 +48,7 @@ const ConsultantProfile = () => {
     { country: "Singapore", image: Singapore },
     { country: "spain", image: Spain },
     { country: "Sweden", image: Sweden },
-    { country: "UK", image: UK },
+    { country: "United Kingdom", image: UK },
     { country: "USA", image: USA },
   ];
   const consultant = id
@@ -58,6 +58,7 @@ const ConsultantProfile = () => {
     ? countryImageData.find((item) => item.country === consultant.location)
     : null;
   const HeroImage = matchedImage?.image || DefaultHeroImage;
+  console.log(HeroImage, "heroImage");
   return (
     <div>
       {/* Hero Section */}

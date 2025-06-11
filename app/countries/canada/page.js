@@ -32,7 +32,7 @@ const page = () => {
       id: 1,
       image: VancouverOffice,
       name: "Vancouver",
-      address: "Suite 720475 West Georgia St.Vancouver, BC V6B 4M9",
+      address: "Suite 720, 475 West Georgia Street, Vancouver, BC V6B 4M9",
       phone: "(604) 687-6464",
       email: "eric@macdonaldsearchgroup.com",
     },
@@ -40,7 +40,7 @@ const page = () => {
       id: 2,
       image: CalgaryOffice,
       name: "Calgary",
-      address: "Suite 503 2303 - 4th Street SWCalgary, AB T2S 2S7",
+      address: "Suite 503, 2303 4th Street SW., Calgary, AB T2S 2S7",
       phone: "(403) 444-6487",
       // email: "eric@macdonaldsearchgroup.com",
     },
@@ -48,7 +48,7 @@ const page = () => {
       id: 3,
       image: torontoOffice,
       name: "Toronto",
-      address: "Suite 300 5100 Orbitor Drive Mississauga, ON L4W 4Z4",
+      address: "Suite 300, 5100 Orbitor Drive, Mississauga, ON L4W 4Z4",
       phone: "(416) 342-1505",
       // email: "eric@macdonaldsearchgroup.com",
     },
@@ -56,7 +56,7 @@ const page = () => {
       id: 4,
       image: HalifaxOffice,
       name: "Halifax ",
-      address: "Suite 301 168 Hobsons Lake Drive Halifax, NS B3S 0G4",
+      address: "Suite 301, 168 Hobsons Lake Drive Halifax, NS B3S 0G4",
       phone: "(902) 593-0565",
       // email: "eric@macdonaldsearchgroup.com",
     },
@@ -64,31 +64,32 @@ const page = () => {
       id: 5,
       image: EdmontonOffice,
       name: "Edmonton  ",
-      address: "Suite 2020, Tower One 10060 Jasper Avenue Edmonton, AB T5J 3R8",
-      // phone: "(902) 593-0565",
+      address:
+        "Suite 2020-Tower One, 10060 Jasper Avenue, Edmonton, AB T5J 3R8",
+      phone: " (587) 881-4599",
       // email: "eric@macdonaldsearchgroup.com",
     },
     {
       id: 6,
       image: Montrealoffice,
       name: "Montreal  ",
-      address: "Suite 1800 500 Place d'Armes Montreal, QC H2Y 2W2",
-      // phone: "(902) 593-0565",
+      address: "Suite 1800, 500 Place d’Armes, Montréal, QC H2Y 2W2",
+      phone: "(514) 800-0313",
       // email: "eric@macdonaldsearchgroup.com",
     },
     {
-      id: 8,
+      id: 7,
       image: ottawaOffice,
-      name: "Ottawa   ",
-      address: "Unit 6 430 Hazeldean Road Ottawa, ON K2L 1T9",
+      name: "Ottawa",
+      address: "Unit 6, 430 Hazeldean Road, Ottawa, ON K2L 1T9",
       phone: "(613) 912-1156",
       // email: "eric@macdonaldsearchgroup.com",
     },
     {
-      id: 9,
+      id: 8,
       image: MonctonOffice,
       name: "Moncton",
-      address: "Suite 300 795 Main Street Moncton, NB E1C 1E9",
+      address: "Suite 300, 795 Main Street, Moncton, NB E1C 1E9",
       phone: "(902) 593-0565",
       // email: "eric@macdonaldsearchgroup.com",
     },
@@ -96,17 +97,17 @@ const page = () => {
 
   const AboutContent = {
     greenDescription: `Established in 2010, our partner in Canada is MacDonald Search Group operating under Taplow Canada for global projects. MSG is one
-of Canada’s largest Executive Search Firms with a team of 22 Search Consultants, Researchers and Marketing Admin spread across 8
-office that span the country coast-to-coast.`,
+of Canada’s largest Executive Search Firms with a team of 19 Search Consultants, Researchers and Marketing Admin spread across 8
+offices that span the country coast-to-coast.`,
     Aboutheading: "Taplow Canada:Driving Leadership and Diversity Excellence",
-    aboutContentpara1: `Officesin Vancouver, Calgary, Edmonton,<br/> Halifax, Moncton, Ottawa, Toronto and Montreal Established in 2010, our partner in Canada is MacDonald Search Group operating under Taplow Canada for global projects. `,
+    aboutContentpara1: `Offices in Vancouver, Calgary, Edmonton,<br/> Halifax, Moncton, Ottawa, Toronto and Montreal. Established in 2010, our partners in Canada is MacDonald Search Group operating under Taplow Canada for global projects. `,
     aboutContentpara2: `MSG is one
-of Canada’s largest Executive Search Firms with a team of 22 Search Consultants, Researchers and Marketing Admin spread across 8 office that span the country coast-to-coast.  The firm was founded by Bruce MacDonald who has over 25 years of executive search
+of Canada’s largest Executive Search Firms with a team of 19 Search Consultants, Researchers and Marketing Admin spread across 8 offices that span the country coast-to-coast.  The firm was founded by Bruce MacDonald who has over 25 years of executive search
 experience.`,
     aboutContentpara3:
-      "What sets us apart is that most of our team of Search Consultants all came to us with prior corporate experience in their area of focus.  As well, each Consultant personally manages the search.  We do not pass the baton … our Search Consultants manage the entire process – candidate contact, interviews, references and the offer stage.",
+      "What sets us apart is the depth of real-world experience our Search Consultants bring; many have held corporate roles in the very industries they now recruit for. Each Consultant leads their search engagement from start to finish. We do not pass the baton… our Consultants personally manage candidate outreach, interviews, references, and the offer stage.",
     aboutContentpara4:
-      "Despite our growth, MacDonald Search Group remains committed to the core values of collaboration, humility, and accountability. We believe in building lasting relationships with clients and candidates based on trust and transparency.",
+      "Despite our growth, MacDonald Search Group remains committed to the core values: collaboration, humility, and accountability. We believe in building lasting relationships with clients and candidates based on trust and transparency.",
   };
   const SuccessStoryslidesData = [
     {
