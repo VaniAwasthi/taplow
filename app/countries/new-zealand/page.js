@@ -17,7 +17,7 @@ import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow New Zealand</b>`,
-    desc: "Our New Zealand office has established and grown from merging the skills, experience and resources of SandriWalsh, Rosenberg Executive Search and as of 1st April 2019 Rothley Executive Search.  ",
+    desc: "Our New Zealand operation has established and grown from merging the skills, experience and resources of SandriWalsh Executive Search and Rosenberg Executive Search to form SWR Executive Search (Sandri Walsh Rosenberg). ",
   };
   const officeSecHeading = "Our office in New Zealand";
   const officeData = {
@@ -30,17 +30,17 @@ const page = () => {
   };
 
   const AboutContent = {
-    greenDescription: `Our New Zealand office has established and grown from merging the skills, experience and resources of SandriWalsh, Rosenberg Executive Search and as of 1st April 2019 Rothley Executive Search`,
+    greenDescription: `Our New Zealand operations has established and grown from merging the skills, experience and resources of SandriWalsh Executive Search and Rosenberg Executive Search`,
     Aboutheading:
       "Taplow New Zealand:Driving Leadership and Diversity Excellence",
-    aboutContentpara1:
-      "Leadership is about inspiring the team to achieve more than they could as individuals.  Finding those leaders is what we do. The leaders who dream big and deliver results. Leaders with a track record for success built on hard work and team effort.",
-    aboutContentpara2:
-      "They’re busy getting on with what they do, not necessarily looking for their next move. That’s where we come in – we find them, we inspire them and get them excited about the opportunity.",
     aboutContentpara3:
-      "With over 70 years of combined experience, we have been instrumental in helping hundreds of New Zealand clients build leadership capability.  We are in it for the long-haul and we work in partnership with our clients to help them bring their vision to life.",
+      "Leadership is about inspiring the team to achieve more than they could as individuals.  Finding those leaders is what we do. The leaders who dream big and deliver results. Leaders with a track record for success built on hard work and team effort.",
     aboutContentpara4:
-      "Our New Zealand office has established and grown from merging the skills, experience and resources of SandriWalsh, Rosenberg Executive Search and as of 1st April 2019 Rothley Executive Search.  Our shared passion for finding and appointing leaders is now matched by our ability to generate exceptional results, nationwide.",
+      "They’re busy getting on with what they do, not necessarily looking for their next move. That’s where we come in – we find them, we inspire them and get them excited about the opportunity.",
+    aboutContentpara2:
+      "With over 70 years of combined experience, we have been instrumental in helping hundreds of New Zealand clients build leadership capability.  We are in it for the long-haul and we work in partnership with our clients to help them bring their vision to life.",
+    aboutContentpara1:
+      " Our New Zealand operations has established and grown from merging the skills, experience and resources of SandriWalsh Executive Search and Rosenberg Executive Search. Our shared passion for finding and appointing leaders is now matched by our ability to generate exceptional results, nationwide.",
   };
   const SuccessStoryslidesData = [
     {

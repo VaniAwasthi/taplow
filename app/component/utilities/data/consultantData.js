@@ -593,11 +593,9 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
     address: `Suite 720<br/>475 West Georgia St.<br/>Vancouver, BC V6B 4M9`,
     linkdine: "https://www.linkedin.com/in/bruce-macdonald-163759a/",
     industrySectors: [
-      "Consumer Products",
       "Beverage Alcohol",
       "Building Materials",
       "Food Service",
-      "Financial Services",
       "Digital",
       "Industrial",
       "Logistics & Distribution",
@@ -608,7 +606,6 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
       "Pharmaceuticals",
       "Not for Profit",
       "Professional Services",
-      "Real Estate",
     ],
     bio: `An alumnus of University of Alberta, Bruce has been working within the consumer products industry for the last 25 years. He spent 13 years working on the client side with Wrigley's and Abbott Laboratories in Sales, Category Management, Marketing, and National Sales Leadership. In short, he has walked many a mile in your shoes. Bruce returned to Vancouver in 1998 and began working in executive search, specializing in all positions related to the consumer products industry.<br/><br/>
     In late 2010, Bruce founded MacDonald Search Group, where he provides the leadership, expertise and vision for the firm's efforts across all industries and positions throughout Canada. Bruce has an in-depth understanding of all positions within a company's Sales, Marketing, and Management structure. Seldom do recruiters possess this unique combination of corporate and recruiting experience.<br/><br/>`,
@@ -629,14 +626,10 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
     address: `Level 14, Equinox House<br/>111 The Terrace<br/>Wellington 6011<br/>New Zealand`,
     linkdine: "https://linkedin.com/in/graemesandri",
     industrySectors: [
-      "Consumer Products",
-      "Financial Services",
       "Digital",
-      "Industrial",
       "Life Science",
       "Not for Profit",
       "Professional Services",
-      "Real Estate",
     ],
     bio: `Graeme is Managing Partner of Taplow’s New Zealand Office and as Regional Manager Asia/Pacific is a member of the
 Taplow Group Board. Based in Wellington, Graeme began his career in financial services at one of New Zealand’s
@@ -700,11 +693,9 @@ executive search assignments for clients across New Zealand spanning most sector
     email: "tim@swr.nz",
     image: TimRosenberg,
     address: `1 Albert Street<br/>Auckland 1010<br/>New Zealand`,
-    linkdine: "https://inkedin.com/in/propertyrecruitmentnz",
+    linkdine: "https://www.linkedin.com/in/propertyrecruitmentnz/",
     industrySectors: [
       "Consumer Products",
-      "Financial Services",
-      "Digital",
       "Industrial",
       "Life Science",
       "Not for Profit",
@@ -918,7 +909,7 @@ their leadership impact.`,
     name: "Hannu Översti",
     role: "Managing Partner",
     location: "Finland",
-    service: [" Executive Search"],
+    services: [" Executive Search"],
     phone: "+358 50 502 3814",
     email: "Hannu.oversti@taplow.fi",
     image: HannuÖversti,
@@ -1254,11 +1245,11 @@ clients brand is enhanced throughout the recruitment process.`,
     phone: "+46708775774",
     email: "emma.tilson@atalent.se",
     image: Tilson,
-    bio: `I have worked in competence supply for over 15 years. I have worked within the entire spectrum of the area such as interim management, recruitment consultant, regional manager, VP and now as managing partner for Taplow Öresund and CEO of A-Talent Group and Taplow Öresund is one of the companies in the group.<br/><br/>
-    For the past 12 years I have sat on the board and in the management group of competence supply companies and have also been involved in the management of 11 purchased companies within competence supply. I work with customer development and am extra strong in being involved in building up companies and being the sounding board in larger recruitment projects.<br/><br/>
-    He also has experience as member of the board, in different companies and sectors as A Contracorriente Films, Toll
-    In recent years, I have worked as CEO for our executive search companies within Finance, HR, Tech and Executive Recruitment. `,
-    address: `Taplow Carlsgatan 12 A <br/>21119 Malmö<br/>Sweden`,
+    bio: `With over 15 years of experience in the talent and competence supply sector, I bring deep expertise across the full value chain—from interim management and executive search to strategic business development. My career has spanned roles such as Recruitment Consultant, Regional Manager, Vice President, and currently, Managing Partner at Taplow AB and CEO of both A-Search AB and Chefspoolen i Sverige AB.<br/><br/>
+    For the past 12 years, I have served on boards and in executive leadership teams within the competence supply industry. I have also played a key role in the integration and development of 11 acquired companies in this space. My focus areas include client development, strategic advisory and building and scaling businesses with a strong commercial foundation.<br/><br/>
+    In recent years, I have led executive search recruitmentteam that working with Finance, Supply, HR, Tech, C-level, specialist and manager positions.
+I place great value on sustainability—in processes, recruitment, and diversity. Ensuring long-term impact and inclusive growth is central to how I think and lead teams, drive client success, and shape the organizations I work with. `,
+    address: `Malmö, Halmstad, Göteborg, and Stockholm`,
     linkdine: "https://www.linkedin.com/in/emma-tilson-7a2b7817/",
     industrySectors: [
       "Automotive",
@@ -1269,6 +1260,8 @@ clients brand is enhanced throughout the recruitment process.`,
       "Process Industry",
       "Real Estate",
       "Retail",
+      "Pharma",
+      " Energy",
     ],
   },
   //   {
@@ -1308,7 +1301,7 @@ clients brand is enhanced throughout the recruitment process.`,
     bio: `Ellinor Dam has a Bachelor degree in Psychology and has 15 years experience in recruitment and executive search, from both Swedish and global companies., for example; Saint Gobain, Heidelberg Cement, Aarsleff. She has a long experience in various industries, mainly in finance, manufacturing- and construction industry within executive search an interim management.<br/><br/>
         Over the years she has gained a strong knowledge in different levels of management and specialist positions. Ellinor is responsible for A-Talent Finance which is a Finance/HR business area within A-Talent Group.<br/><br/>
    She is consultative and business oriented with good communication skills and puts great emphasis on continuous feedback to both client and candidate in the process.`,
-    address: `Nya Tingstadsgatan 1<br/>422 44 Hisings Backa<br/>Sweden `,
+    address: `Halmstad`,
     linkdine: "https://www.linkedin.com/in/ellinor-dam-37a131a8/",
     industrySectors: [
       "Finance",
@@ -1334,7 +1327,7 @@ clients brand is enhanced throughout the recruitment process.`,
           Helen has 15+ years of leadership experience in both global and Swedish companies and 15+ years of experience in Executive Search. Has a Bachelor in Business Administration, Commercial Law & French. Throughout her career, Helen has gained strong knowledge and insight into especially the Real Estate, Construction and Manufacturing Sectors. Has solid multinational and large corporation business experience.<br/><br/>
           Helen focuses on C-level, Directors as well as specific areas where candidates are hard to attract.
        `,
-    address: `Taplow Executive Search<br/>Klarabergsviadukten 63 <br/>111 64 Stockholm<br/>Sweden`,
+    address: `Stockholm`,
     linkdine: "https://www.linkedin.com/in/helenhafstrom/",
     industrySectors: [
       "Construction",
@@ -1359,8 +1352,7 @@ clients brand is enhanced throughout the recruitment process.`,
     Maria is solution oriented and focuses on adding value to her clients organization through close collaboration. <br/>
     Maria has 15+ years experience in recruitment with large Scandinavian company such as Veidekke, E. ON<br/>Maria has been responsible for delivery of key position services within areas Logistics, Production, Energy, Real Estate and Construction.  <br/>
     `,
-    address: `Taplow 
-Carlsgatan 12 A, <br/>211 20 Malmö, <br/>Sweden`,
+    address: `Malmö`,
     linkdine: "https://www.linkedin.com/in/maria-lindahl-a2b32633/",
     industrySectors: [
       "Automotive ",
@@ -1417,7 +1409,7 @@ valuable asset in executive search projects.`,
 With several years of experience in headhunting, executive search, and team leadership, I have developed expertise in identifying, attracting, and recruiting top talent for both leadership and specialist roles. My passion lies in building strong relationships and delivering value through efficient and high-quality recruitment processes. 
 
  `,
-    address: `Hyllie Boulevard 35<br/>215 37 Malmo <br/>`,
+    address: `Malmö`,
     linkdine: " https://www.linkedin.com/in/isabelle-karmsten-23a810198/ ",
     industrySectors: [
       "Financial Services ",
@@ -2164,7 +2156,7 @@ set up Leading & Selective(Shanghai) Limited from green field with her rich expe
   {
     id: 74,
     name: "Danny Zhang",
-    role: "Commercial &Marketing",
+    role: "Commercial & Marketing",
     location: "China",
     phone: "+86 135 6415 5370",
     email: "Danny.Zhang@lnsrecruitment.com",
