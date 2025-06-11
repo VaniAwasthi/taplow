@@ -27,12 +27,12 @@ const page = () => {
     id: 1,
     image: officeImage,
     name: "Malmö",
-    address: "Taplow Sweden AB , Skrivaregatan 21, 215 32 Malmö, Sweden",
+    address: "Taplow AB , Skrivaregatan 21, 215 32 Malmö, Sweden",
     // phone: "+44(0)1442 383361",
     // email: "eric@macdonaldsearchgroup.com",
   };
   const AboutContent = {
-    greenDescription: `With over 25 years of experience and offices in <b>Stockholm, Gothenburg, and Malmö</b>, Taplow Sweden is a leading name in executive search and strategic diversity recruitment. Our commitment to quality, speed, and precision ensures that we identify and place the best candidates across a wide range of industries.`,
+    greenDescription: `With over 25 years of experience and offices in <b>Stockholm, Gothenburg, Malmö,</b> and <b>Halmstad </b>, Taplow Sweden is a leading name in executive search and strategic diversity recruitment. Our commitment to quality, speed, and precision ensures that we identify and place the best candidates across a wide range of industries.`,
     Aboutheading: "Taplow Sweden: Driving Leadership and Diversity Excellence",
     aboutContentpara1:
       "As part of a global network with strong local expertise, we provide our clients access to top talent worldwide. By expanding perspectives in recruitment, we contribute directly to our clients long-term success.",
