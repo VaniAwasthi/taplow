@@ -3,6 +3,7 @@ import React from "react";
 import BackgroundImage from "../../assets/homePage/bg-4.webp";
 import ButtonImg from "../../assets/homePage/getintouchIcon.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const WhyChoose = () => {
   return (
@@ -27,25 +28,29 @@ const WhyChoose = () => {
             }}
           ></div>
           <p className="text-white font-light text-[14px] mt-3 md:w-[400px] mb-[3rem]">
-            Driven by a passion to expedite change in our pursuit of a
-            sustainable future, we partner with businesses and industries to
-            catalyse innovation, enable smarter decision-making and deliver
-            positive impact
+            The Taplow Group connects businesses with transformative leaders who
+            drive growth and lasting impact. With a global presence and deep
+            local insight, we offer tailored executive search, interim
+            management, and leadership consulting solutions—helping you make
+            confident, future-ready decisions.
           </p>
-          <button className="mt-4 mb-4 border border-white relative group w-[242px] h-[42px] bg-white text-black rounded-full flex items-center justify-center gap-2 transition-all duration-500  ease-out overflow-hidden hover:bg-transparent hover:text-white transform hover:scale-105">
+          <Link
+            href="/about-us"
+            className="mt-4 mb-4 border border-white relative group w-[242px] h-[42px] bg-white text-black rounded-full flex items-center justify-center gap-2 transition-all duration-500  ease-out overflow-hidden hover:bg-transparent hover:text-white transform hover:scale-105"
+          >
             {/* Background Animation */}
             <span className="absolute inset-0 bg-white transform -translate-x-0 transition-transform duration-500 ease-out group-hover:translate-x-full"></span>
 
             {/* Button Text (Turns White on Hover) */}
             <span className="relative z-10 font-redhat text-sm transition-colors duration-500 ease-out">
-              Get In Touch!
+              Know More !
             </span>
 
             {/* Button Icon (Stays Visible) */}
             <div className="relative w-[34px] h-[25px]">
               <Image src={ButtonImg} alt="Button Icon" />
             </div>
-          </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -12,6 +12,7 @@ const BannerLayout = ({
   bgColor,
   overlayOpacity,
   zIndex,
+  href,
   BgClassname = "object-cover w-full h-[600px] md:min-h-screen [object-position:76%_61%] md:object-center ",
 }) => {
   return (
@@ -61,6 +62,7 @@ const BannerLayout = ({
             text={buttonText}
             image={buttonImage}
             hoverImage={hoverImage}
+            href={href ? href : "#"}
           />
         </div>
       </div>

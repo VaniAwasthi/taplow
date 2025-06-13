@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import BackgroundImage from "../../assets/homePage/getintouchbg.webp";
 import ButtonImg from "../../assets/homePage/getintouchIcon.png";
+import Link from "next/link";
 const GetInTouch = () => {
   return (
     <div className="relative  md:h-[540px] bg-black flex items-center justify-center px-6 md:px-12">
@@ -44,7 +45,10 @@ const GetInTouch = () => {
               className="w-full p-2 bg-transparent border border-white rounded-3xl text-white placeholder-gray-300 focus:outline-none h-32"
             ></textarea>
             <div className="flex justify-center md:justify-start">
-              <button className="mt-4 mb-4 border border-white relative group w-[242px] h-[42px] bg-white text-black rounded-full flex items-center justify-center gap-2 transition-all duration-500  ease-out overflow-hidden hover:bg-transparent hover:text-white transform hover:scale-105">
+              <Link
+                href="/contact"
+                className="mt-4 mb-4 border border-white relative group w-[242px] h-[42px] bg-white text-black rounded-full flex items-center justify-center gap-2 transition-all duration-500  ease-out overflow-hidden hover:bg-transparent hover:text-white transform hover:scale-105"
+              >
                 {/* Background Animation */}
                 <span className="absolute inset-0 bg-white transform -translate-x-0 transition-transform duration-500 ease-out group-hover:translate-x-full"></span>
 
@@ -57,7 +61,7 @@ const GetInTouch = () => {
                 <div className="relative w-[34px] h-[25px]">
                   <Image src={ButtonImg} alt="Button Icon" />
                 </div>
-              </button>
+              </Link>
             </div>
           </form>
         </div>

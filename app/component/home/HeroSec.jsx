@@ -69,6 +69,7 @@ export default function Carousel() {
               description={slide.description}
               buttonText={slide.buttonText}
               hoverImage={HoverImage}
+              // href="/about-us"
               BgClassname="object-cover w-full h-full object-center "
               // zIndex="1"
             />

@@ -149,22 +149,30 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/sectors/#" className="no-underline">
+                <a href="/sectors/industry" className="no-underline">
                   Industrial
                 </a>
               </li>
               <li>
-                <a href="/sectors/#" className="no-underline">
+                <a href="/sectors/life-science" className="no-underline">
                   Life Sciences
                 </a>
               </li>
               <li>
-                <a href="/sectors/#" className="no-underline">
-                  Not For Profit Professional Services
+                <a href="/sectors/non-profit" className="no-underline">
+                  Non Profit
                 </a>
               </li>
               <li>
-                <a href="/sectors/#" className="no-underline">
+                <a
+                  href="/sectors/professional-service"
+                  className="no-underline"
+                >
+                  Professional Services
+                </a>
+              </li>
+              <li>
+                <a href="/sectors/realstate-sector" className="no-underline">
                   Real Estate
                 </a>
               </li>

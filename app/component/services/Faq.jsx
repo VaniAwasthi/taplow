@@ -43,14 +43,14 @@ const Faq = ({ heading, FaqData }) => {
               )}
             </div>
           ))}
-          <div className="flex justify-center md:justify-start items-start mt-2">
+          {/* <div className="flex justify-center md:justify-start items-start mt-2">
             <Button
               text="See More FAQs"
               hoverImage={HoverImage}
               buttonImage={HoverImage}
               className="mt-[3rem]"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

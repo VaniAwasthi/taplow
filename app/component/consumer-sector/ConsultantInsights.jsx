@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import Insight1 from "../../assets/sectors/ConsumerInsight1.webp";
-import Insight2 from "../../assets/sectors/ConsumerInsight2.webp";
-import Insight3 from "../../assets/sectors/ConsumerInsight3.webp";
+import Insight1 from "../../assets/homePage/blog1.webp";
+import Insight2 from "../../assets/homePage/blog2.webp";
+import Insight3 from "../../assets/homePage/blog3.webp";
 import { InsightSec } from "../utilities/InsightSectiom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
@@ -265,8 +265,9 @@ export const ConsumerProductsConsultants = ({ Heading, leaderData, desc }) => {
             </div>
             <div className="flex justify-center items-center">
               <Button
+                href="/consultant-directory"
                 className="w-[250px] md:[350px]"
-                text="Explore All Insights"
+                text="Explore our Consultants"
                 buttonImage={ButtonImage}
                 hoverImage={HoverImage}
               />

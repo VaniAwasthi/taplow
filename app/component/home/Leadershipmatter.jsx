@@ -11,7 +11,7 @@ const LeadershipMatter = () => {
 
   const data = {
     heading: "Where Leadership Matters!",
-    desc: "Driven by a passion to expedite change in our pursuit of a sustainable future, we partner with businesses and industries to catalyze innovation, enable smarter decision-making, and deliver positive impact.",
+    desc: "Fueled by a commitment to a sustainable future, we collaborate with businesses to spark innovation, accelerate transformation, and create lasting impact.",
     btnText: "Know More",
   };
 
@@ -26,14 +26,14 @@ const LeadershipMatter = () => {
           <p className="text-md leading-relaxed  text-center md:text-left mb-[2rem] md:mb-2">
             {data.desc}
           </p>
-          <div className="flex justify-center md:justify-start mb-[12rem] md:mb-[2rem]">
+          {/* <div className="flex justify-center md:justify-start mb-[12rem] md:mb-[2rem]">
             <button className="mt-6 mb-6 md:mt-10 border border-[#96a94a] relative group w-[242px] h-[42px] bg-white text-[#96a94a] rounded-full flex items-center justify-center gap-2 transition-all duration-300 hover:bg-gray-200 transform hover:scale-105">
               <span className="relative z-10 font-redhat text-sm">
                 {data.btnText}
               </span>
               <Image src={ButtonImg} alt="Button Icon" width={20} height={20} />
             </button>
-          </div>
+          </div> */}
           {/* Triangle Image Positioned to Bottom-Right */}
           <div className="absolute bottom-[0px] md:right-6 right-1">
             <Image src={TriangleImage} alt="Triangle Design" />
