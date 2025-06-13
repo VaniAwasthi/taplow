@@ -18,7 +18,7 @@ export default function Button({
   return (
     <Link
       href={`${href ? href : "#"}`}
-      onClick={onClick}
+      // onClick={onClick}
       className={`relative group w-[150px] md:w-[242px] h-[42px] rounded-full flex items-center justify-center gap-2 transition-all duration-500 ease-out overflow-hidden transform hover:scale-105 ${className}`}
       style={{
         backgroundColor: bgColor,

@@ -9,6 +9,7 @@ import {
   ProfessionalExpertSec,
   ProfessionalHeroSec,
   ProfessionalServicesFaq,
+  WhyChooseProfessionalSec,
 } from "@/app/component/professional-service/HeroSecAboutExpertise";
 import { WhyChooseSecIndustry } from "@/app/component/industry-sector/HeroSecAboutExpert";
 
@@ -45,7 +46,7 @@ const Page = () => {
       <ProfessionalHeroSec />
       <AboutProfessionalServices />
       <ProfessionalExpertSec />
-      <WhyChooseSecIndustry />
+      <WhyChooseProfessionalSec />
       <ConsumerProductsConsultants
         Heading="Meet Our Industrial Consultants
 "

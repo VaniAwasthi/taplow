@@ -4,53 +4,44 @@ import {
   ConsumerProductsConsultants,
   InsightsSection,
 } from "@/app/component/consumer-sector/ConsultantInsights";
-import {
-  AboutProfessionalServices,
-  ProfessionalExpertSec,
-  ProfessionalHeroSec,
-  ProfessionalServicesFaq,
-} from "@/app/component/professional-service/HeroSecAboutExpertise";
-import { WhyChooseSecIndustry } from "@/app/component/industry-sector/HeroSecAboutExpert";
+
 import {
   AboutRealState,
   RealStateFaq,
   RealStateHeroSec,
+  RealstateOurOffering,
+  WhyChooseRealstateSec,
 } from "@/app/component/realstate/HerosecAboutExpert";
 
 const Page = () => {
   const leaderData = [
-    { name: "Anoop Semwal", id: 1 },
+    { name: "Ana Sánchez-Asiain", id: 1 },
     { name: "Bernd Schlosshauer", id: 2 },
     { name: "Carmen Alarcon", id: 3 },
-    { name: "Caterina Tortorella", id: 4 },
-    { name: "Claus Rosenstand", id: 5 },
+    { name: "Darryl Miller", id: 4 },
+    { name: "Emma Tilson", id: 5 },
     { name: "Giovanna Brambilla", id: 6 },
     { name: "Graeme Sandri", id: 7 },
     { name: "Hannu Översti", id: 8 },
     { name: "Hans Holter-Sorensen", id: 9 },
     { name: "Helmut Boehler", id: 10 },
-    { name: "Ian Stacy", id: 11 },
-    { name: "Ivan Gonzalez Garcia", id: 12 },
-    { name: "Jean-Marc BURY", id: 13 },
-    { name: "Johanna Autio", id: 14 },
-    { name: "Karina Kratholm", id: 15 },
-    { name: "Mark Firth", id: 16 },
-    { name: "Matti Copeland", id: 17 },
-    { name: "Ole Norby", id: 18 },
-    { name: "Peter Tanner AM", id: 19 },
-    { name: "Sangeeta Sabharwal", id: 20 },
-    { name: "Shaista Sabharwal", id: 21 },
-    { name: "Sheldon Zhou", id: 22 },
-    { name: "Sunil Gandhi", id: 23 },
-    { name: "Stig Heggertveit", id: 24 },
-    { name: "Tony Walsh", id: 25 },
+    { name: "Harri Hämäläinen", id: 11 },
+    { name: "Ian Stacy", id: 12 },
+    { name: "Karina Kratholm", id: 13 },
+    { name: "Mark Firth", id: 14 },
+    { name: "Maria Lindahl", id: 15 },
+    { name: "Sangeeta Sabharwal", id: 16 },
+    { name: "Sheldon Zhou", id: 17 },
+    { name: "Sunil Gandhi", id: 18 },
+    { name: "Tim Rosenberg", id: 19 },
+    { name: "Vijay Bajaj", id: 20 },
   ];
   return (
     <>
       <RealStateHeroSec />
       <AboutRealState />
-      <ProfessionalExpertSec />
-      <WhyChooseSecIndustry />
+      <RealstateOurOffering />
+      <WhyChooseRealstateSec />
       <ConsumerProductsConsultants
         Heading="Meet Our Industrial Consultants
 "

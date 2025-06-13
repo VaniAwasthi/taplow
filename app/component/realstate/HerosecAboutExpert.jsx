@@ -1,28 +1,39 @@
 "use client";
-import Banner from "../../assets/sectors/LifeScienceBaner.webp";
-import AboutImage from "../../assets/sectors/AboutLifeScience.webp";
+import Banner from "../../assets/sectors/RealstateBanner.webp";
+import AboutImage from "../../assets/sectors/AboutRealstate.webp";
 import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import NextArrow from "../../assets/homePage/NextArrow.png";
+import PrevArrow from "../../assets/homePage/prev-arrow.png";
 import Faq from "../services/Faq";
-import ExperImage from "../../assets/sectors/LifeScienceExpertSec.webp";
-import ExpertiseSection from "../services/ExperSection";
 import WhyChooseExecutive from "../services/WhyChooseExecutive";
-import Icon1 from "../../assets/sectors/consumerchoose1.svg";
-import Icon2 from "../../assets/sectors/consumerchoose2.svg";
-import Icon3 from "../../assets/sectors/consumerchoose3.svg";
-import Icon4 from "../../assets/sectors/LifescienceChoose4.svg";
-import Icon5 from "../../assets/sectors/LifescienceChoose5.svg";
+import Icon1 from "../../assets/sectors/RealstateChoose1.svg";
+import Icon2 from "../../assets/sectors/RealstateChoose2.svg";
+import Icon3 from "../../assets/sectors/RealstateChoose3.svg";
+import Icon4 from "../../assets/sectors/RealstateChoose4.svg";
+import Icon5 from "../../assets/sectors/RealstateChoose5.svg";
+import Icon6 from "../../assets/sectors/RealstateChoose6.svg";
 import { SectorBanner } from "../utilities/SectorBanner";
+import offer1 from "../../assets/sectors/realstateOffer1.webp";
+import offer2 from "../../assets/sectors/realstateOffer2.webp";
+import offer3 from "../../assets/sectors/realstateOffer3.webp";
+import offer4 from "../../assets/sectors/realstateOffer4.webp";
+import offer5 from "../../assets/sectors/realstateOffer5.webp";
+import offer6 from "../../assets/sectors/realstateOffer6.webp";
+import { useEffect, useState } from "react";
 export const RealStateHeroSec = () => {
   return (
     <>
       <SectorBanner
-        textColor="text-white w-[200px] md:w-[400px]"
+        textColor="text-white w-[200px] md:w-[450px]"
         textColorDes="text-white"
         Banner={Banner}
         heading="Building Leadership for a Changing Landscape"
-        description=" The Real estate and infrastructure are transforming rapidly, requiring strategic leadership.
-Taplow’s Executive Search delivers leaders who shape people, performance, and places.
-"
+        description="The Real estate and infrastructure are transforming rapidly, requiring strategic leadership.
+Taplow’s Executive Search delivers leaders who shape people, performance, and places."
         buttonText="Know More"
       />
     </>
@@ -121,62 +132,169 @@ export const RealStateFaq = () => {
     </>
   );
 };
-
-export const ProfessionalExpertSec = () => {
-  const paragraphs = [
-    `At The Taplow Group, we are partners to some of the world’s most trusted professional services firms—helping them identify, assess, and develop the leaders who drive sustainable success.`,
-    `Our <b>Professional Services Executive Search</b> and <b>Professional Services Leadership Solutions </b> span the full spectrum of needs: from hiring C-suite leaders to developing future-focused succession plans, to interim leadership during periods of change.`,
-    `Our consultants bring direct experience within the professional services sector—insight that’s critical for finding leaders who can combine technical mastery with commercial acumen and client empathy.`,
-    `We know that in this world, <b>fit matters as much as skill</b>. That’s why we look beyond résumés to understand culture, values, and long-term vision—ensuring every leader we place or develop is a catalyst for performance and client loyalty.`,
+export const RealstateOurOffering = () => {
+  const [swiperInstance, setSwiperInstance] = useState(null);
+  const [isBeginning, setIsBeginning] = useState(true);
+  const [isEnd, setIsEnd] = useState(false);
+  const data = {
+    heading: "Our Offerings",
+    content: "",
+  };
+  const Offering = [
+    {
+      id: 1,
+      heading: "Real Estate Executive Search ",
+      content:
+        "Identifying leaders who combine deal-making acumen with people-first leadership.",
+      img: offer1,
+    },
+    {
+      id: 2,
+      heading: " Infrastructure Executive Search",
+      content:
+        "Sourcing senior talent with the expertise to deliver complex projects on time and on budget.",
+      img: offer2,
+    },
+    {
+      id: 3,
+      heading: " Leadership Assessment & Development ",
+      content:
+        "Enhancing team cohesion and resilience for future-focused performance.",
+      img: offer3,
+    },
+    {
+      id: 4,
+      heading: "Board and CEO Advisory",
+      content:
+        "Supporting governance and leadership transitions with strategic, impartial counsel.",
+      img: offer4,
+    },
+    {
+      id: 5,
+      heading: "ESG & Sustainability Advisory",
+      content:
+        "Aligning leadership with environmental, social, and governance priorities.",
+      img: offer5,
+    },
+    {
+      id: 6,
+      heading: "Interim Leadership Solutions",
+      content:
+        "Providing experienced leaders to navigate periods of transition, growth, or transformation.",
+      img: offer6,
+    },
   ];
+  useEffect(() => {
+    if (swiperInstance) {
+      setIsBeginning(swiperInstance.isBeginning);
+      setIsEnd(swiperInstance.isEnd);
 
+      swiperInstance.on("slideChange", () => {
+        setIsBeginning(swiperInstance.isBeginning);
+        setIsEnd(swiperInstance.isEnd);
+      });
+    }
+  }, [swiperInstance]);
   return (
     <>
-      <ExpertiseSection
-        sectionTitle="Taplow Group’s"
-        sectionHeading="Expertise in Professional Services"
-        paragraphs={paragraphs}
-        buttonText="Connect With a Specialist"
-        buttonLink="#contact"
-        imageUrl={ExperImage}
-      />
+      <div className="container mx-auto px-4 md:max-w-7xl my-6">
+        <div className="relative w-full flex flex-col md:items-start item-center justify-center md:justify-left space-y-6">
+          <h2 className="text-[30px] md:text-[32px] font-normal redhat font-base pb-[2px] text-center md:text-left">
+            {data.heading}
+          </h2>
+          <p className="text-lg text-[#666666] font-normal redhat font-base pb-[0.5rem] text-center md:text-left">
+            {data.content}
+          </p>
+          <Swiper
+            modules={[Navigation]}
+            spaceBetween={20}
+            slidesPerView={3}
+            breakpoints={{
+              0: { slidesPerView: 1 },
+              640: { slidesPerView: 2 },
+              1280: { slidesPerView: 3 },
+            }}
+            onSwiper={(swiper) => setSwiperInstance(swiper)}
+            className="w-full px-4"
+          >
+            {Offering.map((service, index) => (
+              <SwiperSlide key={index}>
+                <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                  <Image
+                    src={service.img}
+                    alt={service.heading}
+                    className="w-full md:h-[450px] h-[480px] object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute bottom-0 left-0 w-full px-3 ">
+                    <h2 className="text-white text-[20px] md:text-[28px]  pb-4  font-regular">
+                      {service.heading}
+                    </h2>
+                    <p className="text-white text-sm pb-[2rem] font-regular">
+                      {service.content}
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+
+          {/* Navigation Arrows */}
+          {!isBeginning && (
+            <div
+              onClick={() => swiperInstance?.slidePrev()}
+              className="lg:block hidden absolute bottom-10 left-[-5rem] z-10 cursor-pointer"
+            >
+              <Image src={PrevArrow} alt="Prev" width={50} height={50} />
+            </div>
+          )}
+
+          {!isEnd && (
+            <div
+              onClick={() => swiperInstance?.slideNext()}
+              className="lg:block hidden absolute bottom-10 right-[-4rem] z-10 cursor-pointer"
+            >
+              <Image src={NextArrow} alt="Next" width={50} height={50} />
+            </div>
+          )}
+        </div>
+      </div>
     </>
   );
 };
 
-export const WhyChooseProfessionalSec = () => {
-  const heading = "Why Choose The Taplow Group for Professional Services?";
+export const WhyChooseRealstateSec = () => {
+  const heading = "Why Taplow for Real Estate & Infrastructure";
 
   const cards = [
     {
       img: Icon1,
-      title: "First-Hand Sector Knowledge",
-      desc: `Our partners have led or advised professional services firms themselves, giving them an insider’s perspective on the unique demands of client service, fee-based revenue models, and partner-led growth.`,
+      title: "Sector-Deep Insight",
+      desc: `Firsthand experience in real estate and infrastructure, giving us a clear view of your sector’s opportunities and challenges.`,
     },
     {
       img: Icon2,
-      title: "Global Network, Local Nuance",
-      desc: "We connect you with exceptional leaders across global markets—while tailoring searches to the regional cultures, client expectations, and regulatory frameworks that shape your business.",
+      title: "Global-Local Expertise",
+      desc: " Global reach combined with local understanding to deliver impactful leaders.",
     },
     {
       img: Icon3,
-      title: " Balanced Insight & Practical Experience",
-      desc: `We blend rigorous executive search methodologies with an appreciation for the relationship-driven nature of professional services—ensuring leaders we place can build trust and deliver impact`,
+      title: "End-to-End Solutions",
+      desc: ` Executive search, succession planning, interim leadership, and advisory—all aligned with your asset lifecycle.`,
     },
     {
       img: Icon4,
-      title: "Holistic Leadership Solutions",
-      desc: " Beyond search, we help your firm with succession planning, practice leadership transitions, and cultural transformation—strengthening the human capital that drives your firm’s success.",
+      title: "Sector-Focused Agility",
+      desc: "We adapt to your changing needs—be it regulation, urban trends, or ESG demands.",
     },
     {
       img: Icon5,
-      title: "Championing Inclusive Leadership",
-      desc: " We advocate for diverse leadership teams that reflect the communities you serve—knowing this fosters stronger client relationships and innovative thinking.",
+      title: " Inclusive Leadership Focus",
+      desc: "We champion diversity, knowing inclusive leaders drive stronger communities and investor confidence.",
     },
     {
-      img: Icon5,
-      title: "Long-Term Partnerships for Sustainable Growth",
-      desc: "We don’t just fill roles; we become trusted advisors who help your firm navigate complex challenges and find leaders who fit seamlessly into your client-focused culture.",
+      img: Icon6,
+      title: "True Partnership",
+      desc: " Beyond placements—we build enduring relationships, ensuring leadership that delivers long-term value.",
     },
   ];
   return (

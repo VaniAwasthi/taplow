@@ -27,20 +27,19 @@ const ConnectExpert = () => {
           </div>
 
           <div className="mt-[2rem] flex md:justify-start">
-            <Link href="/consultant-directory">
-              <Button
-                href="/consultant-directory"
-                text="Meet Consultants"
-                buttonImage={ButtonImg}
-                hoverImage={ButtonImg}
-                bgColor="#000000"
-                textColor="#ffffff"
-                hoverTextColor="#000"
-              />
-            </Link>
+            <Button
+              href="/consultant-directory"
+              text="Meet Consultants"
+              buttonImage={ButtonImg}
+              hoverImage={ButtonImg}
+              bgColor="#000000"
+              textColor="#ffffff"
+              hoverTextColor="#000"
+            />
           </div>
           <div className="mt-[2rem] md:mb-[1rem] flex md:justify-start">
             <Button
+              href="/globals"
               text="Find Local Offices"
               buttonImage={ButtonImage}
               hoverImage={HoverImage}
