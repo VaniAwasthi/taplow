@@ -57,14 +57,14 @@ const BannerLayout = ({
         </p>
 
         {/* Button */}
-        <div className="mt-6">
+        {/* <div className="mt-6">
           <Button
             text={buttonText}
             image={buttonImage}
             hoverImage={hoverImage}
             href={href ? href : "#"}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
