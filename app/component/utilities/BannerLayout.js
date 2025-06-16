@@ -42,8 +42,10 @@ const BannerLayout = ({
       <div
         className={`relative z-10 flex flex-col items-start justify-start md:justify-center text-white px-6 md:px-32 max-w-7xl`}
       >
-        <h2 className="text-lg md:text-4xl font-normal text-left ">{title}</h2>
-        <h2 className="text-lg md:text-4xl font-normal mt-2">{title2}</h2>
+        <h2 className="text-lg md:text-5xl font-light text-left ">{title}</h2>
+        <h2 className="text-lg md:text-5xl font-light mt-2 w-[75%]">
+          {title2}
+        </h2>
 
         <div
           className="my-4 h-[1px] w-[80%] md:w-[320px] mx-auto md:mx-0"

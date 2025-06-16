@@ -38,6 +38,12 @@ export const HeroSection = () => {
         <h2 className="text-[2rem] md:text-4xl font-normal text-left md:w-[400px] w-[330px]">
           {Heading}
         </h2>
+        <div
+          className="my-4 h-[1px] w-[80%] md:w-[320px] mx-auto md:mx-0"
+          style={{
+            background: "linear-gradient(to right, #D9D9D9 30%, #96A94A 30%)",
+          }}
+        ></div>
       </div>
     </div>
   );
