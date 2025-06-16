@@ -5,6 +5,8 @@ import Image from "next/image";
 import { useRef, useState, useEffect } from "react";
 import "swiper/css";
 import BgImag from "../../assets/homePage/Hersecbg2.png";
+import BgImag2 from "../../assets/homePage/HeroBannner2.webp";
+import BgImag3 from "../../assets/homePage/HeroBannner3.webp";
 import ButtonImage from "../../assets/homePage/btn-img.svg";
 import HoverImage from "../../assets/homePage/hover.svg";
 import LeftArrow from "../../assets/homePage/left.png";
@@ -21,16 +23,27 @@ const slides = [
     buttonText: "Know More",
     image: BgImag,
     buttonImage: require("../../assets/homePage/btn-img.svg").default,
+    href: "#",
   },
   {
     id: 2,
-    title: "See beyond with ",
-    title2: "The Taplow Group",
-    description:
-      "We go beyond traditional executive search, leadership advisory, interim management, and board consulting to help you build future-ready leadership. Look ahead, think bigger, and see beyond the expected.",
-    buttonText: "Read More",
-    image: BgImag,
+    title: "Connecting Talent ",
+    title2: "Locally and Across Globe",
+    description: "",
+    buttonText: "Know More",
+    image: BgImag2,
     buttonImage: require("../../assets/homePage/btn-img.svg").default,
+    href: "#",
+  },
+  {
+    id: 3,
+    title: "Sourcing the Leaders ",
+    title2: "of Tomorrow ",
+    description: "Executive Search Services across 17 countries",
+    buttonText: "Know More",
+    image: BgImag3,
+    buttonImage: require("../../assets/homePage/btn-img.svg").default,
+    href: "#",
   },
 ];
 
@@ -69,7 +82,7 @@ export default function Carousel() {
               description={slide.description}
               buttonText={slide.buttonText}
               hoverImage={HoverImage}
-              // href="/about-us"
+              // href={slide.href}
               BgClassname="object-cover w-full h-full object-center "
               // zIndex="1"
             />

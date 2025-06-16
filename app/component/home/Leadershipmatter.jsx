@@ -47,13 +47,12 @@ const LeadershipMatter = () => {
         onClick={() => setIsVideoPlaying(true)}
       >
         {isVideoPlaying ? (
-          <iframe
-            className="w-full h-full"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
-            title="Leadership Video"
-            allow="autoplay; encrypted-media"
-            allowFullScreen
-          ></iframe>
+          <video
+            src="/videos/leadershipMatter.mp4" // Adjust the path based on where your file is in the public folder
+            className="w-full h-auto object-cover"
+            controls
+            autoPlay
+          />
         ) : (
           <div className="relative">
             <Image
@@ -63,15 +62,15 @@ const LeadershipMatter = () => {
               className="object-cover"
               priority
             />
-            {/* Play Button Overlay */}
+            {/* Optional Play Button Overlay */}
             {/* <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/50 p-4 rounded-full">
-              <Image
-                src={PlayButton}
-                alt="Play Button"
-                width={60}
-                height={60}
-              />
-            </div> */}
+        <Image
+          src={PlayButton}
+          alt="Play Button"
+          width={60}
+          height={60}
+        />
+      </div> */}
           </div>
         )}
       </div>

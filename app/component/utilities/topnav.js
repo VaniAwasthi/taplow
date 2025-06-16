@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 import {
   Disclosure,
@@ -9,6 +9,7 @@ import {
 } from "@headlessui/react";
 import { FaBars } from "react-icons/fa6";
 import { IoCloseSharp } from "react-icons/io5";
+import { FaGlobeAsia } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../assets/homePage/logo.png";
@@ -20,12 +21,12 @@ const navigation = [
     name: "Services",
     href: "/services/executive-search",
     submenu: [
-      { name: "Executive Search ", href: "/services/executive-search" },
+      { name: "Executive Search", href: "/services/executive-search" },
       {
-        name: "Executive Interim ",
+        name: "Executive Interim",
         href: "/services/executive-interim-management",
       },
-      { name: "Board Advisory ", href: "/services/board-advisory-services" },
+      { name: "Board Advisory", href: "/services/board-advisory-services" },
       {
         name: "Leadership Performance and Advisory",
         href: "/services/leadership-boardadvisory-and-performance",
@@ -76,6 +77,27 @@ const navigation = [
 
 const TopNav = () => {
   const pathname = usePathname();
+  const [langOpen, setLangOpen] = useState(false);
+
+  const languages = [
+    "Australia",
+    "Bulgaria",
+    "Canada",
+    "China",
+    "Denmark",
+    "Finland",
+    "France",
+    "Germany",
+    "India",
+    "Italy",
+    "New Zealand",
+    "Norway",
+    "Singapore",
+    "Spain",
+    "Sweden",
+    "UK",
+    "US",
+  ];
 
   return (
     <header className="top-0 z-50 bg-white">
@@ -96,48 +118,34 @@ const TopNav = () => {
                 </div>
 
                 {/* Desktop Navigation */}
-                {/* Desktop Navigation */}
-                <div className="hidden lg:flex space-x-4">
-                  {navigation.map((item) =>
-                    item.submenu ? (
+                <div className="hidden lg:flex space-x-4 items-center">
+                  {navigation.map((item) => {
+                    const isParentActive =
+                      pathname.startsWith(item.href) ||
+                      (item.submenu &&
+                        item.submenu.some((sub) => pathname === sub.href));
+
+                    return item.submenu ? (
                       <div key={item.name} className="relative group">
-                        <div className="relative">
-                          <Link href={item.href}>
-                            <span
-                              className={`px-3 py-1 text-base font-normal cursor-pointer ${
-                                pathname.startsWith(item.href)
-                                  ? "text-white bg-[#98AE40] pb-[0.7rem]"
-                                  : "text-black hover:text-black"
-                              }`}
-                            >
-                              {item.name}
-                            </span>
-                          </Link>
-                          {/* Dropdown with scrollbar and keep open on hover */}
-                          <div
-                            className="
-              absolute left-0 mt-2  
-          bg-white 
-              shadow-lg 
-              rounded-md 
-              z-50 
-              min-w-[180px] 
-              max-h-44 
-              overflow-y-auto 
-              pointer-events-auto 
-              scrollbar-thin 
-              scrollbar-thumb-[#98AE40] 
-              scrollbar-track-gray-200
-              invisible group-hover:opacity-100 group-hover:visible transition-all duration-300"
+                        <Link href={item.href}>
+                          <span
+                            className={`px-3 py-1 text-base font-normal cursor-pointer ${
+                              isParentActive
+                                ? "text-white bg-[#98AE40] pb-[0.7rem]"
+                                : "text-black hover:text-black"
+                            }`}
                           >
-                            {item.submenu.map((sub) => (
-                              <Link key={sub.name} href={sub.href}>
-                                <div className="px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-[#98AE40]">
-                                  {sub.name}
-                                </div>
-                              </Link>
-                            ))}
-                          </div>
+                            {item.name}
+                          </span>
+                        </Link>
+                        <div className="absolute left-0 mt-2 bg-white shadow-lg rounded-md z-50 min-w-[180px] max-h-44 overflow-y-auto pointer-events-auto scrollbar-thin scrollbar-thumb-[#98AE40] scrollbar-track-gray-200 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                          {item.submenu.map((sub) => (
+                            <Link key={sub.name} href={sub.href}>
+                              <div className="px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-[#98AE40]">
+                                {sub.name}
+                              </div>
+                            </Link>
+                          ))}
                         </div>
                       </div>
                     ) : (
@@ -152,8 +160,36 @@ const TopNav = () => {
                           {item.name}
                         </span>
                       </Link>
-                    )
-                  )}
+                    );
+                  })}
+
+                  {/* Language Switcher */}
+                  <div className="relative">
+                    <button
+                      onClick={() => setLangOpen(!langOpen)}
+                      className="flex items-center space-x-1 text-black hover:text-[#98AE40]"
+                    >
+                      <FaGlobeAsia className="w-5 h-5" />
+                      <span className="hidden md:inline">Language</span>
+                    </button>
+                    {langOpen && (
+                      <div className="absolute right-0 mt-2 bg-white shadow-lg rounded-md z-50 min-w-[180px] max-h-48 overflow-y-auto scrollbar-thin scrollbar-thumb-[#98AE40] scrollbar-track-gray-200">
+                        {languages.map((lang) => (
+                          <div
+                            key={lang}
+                            className="px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-[#98AE40] cursor-pointer"
+                            onClick={() => {
+                              setLangOpen(false);
+                              // handle language change here if needed
+                              console.log(`Language selected: ${lang}`);
+                            }}
+                          >
+                            {lang}
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -177,33 +213,11 @@ const TopNav = () => {
                     <Disclosure key={item.name} as="div" className="w-full">
                       {({ open }) => (
                         <>
-                          {/* Wrap main menu item in a Link if href exists */}
-                          {item.href ? (
-                            <Link href={item.href}>
-                              <DisclosureButton
-                                className="w-full px-3 py-2 font-medium text-left text-black hover:text-[#98AE40] flex justify-between items-center"
-                                as="div"
-                              >
-                                <span>{item.name}</span>
-                                <svg
-                                  className={`w-4 h-4 transform transition-transform duration-300 ${
-                                    open ? "rotate-180" : ""
-                                  }`}
-                                  fill="none"
-                                  stroke="currentColor"
-                                  strokeWidth={2}
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    d="M19 9l-7 7-7-7"
-                                  />
-                                </svg>
-                              </DisclosureButton>
-                            </Link>
-                          ) : (
-                            <DisclosureButton className="w-full px-3 py-2 font-medium text-left text-black hover:text-[#98AE40] flex justify-between items-center">
+                          <Link href={item.href}>
+                            <DisclosureButton
+                              className="w-full px-3 py-2 font-medium text-left text-black hover:text-[#98AE40] flex justify-between items-center"
+                              as="div"
+                            >
                               <span>{item.name}</span>
                               <svg
                                 className={`w-4 h-4 transform transition-transform duration-300 ${
@@ -221,8 +235,7 @@ const TopNav = () => {
                                 />
                               </svg>
                             </DisclosureButton>
-                          )}
-
+                          </Link>
                           <DisclosurePanel className="pl-6">
                             {item.submenu.map((sub) => (
                               <Link key={sub.name} href={sub.href}>
@@ -250,6 +263,33 @@ const TopNav = () => {
                     </Link>
                   )
                 )}
+
+                {/* Mobile Language Switcher */}
+                <div className="mt-2">
+                  <button
+                    onClick={() => setLangOpen(!langOpen)}
+                    className="flex items-center space-x-1 text-black hover:text-[#98AE40]"
+                  >
+                    <FaGlobeAsia className="w-5 h-5" />
+                    <span className="hidden md:inline">Language</span>
+                  </button>
+                  {langOpen && (
+                    <div className="mt-1 bg-white shadow-lg rounded-md z-50 max-h-48 overflow-y-auto scrollbar-thin scrollbar-thumb-[#98AE40] scrollbar-track-gray-200">
+                      {languages.map((lang) => (
+                        <div
+                          key={lang}
+                          className="px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-[#98AE40] cursor-pointer"
+                          onClick={() => {
+                            setLangOpen(false);
+                            console.log(`Language selected: ${lang}`);
+                          }}
+                        >
+                          {lang}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
               </div>
             </DisclosurePanel>
           </>
