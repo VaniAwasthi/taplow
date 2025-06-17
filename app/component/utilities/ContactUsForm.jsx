@@ -77,7 +77,7 @@ const ContactForm = () => {
         Contact us
       </h2>
       <p className="text-center text-md mb-6 text-[#666666] ">
-        Thank you for your interest in Korn Ferry. To speak with a
+        Thank you for your interest in The Taplow Group. To speak with a
         representative, please complete the form below. One of our experts will
         follow up with you shortly.
       </p>

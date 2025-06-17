@@ -108,7 +108,7 @@ export const Ethical = () => {
               breakpoints={{
                 640: { slidesPerView: 2 },
                 992: { slidesPerView: 3 },
-                1024: { slidesPerView: 4 },
+                1024: { slidesPerView: 3 },
               }}
               onSwiper={setSwiperInstance}
               navigation={{
@@ -133,7 +133,7 @@ export const Ethical = () => {
                       alt={slide.title}
                       className="w-full h-full"
                     />
-                    <p className="text-lg md:text-xl redhat font-semibold absolute bottom-4 w-3/4  left-1/2 -translate-x-2/4 mx-auto text-white z-10">
+                    <p className="text-lg md:text-xl redhat font-semibold absolute bottom-4 w-[80%]  left-1/2 -translate-x-2/4  text-white z-10">
                       {slide.title}
                     </p>
                     <div

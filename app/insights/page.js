@@ -1,11 +1,22 @@
 "use client";
 import React from "react";
+import {
+  HerosecInsight,
+  IndustryReportSec,
+  InsightsBlogSection,
+  WhitepaperList,
+} from "../component/insights/HerosecBlogIndustry";
+import CaseStudies from "../component/insights/CaseStudies";
 
 const Insights = () => {
   return (
-    <div className="container mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold text-center">Insights</h1>
-    </div>
+    <>
+      <HerosecInsight />
+      <InsightsBlogSection />
+      <IndustryReportSec />
+      <CaseStudies />
+      <WhitepaperList />
+    </>
   );
 };
 

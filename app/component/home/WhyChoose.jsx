@@ -20,7 +20,7 @@ const WhyChoose = () => {
         <div className="text-white md:w-1/2 mb-6 md:mb-0">
           <h2 className="text-2xl py-3 mt-4  redhat md:text-4xl font-base mb-4 leading-normal md:leading-[3.5rem]  transition-all duration-300 hover:scale-105">
             Why Choose <br />
-            the Taplow Group
+            The Taplow Group
           </h2>
           <div
             className="my-6 h-[1px] w-[200px] md:w-[320px]"
