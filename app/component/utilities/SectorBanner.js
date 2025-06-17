@@ -51,8 +51,9 @@ export const SectorBanner = ({
           {/* Button */}
           <div className="mt-6">
             <Button
+              className="w-[250px] md:w-[242px]"
               text={buttonText}
-              image={ButtonImage}
+              buttonImage={HoverImage} // ✅ lowercase 'b' matches component
               hoverImage={HoverImage}
             />
           </div>
