@@ -469,7 +469,7 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
     name: "Stuart Gannon",
     role: "Senior Consultant – Calgary - Prairies",
     location: "Canada",
-    service: ["Executive Search"],
+    services: ["Executive Search"],
     phone: "403-444-6487",
     email: "stuart@macdonaldsearchgroup.com",
     image: StuartGannon,
@@ -737,7 +737,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     name: "Anoop Semwal",
     role: "Principal",
     location: "India",
-    service: [
+    services: [
       "Executive Search",
       " Interim",
       "leadership Advisory and Performance",
@@ -745,7 +745,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     phone: "+91 9810114434",
     email: "anoop.semwal@taplowgroupindia.com",
     image: AnoopSemwal,
-    address: `Office No. 306- 307, 3rd Floor, Tower-B,<br/>Emaar Digital Greens, Golf Course Extension Road,<br/>Sector-61, Gurgaon-122102, Haryana, India.`,
+    address: `Office No. 306- 307, 3rd Floor, Tower-B, Emaar Digital Greens, Golf Course Extension Road, Sector-61, Gurgaon-122102, Haryana, India.`,
     linkdine: "https://www.linkedin.com/in/anoop-semwal-9286a86/",
     industrySectors: [
       "Consumer",
@@ -773,7 +773,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     email: "shaista.sabharwal@taplowgroupindia.com",
     image: ShaistaSabharwal,
     address: `Office No. 306- 307, 3rd Floor, Tower-B<br/>Emaar Digital Greens, Golf Course Extension Road<br/>Sector-61, Gurgaon-122102, Haryana, India.`,
-    linkdine: "https://www.linkedin.com/in/oliverkuehm/",
+    linkdine: "https://www.linkedin.com/in/shaistasabharwal/",
     industrySectors: [
       "Consumer",
       "Industrial",
@@ -792,7 +792,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     name: "Priyanka Mazumdar",
     role: "Practice Leader – Global Philanthropy & Social Impact Member – Advisory Council, India",
     location: "India",
-    service: ["Executive Search"],
+    services: ["Executive Search"],
     phone: "+91 98 2028 9155",
     email: "priyanka.mazumdar@taplowgroupinida.com",
     image: PriyankaMazumdar,
@@ -815,7 +815,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     phone: "+91 98 1008 9864",
     email: "sangeeta.sabharwal@taplowgroupindia.com",
     image: SangeetaSabharwal,
-    address: `Office No. 306- 307, 3rd Floor, Tower-B,<br/>Emaar Digital Greens, Golf Course Extension Road,<br/>Sector-61, Gurgaon-122102, Haryana, India.`,
+    address: `Office No. 306- 307, 3rd Floor, Tower-B, Emaar Digital Greens, Golf Course Extension Road,Sector-61, Gurgaon-122102, Haryana, India.`,
     linkdine:
       "https://www.linkedin.com/in/sangeeta-sabharwal-5347985/?originalSubdomain=in",
     industrySectors: [
@@ -840,7 +840,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     phone: "+91 98 2336 7661",
     email: "sanjay.Ghosh@taplowgroupindia.com",
     image: SanjayGhosh,
-    address: `Office No. 306- 307, 3rd Floor, Tower-B,<br/>Emaar Digital Greens, Golf Course Extension Road,<br/>Sector-61, Gurgaon-122102, Haryana, India.`,
+    address: `Office No. 306- 307, 3rd Floor, Tower-B, Emaar Digital Greens, Golf Course Extension Road, Sector-61, Gurgaon-122102, Haryana, India.`,
     linkdine: "https://www.linkedin.com/in/sanjayghosh/",
     industrySectors: ["Industrial"],
     bio: `Sanjay is Senior Partner -Industrial with Taplow India and works out of Pune, MH. His markets include Industrial clients across Middle East and India. He has over 28 years of experience in the Executive Search and HR services industry and during this period has serviced clients across geographies from SE Asia to North America. Prior to joining The Taplow Group, Sanjay worked for another global executive search firm for 10 years servicing clients in the Industrial sector.<br/><br/>
@@ -857,12 +857,12 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     phone: "+91 99 9039 9673",
     email: "ritu.mahajan@taplowgroupindia.com",
     image: Ritu,
-    address: `The Taplow Group, Office No. 306-307, 3rd Floor,<br/>Tower B, Emaar Digital Greens, Golf Course Extension Road,<br/>Sector 61, Gurgaon-122002, Haryana`,
+    address: `The Taplow Group, Office No. 306-307, 3rd Floor, Tower B, Emaar Digital Greens, Golf Course Extension Road, Sector 61, Gurgaon-122002, Haryana`,
     linkdine: "https://www.linkedin.com/in/ritu-mahajan/",
-    industrySectors: ["Non-Profit", "Philanthropy", "Impact Sector"],
+    industrySectors: ["Non-Profit", "Philanthropy and Impact Sector"],
     bio: `Ritu Mahajan is a Principal at The Taplow Group – India, specializing in the Global Philanthropy & Social Impact vertical. With over two decades of experience in HR, she has expertise in Talent Acquisition and Capacity Building across sectors such as Education, Telecom, and Not-for-Profit.<br/><br/>
-    Known for her strong commitment to quality, accountability, and meticulous monitoring, Ritu has played a key role in shaping talent strategies for diverse organizations. She is deeply passionate about coaching and mentoring future leaders and has actively collaborated with universities and educational institutions to nurture young talent.<br/>
-    Ritu holds a Master’s in Business Administration and is a graduate of the University of Delhi. Outside of work, she is a proud mother of two daughters, an avid traveller, and a dedicated yoga enthusiast.
+    Known for her strong commitment to quality, accountability, and meticulous monitoring, Ritu has played a key role in shaping talent strategies for diverse organizations. She is deeply passionate about coaching and mentoring future leaders and has actively collaborated with universities and educational institutions to nurture young talent.<br/><br/>
+    Ritu holds a Master’s in Business Administration and is a graduate of the University of Delhi. Outside of work, she is a proud mother of two daughters, an avid traveller, and a dedicated yoga enthusiast.<br/>
 `,
   },
   {
@@ -1434,9 +1434,9 @@ With several years of experience in headhunting, executive search, and team lead
     linkdine: "https://www.linkedin.com/in/rituparna-acharyya-342642113/",
     industrySectors: ["Non-Profit ", "Philanthropy and Impact Sector "],
     image: RituAcharya,
-    bio: `Rituparna is an accomplished executive search professional with a strong focus on the non-profit and philanthropy sector. As an Associate Principal at The Taplow Group S.A., she has successfully led complex, high-level talent searches across Asia and Africa, helping organizations secure mission-driven leaders. Her expertise extends beyond the development sector, as she also facilitates private sector professionals transitioning into social impact roles, bridging talent across industries.<br/>
-With over nine years in executive search, Rituparna has developed a keen ability to identify and place top-tier leadership for non-profits, foundations, and international development organizations. Additionally, she contributes to for-profit sector searches, leveraging her deep industry insights.<br/>
-Beyond executive search, Rituparna is adept at business development and stakeholder engagement. She has successfully led strategic initiatives to expand The Taplow Group’s footprint in the social impact sector. Most notably, she spearheaded a roadshow in Bangladesh to identify and tap into leadership hiring needs within the development sector, strengthening connections with key organizations and stakeholders.<br/>
+    bio: `Rituparna is an accomplished executive search professional with a strong focus on the non-profit and philanthropy sector. As an Associate Principal at The Taplow Group S.A., she has successfully led complex, high-level talent searches across Asia and Africa, helping organizations secure mission-driven leaders. Her expertise extends beyond the development sector, as she also facilitates private sector professionals transitioning into social impact roles, bridging talent across industries.<br/><br/>
+With over nine years in executive search, Rituparna has developed a keen ability to identify and place top-tier leadership for non-profits, foundations, and international development organizations. Additionally, she contributes to for-profit sector searches, leveraging her deep industry insights.<br/><br/>
+Beyond executive search, Rituparna is adept at business development and stakeholder engagement. She has successfully led strategic initiatives to expand The Taplow Group’s footprint in the social impact sector. Most notably, she spearheaded a roadshow in Bangladesh to identify and tap into leadership hiring needs within the development sector, strengthening connections with key organizations and stakeholders.<br/><br/>
 Before joining The Taplow Group, Rituparna spent eight years at HSBC, where she held key roles across branch banking, customer relationship management, international trade and foreign exchange services, and SME commercial banking. Her extensive corporate experience enhances her ability to align candidates’ strengths with organizational needs.
 Known for her high energy, strategic approach, and commitment to excellence, Rituparna is skilled in relationship management, business development, and talent strategy. She brings a determined and focused approach to every search, ensuring the best fit for both clients and candidates.
 `,

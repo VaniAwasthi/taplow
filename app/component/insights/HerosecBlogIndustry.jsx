@@ -2,7 +2,7 @@ import React from "react";
 import BannerLayout from "../utilities/BannerLayout";
 import HoverImage from "../../assets/homePage/hover.svg";
 import Image from "next/image";
-
+import { motion } from "framer-motion";
 import blog1 from "../../assets/Insights/insightBlog1.webp";
 import blog2 from "../../assets/Insights/insightBlog2.webp";
 import blog3 from "../../assets/Insights/insightBlog3.webp";
@@ -147,11 +147,20 @@ export const IndustryReportSec = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {InsightData.map((Insight, index) => (
               <Link key={index} href={Insight.href}>
-                <Image
-                  src={Insight.Image}
-                  alt={Insight.Alt}
-                  className="w-full h-full object-cover rounded-xl"
-                />
+                <motion.div
+                  initial={{ x: -50, opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="rounded-xl overflow-hidden transition-transform duration-300 hover:scale-x-105 "
+                >
+                  <Image
+                    src={Insight.Image}
+                    alt={Insight.Alt}
+                    width={300}
+                    height={200}
+                    className="w-full h-full object-cover rounded-xl "
+                  />
+                </motion.div>
               </Link>
             ))}
           </div>
@@ -223,12 +232,6 @@ export const WhitepaperList = () => {
             </a>
           </div>
         ))}
-      </div>
-
-      <div className="flex justify-center items-center my-10">
-        <Link href="#" className="text-sm text-[#005581] underline ">
-          Show more
-        </Link>
       </div>
     </div>
   );

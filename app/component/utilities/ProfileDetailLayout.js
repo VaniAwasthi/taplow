@@ -38,7 +38,7 @@ const ProfileDetailLayout = ({ consultant }) => {
             </a>
           </div> */}
           <div className="flex items-center space-x-2">
-            <Navigation2 className="text-[#00B2A9] w-5 h-5 mr-2" />
+            <Navigation2 className="text-[#00B2A9] w-16 h-16 mr-2" />
             <span
               className="text-[#00B2A9]"
               dangerouslySetInnerHTML={{ __html: consultant.address }}
