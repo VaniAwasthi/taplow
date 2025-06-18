@@ -74,26 +74,25 @@ const CaseStudies = ({ SuccessData, heading, textClass }) => {
               <SwiperSlide key={index}>
                 <div className="relative rounded-lg overflow-hidden shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                   {/* Image */}
-                  <div className="w-full h-[25rem] relative">
-                    <Image
-                      src={slide.image}
-                      alt={slide.title}
-                      fill
-                      className="object-cover object-center"
-                      sizes="(max-width: 768px) 100vw, 25vw"
-                      priority
-                    />
-                  </div>
-
+                  <Link href={slide.link ? slide.link : "#"} target="_blank">
+                    <div className="w-full h-[25rem] relative">
+                      <Image
+                        src={slide.image}
+                        alt={slide.title}
+                        fill
+                        className="object-cover object-center"
+                        sizes="(max-width: 768px) 100vw, 25vw"
+                        priority
+                      />
+                    </div>
+                  </Link>
                   {/* Bottom Gradient + Text */}
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4">
-                    <Link href={slide.link ? slide.link : "#"} target="_blank">
-                      <p
-                        className={`text-white text-sm ${textClass} font-semibold leading-snug`}
-                      >
-                        {slide.title}
-                      </p>
-                    </Link>
+                    <p
+                      className={`text-white text-sm ${textClass} font-semibold leading-snug`}
+                    >
+                      {slide.title}
+                    </p>
                   </div>
                 </div>
               </SwiperSlide>
