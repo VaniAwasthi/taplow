@@ -1589,7 +1589,7 @@ challenging to help them reach their potential.<br/>
     location: "Australia",
     phone: "+61 412 251 373",
     email: "tquinlan@taplowgroup.com",
-    linkdine: "www.linkedin.com/in/tiffany-quinlan-4029161a",
+    linkdine: "https://www.linkedin.com/in/tiffany-quinlan-4029161a/",
     services: ["Executive Search", "Leadership Advisory and Performance"],
     industrySectors: [
       "Life Science and Healthcare",
