@@ -11,6 +11,7 @@ const DrivingLeadership = ({
   aboutContentpara2,
   aboutContentpara3,
   aboutContentpara4,
+  aboutContentpara5,
   ColImg,
   aboutheadingclass,
   firstparaclass,
@@ -60,6 +61,7 @@ const DrivingLeadership = ({
             <p>{aboutContentpara2}</p>
             <p>{aboutContentpara3}</p>
             <p>{aboutContentpara4}</p>
+            {aboutContentpara5 ? <p>{aboutContentpara5}</p> : null}
           </div>
         </div>
 

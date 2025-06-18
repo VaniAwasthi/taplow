@@ -19,26 +19,26 @@ const CaseStudies = () => {
     {
       img: FinlandFlag,
       title: "Wood Industry New Market Strategy",
-      desc: "A mechanical wood industry company needed a new CEO in a situation where the company was in the middle of heavy investment process, building a new strategy,doubling its production volumes and had quite new foreign owners..",
+      desc: "A mechanical wood industry company needed a new CEO in a situation where the company was in the middle of heavy investment process, building a new strategy,doubling its production...",
       href: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/finland/WoodIndustryNewMarketStrategy.pdf",
       contact: "Timo Toivanen, Finland",
-      contactHref: "https://example.com/contact-timo",
+      contactHref: "/ConsultantProfile?id=33",
     },
     {
       img: AustraliaFlag,
       title: "Producer of Polypropylene and Polyolefin Films",
-      desc: "The mandate was taken by the Australian partnership and passed to our executive search colleagues in Japan. Our researchers mapped the market and targeted relevant organisations,and a long list of prospects were identified. Under very strict confidentiality approaches were made to prospects and and a shortlist of candidates profiled to the client.",
+      desc: "A global producer of polypropylene and polyolefin films required a Sales Manager – Japan. Able to speak and write Fluently in English and Japanese.",
       href: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/austrilia/ProducerofPolypropyleneandPolyolefinFilms.pdf",
       contact: "Peter Tanner AM",
-      contactHref: "https://example.com/contact-timo",
+      contactHref: "/ConsultantProfile?id=53",
     },
     {
       img: IndiaFlag,
       title: "Rebuilding Strategic Leadership in Global Energy",
-      desc: "One of the largest logistics companies in Finland needed a new CIO.",
+      desc: "A global energy major, following the decision of a demerger from its parent conglomerate, sought to reintroduce a strategic leadership...",
       href: "https://cruxcreativedemo2.com//Taplow-new/India/TheTaplowGroupRe-EstablishingStrategicLeadershipCaseStudy-India.pdf",
       contact: "Shaista Sabharwal",
-      contactHref: "https://example.com/contact-timo",
+      contactHref: "/ConsultantProfile?id=26",
     },
     {
       img: USAFlag,
@@ -46,15 +46,15 @@ const CaseStudies = () => {
       desc: "Taplow carefully examined the medical and management roles of the current employees as best could be accomplished, without one-on-one interviews but relying n information provided by client leadership.",
       href: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/USA/AchallengetoassureExcellenceDiversity.pdf",
       contact: "Darryl Miller",
-      contactHref: "https://example.com/contact-timo",
+      contactHref: "/ConsultantProfile?id=60",
     },
     {
       img: UKFlag,
       title: "Next Generation of Leadership",
-      desc: "Whilst assessing internal potential, we also externally, discreetly approached and assessed potential leaders from across the European region. Our processes enabled the client EMEA leaders to clearly compare internal possibilities, with possible",
+      desc: "Whilst assessing internal potential, we also externally, discreetly approached and assessed potential leaders from across the European region. ",
       href: "https://cruxcreativedemo2.com//Taplow-new/SuccessStory/UK/TheTaplowGroup-ExecutiveSearch-NextGenerationofLeadersforEMEARegion.pdf",
       contact: "Mark Firth",
-      contactHref: "https://example.com/contact-timo",
+      contactHref: "/ConsultantProfile?id=43",
     },
   ];
   const swiperRef = useRef(null);
@@ -73,7 +73,7 @@ const CaseStudies = () => {
               onClick={() => swiperInstance?.slidePrev()}
               className={`w-10 h-10 flex items-center justify-center rounded-full border-2 transition-all duration-300 ${
                 activeIndex === 0
-                  ? "opacity-50 border-[#005581] cursor-not-allowed"
+                  ? " bg-[#005581] border-[#005581] cursor-not-allowed bg-[#005581]"
                   : "bg-[#005581] border-[#005581]  hover:bg-gray-200"
               }`}
               disabled={activeIndex === 0}
@@ -118,7 +118,7 @@ const CaseStudies = () => {
           {caseData.map((card, index) => (
             <SwiperSlide key={index}>
               <div className="flex justify-center mt-4 mb-4 md:mx-4">
-                <div className="bg-white rounded-xl border mt-10 border-[#CFCFCF] shadow-md w-full  max-w-[290px] min-h-[350px] flex flex-col  px-8 pt-12 pb-6 relative hover:scale-105 hover:border-[#96A94A] transition-transform duration-300">
+                <div className="bg-white rounded-xl border mt-10 border-[#CFCFCF] shadow-md w-full  max-w-[290px] min-h-[450px] flex flex-col  px-8 pt-12 pb-6 relative hover:scale-105 hover:border-[#96A94A] transition-transform duration-300">
                   {/* Flag Icon */}
                   <div className="absolute -top-6 w-[60px] h-[60px] rounded-full overflow-hidden border-2 border-white bg-white">
                     <Image
@@ -129,42 +129,43 @@ const CaseStudies = () => {
                       className="w-full h-full object-cover"
                     />
                   </div>
+                  <div className="h-[350px]">
+                    <h3 className="text-[#005581] font-semibold text-lg text-left w-[90%] my-4 h-[90px]">
+                      {card.title}
+                    </h3>
 
-                  {/* Title */}
-                  <h3 className="text-[#005581] font-semibold text-lg text-left w-[50%] mt-2">
-                    {card.title}
-                  </h3>
+                    {/* Green line */}
+                    <div className="w-[90%] h-[1px] bg-[#96A94A] mb-2" />
 
-                  {/* Green line */}
-                  <div className="w-[50%] h-[2px] bg-[#96A94A] my-2" />
+                    {/* Description */}
+                    <p className="text-sm text-[#666] text-left px-1 mb-4 leading-snug h-[150px]">
+                      {card.desc}
+                    </p>
 
-                  {/* Description */}
-                  <p className="text-sm text-[#666] text-left px-1 mb-4 leading-snug">
-                    {card.desc}
-                  </p>
-
-                  {/* Read More button */}
-                  <a
-                    href={card.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-[#98AE40] w-[50%] text-white text-xs px-4 py-2 rounded hover:bg-[#7d9338] transition-colors"
-                  >
-                    Read More
-                  </a>
-
-                  {/* Footer */}
-                  <p className="text-[11px] text-[#666] text-left mt-4 px-1">
-                    For further information please contact{" "}
+                    {/* Read More button */}
                     <a
-                      href={card.contactHref}
+                      href={card.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-[#005581] underline"
+                      className="bg-[#98AE40] w-[50%] text-white text-xs px-4 py-2 rounded hover:bg-[#7d9338] transition-colors"
                     >
-                      {card.contact}
+                      Read More
                     </a>
-                  </p>
+
+                    {/* Footer */}
+                    <p className="text-[11px] text-[#666] text-left mt-4 px-1">
+                      For further information please contact{" "}
+                      <a
+                        href={card.contactHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[#005581] underline"
+                      >
+                        {card.contact}
+                      </a>
+                    </p>
+                  </div>
+                  {/* Title */}
                 </div>
               </div>
             </SwiperSlide>

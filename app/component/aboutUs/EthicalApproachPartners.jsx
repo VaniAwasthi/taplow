@@ -207,23 +207,23 @@ export const Approach = () => {
 export const Partners = () => {
   const slides = [
     {
-      image: partner1,
-      title: "Compliance with global laws and best practices.",
-    },
-    {
-      image: partner2,
-      title: "A professional, inclusive, and respectful workplace.",
-    },
-    {
       image: partner3,
       title: "Compliance with global laws and best practices.",
     },
     {
-      image: partner4,
+      image: partner1,
       title: "A professional, inclusive, and respectful workplace.",
     },
     {
+      image: partner2,
+      title: "Compliance with global laws and best practices.",
+    },
+    {
       image: partner5,
+      title: "A professional, inclusive, and respectful workplace.",
+    },
+    {
+      image: partner4,
       title: "Compliance with global laws and best practices.",
     },
     // {
