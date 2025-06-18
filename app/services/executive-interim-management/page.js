@@ -43,21 +43,21 @@ const Page = () => {
       title: "Interim Human Resources Director",
       link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/InterimHumanResourcesDirector.pdf",
     },
-    // {
-    //   image: Success5,
-    //   title: "Interim Finance Consultant",
-    //   link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/InterimFinanceConsultant.pdf",
-    // },
-    // {
-    //   image: Success6,
-    //   title: "Technical People for client systems development",
-    //   link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/InterimFinanceConsultant.pdf",
-    // },
-    // {
-    //   image: Success7,
-    //   title: "Technical People for client systems development",
-    //   link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/InterimFinanceConsultant.pdf",
-    // },
+    {
+      image: Success5,
+      title: "Interim Finance Consultant",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/InterimFinanceConsultant.pdf",
+    },
+    {
+      image: Success6,
+      title: "Technical People for client systems development",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/TransformationinCIMTSector.pdf",
+    },
+    {
+      image: Success7,
+      title: "Technical People for client systems development",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/TechnicalPeopleforclientsystemsdevelopment.pdf",
+    },
   ];
   const Successheading = "Recent Success Stories";
   const ContactData = {
