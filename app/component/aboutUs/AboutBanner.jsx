@@ -70,7 +70,7 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
         {/* Section 1 */}
         <div className="w-full lg:w-1/3 p-2 text-left">
           <h2 className="hidden md:block text-3xl font-normal redhat">
-            Taplow and the Tulip Tree :
+            Taplow And The Tulip Tree :
             <br /> Our Brand Story
           </h2>
           <h2 className="block md:hidden text-3xl font-normal text-black py-4 ">
@@ -106,7 +106,7 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
         <div className="w-full lg:w-[300px] max-lg:w-full max-w-full p-2">
           <h2 className="hidden md:block text-3xl font-normal redhat">
             Our Journey : <br />
-            How It All began
+            How It All Began
           </h2>
           <h2 className="block md:hidden text-3xl font-normal text-black py-4 ">
             {data.sec2heading}
