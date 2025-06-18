@@ -11,7 +11,7 @@ const LeadershipMatter = () => {
 
   const data = {
     heading: "Where Leadership Matters!",
-    desc: "Fueled by a commitment to a sustainable future, we collaborate with businesses to spark innovation, accelerate transformation, and create lasting impact.",
+    desc: "Great leadership shapes vision, drives results, and defines success. At The Taplow Group, we identify and support leaders who move your business forward.",
     btnText: "Know More",
   };
 

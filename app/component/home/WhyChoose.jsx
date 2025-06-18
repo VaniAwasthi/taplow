@@ -29,11 +29,13 @@ const WhyChoose = () => {
             }}
           ></div>
           <p className="text-white font-light text-[14px] mt-3 md:w-[400px] mb-[3rem]">
-            The Taplow Group connects businesses with transformative leaders who
-            drive growth and lasting impact. With a global presence and deep
-            local insight, we offer tailored executive search, interim
-            management, and leadership consulting solutions—helping you make
-            confident, future-ready decisions.
+            We bring decades of leadership advisory and executive search
+            expertise across critical industries and functions. Our partners
+            combine local insight with global reach to deliver impactful,
+            future-ready talent solutions. <br />
+            <br />
+            With a relationship-first approach, we go beyond recruitment—shaping
+            leadership that drives long-term value.
           </p>
           <Link
             href="/about-us"

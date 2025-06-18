@@ -19,10 +19,12 @@ const ConnectExpert = () => {
           </h2>
           <div className="bg-[#F0F0F0] shadow-xl border border-[#F0F0F0] rounded-xl p-4 w-full md:w-[600px] lg:w-[500px] transition-all duration-300 hover:bg-[#96A94A] hover:text-[#fff]">
             <p className="py-[2.5rem] px-[1rem] text-[14px] text-black hover:text-[#fff] leading-relaxed">
-              Driven by a passion to expedite change in our pursuit of a
-              sustainable future, we partner with businesses and industries to
-              catalyse innovation, enable smarter decision-making and deliver
-              positive impact.
+              Tap into our network of seasoned consultants across key markets
+              and industries. With deep expertise and regional insight, we
+              partner with you to solve complex talent challenges and build
+              resilient leadership teams.
+              <br /> Let’s talk about how we can support your
+              next strategic move..
             </p>
           </div>
 
