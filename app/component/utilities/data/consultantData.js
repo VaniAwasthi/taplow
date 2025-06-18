@@ -77,6 +77,7 @@ import JoyceShengv from "../../../assets/Consultantpage/Consultant/JoyceShengv.w
 import CharlotteNissen from "../../../assets/Consultantpage/Consultant/CharlotteNissen.webp";
 import ole from "../../../assets/Consultantpage/Consultant/ole.webp";
 import KennethSaxskioldNoerup from "../../../assets/Consultantpage/Consultant/KennethSaxskioldNoerup.webp";
+import Nielsbudde from "../../../assets/Consultantpage/Consultant/nielsbudde.webp";
 
 export const consultantData = [
   {
@@ -720,7 +721,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     role: "Partner",
     location: "India",
     services: ["Executive Search"],
-    phone: "+91 95 8267 1661",
+    // phone: "+91 95 8267 1661",
     email: "pankaj.goswami@taplowgroupindia.com",
     image: Pankajgoswami,
     address: `Office No. 306- 307, 3rd Floor, Tower-B<br/>Emaar Digital Greens, Golf Course Extension Road,<br/>Sector-61, Gurgaon-122102, Haryana, India.`,
@@ -742,7 +743,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
       " Interim",
       "leadership Advisory and Performance",
     ],
-    phone: "+91 9810114434",
+    // phone: "+91 9810114434",
     email: "anoop.semwal@taplowgroupindia.com",
     image: AnoopSemwal,
     address: `Office No. 306- 307, 3rd Floor, Tower-B, Emaar Digital Greens, Golf Course Extension Road, Sector-61, Gurgaon-122102, Haryana, India.`,
@@ -769,7 +770,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     role: "Co-Founder – The Taplow Group, IndiaGlobal CEO & Board Member – The Taplow Group S.A",
     location: "India",
     services: ["Global Executive Search & Interim"],
-    phone: "+91 98 1824 6967",
+    // phone: "+91 98 1824 6967",
     email: "shaista.sabharwal@taplowgroupindia.com",
     image: ShaistaSabharwal,
     address: `Office No. 306- 307, 3rd Floor, Tower-B<br/>Emaar Digital Greens, Golf Course Extension Road<br/>Sector-61, Gurgaon-122102, Haryana, India.`,
@@ -793,7 +794,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     role: "Practice Leader – Global Philanthropy & Social Impact Member – Advisory Council, India",
     location: "India",
     services: ["Executive Search"],
-    phone: "+91 98 2028 9155",
+    // phone: "+91 98 2028 9155",
     email: "priyanka.mazumdar@taplowgroupinida.com",
     image: PriyankaMazumdar,
     address: `Office No. 306- 307, 3rd Floor, Tower-B,<br/>Emaar Digital Greens, Golf Course Extension Road<br/>Sector-61, Gurgaon-122102, Haryana, India`,
@@ -812,7 +813,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     role: "Co-Founder & Managing Partner – The Taplow Group, India",
     location: "India",
     services: ["Global Executive Search & Interim"],
-    phone: "+91 98 1008 9864",
+    // phone: "+91 98 1008 9864",
     email: "sangeeta.sabharwal@taplowgroupindia.com",
     image: SangeetaSabharwal,
     address: `Office No. 306- 307, 3rd Floor, Tower-B, Emaar Digital Greens, Golf Course Extension Road,Sector-61, Gurgaon-122102, Haryana, India.`,
@@ -837,7 +838,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     role: "Senior Partner",
     location: "India",
     services: ["Executive Search & Interim"],
-    phone: "+91 98 2336 7661",
+    // phone: "+91 98 2336 7661",
     email: "sanjay.Ghosh@taplowgroupindia.com",
     image: SanjayGhosh,
     address: `Office No. 306- 307, 3rd Floor, Tower-B, Emaar Digital Greens, Golf Course Extension Road, Sector-61, Gurgaon-122102, Haryana, India.`,
@@ -854,7 +855,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     role: "Principal",
     location: "India",
     services: ["Executive Search"],
-    phone: "+91 99 9039 9673",
+    // phone: "+91 99 9039 9673",
     email: "ritu.mahajan@taplowgroupindia.com",
     image: Ritu,
     address: `The Taplow Group, Office No. 306-307, 3rd Floor, Tower B, Emaar Digital Greens, Golf Course Extension Road, Sector 61, Gurgaon-122002, Haryana`,
@@ -1429,7 +1430,7 @@ With several years of experience in headhunting, executive search, and team lead
     role: "Associate Principal ",
     location: "India",
     services: ["Executive Search"],
-    phone: "+91 9953 559 369",
+    // phone: "+91 9953 559 369",
     email: "rituparna.acharyya@taplowgroupindia.com",
     linkdine: "https://www.linkedin.com/in/rituparna-acharyya-342642113/",
     industrySectors: ["Non-Profit ", "Philanthropy and Impact Sector "],
@@ -2290,9 +2291,47 @@ Long experience in varius C-Level positions in different industries`,
 chairman for the Taplow Interim Organisation. Kenneth is an accomplished executive with over 25 years of global
 experience in management consulting, executive search, strategic planning, and general business management and
 development. Kenneth has a proven track record in leading large teams, driving business transformations, and
-achieving significant growth and business results in complex international market dynamics.
+achieving significant growth and business results in complex international market dynamics.<br/><br/>
 Strong expertise in talent acquisition, talent leadership, talent management, leadership organizational
 development, as well as in general strategic management. Kenneth is lead in supporting the global framework clients
 across the world.`,
+  },
+  {
+    id: 79,
+    name: "Niels Budde-Lund",
+    role: "Chairman &amp; Executive Partner (and Board of Taplow Executive Interim",
+    location: "Denmark",
+    phone: "+45 3124 0889",
+    email: "nbl@taplow.dk",
+    linkdine:
+      "https://www.linkedin.com/in/niels-budde-lund-50a550?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYwoiU5UhRhmfJI0LgAbw7g%3D%3D",
+    services: ["Executive Search", "Interim Services & Board Advisory"],
+    industrySectors: [
+      "Financial Services",
+      "IT/ICT/AI & Digital Services",
+      "Industrial Manufacturing",
+      "Life Science & Healthcare",
+      "Professional Services",
+    ],
+    image: Nielsbudde,
+    address: `Taplow Executive Search ApS, Slotsmarken 11, DK-2970, Hørsholm, Denmark`,
+    bio: `Niels has extensive experience in international executive search. He specializes in Organizational Change
+Management, Business Development, Digitalisation and Cyber Security, with a strong record of recruiting top-tier
+talent: Boards, C-level executives, directors, managers, and specialists—across Denmark, the Nordics, Europe, and
+globally. His sector expertise includes Finance, IT, Life Sciences, Healthcare, Manufacturing, and Logistics, helping
+companies build high-performance teams that drive growth and innovation.<br/><br/>
+
+Since 2008, Niels has played a leading role in executive search. In 2011, he became co-owner and Senior Partner at
+Taplow Group Denmark, helping drive company growth. As Managing Partner and later Chairman, he has consistently
+turned strategy into results. In 2021, he co-launched Taplow Executive Interim, now a key part of the Danish Taplow
+operation, offering fast, flexible recruitment solutions at all organizational levels.<br/><br/>
+Before entering executive search, Niels held leadership roles for over 20 years in IT and Life Sciences. He worked for
+DEC, Oracle, Computer Associates, and Capgemini (mostly serving Life Sciences and manufacturing clients), and
+founded a successful IT company from 2000–2004. His global experience has shaped his deep understanding of fast-
+paced, complex markets. He’s known for combining strategic vision with hands-on execution, delivering Executive
+Search solutions to asset-intensive industries like Manufacturing, Logistics, Pharma and Healthcare. His client
+relationships are grounded in a strong, customer-focused and trusted-partner mindset.<br/><br/>
+Niels holds an MBA in Business Administration &amp; Computer Science from Copenhagen Business School (CBS). He has
+also completed advanced leadership programs at DEC, Capgemini, Oracle and CA.`,
   },
 ];

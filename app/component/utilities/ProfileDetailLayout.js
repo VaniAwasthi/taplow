@@ -25,12 +25,14 @@ const ProfileDetailLayout = ({ consultant }) => {
         </h2>
         <p className="text-left text-gray-500">{consultant.role}</p>
         <div className="mt-4 space-y-2">
-          <div className="flex items-left space-x-2">
-            <Phone className="text-[#00B2A9] w-5 h-5 mr-2" />
-            <a href={`tel:${consultant.phone}`} className="text-[#00B2A9]">
-              {consultant.phone}
-            </a>
-          </div>
+          {consultant.phone ? (
+            <div className="flex items-left space-x-2">
+              <Phone className="text-[#00B2A9] w-5 h-5 mr-2" />
+              <a href={`tel:${consultant.phone}`} className="text-[#00B2A9]">
+                {consultant.phone}
+              </a>
+            </div>
+          ) : null}
           {/* <div className="flex items-left space-x-2">
             <Mail className="text-[#00B2A9] w-5 h-5 mr-2" />
             <a href={`mailto:${consultant.email}`} className="text-[#00B2A9]">
@@ -87,7 +89,7 @@ const ProfileDetailLayout = ({ consultant }) => {
             </div>
             <div>
               <h4 className="font-bold text-[#96A94A] text-lg">
-                Practise Areas
+                Practice Area
               </h4>
               <ul className="text-[#666666] text-sm py-2">
                 {consultant.industrySectors.map((area, index) => (
