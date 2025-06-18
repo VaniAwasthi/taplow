@@ -51,15 +51,15 @@ export const ItAllStarted = () => {
   const data = {
     sec1heading: "Taplow and the Tulip Tree: Our Brand Story",
     sec1des:
-      "The Taplow name is derived from our inaugural conference held in 2002 in Taplow, UK on the banks of the River Thames a short distance from  Windsor Castle. Mentioned in the doomsday book in 1086 the village was originally Anglo Saxon and is steeped in history.",
+      "The Taplow name is derived from our inaugural conference held in 2002 in Taplow, UK on the banks of the River Thames a short distance from  Windsor Castle. Mentioned in the doomsday book in 1086, the village was originally Anglo Saxon and is steeped in history.",
     sec1des2: `<p>Our logo is inspired by the Tulip Trees that can be found within the <b>Taplow House Hotel</b> grounds,
 the trees were initially planted during the reign of Elizabeth the 1st and have stood the test of time, weather,evolving economies and nations.</p>`,
 
     sec1img: LogoNameImg,
     image: AllStartedImg,
-    sec2heading: "Our Journey: How It All began",
+    sec2heading: "Our Journey: How It All Began",
     sec2des1:
-      "In 2002, a group of independant senior Executive Search and Human Resource consultants began a dialogue over the state of the industry, and how they could combine to offer high value, highly differentiated search and consulting services – locally, internationally and globally.",
+      "In 2002, a group of independent senior Executive Search and Human Resource consultants began a dialogue over the state of the industry, and how they could combine to offer high value, highly differentiated search and consulting services – locally, internationally and globally.",
     sec2des2:
       "Considering all of the other models in the industry, our founders decided on an incremental approach to building a global business and founded The Taplow Group. They set out a number of standards and procedures by which we all adhere and abide by – that remains true today as it did on the 1st day of our being.",
   };

@@ -24,7 +24,7 @@ const ConnectExpert = () => {
               partner with you to solve complex talent challenges and build
               resilient leadership teams.
               <br /> Let’s talk about how we can support your
-              next strategic move..
+              next strategic move.
             </p>
           </div>
 
