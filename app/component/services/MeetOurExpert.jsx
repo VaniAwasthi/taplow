@@ -41,6 +41,7 @@ const MeetOurExperts = () => {
             bgColor="#fff"
             textColor="#99AC4D"
             buttonImage={ButtonImage}
+            href="/consultant-directory"
             className="mt-[3rem] "
             filter="none"
           />

@@ -45,6 +45,7 @@ const SuccessStories = () => {
               textColor="#99AC4D"
               buttonImage={ButtonImage}
               className="mt-[3rem]"
+              href="/insights"
               filter="none"
             />
           </div>

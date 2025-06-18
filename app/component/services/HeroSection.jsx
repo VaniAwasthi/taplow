@@ -45,6 +45,8 @@ const HeroSection = () => {
             text={ButtonText}
             image={ButtonImage}
             hoverImage={HoverImage}
+            buttonImage={HoverImage}
+            href="/consultant-directory"
           />
         </div>
       </div>
