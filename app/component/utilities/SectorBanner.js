@@ -11,6 +11,7 @@ export const SectorBanner = ({
   description,
   buttonText,
   textColorDes,
+  isButton = true,
 }) => {
   return (
     <>
@@ -49,14 +50,16 @@ export const SectorBanner = ({
           </p>
 
           {/* Button */}
-          <div className="mt-6">
-            <Button
-              className="w-[250px] md:w-[242px]"
-              text={buttonText}
-              buttonImage={HoverImage} // ✅ lowercase 'b' matches component
-              hoverImage={HoverImage}
-            />
-          </div>
+          {isButton ? (
+            <div className="mt-6">
+              <Button
+                className="w-[250px] md:w-[242px]"
+                text={buttonText}
+                buttonImage={HoverImage} // ✅ lowercase 'b' matches component
+                hoverImage={HoverImage}
+              />
+            </div>
+          ) : null}
         </div>
       </div>
     </>

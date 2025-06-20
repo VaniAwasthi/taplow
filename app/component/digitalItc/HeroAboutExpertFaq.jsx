@@ -20,6 +20,7 @@ export const DigitalHeroSec = () => {
         textColor="text-white w-[200px] md:w-[400px]"
         textColorDes="text-white"
         Banner={Banner}
+        isButton={false}
         heading="Future-Focused Leaders for the Digital & ICT World"
         description="Where technology drives change, exceptional leaders make it happen."
         buttonText="Know More"
