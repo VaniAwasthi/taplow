@@ -29,8 +29,7 @@ export const FinancialHeroSec = () => {
 
 export const AboutFinancialService = () => {
   const heading = "Navigating Complexity in Financial Services";
-  const Content = `The financial services industry is at a turning point. Evolving regulations, rapid technological change, and growing demands for transparency, sustainability, and resilience are reshaping how institutions lead and compete. From global banks and fintech disruptors to investment firms and insurance providers, organisations require agile, forward-thinking leadership to stay ahead.<br/><br/>
-
+  const Content = `The financial services industry is at a turning point. Evolving regulations, rapid technological change, and growing demands for transparency, sustainability, and resilience are reshaping how institutions lead and compete. From global banks and fintech disruptors to investment firms and insurance providers, organizations  require agile, forward-thinking leadership to stay ahead. <br/><br/>
 In such a dynamic landscape, partnering with the right Financial Services Executive Search Agency becomes a strategic advantage. Leaders must now be digitally fluent, risk-aware, culturally competent, and equipped to navigate uncertainty with clarity and confidence.<br/>
 
 `;
@@ -75,32 +74,32 @@ export const FinancialSectorFaq = () => {
       index: 1,
       question: "What is The Taplow Group’s expertise in financial services?",
       answer:
-        " We are a trusted Financial Services Executive Search agency, helping institutions find and develop leaders in investment banking, fintech, asset management, insurance, and beyond.",
+        "We are a trusted Financial Services Executive Search agency, helping institutions find and develop leaders in investment banking, fintech, asset and wealth management, insurance, and beyond.",
     },
     {
       index: 2,
-      question: " Do you offer consulting services in addition to recruitment?",
+      question: "Do you offer consulting services in addition to recruitment?",
       answer:
-        " Yes, we provide Financial Services Executive Search and Consulting, including succession planning, leadership development, executive assessment, and board advisory.",
+        "Yes, we provide both consulting and executive search solutions tailored to each client's needs.",
     },
     {
       index: 3,
-      question: "  Can you support interim financial leadership appointments?",
+      question: "Can you support interim financial leadership appointments?",
       answer:
-        "Absolutely. Our interim management services provide senior-level finance leaders on demand—ideal for transitions, transformation, or crisis response.",
+        "Absolutely. We provide agile interim executives for immediate leadership impact.",
     },
     {
       index: 4,
       question: "How do you ensure the right cultural fit?",
       answer:
-        " We go beyond CVs—using in-depth assessments and industry benchmarks to ensure alignment between a candidate's mindset, company values, and role demands.",
+        " We use detailed evaluation processes and deep sector knowledge to ensure strong cultural alignment.",
     },
     {
       index: 5,
       question:
-        "What sets The Taplow Group apart in financial services talent search?",
+        "What sets The Taplow Group apart in the search for financial services talent?",
       answer:
-        "Our blend of industry experience, global networks, and consultative partnership approach makes us the preferred executive search firm for financial services worldwide.",
+        "Our global network, sector expertise, and consultative approach distinguish us as leaders in financial services executive search.",
     },
   ];
   return (
@@ -112,9 +111,9 @@ export const FinancialSectorFaq = () => {
 
 export const FinancialExpertSec = () => {
   const paragraphs = [
-    `At <b>The Taplow Group </b>, we are recognised globally for our excellence in <b> Financial Services Executive Search and Consulting</b>. We understand the intricacies of capital markets, asset management, fintech, insurance, and wealth advisory, and we know the kind of leaders required to thrive in each.</b>`,
+    `At <b>The Taplow Group </b>, we are recognized  globally for our excellence in Financial Services Executive Search and Consulting. We understand the intricacies of capital markets, asset management, fintech, insurance, and wealth advisory, and we understand the leadership qualities needed to thrive in each.</br>`,
     `Our consultants bring deep industry experience to every assignment, many having worked within top-tier financial institutions themselves. This hands-on expertise allows us to deliver more than just recruitment—we provide insight-driven talent solutions tailored to the business challenges you face.`,
-    `As a leading <b> Financial Services Executive Search firm</b>, we serve clients across: Investment and Private Banking, Asset and Wealth Management, Fintech and Digital Payments, Real Assets and Infrastructure Finance, Risk, Compliance & ESG, Private Equity and Venture Capital`,
+    `As a leading <b> Financial Services Executive Search firm</b>,Investment and Private Banking, Asset and Wealth Management, Fintech and Digital Payments, Real Assets and Infrastructure Finance, Risk Management, Compliance and ESG, Private Equity and Venture Capital`,
     "Whether you need transformational leadership post-M&A, interim C-suite executives during transition, or long-term succession planning, we are the trusted partner to deliver results.",
   ];
 
@@ -138,29 +137,29 @@ export const WhyChooseSecFinancial = () => {
 
   const cards = [
     {
+      img: Icon3,
+      title: "Integrated Consulting & Search",
+      desc: `As a full-service Financial Services Executive Search and Consulting partner, we guide clients through hiring, assessment, leadership development, and governance advisory.`,
+    },
+    {
+      img: Icon4,
+      title: "Access to Top Financial Talent",
+      desc: "Our global candidate network includes seasoned financial leaders, digital innovators, and succession-ready executives.",
+    },
+    {
+      img: Icon5,
+      title: "Agile Interim Management Solutions",
+      desc: "Need immediate impact? Our interim executives provide leadership continuity during transformation, crisis, or key initiatives.",
+    },
+    {
       img: Icon1,
       title: "Deep Sector Knowledge",
-      desc: `We bring decades of experience in <b>executive search for financial services </b>, covering every major vertical within the sector.`,
+      desc: `We bring decades of experience in executive search for financial services, covering every major vertical within the sector.`,
     },
     {
       img: Icon2,
       title: "Global Reach with Local Intelligence",
       desc: "Our worldwide network enables us to deliver senior appointments across geographies, with regional relevance and compliance insight.",
-    },
-    {
-      img: Icon3,
-      title: "Integrated Consulting & Search",
-      desc: `As a <b>full-service Financial Services Executive Search and Consulting </b> partner, we guide clients through hiring, assessment, leadership development, and governance advisory.`,
-    },
-    {
-      img: Icon4,
-      title: " Access to Top Financial Talent",
-      desc: " Our global candidate network includes seasoned financial leaders, digital innovators, and succession-ready executives.",
-    },
-    {
-      img: Icon5,
-      title: "Agile Interim Management Solutions",
-      desc: " Need immediate impact? Our interim executives provide leadership continuity during transformation, crisis, or key initiatives.",
     },
   ];
   return (

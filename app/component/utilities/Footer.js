@@ -4,6 +4,7 @@ import logo from "../../assets/homePage/logo.png";
 import Facebookicon from "../../assets/icons/facebook.png";
 import Twittericon from "../../assets/icons/twitter.png";
 import LinkedInicon from "../../assets/icons/linkdine.png";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -13,23 +14,7 @@ const Footer = () => {
         {/* Logo & Social Links */}
         <div className="mb-6 md:mb-2">
           <Image src={logo} alt="The Taplow Group" className="h-14 mb-[2rem]" />
-          <div className="flex  space-x-8 mb-[2rem]">
-            <Image
-              src={LinkedInicon}
-              alt="LinkedIn"
-              className="h-6 cursor-pointer"
-            />
-            <Image
-              src={Facebookicon}
-              alt="Facebook"
-              className="h-6 cursor-pointer"
-            />
-            <Image
-              src={Twittericon}
-              alt="Twitter"
-              className="h-6 cursor-pointer"
-            />
-          </div>
+
           <p className="mt-5 text-[12px] redhat">
             © 2025 THE TAPLOW GROUP S.A.
             <br />
@@ -185,6 +170,29 @@ const Footer = () => {
                 Contact Us
               </a>
             </h4>
+            <div className="flex  space-x-8 mb-[2rem]">
+              <Link href="https://www.linkedin.com/company/taplow-group-s-a1/?viewAsMember=true">
+                <Image
+                  src={LinkedInicon}
+                  alt="LinkedIn"
+                  className="h-6 cursor-pointer"
+                />
+              </Link>
+              <Link href="https://www.facebook.com/TheTaplowGroup/">
+                <Image
+                  src={Facebookicon}
+                  alt="Facebook"
+                  className="h-6 cursor-pointer"
+                />
+              </Link>
+              <Link href="https://x.com/TaplowGroup">
+                <Image
+                  src={Twittericon}
+                  alt="Twitter"
+                  className="h-6 cursor-pointer"
+                />
+              </Link>
+            </div>
           </div>
         </div>
       </div>

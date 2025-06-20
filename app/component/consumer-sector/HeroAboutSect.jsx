@@ -29,12 +29,9 @@ export const ConsumerHeroSec = () => {
 
 export const AboutConsumerService = () => {
   const heading = "Meeting Today’s Consumer with Tomorrow’s Thinking";
-  const Content = `The consumer products sector is experiencing a defining moment. Rapidly shifting expectations around sustainability, transparency, and personalisation are reshaping how brands engage with customers—and how businesses position themselves for growth.<br/><br/>
-
-Today’s consumers are more discerning and empowered than ever. They demand products that not only meet their needs but also reflect their values. At the same time, digital acceleration, evolving distribution models, and a growing direct-to-consumer economy are forcing organisations to rethink how they operate—across everything from supply chain resilience and product development to brand loyalty and customer experience.<br/><br/>
-
-In an environment where growth can be global overnight and disruption can strike at speed, success demands more than operational excellence. It requires leaders who are strategic yet agile, decisive yet inclusive, and deeply attuned to both data and human insight.
-`;
+  const Content = `The consumer products sector is experiencing a defining moment. Rapidly shifting expectations around sustainability, transparency, and personalization are reshaping how brands engage with customers—and how businesses position themselves for growth.<br/><br/>
+Today’s consumers are more discerning and empowered than ever. They demand products that not only meet their needs but also reflect their values. At the same time, digital acceleration, evolving distribution models, and a growing direct-to-consumer economy are forcing organizations to rethink how they operate—across everything from supply chain resilience and product development to brand loyalty and customer experience.<br/><br/>
+In an environment where growth can be global overnight and disruption can strike at speed, success demands more than operational excellence. It requires leaders who are strategic yet agile, decisive yet inclusive, and deeply attuned to both data and human insight. `;
   return (
     <>
       <div className="mx-auto relative mt-[2rem] mb-[4rem] md:mt-6 md:mb-[2rem] w-full max-w-7xl px-6 md:px-12">
@@ -116,8 +113,8 @@ export const ConsumerExpertSec = () => {
   const paragraphs = [
     `With years of global experience and deep industry insight, <b>The Taplow Group is a trusted partner to some of the most respected consumer brands worldwide.</b>`,
     `We understand the pressures brands face—intensifying competition, global expansion, evolving consumer expectations, and technological disruption. <b>Our executive search, interim management, and leadership advisory services</b> are designed to meet these challenges head-on, helping you build high-impact teams that deliver results.`,
-    `What sets us apart is not just our network but our <b>first-hand understanding of the sector</b>. Many of our consultants have worked within consumer product companies, giving them practical insight into the <b> qualities, mindsets, and experience needed</b> to thrive in this environment.`,
-    "Whether you’re looking to scale a new product line, lead a digital transformation, expand into new markets, or manage post-M&A integration, we support you at every step.",
+    `What sets us apart is not just our network but our <b>firsthand understanding of the sector</b>. Many of our consultants have worked within consumer product companies, giving them practical insight into the <b> qualities, mindsets, and experience needed</b> to thrive in this environment.`,
+    "Whether you’re looking to scale a new product line, lead a digital transformation, expand into new markets, or manage post-M&A integration, we support you at every step. ",
   ];
 
   return (
