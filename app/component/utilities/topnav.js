@@ -100,7 +100,7 @@ const TopNav = () => {
   ];
 
   return (
-    <header className="top-0 z-50 bg-white">
+    <header className="top-0 z-[99] bg-white sticky">
       <Disclosure as="nav" className="pt-4">
         {({ open }) => (
           <>

@@ -307,11 +307,8 @@ She received a Degree in International Relations from Le Mesnil in Montreux, Swi
     phone: "613-402-0272",
     email: "jesse@macdonaldsearchgroup.com",
     image: Jesse,
-    bio: `Jaime Burke is a Vancouver local bringing over a decade of leadership in the Beverage Alcohol, Hospitality, and Consumer Goods industries. As a Senior Consultant at MacDonald Search Group, Jaime's extensive network and profound understanding of regional consumer products, food, and beverage alcohol clients make her an invaluable asset to her clients and candidates.<br/><br/>
-    Jaime's personal career journey boasts customer-facing sales roles with industry giants like Constellation Brands and Diageo, where she excelled in provincial leadership for a national agency. Her expertise spans retail and on-premise channels, showcasing her prowess in selling some of the world's most iconic wine and spirit brands.<br/><br/>
-    Armed with a Bachelor of Business Administration from Simon Fraser University and a prestigious WSET Diploma in Wine, Jaime combines academic excellence with hands-on experience. Her commitment to excellence and passion for the industry make her a standout professional in the world of executive search and consulting.<br/>
-    Beyond her impressive professional achievements, Jaime stands out for her commitment to, and passion for, fostering equality in the workplace. Known for championing diversity and inclusivity, Jaime actively contributes to creating environments where everyone's voice is heard and valued. Jaime believes in the power of a diverse and equitable workplace, recognizing that it not only enhances productivity but also fosters innovation.
-`,
+    bio: `Born and raised in the heart Muskoka, Jesse moved to Ottawa in 2009 to earn a Bachelor of Commerce Degree from Carleton University. Upon graduation, he moved through various roles in retail, banking, and sales before discovering his passion for Recruitment in 2018. Building relationships and looking beyond the resume, Jesse approaches recruitment from a position of consultation and a creative mindset to source out exceptional talent.
+  <br/><br/>Before joining MacDonald Search Group, Jesse was working in technical recruitment throughout the pandemic covering requisitions all across Canada. As a life-long learner, he finds great interest in asking why? “If you can ask the question, you can find an answer.`,
     address: `Unit 6<br/>430 Hazeldean Road<br/>Ottawa, ON K2L 1T9`,
     linkdine: "https://www.linkedin.com/in/jessezulak/ ",
     industrySectors: [
@@ -915,7 +912,8 @@ their leadership impact.`,
     email: "Hannu.oversti@taplow.fi",
     image: HannuÖversti,
     address: `TAPLOW Finland Oy,<br/>Mannerheimintie 113, Aitio Business Park Hørsholm,<br/>00280 HELSINKI,<br/>FINLAND`,
-    linkdine: "www.linkedin.com/in/hannu-oversti",
+    linkdine:
+      "https://finland.taplowgroup.com/Finland/Consultants/Hannu-%C3%96versti",
     industrySectors: [
       "Consumer Products",
       " E-commerce",
@@ -1080,7 +1078,8 @@ University in Shanghai.<br/>`,
     email: "sh@taplow.no",
     image: StigHeggertveit,
     address: `Taplow Norway AS<br/>Henrik Ibsens gate 90<br/>0255 Oslo<br/>Norway`,
-    linkdine: "www.linkedin.com/in/stig-heggertveit-408168/",
+    linkdine:
+      "https://no.linkedin.com/in/stig-heggertveit-408168?original_referer=https%3A%2F%2Fnorway.taplowgroup.com%2F",
     industrySectors: ["Financial Services", "Digital"],
     bio: `Stig has been an executive search professional since 2004 focusing on IT and Financial Services. He holds a BSc in
 Business from Colorado University, Boulder.<br/>
@@ -2067,7 +2066,7 @@ Creative Directors.`,
     location: "Italy",
     phone: "+39 335 472851",
     email: "giovanna.brambilla@valuesearch.it",
-    linkdine: "https://www.linkedin.com/in/lory-yedid-b189432b/",
+    linkdine: "https://www.linkedin.com/in/giovanna-brambilla-0b9505285/",
     services: ["Executive Search"],
     industrySectors: [
       "Fashion",
@@ -2130,7 +2129,7 @@ Fluent in Italian and English.`,
     location: "China",
     phone: "+86 139 1631 2420",
     email: "lily.bi@lnsrecruitment.com",
-    linkdine: "linkedin.com/in/lily-bi-0a97168",
+    linkdine: "https://www.linkedin.com/in/lily-bi-0a97168/",
     services: [
       "Recruitment Service",
       "Talent Mapping Service",

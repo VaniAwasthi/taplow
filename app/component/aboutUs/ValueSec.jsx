@@ -16,6 +16,28 @@ import Icon4 from "../../assets/aboutuspage/Icon4.png";
 import OurValues from "../../assets/aboutuspage/OurValues.png";
 
 const ValuesSection = () => {
+  const coreValues = [
+    {
+      icon: Icon1,
+      title: "Integrity & Transparency",
+      text: "Dedicated to the success of our clients and candidates.",
+    },
+    {
+      icon: Icon2,
+      title: "Commitment & Passion",
+      text: "Upholding the highest ethical standards in every engagement.",
+    },
+    {
+      icon: Icon3,
+      title: "Collaboration & Inclusion",
+      text: "Diversity strengthens leadership and drives innovation.",
+    },
+    {
+      icon: Icon4,
+      title: "Excellence & Innovation",
+      text: "Continuously striving to improve and deliver meaningful results.",
+    },
+  ];
   return (
     <div className=" mt-4 mb-16 px-4 container mx-auto  lg:max-w-6xl ">
       <h2 className="text-4xl font-semibold mb-8">Our Values</h2>
@@ -30,34 +52,19 @@ const ValuesSection = () => {
 
           {/* Icons and Text in a Row for Mobile */}
           <div className="flex flex-wrap justify-center gap-6 mt-6 w-full max-w-xl">
-            <div className="flex items-center space-x-2">
-              <Image src={Icon1} alt="Icon" className="w-8 h-8" />
-              <h2>Integrity & Transparency</h2>
-              <p className="text-sm">
-                Dedicated to the success of our clients and candidates.
-              </p>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Image src={Icon2} alt="Icon" className="w-8 h-8" />
-              <h2>Commitment & Passion</h2>
-              <p className="text-sm">
-                Upholding the highest ethical standards in every engagement.
-              </p>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Image src={Icon3} alt="Icon" className="w-8 h-8" />
-              <h2>Collaboration & Inclusion</h2>
-              <p className="text-sm">
-                Diversity strengthens leadership and drives innovation.
-              </p>
-            </div>
-            <div className="flex items-center space-x-2">
-              <Image src={Icon4} alt="Icon" className="w-8 h-8" />
-              <h2>Excellence & Innovation</h2>
-              <p className="text-sm">
-                Continuously striving to improve and deliver meaningful results.
-              </p>
-            </div>
+            {coreValues.map((value, index) => (
+              <div key={index} className="flex items-start gap-4 max-w-xs">
+                <Image
+                  src={value.icon}
+                  alt={`${value.title} icon`}
+                  className="w-8 h-8 shrink-0"
+                />
+                <div>
+                  <h2 className="font-semibold">{value.title}</h2>
+                  <p className="text-sm mt-1">{value.text}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
