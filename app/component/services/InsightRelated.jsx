@@ -4,6 +4,7 @@ import ButtonImg from "../../assets/homePage/getintouchIcon.png";
 import Image from "next/image";
 import BackgroundImage from "../../assets/servicepage/insightbg.png";
 import InsightImg from "../../assets/servicepage/insightImg.svg";
+import Link from "next/link";
 
 const InightRelated = () => {
   const InsightData = {
@@ -50,7 +51,10 @@ const InightRelated = () => {
           <p className="text-white font-light text-[14px] mt-3 md:w-[400px] mb-[3rem]">
             {InsightData.description}
           </p>
-          <button className="mt-4 mb-4 border border-white relative group w-[242px] h-[42px] bg-white text-black rounded-full flex items-center justify-center gap-2 transition-all duration-500 ease-out overflow-hidden hover:bg-transparent hover:text-white transform hover:scale-105">
+          <Link
+            href="/insights"
+            className="mt-4 mb-4 border border-white relative group w-[242px] h-[42px] bg-white text-black rounded-full flex items-center justify-center gap-2 transition-all duration-500 ease-out overflow-hidden hover:bg-transparent hover:text-white transform hover:scale-105"
+          >
             {/* Background Animation */}
             <span className="absolute inset-0 bg-white transform -translate-x-0 transition-transform duration-500 ease-out group-hover:translate-x-full"></span>
 
@@ -63,7 +67,7 @@ const InightRelated = () => {
             <div className="relative w-[34px] h-[25px]">
               <Image src={ButtonImg} alt="Button Icon" />
             </div>
-          </button>
+          </Link>
         </div>
       </div>
     </div>
