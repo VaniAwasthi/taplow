@@ -139,13 +139,16 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/sectors/life-science" className="no-underline">
-                  Life Sciences
+                <a
+                  href="/sectors/life-science-and-pharma"
+                  className="no-underline"
+                >
+                  Life Science and Pharma
                 </a>
               </li>
               <li>
-                <a href="/sectors/non-profit" className="no-underline">
-                  Non Profit
+                <a href="/sectors/not-for-profit" className="no-underline">
+                  Not for Profit
                 </a>
               </li>
               <li>
@@ -157,7 +160,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/sectors/realstate-sector" className="no-underline">
+                <a href="/sectors/realestate-sector" className="no-underline">
                   Real Estate
                 </a>
               </li>

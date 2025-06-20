@@ -24,6 +24,7 @@ export const ProfessionalHeroSec = () => {
         heading="Powering Progress in Professional Services"
         description=" In a people-driven world, leadership is your greatest differentiator. At The Taplow Group, we help you unlock it."
         buttonText="Know More"
+        isButton={false}
       />
     </>
   );
@@ -31,10 +32,10 @@ export const ProfessionalHeroSec = () => {
 
 export const AboutProfessionalServices = () => {
   const heading = "Professional Services Landscape";
-  const Content = `In the professional services industry, your people are your product. Whether in accounting, law, consulting, engineering, or beyond, client trust hinges on the depth of your team’s expertise, the nuance of your insights, and the agility of your service.<br/><br/>
+  const Content = `In the professional services industry, your people are your product. Whether in accounting, law, consulting, engineering, or beyond, client trust hinges on the depth of your team’s expertise, the nuance of your insights, and the agility of your service. <br/><br/>
 
-Yet today’s landscape is as challenging as it is promising. From digital disruption to shifting client demands and globalisation pressures, firms must not only deliver expertise—they must anticipate change, innovate continuously, and nurture cultures of excellence.
-<br/> <br/> To thrive, you need leaders who don’t just adapt—they inspire. Leaders who can bridge tradition and transformation, ensure exceptional client experiences, and unlock new value across the business.
+Yet today’s landscape is as challenging as it is promising. From digital disruption to shifting client demands and globalization pressures, firms must not only deliver expertise—they must anticipate change, innovate continuously, and nurture cultures of excellence.
+<br/> <br/> To thrive, you need leaders who don’t just adapt—they inspire. Leaders who can bridge tradition and transformation, ensure exceptional client experiences, and unlock new value across the business. 
 `;
   return (
     <>
@@ -123,9 +124,9 @@ export const ProfessionalServicesFaq = () => {
 export const ProfessionalExpertSec = () => {
   const paragraphs = [
     `At The Taplow Group, we are partners to some of the world’s most trusted professional services firms—helping them identify, assess, and develop the leaders who drive sustainable success.`,
-    `Our <b>Professional Services Executive Search</b> and <b>Professional Services Leadership Solutions </b> span the full spectrum of needs: from hiring C-suite leaders to developing future-focused succession plans, to interim leadership during periods of change.`,
+    `Our <b>Professional Services Executive Search </b>and <b>Professional Services Leadership Solutions</b> span the full spectrum of needs: from hiring C-suite leaders to developing future-focused succession plans, to interim leadership during periods of change. `,
     `Our consultants bring direct experience within the professional services sector—insight that’s critical for finding leaders who can combine technical mastery with commercial acumen and client empathy.`,
-    `We know that in this world, <b>fit matters as much as skill</b>. That’s why we look beyond résumés to understand culture, values, and long-term vision—ensuring every leader we place or develop is a catalyst for performance and client loyalty.`,
+    `We know that in this world, <b>fit matters as much as skill</b>. That’s why we look beyond resumes  to understand culture, values, and long-term vision—ensuring every leader we place or develop is a catalyst for performance and client loyalty.`,
   ];
 
   return (

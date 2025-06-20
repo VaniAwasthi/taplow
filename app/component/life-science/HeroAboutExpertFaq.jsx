@@ -22,6 +22,7 @@ export const LifeScienceHeroSec = () => {
         heading="Empowering Life Sciences and Pharma Leadership"
         description=" Where innovation meets opportunity, exceptional leaders create meaningful impact."
         buttonText="Know More"
+        isButton={false}
       />
     </>
   );
@@ -32,7 +33,7 @@ export const AboutLifeScience = () => {
   const Content = `The <b>Life Sciences and Pharma</b> sector is undergoing rapid transformation, driven by scientific breakthroughs, regulatory shifts, and evolving patient expectations. From genomics and biotech to digital health and medtech, leaders in this sector must be prepared to embrace change, drive growth, and maintain compliance in a complex environment.
 <br/><br/>
 
-As a leading <b> Life Science Executive Search </b> and <b>Pharmaceutical Executive Search </b> partner, <b>The Taplow Group</b> helps organisations secure the visionary leaders who turn potential into progress. In a world of constant innovation and global competition, the right leadership can be the difference between meeting expectations and redefining them.
+“As a leading <b>Life Science and Pharma Executive Search Recruiter partner</b>, <b>The Taplow Group</b> helps organisations secure the visionary leaders who turn potential into progress. In a world of constant innovation and global competition, the right leadership can be the difference between meeting expectations and redefining them.
 <br/>
 
 `;
@@ -127,7 +128,7 @@ export const LifeScienceExpertSec = () => {
         sectionHeading="Expertise in Life Sciences and Pharma"
         paragraphs={paragraphs}
         buttonText="Connect With a Specialist"
-        buttonLink="#contact"
+        buttonLink="/consultant-directory"
         imageUrl={ExperImage}
       />
     </>

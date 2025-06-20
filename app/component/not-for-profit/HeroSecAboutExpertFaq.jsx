@@ -22,6 +22,7 @@ export const NotProfitHeroSec = () => {
         Banner={Banner}
         heading="Connecting Purpose-Driven Organisations with Visionary Leaders
 "
+        isButton={false}
         description="At The Taplow Group—your Nonprofit CEO Search & Executive Recruiting specialist—we source and develop executive talent that powers social impact."
         buttonText="Know More"
       />
@@ -120,7 +121,7 @@ export const NonProfitExpertSec = () => {
         sectionHeading=" Expertise in Recruiting for Social Impact Organisations"
         paragraphs={paragraphs}
         buttonText="Connect With a Specialist"
-        buttonLink="#contact"
+        buttonLink="/consultant-directory"
         imageUrl={ExperImage}
       />
     </>

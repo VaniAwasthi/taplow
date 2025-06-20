@@ -42,6 +42,7 @@ const ExpertiseSection = ({
                 text={buttonText}
                 buttonImage={HoverImage} // ✅ lowercase 'b' matches component
                 hoverImage={HoverImage}
+                href={buttonLink}
               />
             </div>
           )}

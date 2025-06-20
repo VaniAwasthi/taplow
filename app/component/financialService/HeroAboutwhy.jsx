@@ -124,7 +124,7 @@ export const FinancialExpertSec = () => {
         sectionHeading="Financial Services Expertise"
         paragraphs={paragraphs}
         buttonText="Connect With a Specialist"
-        buttonLink="#contact"
+        buttonLink="/consultant-directory"
         imageUrl={ExperImage} // Make sure this image exists in /public/images
       />
     </>

@@ -41,7 +41,7 @@ const industries = [
     title: "Non Profit",
     text: "Empowering social causes with leadership.",
     image: Notforprofit,
-    link: "/sectors/non-profit",
+    link: "/sectors/not-for-profit",
   },
   {
     title: "Industrial",
@@ -53,7 +53,7 @@ const industries = [
     title: "Life Sciences",
     text: "Advancing healthcare and biotech solutions.",
     image: Life,
-    link: "/sectors/life-science",
+    link: "/sectors/life-science-and-pharma",
   },
   {
     title: "Professional Services",
@@ -65,7 +65,7 @@ const industries = [
     title: "Real Estate",
     text: "Market insights and sustainable growth strategies.",
     image: Realestate,
-    link: "#",
+    link: "/sectors/realestate-sector",
   },
 ];
 
