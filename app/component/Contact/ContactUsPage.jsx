@@ -57,7 +57,7 @@ export const GlobalOffices = () => {
               />
               <div className="mt-[2rem] md:mb-[1rem] flex md:justify-start">
                 <Button
-                  href="/globals"
+                  href="/contact/global-offices"
                   text="Find a Taplow Office"
                   buttonImage={HoverImage}
                   hoverImage={HoverImage}

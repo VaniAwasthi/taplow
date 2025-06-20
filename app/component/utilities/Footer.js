@@ -13,7 +13,7 @@ const Footer = () => {
         {/* Logo & Social Links */}
         <div className="mb-6 md:mb-2">
           <Image src={logo} alt="The Taplow Group" className="h-14 mb-[2rem]" />
-          <div className="flex space-x-6 mb-[2rem]">
+          <div className="flex  space-x-8 mb-[2rem]">
             <Image
               src={LinkedInicon}
               alt="LinkedIn"
@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Links */}
-        <div className="pl-2 md:pl-[8rem] grid grid-cols-4 gap-12 text-left">
+        <div className="pl-2 md:pl-[8rem] grid grid-cols-2 md:grid-cols-4 gap-12 text-left">
           {/* Company */}
           <div>
             <h4 className="font-semibold mb-2 text-black">Company</h4>

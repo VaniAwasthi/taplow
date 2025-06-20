@@ -16,7 +16,7 @@ export default function Button({
   filter = "brightness(0) invert(1)",
   type = "button", // Add type prop
 }) {
-  const commonClasses = `relative group w-[150px] md:w-[242px] h-[42px] rounded-full flex items-center justify-center gap-2 transition-all duration-500 ease-out overflow-hidden transform hover:scale-105 ${className}`;
+  const commonClasses = `relative group w-[200px] md:w-[242px] h-[42px] rounded-full flex items-center justify-center gap-2 transition-all duration-500 ease-out overflow-hidden transform hover:scale-105 ${className}`;
   const commonStyle = {
     backgroundColor: bgColor,
     color: textColor,

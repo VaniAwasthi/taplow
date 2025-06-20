@@ -106,7 +106,11 @@ export const InsightsBlogSection = () => {
           ))}
         </div>
         <div className="flex justify-center items-center my-10">
-          <Link href="#" className="text-md text-[#005581] underline ">
+          <Link
+            href="#"
+            // href="/insights/blogs"
+            className="text-md text-[#005581] underline "
+          >
             Show more
           </Link>
         </div>
@@ -165,7 +169,11 @@ export const IndustryReportSec = () => {
             ))}
           </div>
           <div className="flex justify-center items-center my-10">
-            <Link href="#" className="text-sm text-[#005581] underline ">
+            <Link
+              // href="/insights/industry-reports"
+              href="#"
+              className="text-sm text-[#005581] underline "
+            >
               Show more
             </Link>
           </div>
