@@ -4,6 +4,7 @@ import logo from "../../assets/homePage/logo.png";
 import Facebookicon from "../../assets/icons/facebook.png";
 import Twittericon from "../../assets/icons/twitter.png";
 import LinkedInicon from "../../assets/icons/linkdine.png";
+import YoutubeIcon from "../../assets/icons/youtube.svg";
 import Link from "next/link";
 
 const Footer = () => {
@@ -192,6 +193,13 @@ const Footer = () => {
                 <Image
                   src={Twittericon}
                   alt="Twitter"
+                  className="h-6 cursor-pointer"
+                />
+              </Link>
+              <Link href="https://www.youtube.com/channel/UC6l4j3YS0bIbYiCY9dsD06w">
+                <Image
+                  src={YoutubeIcon}
+                  alt="YoutubeIcon"
                   className="h-6 cursor-pointer"
                 />
               </Link>
