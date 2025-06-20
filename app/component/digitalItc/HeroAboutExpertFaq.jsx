@@ -34,7 +34,7 @@ export const AboutDigital = () => {
   const Content = `Today’s digital and ICT sector is a driving force behind global transformation. From cloud computing and AI to cybersecurity and data analytics, the pace of innovation is rapid, and the stakes are high. Businesses must navigate evolving technologies, regulatory complexities, and consumer expectations that demand agility and forward-thinking leadership.
 <br/><br/>
 
-In this fast-moving environment, securing the right leaders isn’t just about experience—it’s about vision, adaptability, and a deep understanding of how technology and people intersect. As a trusted <b>Digital and ICT Executive Search Agency, The Taplow Group</b> empowers organisations to find and develop leaders who shape the future of this dynamic sector.
+In this fast-moving environment, securing the right leaders isn’t just about experience—it’s about vision, adaptability, and a deep understanding of how technology and people intersect. As a trusted <b>Digital and ICT Executive Search , The Taplow Group</b> empowers organisations to find and develop leaders who shape the future of this dynamic sector.
 <br/>
 
 `;
@@ -81,30 +81,31 @@ export const DigitalItcSectorFaq = () => {
       answer:
         " We place C-suite executives (CIO, CTO, CISO, CDO), engineering leaders, product and innovation heads, data and AI strategists, and senior transformation specialists.",
     },
+
     {
       index: 2,
-      question: "Do you offer interim leadership for digital and ICT roles?",
-      answer: ` Yes. Our <b>Digital and ICT Executive Search and Consulting </b> services include interim management for urgent projects and transformation leadership.
-`,
-    },
-    {
-      index: 3,
       question:
         "Can you support digital transformation in traditional industries?",
       answer:
         "Absolutely. We help organisations in manufacturing, consumer goods, healthcare, and more find digital leaders to drive innovation and growth",
     },
     {
-      index: 4,
+      index: 3,
       question: "How do you ensure cultural and technical alignment?",
       answer:
         " We combine technical assessments with deep market insight to ensure every candidate fits your culture, vision, and transformation goals.",
     },
     {
-      index: 5,
+      index: 4,
       question:
         "What makes The Taplow Group different in digital and ICT leadership?",
       answer: ` Our blend of sector knowledge, global networks, and consultative approach makes us a trusted partner for both <b>Digital Executive Search</b> and <b>ICT Executive Search</b> worldwide.
+`,
+    },
+    {
+      index: 5,
+      question: "Do you offer interim leadership for digital and ICT roles?",
+      answer: ` Yes. Our <b>Digital and ICT Executive Search and Consulting </b> services include interim management for urgent projects and transformation leadership.
 `,
     },
   ];
@@ -131,7 +132,7 @@ export const DigitalICTExpertSec = () => {
         sectionHeading="Expertise in Digital & ICT"
         paragraphs={paragraphs}
         buttonText="Connect With a Specialist"
-        buttonLink="#contact"
+        buttonLink="/consultant-directory"
         imageUrl={ExperImage} // Make sure this image exists in /public/images
       />
     </>

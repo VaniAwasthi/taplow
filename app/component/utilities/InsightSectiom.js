@@ -17,6 +17,7 @@ export const InsightSec = ({ blogData }) => {
               text="Explore All Insights"
               buttonImage={ButtonImage}
               hoverImage={HoverImage}
+              href="/insights"
             />
           </div>
         </div>
@@ -52,6 +53,7 @@ export const InsightSec = ({ blogData }) => {
             text="Read More"
             buttonImage={ButtonImage}
             hoverImage={HoverImage}
+            href="/insights"
           />
         </div>
       </div>

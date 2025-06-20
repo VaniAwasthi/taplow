@@ -45,8 +45,7 @@ const Page = () => {
       <ConsumerProductsConsultants
         Heading="Meet Our Industrial Consultants
 "
-        desc="Our team combines practical industrial experience with the art of executive search. With backgrounds in engineering, manufacturing, and operational leadership, they understand the sector’s challenges first-hand. Meet the partners and consultants ready to help you build a future-proof industrial organisation..
-"
+        desc="Our team combines practical industrial experience with the art of executive search. With backgrounds in engineering, manufacturing, and operational leadership, they understand the sector’s challenges first-hand. Meet the partners and consultants ready to help you build a future-proof industrial organization."
         leaderData={leaderData}
       />
       <RealStateFaq />

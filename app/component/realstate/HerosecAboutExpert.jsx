@@ -43,7 +43,7 @@ Taplow’s Executive Search delivers leaders who shape people, performance, and 
 export const AboutRealState = () => {
   const heading = "Our Real Estate & Infrastructure Expertise";
   const Content = `From investment management and capital markets to urban development and sustainable design, our team understands the unique demands of real estate and infrastructure leadership. Many of our consultants have worked in these industries themselves, bringing first-hand knowledge of how to balance risk, growth, and community value.
-<br/><br/>We support a diverse client base, including developers, investors, asset managers, operators, and professional services firms. Whether your priority is navigating ESG, driving operational excellence, or reshaping your team to meet new market challenges, we bring insight and clarity to every engagement.
+<br/><br/>We support a diverse client base, including developers, investors, asset managers, infrastructure operators, and professional services firms. Whether your priority is navigating ESG, driving operational excellence, or reshaping your team to meet new market challenges, we bring insight and clarity to every engagement.
 <br/> <br/> Our <b>Real Estate Executive Search Firm</b> approach goes beyond placements. We provide nuanced advisory services—from succession planning to performance enhancement—ensuring your leadership team is built to thrive.
 `;
   return (
@@ -86,7 +86,7 @@ export const RealStateFaq = () => {
     {
       index: 1,
       question:
-        " What leadership roles do you specialise in within real estate and infrastructure?",
+        " What leadership roles do you specialize in within real estate and infrastructure?",
       answer:
         " We recruit across asset management, development, investment, capital markets, and operational leadership—spanning C-suite, board, and project leadership roles.",
     },
@@ -95,35 +95,35 @@ export const RealStateFaq = () => {
       question:
         "How do you align leaders with sector-specific challenges like tenant experience or community impact?",
       answer:
-        "We understand the interplay of ESG, urban dynamics, and financial performance. Our assessments ensure leaders share your commitment to community value and sustainability.",
+        "We apply deep industry insight and assessment tools to evaluate a leader’s ability to enhance stakeholder experience and long-term community value.",
     },
     {
       index: 3,
       question:
         "Can you help with succession planning for real estate funds or asset management firms?",
       answer:
-        " Yes. We develop leadership pipelines tailored to your investment strategies and long-term asset goals.",
+        "Yes, our advisory services include succession planning tailored to the specific dynamics of real estate and infrastructure firms.",
     },
     {
       index: 4,
       question:
         "Do you offer interim leadership for major real estate or infrastructure projects?",
       answer:
-        " Absolutely. We have a global network of proven interim executives who can lead through growth, change, or challenge.",
+        "Absolutely. We maintain a network of experienced interim executives ready to step into transitional or project-critical roles",
     },
     {
       index: 5,
       question:
         " What makes The Taplow Group different in real estate executive search?",
       answer:
-        "We blend deep sector immersion with global connectivity, offering nuanced, practical advice that shapes the future of your assets and teams.",
+        "Our sector-specific experience, global reach with local insight, and commitment to long-term partnerships set us apart.",
     },
     {
       index: 6,
       question:
         " How do you ensure cultural fit within diverse real estate portfolios?",
       answer:
-        " We tailor our approach to align leaders with your operational realities—whether it’s a global real estate portfolio or a local infrastructure initiative.",
+        "We use a rigorous assessment framework that evaluates leadership style, values alignment, and adaptability across asset types and geographies.",
     },
   ];
   return (
@@ -150,7 +150,7 @@ export const RealstateOurOffering = () => {
     },
     {
       id: 2,
-      heading: " Infrastructure Executive Search",
+      heading: "Infrastructure Executive Search",
       content:
         "Sourcing senior talent with the expertise to deliver complex projects on time and on budget.",
       img: offer2,
@@ -267,21 +267,6 @@ export const WhyChooseRealstateSec = () => {
 
   const cards = [
     {
-      img: Icon1,
-      title: "Sector-Deep Insight",
-      desc: `Firsthand experience in real estate and infrastructure, giving us a clear view of your sector’s opportunities and challenges.`,
-    },
-    {
-      img: Icon2,
-      title: "Global-Local Expertise",
-      desc: " Global reach combined with local understanding to deliver impactful leaders.",
-    },
-    {
-      img: Icon3,
-      title: "End-to-End Solutions",
-      desc: ` Executive search, succession planning, interim leadership, and advisory—all aligned with your asset lifecycle.`,
-    },
-    {
       img: Icon4,
       title: "Sector-Focused Agility",
       desc: "We adapt to your changing needs—be it regulation, urban trends, or ESG demands.",
@@ -295,6 +280,21 @@ export const WhyChooseRealstateSec = () => {
       img: Icon6,
       title: "True Partnership",
       desc: " Beyond placements—we build enduring relationships, ensuring leadership that delivers long-term value.",
+    },
+    {
+      img: Icon1,
+      title: "Sector-Deep Insight",
+      desc: `Firsthand experience in real estate and infrastructure, giving us a clear view of your sector’s opportunities and challenges.`,
+    },
+    {
+      img: Icon2,
+      title: "Global-Local Expertise",
+      desc: " Global reach combined with local understanding to deliver impactful leaders.",
+    },
+    {
+      img: Icon3,
+      title: "End-to-End Solutions",
+      desc: ` Executive search, succession planning, interim leadership, and advisory—all aligned with your asset lifecycle.`,
     },
   ];
   return (

@@ -33,7 +33,7 @@ export const AboutIndustrySector = () => {
   const Content = `The industrial sector is the engine of global progress, transforming raw materials into the innovations that shape our world. From manufacturing and construction to energy and logistics, industrial businesses today must manage complex supply chains, embrace digital transformation, and build sustainable growth strategies.
 <br/><br/>
 
-In a landscape where global competition and local demands meet, the right leadership isn’t just important—it’s essential. The Taplow Group partners with organisations across the industrial and manufacturing spectrum to identify, engage, and empower leaders who can turn challenge into opportunity.
+In a landscape where global competition and local demands meet, the right leadership isn’t just important—it’s essential. The Taplow Group partners with organizations  across the industrial and manufacturing spectrum to identify, engage, and empower leaders who can turn challenge into opportunity.
 <br/>
 
 `;
@@ -132,7 +132,7 @@ export const IndustryExpertSec = () => {
 </b>`,
     `Our consultants, many of whom have backgrounds in industrial and manufacturing businesses themselves, understand the challenges you face, from managing supply chain complexity and product innovation to building a culture of sustainability and continuous improvement.
 `,
-    `We specialise in <b>Industrial Executive Search</b> and <b>Manufacturing Executive Search</b> for every part of the value chain—whether you’re scaling operations, investing in new markets, or driving strategic transformation. Beyond recruitment, our leadership advisory services and interim solutions help you build future-ready teams and cultures that thrive in the modern industrial landscape.`,
+    `We specialize in <b>Industrial Executive Search</b> and <b>Manufacturing Executive Search</b> for every part of the value chain—whether you’re scaling operations, investing in new markets, or driving strategic transformation. Beyond recruitment, our leadership advisory services and interim solutions help you build future-ready teams and cultures that thrive in the modern industrial landscape.`,
   ];
 
   return (
