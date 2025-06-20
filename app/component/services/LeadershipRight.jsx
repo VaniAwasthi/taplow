@@ -39,7 +39,7 @@ const LeadershipRight = () => {
               hoverImage={HoverImage}
               buttonImage={HoverImage}
               className="w-[250px] md:w-[350px] px-4 py-6"
-              href="/consultant-directory"
+              href="/contact"
             />
           </div>
         </div>

@@ -4,6 +4,7 @@ import HeroSecLayout from "../utilities/HeroSecLayout";
 import AboutBanner from "../../assets/Consultantpage/AboutBanner.webp";
 import { Search } from "lucide-react";
 import { useState } from "react";
+import { FaBroom } from "react-icons/fa6";
 
 export const ConsultantBanner = () => {
   const BannerData = {
@@ -91,6 +92,16 @@ export default function SearchBar({ onSearch, inputs, filterText = false }) {
         onClick={() => onSearch(filters)}
       >
         <Search size={20} />
+      </button>
+      <button
+        className="border border-[#96A94A] text-[#96A94A] p-3 rounded-full flex items-center justify-center w-12 h-12 hover:bg-[#96A94A] hover:text-white transition"
+        onClick={() => {
+          setFilters({});
+          onSearch({});
+        }}
+        title="Clear Filters"
+      >
+        <FaBroom size={20} />
       </button>
     </div>
   );

@@ -78,6 +78,7 @@ import CharlotteNissen from "../../../assets/Consultantpage/Consultant/Charlotte
 import ole from "../../../assets/Consultantpage/Consultant/ole.webp";
 import KennethSaxskioldNoerup from "../../../assets/Consultantpage/Consultant/KennethSaxskioldNoerup.webp";
 import Nielsbudde from "../../../assets/Consultantpage/Consultant/nielsbudde.webp";
+import Jayshree from "../../../assets/Consultantpage/Consultant/Jayshree.webp";
 
 export const consultantData = [
   {
@@ -928,7 +929,7 @@ in retail, wholesale, eCommerce and Property Development.`,
   },
   {
     id: 33,
-    name: "Timo Toivann",
+    name: "Timo Toivanen",
     role: "Senior Partner",
     location: "Finland",
     services: [" Executive Search"],
@@ -2297,7 +2298,7 @@ across the world.`,
   {
     id: 79,
     name: "Niels Budde-Lund",
-    role: "Chairman &amp; Executive Partner (and Board of Taplow Executive Interim",
+    role: "Chairman & Executive Partner (and Board of Taplow Executive Interim",
     location: "Denmark",
     phone: "+45 3124 0889",
     email: "nbl@taplow.dk",
@@ -2331,5 +2332,41 @@ Search solutions to asset-intensive industries like Manufacturing, Logistics, Ph
 relationships are grounded in a strong, customer-focused and trusted-partner mindset.<br/><br/>
 Niels holds an MBA in Business Administration &amp; Computer Science from Copenhagen Business School (CBS). He has
 also completed advanced leadership programs at DEC, Capgemini, Oracle and CA.`,
+  },
+  {
+    id: 80,
+    name: "Jayshree",
+    role: "Member - Advisory Council, India",
+    location: "India",
+    phone: "+91 9873559381",
+    email: "hr@taplowgroupindia.com",
+    linkdine: "www.linkedin.com/in/jayshreesoundingboard",
+    services: ["Talent Management and Development,", "Training", "Coaching"],
+    industrySectors: [
+      "IT",
+      "Retail",
+      "Consulting",
+      "Professional Services",
+      "Global Capability Center",
+      "FMCG",
+      "Hospitality",
+      "Healthcare",
+      "Energy",
+      "Not for Profit",
+      "Social Sector",
+      "Professional Services",
+    ],
+    image: Jayshree,
+    address: `Office No. 306- 307, 3rd Floor, Tower-B,
+Emaar Digital Greens, Golf Course Extension Road,
+Sector-61, Gurgaon-122102, Haryana, India.`,
+    bio: `As a Talent Advisor for The Taplow Group India, Jayshree leverages two decades of comprehensive experience
+spanning Talent Management, Organization Development, Change Management, Facilitation, and Coaching.<br/><br/>
+
+Her corporate journey includes roles at Google India, Future Group, Yum! Brands, and Bain &amp; Co. For the past 12
+years, she has operated as a Behavioral Coach, Learning Facilitator, and OD Consultant, contributing to a wide array
+of industries.<br/><br/>
+Jayshree holds certifications as a Professionally Certified Coach (ICF), a Certified Facilitator &amp; Designer (The Centre
+for Accelerated Learning), and a Certified OD Professional (IIOD, IOD- USA).`,
   },
 ];
