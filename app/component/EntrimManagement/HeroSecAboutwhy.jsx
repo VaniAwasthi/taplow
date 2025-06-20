@@ -228,7 +228,7 @@ export const WhyChooseEntrimManagement = () => {
     {
       img: Icon3,
       title: "Global Reach,Local Insight",
-      desc: "With offices across 6 continents, we provide international capability with on-the-ground expertise tailored to your market.",
+      desc: "With offices across 4 continents, we provide international capability with on-the-ground expertise tailored to your market.",
     },
     {
       img: Icon4,

@@ -648,7 +648,10 @@ export const Leadershipfaq = () => {
   ];
   return (
     <>
-      <Faq heading="Frequently Asked Questions (FAQs)" FaqData={FaqData} />
+      <Faq
+        heading="Leadership Advisory and Performance FAQ’s"
+        FaqData={FaqData}
+      />
     </>
   );
 };
