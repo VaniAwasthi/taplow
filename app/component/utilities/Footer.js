@@ -193,7 +193,7 @@ const Footer = () => {
       <div className="bg-[#96A94A] text-white px-3 py-4 text-xs rounded-t-[2rem]">
         <p className="text-redhat text-md text-center pb-3">
           Disclaimer | Privacy & GDPR Statement | Ranked by Hunt Scanlon, as a
-          Global Top 40 Search PROVIDER 2015 - 2025
+          Global Top 40 Search Provider 2015 - 2025
         </p>
       </div>
     </footer>

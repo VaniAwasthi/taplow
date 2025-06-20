@@ -37,14 +37,6 @@ export const Ethical = () => {
       image: Ethical4,
       title: "Confidentiality, fairness, and anti-corruption standards.",
     },
-    {
-      image: Ethical1,
-      title: "Compliance with global laws and best practices.",
-    },
-    {
-      image: Ethical2,
-      title: "A professional, inclusive, and respectful workplace.",
-    },
   ];
 
   const [swiperInstance, setSwiperInstance] = useState(null);
@@ -165,9 +157,7 @@ export const Approach = () => {
 
                     Through our <strong>leadership advisory services</strong>, we guide businesses
                     on <strong>succession planning, leadership assessment, and performance development</strong>.
-                    Our <strong>CEO training programmes</strong> equip senior executives with the
-                    knowledge and skills needed to succeed in an increasingly complex business environment.
-                    </br>  </br>
+                    </br></br>
                     Our <strong>Single Point of Contact model</strong> ensures a smooth and
                     efficient process, making leadership appointments straightforward and effective.
                     </br>
