@@ -912,8 +912,7 @@ their leadership impact.`,
     email: "Hannu.oversti@taplow.fi",
     image: HannuÖversti,
     address: `TAPLOW Finland Oy,<br/>Mannerheimintie 113, Aitio Business Park Hørsholm,<br/>00280 HELSINKI,<br/>FINLAND`,
-    linkdine:
-      "https://finland.taplowgroup.com/Finland/Consultants/Hannu-%C3%96versti",
+    linkdine: "https://www.linkedin.com/in/hannu-oversti/",
     industrySectors: [
       "Consumer Products",
       " E-commerce",

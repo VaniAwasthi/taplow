@@ -47,6 +47,12 @@ const ProfileDetailLayout = ({ consultant }) => {
             ></span>
           </div>
         </div>
+        <div className="mt-4 flex items-center justify-center bg-blue-600 text-white py-2 rounded-lg">
+          <Mail className="text-white w-5 h-5 mr-4" />
+          <a href={`mailto:${consultant.email}`} className="text-white ml-2">
+            Click here to email
+          </a>
+        </div>
         <Link
           href={consultant.linkdine}
           target="_blank"
