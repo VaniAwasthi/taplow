@@ -86,7 +86,7 @@ export const RealStateFaq = () => {
     {
       index: 1,
       question:
-        " What leadership roles do you specialize in within real estate and infrastructure?",
+        "What leadership roles do you specialize in within real estate and infrastructure?",
       answer:
         " We recruit across asset management, development, investment, capital markets, and operational leadership—spanning C-suite, board, and project leadership roles.",
     },
@@ -109,19 +109,19 @@ export const RealStateFaq = () => {
       question:
         "Do you offer interim leadership for major real estate or infrastructure projects?",
       answer:
-        "Absolutely. We maintain a network of experienced interim executives ready to step into transitional or project-critical roles",
+        "Absolutely. We maintain a network of experienced interim executives ready to step into transitional or project-critical roles.",
     },
     {
       index: 5,
       question:
-        " What makes The Taplow Group different in real estate executive search?",
+        "What makes The Taplow Group different in real estate executive search?",
       answer:
         "Our sector-specific experience, global reach with local insight, and commitment to long-term partnerships set us apart.",
     },
     {
       index: 6,
       question:
-        " How do you ensure cultural fit within diverse real estate portfolios?",
+        "How do you ensure cultural fit within diverse real estate portfolios?",
       answer:
         "We use a rigorous assessment framework that evaluates leadership style, values alignment, and adaptability across asset types and geographies.",
     },
