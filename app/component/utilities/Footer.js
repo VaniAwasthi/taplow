@@ -9,15 +9,15 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="container mx-auto px-4 md:max-w-6xl">
+    <footer className="container mx-auto px-2 md:max-w-7xl">
       {/* Top Section */}
       <div className="py-8 mb-4 flex flex-col md:flex-row justify-between items-start">
         {/* Logo & Social Links */}
         <div className="mb-6 md:mb-2">
           <Image src={logo} alt="The Taplow Group" className="h-14 mb-[2rem]" />
 
-          <p className="mt-5 text-[12px] redhat">
-            © 2025 THE TAPLOW GROUP S.A.
+          <p className="mt-5 text-[14px] redhat">
+            © 2025 THE TAPLOW GROUP S.A. ™
             <br />
             Registration number: B10567
             <br />
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
 
         {/* Footer Links */}
-        <div className="pl-2 md:pl-[8rem] grid grid-cols-2 md:grid-cols-4 gap-12 text-left">
+        <div className="pl-2 md:pl-[6rem] grid grid-cols-2 md:grid-cols-4 gap-12 text-left">
           {/* Company */}
           <div>
             <h4 className="font-semibold mb-2 text-black">Company</h4>
@@ -58,7 +58,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="/globals" className="no-underline">
-                  Global Location
+                  Global Locations
                 </a>
               </li>
               <li>
@@ -144,7 +144,7 @@ const Footer = () => {
                   href="/sectors/life-science-and-pharma"
                   className="no-underline"
                 >
-                  Life Science and Pharma
+                  Life Sciences and Pharma
                 </a>
               </li>
               <li>
@@ -211,8 +211,17 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="bg-[#96A94A] text-white px-3 py-4 text-xs rounded-t-[2rem]">
         <p className="text-redhat text-md text-center pb-3">
-          Disclaimer | Privacy & GDPR Statement | Ranked by Hunt Scanlon, as a
-          Global Top 40 Search Provider 2015 - 2025
+          <Link href="/disclaimer">Disclaimer</Link> |
+          <Link href="/privacy">Privacy & GDPR Statement</Link>|{" "}
+          <a
+            href="https://huntscanlon.com/global-40/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white decoration-none"
+          >
+            Ranked by Hunt Scanlon, as a Global Top 40 Search Provider 2015 -
+            2025
+          </a>
         </p>
       </div>
     </footer>

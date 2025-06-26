@@ -42,17 +42,17 @@ const navigation = [
       { name: "Digital ICT", href: "/sectors/digital-ict" },
       { name: "Not-for-Profit", href: "/sectors/not-for-profit" },
       {
-        name: "Life Science and Pharma",
+        name: "Life Sciences and Pharma",
         href: "/sectors/life-science-and-pharma",
       },
       { name: "Professional Services", href: "/sectors/professional-service" },
-      { name: "Real Estates", href: "/sectors/realestate-sector" },
-      { name: "Industrials", href: "/sectors/industry" },
+      { name: "Real Estate", href: "/sectors/realestate-sector" },
+      { name: "Industrial", href: "/sectors/industry" },
     ],
   },
   { name: "Insights", href: "/insights" },
   {
-    name: "Global Location",
+    name: "Global Locations",
     href: "/globals",
     submenu: [
       { name: "Australia", href: "/countries/australia" },
