@@ -2211,7 +2211,7 @@ medicine and BD.
     location: "China",
     phone: "+86 13301866273",
     email: "joyce.sheng@lnsrecruitment.com",
-    linkdine: "linkedin.com/in/lily-bi-0a97168",
+    linkdine: "https://www.linkedin.com/in/joycesheng/",
     services: [
       "Recruitment Service",
       "Talent Mapping Service",

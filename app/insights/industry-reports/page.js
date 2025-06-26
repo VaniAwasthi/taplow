@@ -9,74 +9,44 @@ import IndustryReport3 from "../../assets/Insights/IndustryReport3.webp";
 const Page = () => {
   const InsightData = [
     {
+      slug: "global-business-outlook-2025",
       index: 1,
       Image: IndustryReport1,
       Alt: "InsightImage",
       href: "https://www.taplowgroup.com/insights/news/taplow-group-2025-global-business-outlook-report",
     },
     {
+      slug: "global-business-outlook-2024",
       index: 2,
       Image: IndustryReport2,
       Alt: "InsightImage",
       href: "https://www.taplowgroup.com/insights/news/taplow-group-2024-global-business-outlook-report",
     },
     {
+      slug: "global-business-outlook-2023",
       index: 3,
       Image: IndustryReport3,
       Alt: "InsightImage",
       href: "https://www.taplowgroup.com/insights/news/with-10-years-of-executive-search-impact-across-industries-the-taplow-group-india-is-on-an-exciting-growth-trajectory",
     },
     {
+      slug: "global-business-outlook-2022",
       index: 4,
       Image: IndustryReport2,
       Alt: "InsightImage",
       href: "https://www.taplowgroup.com/insights/news/with-10-years-of-executive-search-impact-across-industries-the-taplow-group-india-is-on-an-exciting-growth-trajectory",
     },
     {
+      slug: "global-business-outlook-2021",
       index: 5,
       Image: IndustryReport1,
       Alt: "InsightImage",
       href: "https://www.taplowgroup.com/insights/news/with-10-years-of-executive-search-impact-across-industries-the-taplow-group-india-is-on-an-exciting-growth-trajectory",
     },
     {
+      slug: "global-business-outlook-2020",
       index: 6,
       Image: IndustryReport3,
-      Alt: "InsightImage",
-      href: "https://www.taplowgroup.com/insights/news/with-10-years-of-executive-search-impact-across-industries-the-taplow-group-india-is-on-an-exciting-growth-trajectory",
-    },
-    {
-      index: 7,
-      Image: IndustryReport1,
-      Alt: "InsightImage",
-      href: "https://www.taplowgroup.com/insights/news/with-10-years-of-executive-search-impact-across-industries-the-taplow-group-india-is-on-an-exciting-growth-trajectory",
-    },
-    {
-      index: 8,
-      Image: IndustryReport2,
-      Alt: "InsightImage",
-      href: "https://www.taplowgroup.com/insights/news/with-10-years-of-executive-search-impact-across-industries-the-taplow-group-india-is-on-an-exciting-growth-trajectory",
-    },
-    {
-      index: 9,
-      Image: IndustryReport2,
-      Alt: "InsightImage",
-      href: "https://www.taplowgroup.com/insights/news/with-10-years-of-executive-search-impact-across-industries-the-taplow-group-india-is-on-an-exciting-growth-trajectory",
-    },
-    {
-      index: 10,
-      Image: IndustryReport3,
-      Alt: "InsightImage",
-      href: "https://www.taplowgroup.com/insights/news/with-10-years-of-executive-search-impact-across-industries-the-taplow-group-india-is-on-an-exciting-growth-trajectory",
-    },
-    {
-      index: 11,
-      Image: IndustryReport2,
-      Alt: "InsightImage",
-      href: "https://www.taplowgroup.com/insights/news/with-10-years-of-executive-search-impact-across-industries-the-taplow-group-india-is-on-an-exciting-growth-trajectory",
-    },
-    {
-      index: 12,
-      Image: IndustryReport1,
       Alt: "InsightImage",
       href: "https://www.taplowgroup.com/insights/news/with-10-years-of-executive-search-impact-across-industries-the-taplow-group-india-is-on-an-exciting-growth-trajectory",
     },
@@ -91,7 +61,11 @@ const Page = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {InsightData.map((Insight, index) => (
-              <Link key={index} href={Insight.href}>
+              <Link
+                key={index}
+                // href={`/insights/industry-reports/${Insight.slug}`}
+                href="#"
+              >
                 <motion.div
                   initial={{ x: -50, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
