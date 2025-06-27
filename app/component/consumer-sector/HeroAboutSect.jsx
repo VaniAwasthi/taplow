@@ -74,7 +74,7 @@ export const ConsumerSectorFaq = () => {
       question:
         "What roles do you typically recruit for in the consumer products industry?",
       answer:
-        "We support organisations in hiring C-level executives, board members, division heads, digital and supply chain leaders, among others.",
+        "We support organizations in hiring C-level executives, board members, division heads, digital and supply chain leaders, among others.",
     },
     {
       index: 2,

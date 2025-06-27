@@ -65,7 +65,7 @@ export const HeroSection = () => {
 
 export const AboutBoard = () => {
   const heading = "Our Board Advisory Expertise";
-  const Content = `Board leadership today demands more than oversight—it requires foresight, diversity of thought, and the ability to guide through complexity. At The Taplow Group, our consultants draw on years of executive experience and global insight to support board effectiveness, governance best practices, and leadership succession at the highest levels.<br/> <br/> Our work spans both mature and emerging markets, offering board-level advisory services to public companies, private enterprises, family-led businesses, and mission-driven organisations. Whether supporting board recruitment, refining board composition, or facilitating CEO succession planning, we help boards fulfil their responsibilities while preparing for the future.`;
+  const Content = `Board leadership today demands more than oversight—it requires foresight, diversity of thought, and the ability to guide through complexity. At The Taplow Group, our consultants draw on years of executive experience and global insight to support board effectiveness, governance best practices, and leadership succession at the highest levels.<br/> <br/> Our work spans both mature and emerging markets, offering board-level advisory services to public companies, private enterprises, family-led businesses, and mission-driven organizations. Whether supporting board recruitment, refining board composition, or facilitating CEO succession planning, we help boards fulfil their responsibilities while preparing for the future.`;
   return (
     <>
       <div className="mx-auto relative mt-[2rem] mb-[4rem] md:mt-6 md:mb-[2rem] w-full max-w-7xl px-6 md:px-12">
@@ -223,7 +223,7 @@ export const WhyChooseBoardAdvisory = () => {
     {
       img: Icon1,
       title: "Tailored, Independent Advice",
-      desc: "We act as trusted partners, offering impartial, evidence-based advice tailored to your organisation’s context and goals.",
+      desc: "We act as trusted partners, offering impartial, evidence-based advice tailored to your organization's context and goals.",
     },
     {
       img: Icon2,
@@ -297,7 +297,7 @@ export const BoardAdvisoryFaq = () => {
       index: 1,
       question: " What kinds of boards do you typically work with?",
       answer:
-        " We advise a wide range of boards—including public companies, private businesses, family-led organisations, and mission-driven entities—across both mature and emerging markets.",
+        " We advise a wide range of boards—including public companies, private businesses, family-led organizations, and mission-driven entities—across both mature and emerging markets.",
     },
     {
       index: 2,
@@ -316,7 +316,7 @@ export const BoardAdvisoryFaq = () => {
       index: 4,
       question: "Can you support CEO and C-suite succession planning?",
       answer:
-        " Yes. We help boards identify and develop future-ready leadership, ensuring smooth transitions and sustained organisational success.",
+        " Yes. We help boards identify and develop future-ready leadership, ensuring smooth transitions and sustained organizations success.",
     },
     {
       index: 5,
@@ -345,7 +345,7 @@ export const BoardAdvisoryFaq = () => {
     },
     {
       index: 9,
-      question: "Do you only advise large organisations?",
+      question: "Do you only advise large organizations?",
       answer:
         " No. Our experience spans businesses of all sizes—from global corporations to regional leaders and growing start-ups.",
     },

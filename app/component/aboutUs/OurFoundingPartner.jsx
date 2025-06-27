@@ -97,7 +97,7 @@ export const OurFoundingPartner = () => {
             <p className="text-sm">
               The Taplow Group is a trusted global firm specializing in
               leadership solutions. Since 2002, we have been helping
-              organisations secure top executive talent, strengthen leadership
+              organizations secure top executive talent, strengthen leadership
               teams, and navigate business transformation. With a presence
               worldwide, we combine global reach with local expertise to drive
               long-term success.

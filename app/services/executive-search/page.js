@@ -83,7 +83,7 @@ const Services = () => {
       index: 4,
       question: "How long does an executive search typically take?",
       answer:
-        "An executive search typically takes 6-12 weeks depending on role complexity.",
+        " An executive search typically takes 6 to 12 weeks, depending on the complexity of the role.",
     },
     {
       index: 5,

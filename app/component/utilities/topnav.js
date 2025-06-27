@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import {
   Disclosure,
@@ -9,7 +9,6 @@ import {
 } from "@headlessui/react";
 import { FaBars } from "react-icons/fa6";
 import { IoCloseSharp } from "react-icons/io5";
-import { FaGlobeAsia } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../assets/homePage/logo.png";
@@ -21,12 +20,12 @@ const navigation = [
     name: "Services",
     href: "/services/executive-search",
     submenu: [
-      { name: "Executive Search", href: "/services/executive-search" },
+      { name: "Executive Search ", href: "/services/executive-search" },
       {
-        name: "Executive Interim",
+        name: "Executive Interim ",
         href: "/services/executive-interim-management",
       },
-      { name: "Board Advisory", href: "/services/board-advisory-services" },
+      { name: "Board Advisory ", href: "/services/board-advisory-services" },
       {
         name: "Leadership Performance and Advisory",
         href: "/services/leadership-boardadvisory-and-performance",
@@ -40,19 +39,16 @@ const navigation = [
       { name: "Consumer Products", href: "/sectors/conusmer-sector" },
       { name: "Financial Services", href: "/sectors/financial-service" },
       { name: "Digital ICT", href: "/sectors/digital-ict" },
-      { name: "Not-for-Profit", href: "/sectors/not-for-profit" },
-      {
-        name: "Life Sciences and Pharma",
-        href: "/sectors/life-science-and-pharma",
-      },
+      { name: "Not for Profit", href: "/sectors/not-for-profit" },
+      { name: "Life Sciences and Pharma", href: "/sectors/life-science" },
       { name: "Professional Services", href: "/sectors/professional-service" },
-      { name: "Real Estate", href: "/sectors/realestate-sector" },
-      { name: "Industrial", href: "/sectors/industry" },
+      { name: "Real Estates", href: "#" },
+      { name: "Industrials", href: "/sectors/industry" },
     ],
   },
   { name: "Insights", href: "/insights" },
   {
-    name: "Global Locations",
+    name: "Global Location",
     href: "/globals",
     submenu: [
       { name: "Australia", href: "/countries/australia" },
@@ -79,31 +75,89 @@ const navigation = [
 ];
 
 const TopNav = () => {
-  const pathname = usePathname();
-  const [langOpen, setLangOpen] = useState(false);
+  //
 
-  const languages = [
-    "Australia",
-    "Bulgaria",
-    "Canada",
-    "China",
-    "Denmark",
-    "Finland",
-    "France",
-    "Germany",
-    "India",
-    "Italy",
-    "New Zealand",
-    "Norway",
-    "Singapore",
-    "Spain",
-    "Sweden",
-    "UK",
-    "US",
-  ];
+  useEffect(() => {
+    const getInfo = async () => {
+      try {
+        const translated = new URLSearchParams(window.location.search).get(
+          "translated"
+        );
+
+        const ipRes = await fetch("https://api.ipify.org?format=json");
+        const ipData = await ipRes.json();
+        const ip = ipData.ip;
+
+        const geoRes = await fetch(`https://ipwho.is/${ip}`);
+        const geoData = await geoRes.json();
+
+        const countryCode = geoData.country_code || "US";
+
+        // Map of countries you want to redirect to their language
+        const redirectMap = {
+          BG: "bg", // Bulgarian
+          DK: "da", // Danish
+          FR: "fr", // French
+          NO: "no", // Norwegian
+        };
+
+        const language = redirectMap[countryCode];
+
+        if (language && !translated) {
+          const currentURL = window.location.href;
+          const sep = currentURL.includes("?") ? "&" : "?";
+          const redirectURL = `https://translate.google.com/translate?hl=${language}&sl=en&tl=${language}&u=${encodeURIComponent(
+            currentURL + sep + "translated=1"
+          )}`;
+          window.location.href = redirectURL;
+        }
+      } catch (error) {
+        console.error("Error fetching IP or location info:", error);
+      }
+    };
+
+    getInfo();
+  }, []);
+
+  //
+
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const addScript = () => {
+      const script = document.createElement("script");
+      script.src =
+        "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+      script.async = true;
+      document.body.appendChild(script);
+
+      window.googleTranslateElementInit = () => {
+        new window.google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            autoDisplay: false,
+          },
+          "google_translate_element"
+        );
+      };
+    };
+
+    if (!window.google?.translate?.TranslateElement) {
+      addScript();
+    }
+  }, []);
+
+  const handleLangChange = (e) => {
+    const lang = e.target.value;
+    const select = document.querySelector("select.goog-te-combo");
+    if (select) {
+      select.value = lang;
+      select.dispatchEvent(new Event("change"));
+    }
+  };
 
   return (
-    <header className="top-0 z-[99] bg-white sticky">
+    <header className="top-0 z-50 sticky top-0 bg-white">
       <Disclosure as="nav" className="pt-4">
         {({ open }) => (
           <>
@@ -120,35 +174,38 @@ const TopNav = () => {
                   </Link>
                 </div>
 
+                {/* Google Translate Hidden Element */}
+                <div
+                  id="google_translate_element"
+                  style={{ display: "none" }}
+                ></div>
+
                 {/* Desktop Navigation */}
                 <div className="hidden lg:flex space-x-4 items-center">
-                  {navigation.map((item) => {
-                    const isParentActive =
-                      pathname.startsWith(item.href) ||
-                      (item.submenu &&
-                        item.submenu.some((sub) => pathname === sub.href));
-
-                    return item.submenu ? (
+                  {navigation.map((item) =>
+                    item.submenu ? (
                       <div key={item.name} className="relative group">
-                        <Link href={item.href}>
-                          <span
-                            className={`px-3 py-1 text-base font-normal cursor-pointer ${
-                              isParentActive
-                                ? "text-white bg-[#98AE40] pb-[0.7rem]"
-                                : "text-black hover:text-black"
-                            }`}
-                          >
-                            {item.name}
-                          </span>
-                        </Link>
-                        <div className="absolute left-0 mt-2 bg-white shadow-lg rounded-md z-50 min-w-[180px] max-h-44 overflow-y-auto pointer-events-auto scrollbar-thin scrollbar-thumb-[#98AE40] scrollbar-track-gray-200 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-                          {item.submenu.map((sub) => (
-                            <Link key={sub.name} href={sub.href}>
-                              <div className="px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-[#98AE40]">
-                                {sub.name}
-                              </div>
-                            </Link>
-                          ))}
+                        <div className="relative">
+                          <Link href={item.href}>
+                            <span
+                              className={`px-3 py-1 text-base font-normal cursor-pointer ${
+                                pathname.startsWith(item.href)
+                                  ? "text-white bg-[#98AE40] pb-[0.7rem]"
+                                  : "text-black hover:text-black"
+                              }`}
+                            >
+                              {item.name}
+                            </span>
+                          </Link>
+                          <div className="absolute left-0 mt-2 bg-white shadow-lg rounded-md z-50 min-w-[180px] max-h-44 overflow-y-auto pointer-events-auto scrollbar-thin scrollbar-thumb-[#98AE40] scrollbar-track-gray-200 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                            {item.submenu.map((sub) => (
+                              <Link key={sub.name} href={sub.href}>
+                                <div className="px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-[#98AE40]">
+                                  {sub.name}
+                                </div>
+                              </Link>
+                            ))}
+                          </div>
                         </div>
                       </div>
                     ) : (
@@ -163,36 +220,23 @@ const TopNav = () => {
                           {item.name}
                         </span>
                       </Link>
-                    );
-                  })}
+                    )
+                  )}
 
-                  {/* Language Switcher */}
-                  <div className="relative">
-                    <button
-                      onClick={() => setLangOpen(!langOpen)}
-                      className="flex items-center space-x-1 text-black hover:text-[#98AE40]"
-                    >
-                      <FaGlobeAsia className="w-5 h-5" />
-                      <span className="hidden md:inline">Language</span>
-                    </button>
-                    {langOpen && (
-                      <div className="absolute right-0 mt-2 bg-white shadow-lg rounded-md z-50 min-w-[180px] max-h-48 overflow-y-auto scrollbar-thin scrollbar-thumb-[#98AE40] scrollbar-track-gray-200">
-                        {languages.map((lang) => (
-                          <div
-                            key={lang}
-                            className="px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-[#98AE40] cursor-pointer"
-                            onClick={() => {
-                              setLangOpen(false);
-                              // handle language change here if needed
-                              console.log(`Language selected: ${lang}`);
-                            }}
-                          >
-                            {lang}
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </div>
+                  {/* Language Dropdown placed AFTER Contact Us */}
+                  <select
+                    onChange={handleLangChange}
+                    className="ml-4 border-0 text-sm rounded px-2 py-1"
+                  >
+                    <option value="" disabled selected hidden>
+                      🌐 Language
+                    </option>
+                    <option value="en">English</option>
+                    <option value="bg">Bulgarian</option>
+                    <option value="da">Danish</option>
+                    <option value="fr">French</option>
+                    <option value="no">Norwegian</option>
+                  </select>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -216,29 +260,24 @@ const TopNav = () => {
                     <Disclosure key={item.name} as="div" className="w-full">
                       {({ open }) => (
                         <>
-                          <Link href={item.href}>
-                            <DisclosureButton
-                              className="w-full px-3 py-2 font-medium text-left text-black hover:text-[#98AE40] flex justify-between items-center"
-                              as="div"
+                          <DisclosureButton className="w-full px-3 py-2 font-medium text-left text-black hover:text-[#98AE40] flex justify-between items-center">
+                            <span>{item.name}</span>
+                            <svg
+                              className={`w-4 h-4 transform transition-transform duration-300 ${
+                                open ? "rotate-180" : ""
+                              }`}
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                              viewBox="0 0 24 24"
                             >
-                              <span>{item.name}</span>
-                              <svg
-                                className={`w-4 h-4 transform transition-transform duration-300 ${
-                                  open ? "rotate-180" : ""
-                                }`}
-                                fill="none"
-                                stroke="currentColor"
-                                strokeWidth={2}
-                                viewBox="0 0 24 24"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  d="M19 9l-7 7-7-7"
-                                />
-                              </svg>
-                            </DisclosureButton>
-                          </Link>
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M19 9l-7 7-7-7"
+                              />
+                            </svg>
+                          </DisclosureButton>
                           <DisclosurePanel className="pl-6">
                             {item.submenu.map((sub) => (
                               <Link key={sub.name} href={sub.href}>
@@ -266,38 +305,47 @@ const TopNav = () => {
                     </Link>
                   )
                 )}
-
-                {/* Mobile Language Switcher */}
-                <div className="mt-2">
-                  <button
-                    onClick={() => setLangOpen(!langOpen)}
-                    className="flex items-center space-x-1 text-black hover:text-[#98AE40]"
-                  >
-                    <FaGlobeAsia className="w-5 h-5" />
-                    <span className="hidden md:inline">Language</span>
-                  </button>
-                  {langOpen && (
-                    <div className="mt-1 bg-white shadow-lg rounded-md z-50 max-h-48 overflow-y-auto scrollbar-thin scrollbar-thumb-[#98AE40] scrollbar-track-gray-200">
-                      {languages.map((lang) => (
-                        <div
-                          key={lang}
-                          className="px-4 py-2 text-sm text-black hover:bg-gray-100 hover:text-[#98AE40] cursor-pointer"
-                          onClick={() => {
-                            setLangOpen(false);
-                            console.log(`Language selected: ${lang}`);
-                          }}
-                        >
-                          {lang}
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
+                <select
+                  onChange={handleLangChange}
+                  className="ml-0 border-0 text-sm rounded px-2 py-1"
+                >
+                  <option value="" disabled selected hidden>
+                    🌐 Language
+                  </option>
+                  <option value="en">English</option>
+                  <option value="bg">Bulgarian</option>
+                  <option value="da">Danish</option>
+                  <option value="fr">French</option>
+                  <option value="no">Norwegian</option>
+                </select>
               </div>
             </DisclosurePanel>
           </>
         )}
       </Disclosure>
+
+      {/* Google Translate override styles */}
+      <style jsx global>{`
+        .goog-logo-link,
+        .goog-te-gadget span,
+        .goog-te-banner-frame {
+          display: none !important;
+        }
+
+        .goog-te-combo {
+          font-family: inherit !important;
+          background: white !important;
+          color: black !important;
+        }
+
+        body * {
+          font-family: inherit !important;
+        }
+
+        body {
+          top: 0px !important;
+        }
+      `}</style>
     </header>
   );
 };
