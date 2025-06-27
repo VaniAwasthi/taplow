@@ -87,6 +87,48 @@ const Page = () => {
       link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/austrilia/LeadershipDevelopmentAcrossMultiBrandTeams.pdf",
     },
   ];
+  const FaqData = [
+    {
+      index: 1,
+      question:
+        "What does The Taplow Group’s Leadership Advisory service include?",
+      answer:
+        " Our services cover leadership assessments, team effectiveness programs, executive coaching, succession planning, and strategic alignment workshops—all designed to strengthen leadership and performance at every level.",
+    },
+    {
+      index: 2,
+      question:
+        " How do you assess leadership potential and team effectiveness?",
+      answer:
+        " We use a mix of psychometric tools, 360° feedback, stakeholder interviews, and behavioural assessments to gain deep insight into leadership styles, competencies, and performance gaps, both at individual and team levels.",
+    },
+    {
+      index: 3,
+      question:
+        " Can you help our leadership team navigate organizational change?",
+      answer:
+        "Yes. We specialize in supporting teams during periods of transformation, M&A activity, and leadership transition, ensuring alignment, clarity, and performance continuity through expert advisory.",
+    },
+    {
+      index: 4,
+      question: " Is your approach industry-specific or customizable?",
+      answer:
+        " Our insights are backed by global experience across industries, and we adapt every engagement to your business context, goals, and culture. We don’t believe in one-size-fits-all strategies.",
+    },
+    {
+      index: 5,
+      question:
+        "Do you offer leadership coaching or just organizational advisory?",
+      answer:
+        " Both. We provide one-on-one executive coaching, team coaching, and leadership development programs tailored to your leaders’ growth needs and your company’s performance goals.",
+    },
+    {
+      index: 6,
+      question: "What makes The Taplow Group different in this space?",
+      answer:
+        " Our global network, senior-level expertise, and people-first approach allow us to deliver measurable leadership impact that drives long-term business growth, not just short-term fixes.",
+    },
+  ];
   const Successheading = "Recent Success Stories";
   return (
     <>
@@ -102,7 +144,7 @@ const Page = () => {
         heading={Successheading}
         textClass="text-xs md:text-base"
       />
-      <Leadershipfaq />
+      <Faq heading="Frequently Asked Questions" FaqData={FaqData} />
     </>
   );
 };

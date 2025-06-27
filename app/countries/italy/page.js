@@ -88,10 +88,10 @@ const page = () => {
       />
       <IndustrySlider />
       <TeamSection country="Italy" />
-      <SuccessStory
+      {/* <SuccessStory
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
-      />
+      /> */}
     </>
   );
 };

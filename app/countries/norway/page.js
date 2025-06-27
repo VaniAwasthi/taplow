@@ -51,7 +51,7 @@ const page = () => {
       services: [
         {
           title: "VALUES",
-          content: `<p>To be able to comply by our main values; Professionality, Integrity and Delivery Excellence, we focus on industries where we have extensive experience and competence. Taplow Norway have consultants with experience from several </p>`,
+          content: `<p>To be able to comply by our main values; Professionality, Integrity and Delivery Excellence, we focus on industries where we have extensive experience and competence. Taplow Norway have consultants with experience from several industries. We have a strong focus on IT, to meet the demands of Digitalization and E-Commerce in general.</p>`,
         },
 
         {
@@ -64,7 +64,6 @@ const page = () => {
             <li>Retail – Consumer Products</li>
             <li>E-commerce</li>
             <li>ICT</li>
-            <li>Financial Services</li>
             <li>Financial Services</li>
             <li>Real Estate</li>
             <li>Industrial and Energy</li>
@@ -123,10 +122,10 @@ const page = () => {
       />
       <IndustrySlider />
       <TeamSection country="Norway" />
-      <SuccessStory
+      {/* <SuccessStory
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
-      />
+      /> */}
       {/* <GlobalLocation /> */}
     </>
   );

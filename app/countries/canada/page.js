@@ -105,7 +105,7 @@ offices that span the country coast-to-coast.`,
 of Canada’s largest Executive Search Firms with a team of 19 Search Consultants, Researchers and Marketing Admin spread across 8 offices that span the country coast-to-coast.  The firm was founded by Bruce MacDonald who has over 25 years of executive search
 experience.`,
     aboutContentpara3:
-      "What sets us apart is the depth of real-world experience our Search Consultants bring; many have held corporate roles in the very industries they now recruit for. Each Consultant leads their search engagement from start to finish. We do not pass the baton… our Consultants personally manage candidate outreach, interviews, references, and the offer stage.",
+      "What sets us apart is the depth of real-world experience our search consultants bring; many have held corporate roles in the very industries they now recruit for. Each consultant leads their search engagement from start to finish. We don't pass the baton—our consultants personally manage candidate outreach, interviews, references, and the offer stage.",
     aboutContentpara4:
       "Despite our growth, MacDonald Search Group remains committed to the core values: collaboration, humility, and accountability. We believe in building lasting relationships with clients and candidates based on trust and transparency.",
   };

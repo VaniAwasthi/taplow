@@ -800,8 +800,8 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     industrySectors: ["Non-Profit", "Philanthropy ", "Impact Sector "],
     bio: `Priyanka Mazumdar has been associated with The Taplow Group for ten years. As the Practice Leader for Global Philanthropy & Social Impact, she leads the firm’s strategic initiatives to strengthen efforts in Asia and Africa, while also driving the expansion of partnerships in key global markets.<br/><br/>
     As a Member of the Advisory Council for India, Priyanka offers strategic support to the Managing Director on institution-building initiatives. She holds a master’s degree in social work from Tata Institute of Social Sciences (Mumbai, India) and a bachelor’s degree in history from Lady Shri Ram College (New Delhi, India).<br/><br/>
-    Priyanka is widely recognized as a highly specialized executive search consultant, having successfully led C-suite and Non-Executive Board searches for organizations in the social impact sector across Asia and Africa. She also advises the private sector on recruiting for CSR roles and Advisory Boards.<br/>
-    Over her two-decade-long career, she has collaborated with a diverse set of stakeholders in the social impact sector, including bilateral and multilateral agencies, private philanthropies, international NGOs, social impact funds, and civil society organizations.<br/>
+    Priyanka is widely recognized as a highly specialized executive search consultant, having successfully led C-suite and Non-Executive Board searches for organizations in the social impact sector across Asia and Africa. She also advises the private sector on recruiting for CSR roles and Advisory Boards.<br/><br/>
+    Over her two-decade-long career, she has collaborated with a diverse set of stakeholders in the social impact sector, including bilateral and multilateral agencies, private philanthropies, international NGOs, social impact funds, and civil society organizations.<br/><br/>
     Before joining The Taplow Group, Priyanka served as Principal at TRANSEARCH India and Vice President and part of the founding team at Third Sector Partners, a boutique search firm specializing in C-suite hiring for the impact sector.
 `,
   },
@@ -1569,11 +1569,11 @@ individual coaching – executive and emerging leaders<br/>
     image: kellyrigg,
     address: `Melbourne Quarter,<br/> Building Two, Level 3,<br/>#309, 697 Collins Street,<br/>Melbourne, Victoria,<br/>
 Australia, 3008.`,
-    bio: `EKellie Rigg is a registered Organisational Psychologist, Coach and Business Leader. Through a unique style combining
+    bio: `Kellie Rigg is a registered Organisational Psychologist, Coach and Business Leader. Through a unique style combining
 psychological principals with diverse and practical leadership and business management experience, Kellie provides
 clients with a powerful experience that produces meaningful results that will transform careers, workplaces and
 organisations.<br/>
-EKellie’s passion and purpose is to facilitate individuals and collective leadership to achieve their potential, enhance
+Kellie’s passion and purpose is to facilitate individuals and collective leadership to achieve their potential, enhance
 performance and shape their talent for tomorrow.<br/>
 Kellie’s approach is grounded in proven evidence based methodologies adapted to individual needs and communicated
 effectively to her audience, and their unique circumstances. She is recognised by her clients as a trusted advisor, and

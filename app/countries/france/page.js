@@ -77,7 +77,7 @@ Within 3 days after your call, we introduce you to a manager with the right cred
         },
         {
           title: "COACHING",
-          content: `<p>Coaching is a personalised support process which aims at developping individual and collective performances to the advantage of their company.
+          content: `<p>Coaching is a personalised support process which aims at developing individual and collective performances to the advantage of their company.
 It is focused on managers’ daily issues in the broad sense and assists them in realising their professional objectives. It helps them place themselves within the exercise of authority, handle communication and information problems as well as conflicts among people.</p> `,
         },
       ],

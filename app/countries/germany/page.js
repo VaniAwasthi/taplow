@@ -95,10 +95,10 @@ practices. They know client’s markets well.`,
       />
       <IndustrySlider />
       <TeamSection country="Germany" />
-      <SuccessStory
+      {/* <SuccessStory
         SuccessData={SuccessStoryslidesData}
         heading={Successheading}
-      />
+      /> */}
       {/* <GlobalLocation /> */}
     </>
   );
