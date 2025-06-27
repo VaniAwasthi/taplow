@@ -17,7 +17,9 @@ const Footer = () => {
           <Image src={logo} alt="The Taplow Group" className="h-14 mb-[2rem]" />
 
           <p className="mt-5 text-[14px] redhat">
-            © 2025 THE TAPLOW GROUP S.A. ™
+            <span className="whitespace-nowrap">
+              © 2025 THE TAPLOW GROUP S.A. ™
+            </span>{" "}
             <br />
             Registration number: B10567
             <br />
@@ -174,33 +176,33 @@ const Footer = () => {
                 Contact Us
               </a>
             </h4>
-            <div className="flex  space-x-8 mb-[2rem]">
+            <div className="flex space-x-3  md:space-x-8 mb-[2rem]">
               <Link href="https://www.linkedin.com/company/taplow-group-s-a1/?viewAsMember=true">
                 <Image
                   src={LinkedInicon}
                   alt="LinkedIn"
-                  className="h-6 cursor-pointer"
+                  className="h-4  md:h-6 cursor-pointer"
                 />
               </Link>
               <Link href="https://www.facebook.com/TheTaplowGroup/">
                 <Image
                   src={Facebookicon}
                   alt="Facebook"
-                  className="h-6 cursor-pointer"
+                  className="h-4 md:h-6 cursor-pointer"
                 />
               </Link>
               <Link href="https://x.com/TaplowGroup">
                 <Image
                   src={Twittericon}
                   alt="Twitter"
-                  className="h-6 cursor-pointer"
+                  className="h-4 md:h-6 cursor-pointer"
                 />
               </Link>
               <Link href="https://www.youtube.com/channel/UC6l4j3YS0bIbYiCY9dsD06w">
                 <Image
                   src={YoutubeIcon}
                   alt="YoutubeIcon"
-                  className="h-6 cursor-pointer"
+                  className="h-4 md:h-6 cursor-pointer"
                 />
               </Link>
             </div>

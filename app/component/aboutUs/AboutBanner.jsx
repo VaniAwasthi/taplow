@@ -64,13 +64,13 @@ export const ItAllStarted = () => {
   };
 
   return (
-    <section className="container mx-auto px-4 lg:max-w-7xl md:max-w-6xl py-10 ">
+    <section className="container mx-auto px-10 lg:max-w-7xl md:max-w-6xl py-10 ">
       <div className="flex flex-wrap items-center justify-between">
         {/* Section 1 */}
         <div className="w-full lg:w-1/3 p-2 text-left">
-          <h2 className="hidden md:block text-3xl font-normal redhat">
+          <h2 className="text-3xl font-normal redhat">
             Taplow And The Tulip Tree :
-            <br /> Our Brand Story
+            <br className="hidden md:block" /> Our Brand Story
           </h2>
 
           <p className="text-sm py-4 text-[#5E5E5E] redhat md:w-[300px] w-full">
@@ -101,8 +101,8 @@ export const ItAllStarted = () => {
 
         {/* Section 2 */}
         <div className="w-full lg:w-[300px] max-lg:w-full max-w-full p-2">
-          <h2 className="hidden md:block text-3xl font-normal redhat">
-            Our Journey : <br />
+          <h2 className="text-3xl font-normal redhat">
+            Our Journey : <br className="hidden md:block" />
             How It All Began
           </h2>
 
