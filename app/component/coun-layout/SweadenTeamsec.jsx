@@ -118,10 +118,12 @@ export const TeamSection = ({ country }) => {
                       </div>
 
                       {/* Phone */}
-                      <div className="flex items-center text-white text-sm font-medium mb-3">
-                        <Phone className="text-white w-3 h-3 mr-2" />
-                        <span>{team.phone}</span>
-                      </div>
+                      {team.phone ? (
+                        <div className="flex items-center text-white text-sm font-medium mb-3">
+                          <Phone className="text-white w-3 h-3 mr-2" />
+                          <span>{team.phone}</span>
+                        </div>
+                      ) : null}
 
                       {/* Email */}
                       {/* <div className="flex items-center text-white text-sm font-medium mb-3 w-full">

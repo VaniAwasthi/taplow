@@ -44,7 +44,7 @@ const page = () => {
     greenDescription: `Full function service includes: HR and finance, marketing and sales, R&D and production, supply chain, IT, market access, government relations and corporate affairs, legal and IPR, etc.
  
 `,
-    Aboutheading: "Taplow Spain:Driving Leadership and Diversity Excellence",
+    Aboutheading: "Taplow China:Driving Leadership and Diversity Excellence",
     aboutContentpara3: `Taplow Longitude Management, China has been operational since 2002 with a highly reputable track record. With offices located in
 Shanghai and Beijing, China we focus on Leadership Development and Training.`,
     aboutContentpara2: `We are a China-based professional consulting firm focused on helping our clients increase human capital and improve human
