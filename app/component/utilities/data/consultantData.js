@@ -718,6 +718,104 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
   },
   {
     id: 24,
+    name: "Sangeeta Sabharwal",
+    role: "Co-Founder & Managing Partner – The Taplow Group, India",
+    location: "India",
+    services: ["Global Executive Search & Interim"],
+    // phone: "+91 98 1008 9864",
+    email: "sangeeta.sabharwal@taplowgroupindia.com",
+    image: SangeetaSabharwal,
+    address: `The Taplow Group, Office No. 306-307,
+3rd Floor, Tower B, Emaar Digital Greens,
+Golf Course Extension Road, Sector 61,
+Gurgaon-122002, Haryana`,
+    linkdine:
+      "https://www.linkedin.com/in/sangeeta-sabharwal-5347985/?originalSubdomain=in",
+    industrySectors: [
+      "Consumer Retail",
+      "Life Science",
+      "Not for Profit",
+      "Industrial",
+      "Professional Services",
+    ],
+    bio: `Sangeeta Sabharwal is the Co-Founder & Managing Partner of The Taplow Group in India, bringing over 30 years of experience in Executive Search. She has held leadership roles across organizations she has been a part of, along with Global Board positions at The Taplow Group for nearly a decade, serving first as APAC Regional Director and later as Chief Operating Officer.<br/><br/>
+      With expertise spanning engineering, manufacturing, infrastructure, consumer, and retail, Sangeeta has successfully executed leadership searches across 14 industry segments on six continents, working with both multinational and Indian organizations.<br/><br/>
+      Having been a CEO herself, she brings a strategic perspective to leadership hiring, ensuring alignment between business priorities and executive talent. She is also a trained & certified Hogan Consultant, adding value to leadership assessment.<br/>
+      Before co-founding The Taplow Group in India, Sangeeta was a Senior Partner at Transearch India, where she was a top-performing consultant and a member of the million-dollar club. She pioneered the executive search industry in India, starting her career at Ma Foi, later serving as CEO of Ma Foi Global Search Services, where she built the business from the ground up across multiple countries.
+  `,
+  },
+  {
+    id: 25,
+    name: "Shaista Sabharwal",
+    role: "Co-Founder – The Taplow Group, IndiaGlobal CEO & Board Member – The Taplow Group S.A",
+    location: "India",
+    services: ["Global Executive Search & Interim"],
+    // phone: "+91 98 1824 6967",
+    email: "shaista.sabharwal@taplowgroupindia.com",
+    image: ShaistaSabharwal,
+    address: `The Taplow Group, Office No. 306-307,
+3rd Floor, Tower B, Emaar Digital Greens,
+Golf Course Extension Road, Sector 61,
+Gurgaon-122002, Haryana`,
+    linkdine: "https://www.linkedin.com/in/shaistasabharwal/",
+    industrySectors: [
+      "Consumer",
+      "Industrial",
+      "Educations",
+      "Financial",
+      "Not for profit",
+    ],
+    bio: `Shaista Sabharwal is the Co-Founder of The Taplow Group in India, where she has built and led the firm’s growth, shaping its strategic direction and market presence alongside Sangeeta Sabharwal, the other Co-Founder. As Global CEO and Board Member of The Taplow Group, she collaborates with fellow board members to oversee strategic initiatives across 30+ countries, supporting business expansion, leadership excellence, and cross-border collaboration.<br/><br/>
+    With extensive expertise in Executive Search, Shaista has successfully led C-suite and senior leadership mandates across diverse industries, including Consumer & Digital, Financial Services, Industrial & Real Estate, Life Sciences, Professional Services, and Not-for-Profit organizations. She specializes in hiring for CEO, CFO, and other senior leadership positions, partnering with businesses to build high-performing leadership teams.<br/><br/>
+    Before co-establishing The Taplow Group in India, she built her expertise at a New York-based global executive search firm, specializing in leadership hiring for the Education, Financial Services, and Industrial sectors. She began her career in Management & Strategy Consulting, advising companies on India Entry Strategy, Business Diversification, and Product Development.<br/>
+    Shaista holds an Honors Degree in Applied Psychology and strongly advocates for work-life balance, finding inspiration in reading, gardening, music, fitness and travel.
+`,
+  },
+  {
+    id: 26,
+    name: "Priyanka Mazumdar",
+    role: "Practice Leader – Global Philanthropy & Social Impact Member – Advisory Council, India",
+    location: "India",
+    services: ["Executive Search"],
+    // phone: "+91 98 2028 9155",
+    email: "priyanka.mazumdar@taplowgroupinida.com",
+    image: PriyankaMazumdar,
+    address: `The Taplow Group, Office No. 306-307,
+3rd Floor, Tower B, Emaar Digital Greens,
+Golf Course Extension Road, Sector 61,
+Gurgaon-122002, Haryana`,
+    linkdine: "https://www.linkedin.com/in/priyanka-mazumdar-ab59b911/",
+    industrySectors: ["Non-Profit", "Philanthropy ", "Impact Sector "],
+    bio: `Priyanka Mazumdar has been associated with The Taplow Group for ten years. As the Practice Leader for Global Philanthropy & Social Impact, she leads the firm’s strategic initiatives to strengthen efforts in Asia and Africa, while also driving the expansion of partnerships in key global markets.<br/><br/>
+    As a Member of the Advisory Council for India, Priyanka offers strategic support to the Managing Director on institution-building initiatives. She holds a master’s degree in social work from Tata Institute of Social Sciences (Mumbai, India) and a bachelor’s degree in history from Lady Shri Ram College (New Delhi, India).<br/><br/>
+    Priyanka is widely recognized as a highly specialized executive search consultant, having successfully led C-suite and Non-Executive Board searches for organizations in the social impact sector across Asia and Africa. She also advises the private sector on recruiting for CSR roles and Advisory Boards.<br/><br/>
+    Over her two-decade-long career, she has collaborated with a diverse set of stakeholders in the social impact sector, including bilateral and multilateral agencies, private philanthropies, international NGOs, social impact funds, and civil society organizations.<br/><br/>
+    Before joining The Taplow Group, Priyanka served as Principal at TRANSEARCH India and Vice President and part of the founding team at Third Sector Partners, a boutique search firm specializing in C-suite hiring for the impact sector.
+`,
+  },
+
+  {
+    id: 27,
+    name: "Sanjay Ghosh",
+    role: "Senior Partner",
+    location: "India",
+    services: ["Executive Search & Interim"],
+    // phone: "+91 98 2336 7661",
+    email: "sanjay.Ghosh@taplowgroupindia.com",
+    image: SanjayGhosh,
+    address: `The Taplow Group, Office No. 306-307,
+3rd Floor, Tower B, Emaar Digital Greens,
+Golf Course Extension Road, Sector 61,
+Gurgaon-122002, Haryana`,
+    linkdine: "https://www.linkedin.com/in/sanjayghosh/",
+    industrySectors: ["Industrial"],
+    bio: `Sanjay is Senior Partner -Industrial with Taplow India and works out of Pune, MH. His markets include Industrial clients across Middle East and India. He has over 28 years of experience in the Executive Search and HR services industry and during this period has serviced clients across geographies from SE Asia to North America. Prior to joining The Taplow Group, Sanjay worked for another global executive search firm for 10 years servicing clients in the Industrial sector.<br/><br/>
+    Sanjay started his career as a Field Service Engineer for Caterpillar Earth Moving Equipment and Halliburton Oilwell Equipment. Later he moved to Sales and worked with Xerox and HCL before moving to the HR services industry.<br/><br/>
+    Sanjay has a Post Graduate Diploma in Human Resource Management from ICFAI, India. He speaks, reads, and writes English, Hindi, and Bengali. Sanjay likes to drive, cook and learn photography when he gets the time.
+`,
+  },
+  {
+    id: 28,
     name: "Pankaj Goswami",
     role: "Partner",
     location: "India",
@@ -725,7 +823,10 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     // phone: "+91 95 8267 1661",
     email: "pankaj.goswami@taplowgroupindia.com",
     image: Pankajgoswami,
-    address: `Office No. 306- 307, 3rd Floor, Tower-B<br/>Emaar Digital Greens, Golf Course Extension Road,<br/>Sector-61, Gurgaon-122102, Haryana, India.`,
+    address: `The Taplow Group, Office No. 306-307,
+3rd Floor, Tower B, Emaar Digital Greens,
+Golf Course Extension Road, Sector 61,
+Gurgaon-122002, Haryana`,
     linkdine: "https://www.linkedin.com/in/pankaj-goswami-1bb6539",
     industrySectors: ["Consumer", "Life Sciences ", "Education"],
     bio: `Pankaj Goswami joined Taplow India as Partner – Consumer & Education Practice in November 2023. He has a long and distinguished career of more than 28 years in Executive Search and Recruitment rendering his services in top international firms.<br/><br/>
@@ -735,7 +836,27 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
 `,
   },
   {
-    id: 25,
+    id: 29,
+    name: "Ritu Mahajan",
+    role: "Principal",
+    location: "India",
+    services: ["Executive Search"],
+    // phone: "+91 99 9039 9673",
+    email: "ritu.mahajan@taplowgroupindia.com",
+    image: Ritu,
+    address: `The Taplow Group, Office No. 306-307,
+3rd Floor, Tower B, Emaar Digital Greens,
+Golf Course Extension Road, Sector 61,
+Gurgaon-122002, Haryana`,
+    linkdine: "https://www.linkedin.com/in/ritu-mahajan/",
+    industrySectors: ["Non-Profit", "Philanthropy and Impact Sector"],
+    bio: `Ritu Mahajan is a Principal at The Taplow Group – India, specializing in the Global Philanthropy & Social Impact vertical. With over two decades of experience in HR, she has expertise in Talent Acquisition and Capacity Building across sectors such as Education, Telecom, and Not-for-Profit.<br/><br/>
+    Known for her strong commitment to quality, accountability, and meticulous monitoring, Ritu has played a key role in shaping talent strategies for diverse organizations. She is deeply passionate about coaching and mentoring future leaders and has actively collaborated with universities and educational institutions to nurture young talent.<br/><br/>
+    Ritu holds a Master’s in Business Administration and is a graduate of the University of Delhi. Outside of work, she is a proud mother of two daughters, an avid traveller, and a dedicated yoga enthusiast.<br/>
+`,
+  },
+  {
+    id: 30,
     name: "Anoop Semwal",
     role: "Principal",
     location: "India",
@@ -747,7 +868,10 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     // phone: "+91 9810114434",
     email: "anoop.semwal@taplowgroupindia.com",
     image: AnoopSemwal,
-    address: `Office No. 306- 307, 3rd Floor, Tower-B, Emaar Digital Greens, Golf Course Extension Road, Sector-61, Gurgaon-122102, Haryana, India.`,
+    address: `The Taplow Group, Office No. 306-307,
+3rd Floor, Tower B, Emaar Digital Greens,
+Golf Course Extension Road, Sector 61,
+Gurgaon-122002, Haryana`,
     linkdine: "https://www.linkedin.com/in/anoop-semwal-9286a86/",
     industrySectors: [
       "Consumer",
@@ -765,108 +889,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     His experience has taught him how to consult the business in an ever-changing talent landscape with respect to their organic vs inorganic growth plans. To his credit are executing complex mandates for Large Indian Conglomerates to Global MNCs and New Age Businesses, including Higher Education Sector. Preceding his current role, he was associated with Transearch International, India office supporting the Senior Partner in delivering mandates across multiple industries. Prior to Transearch International, Anoop was associated with ABC Consultants & Acro Service Corporation and worked across India, UK and US markets for the Technology, Automobile & Engineering practice. Anoop holds a PGDBM from NIILM- New Delhi and is a Commerce Graduate from HNB University. 
 `,
   },
-  {
-    id: 26,
-    name: "Shaista Sabharwal",
-    role: "Co-Founder – The Taplow Group, IndiaGlobal CEO & Board Member – The Taplow Group S.A",
-    location: "India",
-    services: ["Global Executive Search & Interim"],
-    // phone: "+91 98 1824 6967",
-    email: "shaista.sabharwal@taplowgroupindia.com",
-    image: ShaistaSabharwal,
-    address: `Office No. 306- 307, 3rd Floor, Tower-B<br/>Emaar Digital Greens, Golf Course Extension Road<br/>Sector-61, Gurgaon-122102, Haryana, India.`,
-    linkdine: "https://www.linkedin.com/in/shaistasabharwal/",
-    industrySectors: [
-      "Consumer",
-      "Industrial",
-      "Educations",
-      "Financial",
-      "Not for profit",
-    ],
-    bio: `Shaista Sabharwal is the Co-Founder of The Taplow Group in India, where she has built and led the firm’s growth, shaping its strategic direction and market presence alongside Sangeeta Sabharwal, the other Co-Founder. As Global CEO and Board Member of The Taplow Group, she collaborates with fellow board members to oversee strategic initiatives across 30+ countries, supporting business expansion, leadership excellence, and cross-border collaboration.<br/><br/>
-    With extensive expertise in Executive Search, Shaista has successfully led C-suite and senior leadership mandates across diverse industries, including Consumer & Digital, Financial Services, Industrial & Real Estate, Life Sciences, Professional Services, and Not-for-Profit organizations. She specializes in hiring for CEO, CFO, and other senior leadership positions, partnering with businesses to build high-performing leadership teams.<br/><br/>
-    Before co-establishing The Taplow Group in India, she built her expertise at a New York-based global executive search firm, specializing in leadership hiring for the Education, Financial Services, and Industrial sectors. She began her career in Management & Strategy Consulting, advising companies on India Entry Strategy, Business Diversification, and Product Development.<br/>
-    Shaista holds an Honors Degree in Applied Psychology and strongly advocates for work-life balance, finding inspiration in reading, gardening, music, fitness and travel.
-`,
-  },
-  {
-    id: 27,
-    name: "Priyanka Mazumdar",
-    role: "Practice Leader – Global Philanthropy & Social Impact Member – Advisory Council, India",
-    location: "India",
-    services: ["Executive Search"],
-    // phone: "+91 98 2028 9155",
-    email: "priyanka.mazumdar@taplowgroupinida.com",
-    image: PriyankaMazumdar,
-    address: `Office No. 306- 307, 3rd Floor, Tower-B,<br/>Emaar Digital Greens, Golf Course Extension Road<br/>Sector-61, Gurgaon-122102, Haryana, India`,
-    linkdine: "https://www.linkedin.com/in/priyanka-mazumdar-ab59b911/",
-    industrySectors: ["Non-Profit", "Philanthropy ", "Impact Sector "],
-    bio: `Priyanka Mazumdar has been associated with The Taplow Group for ten years. As the Practice Leader for Global Philanthropy & Social Impact, she leads the firm’s strategic initiatives to strengthen efforts in Asia and Africa, while also driving the expansion of partnerships in key global markets.<br/><br/>
-    As a Member of the Advisory Council for India, Priyanka offers strategic support to the Managing Director on institution-building initiatives. She holds a master’s degree in social work from Tata Institute of Social Sciences (Mumbai, India) and a bachelor’s degree in history from Lady Shri Ram College (New Delhi, India).<br/><br/>
-    Priyanka is widely recognized as a highly specialized executive search consultant, having successfully led C-suite and Non-Executive Board searches for organizations in the social impact sector across Asia and Africa. She also advises the private sector on recruiting for CSR roles and Advisory Boards.<br/><br/>
-    Over her two-decade-long career, she has collaborated with a diverse set of stakeholders in the social impact sector, including bilateral and multilateral agencies, private philanthropies, international NGOs, social impact funds, and civil society organizations.<br/><br/>
-    Before joining The Taplow Group, Priyanka served as Principal at TRANSEARCH India and Vice President and part of the founding team at Third Sector Partners, a boutique search firm specializing in C-suite hiring for the impact sector.
-`,
-  },
-  {
-    id: 28,
-    name: "Sangeeta Sabharwal",
-    role: "Co-Founder & Managing Partner – The Taplow Group, India",
-    location: "India",
-    services: ["Global Executive Search & Interim"],
-    // phone: "+91 98 1008 9864",
-    email: "sangeeta.sabharwal@taplowgroupindia.com",
-    image: SangeetaSabharwal,
-    address: `Office No. 306- 307, 3rd Floor, Tower-B, Emaar Digital Greens, Golf Course Extension Road,Sector-61, Gurgaon-122102, Haryana, India.`,
-    linkdine:
-      "https://www.linkedin.com/in/sangeeta-sabharwal-5347985/?originalSubdomain=in",
-    industrySectors: [
-      "Consumer Retail",
-      "Life Science",
-      "Not for Profit",
-      "Industrial",
-      "Professional Services",
-    ],
-    bio: `Sangeeta Sabharwal is the Co-Founder & Managing Partner of The Taplow Group in India, bringing over 30 years of experience in Executive Search. She has held leadership roles across organizations she has been a part of, along with Global Board positions at The Taplow Group for nearly a decade, serving first as APAC Regional Director and later as Chief Operating Officer.<br/><br/>
-      With expertise spanning engineering, manufacturing, infrastructure, consumer, and retail, Sangeeta has successfully executed leadership searches across 14 industry segments on six continents, working with both multinational and Indian organizations.<br/><br/>
-      Having been a CEO herself, she brings a strategic perspective to leadership hiring, ensuring alignment between business priorities and executive talent. She is also a trained & certified Hogan Consultant, adding value to leadership assessment.<br/>
-      Before co-founding The Taplow Group in India, Sangeeta was a Senior Partner at Transearch India, where she was a top-performing consultant and a member of the million-dollar club. She pioneered the executive search industry in India, starting her career at Ma Foi, later serving as CEO of Ma Foi Global Search Services, where she built the business from the ground up across multiple countries.
-  `,
-  },
-  {
-    id: 29,
-    name: "Sanjay Ghosh",
-    role: "Senior Partner",
-    location: "India",
-    services: ["Executive Search & Interim"],
-    // phone: "+91 98 2336 7661",
-    email: "sanjay.Ghosh@taplowgroupindia.com",
-    image: SanjayGhosh,
-    address: `Office No. 306- 307, 3rd Floor, Tower-B, Emaar Digital Greens, Golf Course Extension Road, Sector-61, Gurgaon-122102, Haryana, India.`,
-    linkdine: "https://www.linkedin.com/in/sanjayghosh/",
-    industrySectors: ["Industrial"],
-    bio: `Sanjay is Senior Partner -Industrial with Taplow India and works out of Pune, MH. His markets include Industrial clients across Middle East and India. He has over 28 years of experience in the Executive Search and HR services industry and during this period has serviced clients across geographies from SE Asia to North America. Prior to joining The Taplow Group, Sanjay worked for another global executive search firm for 10 years servicing clients in the Industrial sector.<br/><br/>
-    Sanjay started his career as a Field Service Engineer for Caterpillar Earth Moving Equipment and Halliburton Oilwell Equipment. Later he moved to Sales and worked with Xerox and HCL before moving to the HR services industry.<br/><br/>
-    Sanjay has a Post Graduate Diploma in Human Resource Management from ICFAI, India. He speaks, reads, and writes English, Hindi, and Bengali. Sanjay likes to drive, cook and learn photography when he gets the time.
-`,
-  },
-  {
-    id: 30,
-    name: "Ritu Mahajan",
-    role: "Principal",
-    location: "India",
-    services: ["Executive Search"],
-    // phone: "+91 99 9039 9673",
-    email: "ritu.mahajan@taplowgroupindia.com",
-    image: Ritu,
-    address: `The Taplow Group, Office No. 306-307, 3rd Floor, Tower B, Emaar Digital Greens, Golf Course Extension Road, Sector 61, Gurgaon-122002, Haryana`,
-    linkdine: "https://www.linkedin.com/in/ritu-mahajan/",
-    industrySectors: ["Non-Profit", "Philanthropy and Impact Sector"],
-    bio: `Ritu Mahajan is a Principal at The Taplow Group – India, specializing in the Global Philanthropy & Social Impact vertical. With over two decades of experience in HR, she has expertise in Talent Acquisition and Capacity Building across sectors such as Education, Telecom, and Not-for-Profit.<br/><br/>
-    Known for her strong commitment to quality, accountability, and meticulous monitoring, Ritu has played a key role in shaping talent strategies for diverse organizations. She is deeply passionate about coaching and mentoring future leaders and has actively collaborated with universities and educational institutions to nurture young talent.<br/><br/>
-    Ritu holds a Master’s in Business Administration and is a graduate of the University of Delhi. Outside of work, she is a proud mother of two daughters, an avid traveller, and a dedicated yoga enthusiast.<br/>
-`,
-  },
+
   {
     id: 31,
     name: "Claus Rosenstand",
@@ -2360,9 +2383,10 @@ also completed advanced leadership programs at DEC, Capgemini, Oracle and CA.`,
       "Professional Services",
     ],
     image: Jayshree,
-    address: `Office No. 306- 307, 3rd Floor, Tower-B,
-Emaar Digital Greens, Golf Course Extension Road,
-Sector-61, Gurgaon-122102, Haryana, India.`,
+    address: `The Taplow Group, Office No. 306-307,
+3rd Floor, Tower B, Emaar Digital Greens,
+Golf Course Extension Road, Sector 61,
+Gurgaon-122002, Haryana`,
     bio: `As a Talent Advisor for The Taplow Group India, Jayshree leverages two decades of comprehensive experience
 spanning Talent Management, Organization Development, Change Management, Facilitation, and Coaching.<br/><br/>
 

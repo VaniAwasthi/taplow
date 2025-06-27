@@ -193,7 +193,7 @@ export const SectorSlider = () => {
 };
 
 export const WhyChooseIndia = () => {
-  const heading = "Why Taplow India";
+  const heading = "What Differentiates Us";
 
   const cards = [
     {
