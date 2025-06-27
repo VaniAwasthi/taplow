@@ -95,7 +95,7 @@ export const OurFoundingPartner = () => {
           />
           <div className="absolute bg-[#96A94A] bottom-[-8rem] border-2 border-white  text-white p-4 rounded-lg shadow-md w-full transition-transform duration-300 ease-in-out hover:scale-105">
             <p className="text-sm">
-              The Taplow Group is a trusted global firm specialising in
+              The Taplow Group is a trusted global firm specializing in
               leadership solutions. Since 2002, we have been helping
               organisations secure top executive talent, strengthen leadership
               teams, and navigate business transformation. With a presence
@@ -113,8 +113,7 @@ export const VissionSec = () => {
   const content = [
     {
       title: "Mission",
-      description: `<p>Empower organizations’ development by providing comprehensive, trusted executive search
-and people advisory services globally, using local expertise and insights.
+      description: `<p>To empower organizational growth by providing comprehensive and trusted executive search and people advisory services worldwide, leveraging local expertise and insights.
 </p>`,
       image: Mission,
     },
