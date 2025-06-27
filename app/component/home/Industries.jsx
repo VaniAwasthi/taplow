@@ -38,7 +38,7 @@ const industries = [
     link: "/sectors/digital-ict",
   },
   {
-    title: "Non Profit",
+    title: "Not For Profit",
     text: "Empowering social causes with leadership.",
     image: Notforprofit,
     link: "/sectors/not-for-profit",

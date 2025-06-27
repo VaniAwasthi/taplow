@@ -51,9 +51,8 @@ export const ItAllStarted = () => {
   const data = {
     sec1heading: "Taplow and the Tulip Tree: Our Brand Story",
     sec1des:
-      "The Taplow name is derived from our inaugural conference held in 2002 in Taplow, UK on the banks of the River Thames a short distance from  Windsor Castle. Mentioned in the doomsday book in 1086, the village was originally Anglo Saxon and is steeped in history.",
-    sec1des2: `<p>Our logo is inspired by the Tulip Trees that can be found within the <b>Taplow House Hotel</b> grounds,
-the trees were initially planted during the reign of Elizabeth the 1st and have stood the test of time, weather,evolving economies and nations.</p>`,
+      "TThe Taplow name is derived from our inaugural conference held in 2002 in Taplow, UK, on the banks of the River Thames, a short distance from Windsor Castle. Mentioned in the Domesday Book in 1086, the village was originally Anglo-Saxon and is steeped in history.",
+    sec1des2: `<p>Our logo is inspired by the Tulip Trees found within the grounds of Taplow House Hotel. Originally planted during the reign of Elizabeth I, these trees have stood the test of time, weather, and evolving economies and nations.</p>`,
 
     sec1img: LogoNameImg,
     image: AllStartedImg,
@@ -73,9 +72,7 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
             Taplow And The Tulip Tree :
             <br /> Our Brand Story
           </h2>
-          <h2 className="block md:hidden text-3xl font-normal text-black py-4 ">
-            {data.sec1heading}
-          </h2>
+
           <p className="text-sm py-4 text-[#5E5E5E] redhat md:w-[300px] w-full">
             {data.sec1des}
           </p>
@@ -108,9 +105,7 @@ the trees were initially planted during the reign of Elizabeth the 1st and hav
             Our Journey : <br />
             How It All Began
           </h2>
-          <h2 className="block md:hidden text-3xl font-normal text-black py-4 ">
-            {data.sec2heading}
-          </h2>
+
           <p className="text-sm py-4 text-[#5E5E5E] redhat w-full ">
             {data.sec2des1}
           </p>
