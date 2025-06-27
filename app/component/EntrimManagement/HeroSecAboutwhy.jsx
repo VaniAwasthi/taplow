@@ -65,7 +65,7 @@ export const HeroSectionEntrim = () => {
 export const AboutEntrim = () => {
   const heading = "Our Executive Interim Management Expertise";
   const Content = `At The Taplow Group, we understand that not every leadership need can wait for a permanent hire. Business transformations, crisis recovery, mergers, or sudden leadership exits demand immediate, experienced, and decisive leadership.<br/>
-Our Executive Interim Management solution places highly qualified senior executives into your organisation on a short-term basis—individuals who are not only skilled in managing complexity but who embed quickly, take ownership, and deliver tangible results.
+Our Executive Interim Management solution places highly qualified senior executives into your organization on a short-term basis—individuals who are not only skilled in managing complexity but who embed quickly, take ownership, and deliver tangible results.
 These are career interims—many with over a decade of experience—who bring fresh perspective, objective insight, and focused execution to the table. We match leaders not just by skillset, but by strategic fit, culture, and business need, often within days of engagement.`;
   return (
     <>
@@ -123,7 +123,7 @@ export const OurOfferingEntrim = () => {
       id: 2,
       heading: "Crisis Management & Turnaround",
       content:
-        "Rapid stabilisation through skilled leadership during disruption, loss, or organisational risk.",
+        "Rapid stabilisation through skilled leadership during disruption, loss, or organizational risk.",
       img: offer2,
     },
     {
@@ -223,7 +223,7 @@ export const WhyChooseEntrimManagement = () => {
     {
       img: Icon2,
       title: "Access to Career Interims",
-      desc: "Our network includes proven C-suite leaders who specialise in short-term mandates and thrive in high-stakes environments.",
+      desc: "Our network includes proven C-suite leaders who specialize in short-term mandates and thrive in high-stakes environments.",
     },
     {
       img: Icon3,

@@ -6,6 +6,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import Button from "./Button";
 import ButtonImg from "../../assets/homePage/hover.svg";
+import Link from "next/link";
 
 const schema = yup.object().shape({
   firstName: yup.string().required("First Name is required"),
@@ -77,7 +78,7 @@ const ContactForm = () => {
         Contact us
       </h2>
       <p className="text-center text-md mb-6 text-[#666666] ">
-        Thank you for your interest in The Taplow Group. To speak with a
+        Thank you for your interest in The Taplow Group. To connect with a
         representative, please complete the form below. One of our experts will
         follow up with you shortly.
       </p>
@@ -124,9 +125,9 @@ const ContactForm = () => {
             Yes, I would like to receive regular updates on thought leadership,
             industry insights and upcoming events from Taplow. I understand that
             I may withdraw my consent at any time. Review our{" "}
-            <a href="#" className="text-[#98AE40] underline">
+            <Link href="/privacy" className="text-[#98AE40] underline">
               Privacy Policy
-            </a>
+            </Link>
             .
           </span>
         </div>
@@ -146,9 +147,9 @@ const ContactForm = () => {
         <div className="md:col-span-2 text-xs text-center mt-2">
           <p className="py-1">
             By submitting the form, you agree to the{" "}
-            <a href="#" className="text-[#98AE40] underline">
+            <Link href="/disclaimer" className="text-[#98AE40] underline">
               Terms of Use
-            </a>
+            </Link>
             .
           </p>
           <p className="py-1">

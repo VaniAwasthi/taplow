@@ -194,22 +194,25 @@ export const PerformanceLeadershipSection = () => {
         <div className="px-4  mt-8 grid grid-cols-1 gap-8 text-[#666666]">
           <div>
             <p className="mb-4 text-[14px]">
-              Our expert change management process helps organisations smoothly
-              navigate transitions and transformations. Our well-thought-out
-              methodologies support and ensure organisations enjoy a stress-free
-              and successful journey.
+              Our expert change management process helps organizations smoothly
+              navigate transitions and transformations. Our well-designed
+              methodologies ensure a stress-free and successful journey for
+              organizations.
             </p>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-1 pl-5 text-sm list-disc text-[#666666]">
               <li>Diagnostic assessments</li>
               <li>Goal setting and alignment</li>
-              <li>Team building and trust building</li>
+              <li>Team building and trust development</li>
               <li>Skills development and training</li>
-              <li>Process improvement and workflow optimisation</li>
               <li>Performance monitoring and feedback</li>
-              <li>Continuous improvement & adaptability</li>
+              <li>Continuous improvement and adaptability</li>
             </ul>
             <p className="text-[#666666]">
-              <a href="#" className="text-[#005581] underline">
+              <a
+                href="https://www.linkedin.com/posts/marine-dumont-57a46a12_cultured-innovation-performanceexceptionnelle-activity-7148229035511226368-GvGZ/?utm_source=share&utm_medium=member_desktop"
+                target="_blank"
+                className="text-[#005581] underline"
+              >
                 See here business case 
               </a>
               ‘Célébrer l'engagement - Programme d'Awards Exceptionnel!’

@@ -150,7 +150,7 @@ export const Approach = () => {
   const heading = "Our Approach";
   const description = `
                     At Taplow, we support businesses through <strong>executive search</strong>,
-                    helping organisations find <strong>outstanding leaders</strong> who align with
+                    helping organization find <strong>outstanding leaders</strong> who align with
                     their vision and culture. Our <strong>interim management solutions</strong> provide
                     experienced professionals to lead <strong>during periods of change and transition</strong>.
 

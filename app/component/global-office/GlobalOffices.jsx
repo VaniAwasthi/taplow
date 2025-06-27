@@ -43,28 +43,35 @@ export default function GlobalOffices() {
         <MapComponent center={data.mapCenter} markers={data.locations} />
 
         {/* Office List */}
-        <div className="mt-10">
+        <div className="mt-10 flex flex-col justify-center items-center">
           <h3 className="text-center text-3xl font-semibold my-10">
             {activeContinent}
           </h3>
-          <div className="grid md:grid-cols-3 divide-x divide-gray-300 px-8">
+          <div className="grid md:grid-cols-4 gap-8 px-8">
             {data.offices?.map((office, idx) => (
-              <div key={idx} className="px-6">
-                <h4 className="font-bold">{office.country}</h4>
-                <ul className="mt-2 space-y-1 text-sm text-gray-700">
-                  {office.addresses.map((addr, i) => (
-                    <li key={i}>{addr}</li>
-                  ))}
-                </ul>
-                <a
-                  href="#"
-                  className="text-green-600 text-sm mt-2 inline-block"
-                >
-                  Read more &gt;
-                </a>
+              <div key={idx} className="pr-6 border-r last:border-none">
+                <h4 className="font-bold text-[16px] mb-1">{office.country}</h4>
+
+                {office.addresses.map((addr, i) => (
+                  <p
+                    key={i}
+                    className="text-sm text-gray-800 leading-relaxed mb-1 whitespace-pre-line"
+                  >
+                    {addr}
+                  </p>
+                ))}
+                {office.link && (
+                  <a
+                    href={office.link}
+                    className="text-[#6AA728] text-sm font-medium inline-block mt-2 hover:underline"
+                  >
+                    Read more &gt;
+                  </a>
+                )}
               </div>
             ))}
           </div>
+
           <div className=""></div>
         </div>
       </div>

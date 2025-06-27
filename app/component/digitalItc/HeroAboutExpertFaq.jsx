@@ -34,7 +34,7 @@ export const AboutDigital = () => {
   const Content = `Today’s digital and ICT sector is a driving force behind global transformation. From cloud computing and AI to cybersecurity and data analytics, the pace of innovation is rapid, and the stakes are high. Businesses must navigate evolving technologies, regulatory complexities, and consumer expectations that demand agility and forward-thinking leadership.
 <br/><br/>
 
-In this fast-moving environment, securing the right leaders isn’t just about experience—it’s about vision, adaptability, and a deep understanding of how technology and people intersect. As a trusted <b>Digital and ICT Executive Search , The Taplow Group</b> empowers organisations to find and develop leaders who shape the future of this dynamic sector.
+In this fast-moving environment, securing the right leaders isn’t just about experience—it’s about vision, adaptability, and a deep understanding of how technology and people intersect. As a trusted <b>Digital and ICT Executive Search , The Taplow Group</b> empowers organizations to find and develop leaders who shape the future of this dynamic sector.
 <br/>
 
 `;
@@ -87,7 +87,7 @@ export const DigitalItcSectorFaq = () => {
       question:
         "Can you support digital transformation in traditional industries?",
       answer:
-        "Absolutely. We help organisations in manufacturing, consumer goods, healthcare, and more find digital leaders to drive innovation and growth",
+        "Absolutely. We help organizations in manufacturing, consumer goods, healthcare, and more find digital leaders to drive innovation and growth",
     },
     {
       index: 3,
@@ -121,7 +121,7 @@ export const DigitalICTExpertSec = () => {
     `Technology is at the core of today’s business evolution—and so is leadership. At <b>The Taplow Group</b>, we understand that in the Digital and ICT sectors, true success isn’t just about adopting new tools. It’s about building the teams and cultures that make those tools transformative.</b>`,
     `Our consultants bring a blend of deep digital acumen and real-world experience, as many have led technology teams or scaled digital-first businesses themselves. This insider knowledge shapes how we approach every search, advisory engagement, and leadership challenge.`,
     `We work with start-ups ready to disrupt, established companies navigating digital transformation, and global tech giants reimagining what’s next. Our focus spans cybersecurity, data analytics, AI, cloud, and the digital customer journey—reflecting the realities of this dynamic sector.`,
-    `But it’s not just about filling roles. As a trusted partner in <b>Digital Executive Search and ICT Executive Search </b>, we collaborate with you to shape the digital DNA of your organisation, ensuring every leader we place is a catalyst for change, innovation, and sustainable growth.
+    `But it’s not just about filling roles. As a trusted partner in <b>Digital Executive Search and ICT Executive Search </b>, we collaborate with you to shape the digital DNA of your organizations, ensuring every leader we place is a catalyst for change, innovation, and sustainable growth.
 `,
   ];
 
