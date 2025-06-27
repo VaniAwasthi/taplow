@@ -24,7 +24,7 @@ const HeroSection = ({
 }) => {
   return (
     <div
-      className={`relative w-full h-[600px] md:min-h-screen flex items-center overflow-hidden ${HeroSecDiv}`}
+      className={`relative w-full h-[460px] md:min-h-screen flex items-center overflow-hidden ${HeroSecDiv}`}
     >
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
@@ -45,7 +45,7 @@ const HeroSection = ({
         {/* Left Side - Text */}
         <div className={`text-white md:w-1/2 text-left  ${leftSecClass}`}>
           <h2
-            style={{ lineHeight: "3.5rem" }}
+            style={{ lineHeight: "2.5rem" }}
             className={`text-2xl md:text-4xl font-normal text-left ${headingClass}`}
             dangerouslySetInnerHTML={{ __html: Heading }}
           ></h2>
