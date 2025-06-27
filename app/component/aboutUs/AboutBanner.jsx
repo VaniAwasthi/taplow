@@ -26,7 +26,7 @@ export const AboutBanner = () => {
         isButton={false}
         Isdivider={true}
         rightSec={true}
-        headingClass="md:w-[300px] w-[200px] md:mt-[1rem] md:text-5xl text-[#005581]"
+        headingClass="md:w-[300px] w-[300px] md:mt-[1rem] md:text-5xl text-[#005581]"
         leftSecClass="flex flex-col justify-start items-start pb-10 md:pb-20 text-left md:mt-[5rem] mt-4"
         rightSecClass="flex justify-center md:justify-end"
         ImageClass="transition-transform duration-300  ease-in-out hover:scale-110"

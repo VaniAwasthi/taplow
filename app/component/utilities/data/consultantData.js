@@ -79,6 +79,9 @@ import ole from "../../../assets/Consultantpage/Consultant/ole.webp";
 import KennethSaxskioldNoerup from "../../../assets/Consultantpage/Consultant/KennethSaxskioldNoerup.webp";
 import Nielsbudde from "../../../assets/Consultantpage/Consultant/nielsbudde.webp";
 import Jayshree from "../../../assets/Consultantpage/Consultant/Jayshree.webp";
+import NINA from "../../../assets/Consultantpage/Consultant/NINA.webp";
+import KirstinRolver from "../../../assets/Consultantpage/Consultant/KirstinRolver.webp";
+import MICHAELHANSEN from "../../../assets/Consultantpage/Consultant/MICHAELHANSEN.webp";
 
 export const consultantData = [
   {
@@ -2341,7 +2344,7 @@ also completed advanced leadership programs at DEC, Capgemini, Oracle and CA.`,
     phone: "+91 9873559381",
     email: "hr@taplowgroupindia.com",
     linkdine: "www.linkedin.com/in/jayshreesoundingboard",
-    services: ["Talent Management and Development,", "Training", "Coaching"],
+    services: ["Talent Management and Development", "Training", "Coaching"],
     industrySectors: [
       "IT",
       "Retail",
@@ -2368,5 +2371,89 @@ years, she has operated as a Behavioral Coach, Learning Facilitator, and OD Cons
 of industries.<br/><br/>
 Jayshree holds certifications as a Professionally Certified Coach (ICF), a Certified Facilitator &amp; Designer (The Centre
 for Accelerated Learning), and a Certified OD Professional (IIOD, IOD- USA).`,
+  },
+  {
+    id: 81,
+    name: "Nina Hellstenius Hoednebo",
+    role: "Senior Consultant",
+    location: "Norway",
+    phone: "+47 924 55 565",
+    email: "nhh@taplow.no",
+    linkdine: "https://www.linkedin.com/in/nina-hellstenius-hødnebø-90688040/",
+    services: ["Executive Search"],
+    industrySectors: [
+      "Consumer Products",
+      "Real Estate",
+      "Professional Services",
+      "Not for profit",
+    ],
+    image: NINA,
+    address: `Henrik Ibsens gate 90
+N-0255 OSLO
+Norway`,
+    bio: `Nina Hellstenius Hoednebo is Senior Consultant in Taplow Norway.<br/><br/>
+
+With more than 15 years experience in the recruiting industry. She has achieved the DNV-GL Business
+Assurance Certificate as a recruiter. Nina joined The Taplow Group in 2014.<br/><br/>
+Before she became business consultant, Nina worked with one of the leading manufacturers of high-end
+furniture in Norway. She held positions as Chain Manager and Marketing Manager.<br/><br/>
+From 2008, she worked as a consultant within business development, retail, sales and service.
+During this period, she spent a year in Italy, learning Italian and working with wine import.
+She also took on the task of managing a restaurant for 1 year, aiming to learn the business.`,
+  },
+  {
+    id: 82,
+    name: "Kirstin Rolver",
+    role: "Sr. Partner",
+    location: "Denmark",
+    phone: "+45 30386600",
+    email: "kro@taplow.dk",
+    linkdine: "https://www.linkedin.com/in/kirstin-rolver-881b23/",
+    services: ["Executive Search", "Executive Interim"],
+    industrySectors: [
+      "Financial Services",
+      "Digital",
+      "Industrial",
+      "Life Science",
+      "Not for Profit",
+      "Professional Services",
+    ],
+    image: KirstinRolver,
+    address: `Taplow, Slotsmarken 11
+2970 Hørsholm, Denmark`,
+    bio: `Kirstin is Sr. Partner in Taplow in Denmark and is known for her expertise in international business development,
+sales and market engagement, and complex global negotiations across technology, pharmaceuticals, distribution, and
+process industrial sectors. Kistin is highly skilled at managing complex processes and strategic partnerships. Kirstin is
+a specialist in analysis, segmentation, and executing targeted strategies, with a proven track record in building
+international executive networks. Recognized for logically structuring complex tasks and adeptly navigating
+organizational politics to resolve conflicts.`,
+  },
+  {
+    id: 83,
+    name: "Michael Hansen",
+    role: "Managing Partner Taplow Executive Interim",
+    location: "Denmark",
+    phone: "+45 2425 9627",
+    email: "MSH@taplow.dk",
+    linkdine: "https://www.linkedin.com/in/mshansen/",
+    services: [
+      "Executive Search",
+      "Interim Services",
+      "Freelance Consultancy Broker",
+      "IT Strategy and Advisory",
+    ],
+    industrySectors: [
+      "IT Services",
+      "Public (both National, Regional and municipal)",
+      "Industrial Manufacturing",
+      "Professional Services",
+    ],
+    image: MICHAELHANSEN,
+    address: `Slotsmarken 11, DK-2970 Hørsholm, Denmark`,
+    bio: `Michael is Managing Partner Taplow Executive Interim and Partner in Taplow Executive Search.
+Michael has a background as Top CIO in Government and Regional identities. He has had a career as Management
+Consultant in a wide area of industries.<br/><br/>
+Michael continued his career in Executive Search<br/><br/>Michael Holds a B.Sc. (HD), Informatics, Economics and a Master of Business Administration (M.B.A.) from
+Copenhagen Business School. He speaks fluently Danish and English and has basic command of French and German.`,
   },
 ];
