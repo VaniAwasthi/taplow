@@ -227,8 +227,9 @@ const TopNav = () => {
                   <select
                     onChange={handleLangChange}
                     className="ml-4 border-0 text-sm rounded px-2 py-1"
+                    defaultValue="🌐 Language"
                   >
-                    <option value="" disabled selected hidden>
+                    <option value="" disabled hidden>
                       🌐 Language
                     </option>
                     <option value="en">English</option>

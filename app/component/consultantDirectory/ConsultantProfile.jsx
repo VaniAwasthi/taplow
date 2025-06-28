@@ -49,7 +49,7 @@ const ConsultantProfile = () => {
     { country: "Spain", image: Spain },
     { country: "Sweden", image: Sweden },
     { country: "United Kingdom", image: UK },
-    { country: "USA", image: USA },
+    { country: "United States", image: USA },
   ];
   const consultant = id
     ? consultantData.find((c) => c.id === Number(id))

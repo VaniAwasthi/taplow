@@ -26,9 +26,9 @@ import WhyChooseExecutive from "../services/WhyChooseExecutive";
 import CaseStudies from "../coun-layout/CaseStudies";
 import Faq from "../services/Faq";
 export const HeroSectionEntrim = () => {
-  const Heading = "Interim Management Solutions for Critical Business Moments";
+  const Heading = "Rapid Leadership. Real Results.";
   const Description =
-    "When businesses face urgent challenges or transformation opportunities, leadership cannot wait. The Taplow Group connects you with seasoned senior executives who bring strategic clarity, operational expertise, and results—exactly when and where you need them.";
+    "When your business faces transformation, transition, or disruption, Taplow Executive Interim delivers impact fast. We provide experienced interim executives and senior specialists across HR, Finance, Sales and Technology to lead changes, stabilize operations, or drive critical projects.";
   return (
     <div className="relative w-full xl:min-h-screen flex items-center overflow-hidden">
       {/* Background Image */}
@@ -65,7 +65,8 @@ export const HeroSectionEntrim = () => {
 export const AboutEntrim = () => {
   const heading = "Our Executive Interim Management Expertise";
   const Content = `At The Taplow Group, we understand that not every leadership need can wait for a permanent hire. Business transformations, crisis recovery, mergers, or sudden leadership exits demand immediate, experienced, and decisive leadership.<br/>
-Our Executive Interim Management solution places highly qualified senior executives into your organization on a short-term basis—individuals who are not only skilled in managing complexity but who embed quickly, take ownership, and deliver tangible results.
+Our Executive Interim Management solution places highly qualified senior executives into your organization on a short-term basis—individuals who are not only skilled in managing complexity but who embed quickly, take ownership, and deliver tangible results.<br/><br/>
+From C-suite leaders to functional experts, our interim professionals are ready to step in from day one. Whether it's managing a crisis, executing strategy, or filling urgent gaps, we ensure business continuity and strategic momentum—without long-term commitments.<br/>
 These are career interims—many with over a decade of experience—who bring fresh perspective, objective insight, and focused execution to the table. We match leaders not just by skillset, but by strategic fit, culture, and business need, often within days of engagement.`;
   return (
     <>
@@ -81,7 +82,7 @@ These are career interims—many with over a decade of experience—who bring fr
           </div>
 
           {/* Right Section: Content */}
-          <div className="relative w-full md:w-[65%] top-0 md:top-[3rem] md:left-[-4rem] bg-[#859839] p-6 md:p-6 shadow-xl text-white rounded-lg flex flex-col justify-center hover:scale-105 transition-transform duration-300 hover:cursor-pointer h-[450px]">
+          <div className="relative w-full md:w-[85%] top-0 md:top-[2rem] md:left-[-3rem] bg-[#859839] p-6 md:p-6 shadow-xl text-white rounded-lg flex flex-col justify-center hover:scale-105 transition-transform duration-300 hover:cursor-pointer h-[500px]">
             {/* Blue Bar on Top */}
             <div className="absolute -top-2 left-[2rem] w-[70px] h-2 bg-[#024996] rounded-md"></div>
 
@@ -109,7 +110,7 @@ export const OurOfferingEntrim = () => {
   const data = {
     heading: "Our Executive Interim Management Offerings",
     content:
-      "We provide end-to-end interim leadership solutions across a wide range of business scenarios:",
+      "Taplow Executive Interim delivers the expertise you need—exactly when you need it.",
   };
   const Offering = [
     {

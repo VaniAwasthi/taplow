@@ -20,7 +20,7 @@ import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow Australia</b>`,
-    desc: "The Taplow Group was established in Australia in 2002 and brings to clients both traditional and contemporary recruitment methodologies. Our focus is on delivering a service that identifies the best talent for your business.",
+    desc: "The Taplow Group was established in Australia in 2002 and brings both traditional and contemporary recruitment methodologies to clients. Our focus is on delivering a service that identifies the best talent for your business.",
   };
   const officeSecHeading = "Our office in Australia";
   const officeData = {
@@ -38,7 +38,7 @@ const page = () => {
     general: {
       title: "General Information",
       paragraphs: [
-        "We hold in the highest esteem the values of trust, quality, professionalism, integrity, honesty, and commitment to customer service, and these are clearly apparent in the work we do on a day-to-day basis.",
+        "We hold the values of trust, quality, professionalism, integrity, honesty, and commitment to customer service in the highest esteem; these are clearly apparent in our day-to-day work.",
         "Our industry knowledge, gathered over more than 25 years, and our candidate networks, are second to none, ensuring the right candidate fit, first time every time.",
         "Taplow Australia is set apart from its competitors by our longstanding business relationships that have been developed over more than 25 years and provide to both clients and candidates wide access to a significant pool of talent and employers of choice.",
         "Taplow Australia – delivering exceptional, personalised service for executive level and board appointments.",

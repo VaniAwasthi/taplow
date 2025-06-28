@@ -1562,15 +1562,16 @@ every client she works with. Eleni&#39;s experience incorporates the design & de
 variety of subjects ranging from:<br/>
 individual coaching – executive and emerging leaders<br/>
 <ul>
-<li>team coaching</li>
-<li>high-potential identification</li>
-<li>high-potential development programs</li>
-<li>executive performance management</li>
-<li>employee experience</li>
-<li>job skill profiling</li>
-<li>assessment centre development and rating</li>
-<li>career development</li>
-<li>executive assessment for selection</li>
+<li>Individual coaching</li>
+<li>Team coaching</li>
+<li>High-potential identification</li>
+<li>High-potential development programs</li>
+<li>Executive performance management</li>
+<li>Employee experience</li>
+<li>Job skill profiling</li>
+<li>Assessment center development and rating</li>
+<li>Career development</li>
+<li>Executive assessment for selection</li>
 </ul>
 `,
   },
@@ -1600,11 +1601,11 @@ psychological principals with diverse and practical leadership and business mana
 clients with a powerful experience that produces meaningful results that will transform careers, workplaces and
 organisations.<br/>
 Kellie’s passion and purpose is to facilitate individuals and collective leadership to achieve their potential, enhance
-performance and shape their talent for tomorrow.<br/>
+performance and shape their talent for tomorrow.<br/><br/>
 Kellie’s approach is grounded in proven evidence based methodologies adapted to individual needs and communicated
 effectively to her audience, and their unique circumstances. She is recognised by her clients as a trusted advisor, and
 for her insights, passion, and energy. As a coach, her clients appreciate her feedback, support and respectful
-challenging to help them reach their potential.<br/>
+challenging to help them reach their potential.<br/><br/>
 `,
   },
   {
