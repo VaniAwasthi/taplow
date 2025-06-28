@@ -45,8 +45,7 @@ const page = () => {
  
 `,
     Aboutheading: "Taplow China:Driving Leadership and Diversity Excellence",
-    aboutContentpara3: `Taplow Longitude Management, China has been operational since 2002 with a highly reputable track record. With offices located in
-Shanghai and Beijing, China we focus on Leadership Development and Training.`,
+    aboutContentpara3: `Taplow Longitude Management, China has been operational since 2002 with a highly reputable track record. With offices in Shanghai and Beijing, China, we focus on Leadership Development and Training..`,
     aboutContentpara2: `We are a China-based professional consulting firm focused on helping our clients increase human capital and improve human
 performance. We provide international level services in Leadership Consulting, Management Recruiting, Management Training and
 Development. Our clientele is inclusive of a wide range of multinational and local companies.`,

@@ -177,34 +177,43 @@ const Footer = () => {
               </a>
             </h4>
             <div className="flex space-x-3  md:space-x-8 mb-[2rem]">
-              <Link href="https://www.linkedin.com/company/taplow-group-s-a1/?viewAsMember=true">
+              <a
+                href="https://www.linkedin.com/company/taplow-group-s-a1/?viewAsMember=true"
+                target="_blank"
+              >
                 <Image
                   src={LinkedInicon}
                   alt="LinkedIn"
                   className="h-5 md:h-6 cursor-pointer"
                 />
-              </Link>
-              <Link href="https://www.facebook.com/TheTaplowGroup/">
+              </a>
+              <a
+                href="https://www.facebook.com/TheTaplowGroup/"
+                target="_blank"
+              >
                 <Image
                   src={Facebookicon}
                   alt="Facebook"
                   className="h-5md:h-6 cursor-pointer"
                 />
-              </Link>
-              <Link href="https://x.com/TaplowGroup">
+              </a>
+              <a href="https://x.com/TaplowGroup" target="_blank">
                 <Image
                   src={Twittericon}
                   alt="Twitter"
                   className="h-5md:h-6 cursor-pointer"
                 />
-              </Link>
-              <Link href="https://www.youtube.com/channel/UC6l4j3YS0bIbYiCY9dsD06w">
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UC6l4j3YS0bIbYiCY9dsD06w"
+                target="_blank"
+              >
                 <Image
                   src={YoutubeIcon}
                   alt="YoutubeIcon"
                   className="h-5md:h-6 cursor-pointer"
                 />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
