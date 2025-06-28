@@ -21,7 +21,7 @@ export const GlobalpageBanner = ({ title, desc, Banner }) => {
         isButton={false}
         Isdivider={true}
         rightSec={false}
-        headingClass="md:w-[400px] w-[250px] text-3xl md:text-5xl"
+        headingClass="md:w-[450px] w-[250px] text-3xl md:text-5xl"
         leftSecClass="flex flex-col justify-start items-start pb-10 md:pb-20 text-left  mt-4"
         rightSecClass="flex justify-center md:justify-end"
         ImageClass="transition-transform duration-300 ease-in-out hover:scale-105"
