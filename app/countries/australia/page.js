@@ -40,7 +40,7 @@ const page = () => {
       paragraphs: [
         "We hold the values of trust, quality, professionalism, integrity, honesty, and commitment to customer service in the highest esteem; these are clearly apparent in our day-to-day work.",
         "Our industry knowledge, gathered over more than 25 years, and our candidate networks, are second to none, ensuring the right candidate fit, first time every time.",
-        "Taplow Australia is set apart from its competitors by our longstanding business relationships that have been developed over more than 25 years and provide to both clients and candidates wide access to a significant pool of talent and employers of choice.",
+        "Taplow Australia stands apart from its competitors due to our long-standing business relationships, developed over more than 25 years. These relationships provide clients and candidates with wide access to a significant pool of talent and employers of choice.",
         "Taplow Australia – delivering exceptional, personalised service for executive level and board appointments.",
       ],
       image: DiversityImg, // replace with your actual image path

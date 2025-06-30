@@ -20,7 +20,7 @@ import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow Norway</b>`,
-    desc: "Taplow Norway has been member of the Taplow Group since 2004. We focus on retained executive search. We occationally assist in advertised recruiting as well as second opinions",
+    desc: "We focus on Executive Search and selection. We also support our clients with Executive Interim and assist in general Human Capital related Challenges. Taplow has operated in the Norwegian market since 2004. ",
   };
   const officeSecHeading = "Our office in Norway";
   const officeData = {
@@ -31,8 +31,7 @@ const page = () => {
     // phone: "604-687-6464",
     email: "eric@macdonaldsearchgroup.com",
   };
-  const greenDescriptionBox =
-    "Most of our clients are Norwegian companies, but we cooperate with other offices in the Taplow Group, primarely in the Nordic region. We like to follow our customers out in the world. Our prime focus is on management positions, specialists, and other key personel. ";
+  const greenDescriptionBox ="Taplow Nordic consists of four strong companies working together to provide integrated and insightful support in Executive Search, Board Services, and Executive Interim. With deep knowledge of the Nordic market we help organizations identify, attract, and develop leaders and specialists who drive growth and create long-term value. If you partner with us you will benefit not only from local expertise but also from the strength of a Nordic network with global reach through The Taplow Group";
   const AboutContent = {
     general: {
       title: "General Information",
