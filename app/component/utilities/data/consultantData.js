@@ -661,13 +661,11 @@ of Board appointments including Chair.
     address: `Level 14, Equinox House<br/>111 The Terrace<br/>Wellington 6011<br/>New Zealand`,
     linkdine: "https://www.linkedin.com/in/tonywalshsandriwalsh/",
     industrySectors: [
-     
       "Digital",
       "Industrial",
       "Life Science",
       "Not for Profit",
       "Professional Services",
-    
     ],
     bio: `Tony is Joint Managing Partner of Taplow’s New Zealand Office. Based in Wellington, Tony’s professional career prior
 to recruitment includes executive and non executive roles with large national and multinational corporations, primarily
@@ -690,18 +688,16 @@ executive search assignments for clients across New Zealand spanning most sector
       "Interim Executive",
       "Board Advisory Services",
     ],
-    phone: "+64 29 273 2264",
+    phone: "64 (0) 29 273 22",
     email: "tim@swr.nz",
     image: TimRosenberg,
-    address: `1 Albert Street<br/>Auckland 1010<br/>New Zealand`,
+    address: `Level 10, 11 Britomart Place, Auckland 1010, Auckland`,
     linkdine: "https://www.linkedin.com/in/propertyrecruitmentnz/",
     industrySectors: [
-    
       "Industrial",
       "Life Science",
       "Not for Profit",
       "Professional Services",
-     
     ],
     bio: `Tim is Joint Managing Partner of Taplow’s New Zealand Office. Based in Auckland, Tim brings more than 20 years of
 property experience and 15 years executive search experience.<br/><br/>
