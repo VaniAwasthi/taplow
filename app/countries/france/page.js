@@ -16,13 +16,16 @@ import Success5 from "../../assets/globalpage/CaseStudies/FranceCase5.webp";
 import Success6 from "../../assets/globalpage/CaseStudies/FranceCase6.webp";
 import Success7 from "../../assets/globalpage/CaseStudies/FranceCase7.webp";
 import Success8 from "../../assets/globalpage/CaseStudies/FranceCase8.webp";
+import Success9 from "../../assets/globalpage/CaseStudies/Saftey.webp";
+import Success10 from "../../assets/globalpage/CaseStudies/CFOGroups.webp";
+import Success11 from "../../assets/globalpage/CaseStudies/StrategyDevelopmentManager.webp";
 import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
 import CaseStudies from "@/app/component/coun-layout/CaseStudies";
 import OneOffice from "@/app/component/coun-layout/OneOffice";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow France</b>`,
-    desc: "  Created in 1989 to follow the strong development of HR market in industry, energy, facilities and services sectors, TAPLOW CONSULTING FRANCE has offices in Lyon and Paris.",
+    desc: "Created in 1989 to follow the strong development of HR market in industry, energy, facilities and services sectors, TAPLOW CONSULTING FRANCE has offices in Lyon and Paris.",
   };
   const officeSecHeading = "Our office in France";
   const officeData = {
@@ -35,7 +38,7 @@ const page = () => {
   };
 
   const greenDescriptionBox =
-    "We are now present in the main sectors of industry (FMCG, Transportation, Construction, Automotive, Life Science, Energy, Hi-Tech, Retail, Financial Services, etc.). ";
+    "We are now present in the main sectors of industry such as food industry, transportation & logistics, energy, retail, automotive industry, chemical industry to name a few. ";
   const AboutContent = {
     general: {
       title: "General Information",
@@ -83,6 +86,21 @@ You want to know more ? <a href="https://www.taplowleadershipadvisory.fr/" targe
     },
   };
   const SuccessStoryslidesData = [
+    {
+      image: Success11,
+      title: "Strategy Development Manager",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/StrategyDevelopmentManager.pdf",
+    },
+    {
+      image: Success10,
+      title: "CFO Group",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/CFOGroups.pdf",
+    },
+    {
+      image: Success9,
+      title: "Safety Department Director",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/SafetyDepartmentDirector.pdf",
+    },
     {
       image: Success1,
       title: "Interim Managing Director in the Industrial sector",

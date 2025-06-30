@@ -47,6 +47,7 @@ export default function OurConsultants() {
   const uniqueRoles = ["Consultant", "Managing Partner", "Researcher"];
   // for search functionality
   const filteredConsultants = consultantData.filter((c) => {
+    if (c.hideFromDirectory) return false;
     const matchesSearch =
       !filters.search ||
       c.name.toLowerCase().includes(filters.search.toLowerCase());

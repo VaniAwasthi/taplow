@@ -18,12 +18,12 @@ const LeadershipMatter = () => {
   return (
     <div className="w-full flex flex-col-reverse xl:flex-row relative my-10">
       {/* Left Section */}
-      <div className="w-full xl:w-1/2 bg-[#88A24B] text-white flex flex-col px-6 xl:px-12 pt-12 relative h-[450px] md:h-auto">
-        <div className="md:w-[80%] xl:ml-[7rem]">
+      <div className="w-full xl:w-[45%] 2xl:w-1/2 bg-[#88A24B] text-white flex flex-col px-6 xl:px-12 pt-12 relative h-[450px]  xl:h-auto">
+        <div className="md:w-[80%]  2xl:ml-[5rem]">
           <h2 className="text-3xl md:text-4xl font-regular pb-6 text-center md:text-left">
             {data.heading}
           </h2>
-          <p className="text-md leading-relaxed text-center md:text-left mb-[2rem] md:mb-2">
+          <p className="text-md leading-relaxed text-center md:text-left mb-[2rem] md:mb-[1rem] 2xl:mb-[0.5rem]">
             {data.desc}
           </p>
           {/* Triangle Image Positioned to Bottom-Right */}
@@ -34,11 +34,11 @@ const LeadershipMatter = () => {
       </div>
 
       {/* Right Section - Clickable Video */}
-      <div className="w-full xl:w-1/2 relative">
+      <div className="w-full xl:w-[60%] 2xl:w-1/2 relative">
         {isVideoPlaying ? (
           <video
             src="/videos/leadershipMatter.mp4"
-            className="w-full h-[420px] object-cover" // Increased height
+            className="w-full h-fulllg:h-[450px] object-cover" // Increased height
             controls
             autoPlay
           />

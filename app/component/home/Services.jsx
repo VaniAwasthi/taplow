@@ -93,19 +93,21 @@ const ServicesSlider = () => {
         </Swiper>
 
         {/* Navigation Arrows */}
+        {/* Previous Arrow */}
         {!isBeginning && (
           <div
             onClick={() => swiperInstance?.slidePrev()}
-            className="lg:block hidden absolute bottom-10 left-[-5rem] z-10 cursor-pointer"
+            className="lg:block hidden absolute bottom-10 left-4 md:left-6 xl:left-[-1rem] z-10 cursor-pointer"
           >
             <Image src={PrevArrow} alt="Prev" width={50} height={50} />
           </div>
         )}
 
+        {/* Next Arrow */}
         {!isEnd && (
           <div
             onClick={() => swiperInstance?.slideNext()}
-            className="lg:block hidden absolute bottom-10 right-[-4rem] z-10 cursor-pointer"
+            className="lg:block hidden absolute bottom-10 right-4 md:right-6 xl:right-[-1rem] z-10 cursor-pointer"
           >
             <Image src={NextArrow} alt="Next" width={50} height={50} />
           </div>

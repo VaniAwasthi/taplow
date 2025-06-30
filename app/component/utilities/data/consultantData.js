@@ -82,7 +82,7 @@ import Jayshree from "../../../assets/Consultantpage/Consultant/Jayshree.webp";
 import NINA from "../../../assets/Consultantpage/Consultant/NINA.webp";
 import KirstinRolver from "../../../assets/Consultantpage/Consultant/KirstinRolver.webp";
 import MICHAELHANSEN from "../../../assets/Consultantpage/Consultant/MICHAELHANSEN.webp";
-
+import fpoinsignon from "../../../assets/Consultantpage/Consultant/fpoinsignon.webp";
 export const consultantData = [
   {
     id: 1,
@@ -184,7 +184,7 @@ She received a Degree in International Relations from Le Mesnil in Montreux, Swi
     email: "chris@macdonaldsearchgroup.com",
     image: Chris,
     bio: `Chris grew up in Saskatchewan, and has called Vancouver home for the past 21 years. He attended Red Deer College where he earned a diploma in business administration.<br/><br/>
-        Chris began his career in recruitment with a leading international financial services recruiting firm where he successfully led recruitment teams in the accounting and finance space. This experience led to progressively senior roles in recruitment where he has gone on to build meaningful relationships with clients and candidates alike. Chris’s commitment to solving his client’s business issues, paired with his experience in the recruitment industry has allowed him to be a trusted advisor to his clients.<br/><br/>
+        Chris began his career in recruitment with a leading international financial services recruiting firm where he successfully led recruitment teams in the accounting and finance space. This experience led to progressively senior roles in recruitment where he has gone on to build meaningful relationships with clients and candidates alike. Chris's commitment to solving his client's business issues, paired with his experience in the recruitment industry has allowed him to be a trusted advisor to his clients.<br/><br/>
    `,
     address: `Suite 720<br/>475 West Georgia St.<br/>Vancouver, BC V6B 4M9`,
     linkdine: "https://www.linkedin.com/in/chrisgillard/",
@@ -207,7 +207,7 @@ She received a Degree in International Relations from Le Mesnil in Montreux, Swi
     phone: "416-342-1505 ",
     email: "dana@macdonaldsearchgroup.com",
     image: Dana,
-    bio: `Dana Lamanna grew up in the Greater Toronto Area and has lived in downtown Toronto for the past 12 years. She graduated from the Ivey School of Business at Western University in 2008. Her first job after university was with a recruitment firm. So, it’s fair to say, Dana has practically grown up in this industry. She first worked as a Researcher, and then progressed into a Project Manager position; however, her knack for the business quickly earned her a promotion into a full Recruiter role.<br/><br/>
+    bio: `Dana Lamanna grew up in the Greater Toronto Area and has lived in downtown Toronto for the past 12 years. She graduated from the Ivey School of Business at Western University in 2008. Her first job after university was with a recruitment firm. So, it's fair to say, Dana has practically grown up in this industry. She first worked as a Researcher, and then progressed into a Project Manager position; however, her knack for the business quickly earned her a promotion into a full Recruiter role.<br/><br/>
     Dana joins MacDonald Search Group bringing 13 years of recruitment experience to our team across various industries including industrial, life sciences, consumer goods, and business-to-business.<br/><br/>
 `,
     address: `Suite 300<br/>5100 Orbitor Drive<br/>Mississauga, ON L4W 4Z4`,
@@ -275,7 +275,7 @@ She received a Degree in International Relations from Le Mesnil in Montreux, Swi
     email: "james@macdonaldsearchgroup.com",
     image: James,
     bio: `Prior to being an executive recruiter, James had spent his career in the B2B manufacturing space in Vancouver. For 16 years, he was with Great Little Box Company as Vice President, Sales and Marketing. On the back of James' entrepreneurial spirit, GLBC grew from a small local box manufacturer into one of the largest packaging companies in Western Canada. James also played the primary role in the acquisition of 10 organizations by GLBC.<br/><br/>
-    With his experience as a VP in one of Canada’s Best Managed Companies, and his background in integrating, recruiting, hiring and onboarding employees in a rapidly growing business, James brings a wealth of experience to the team at MacDonald Search Group.
+    With his experience as a VP in one of Canada's Best Managed Companies, and his background in integrating, recruiting, hiring and onboarding employees in a rapidly growing business, James brings a wealth of experience to the team at MacDonald Search Group.
 `,
     address: `Suite 720<br/>475 West Georgia St.<br/>Vancouver, BC V6B 4M9`,
     linkdine: "https://www.linkedin.com/in/james-palmer-b177205/ ",
@@ -291,8 +291,8 @@ She received a Degree in International Relations from Le Mesnil in Montreux, Swi
     email: "jen@macdonaldsearchgroup.com",
     image: Jennifer,
     bio: `A proud, bilingual Calgarian, Jennifer has deep roots in the Prairies, which shaped both her personal and professional life starting at the University of Alberta, earning a Bachelor of Science in Biology.<br/><br/>
-    Jen’s career started at Agat Labs as a business development representative. This role provided her with a solid foundation in customer service within a complex scientific environment. She then transitioned to Alliance Environmental, where she was instrumental in onboarding major energy infrastructure clients, specifically in drilling waste management and environmental services. This lead to progressively senior roles at Tervita (formerly Newalta) and Millennium EMS Solutions in environmental consulting rounded out her skills including employee management, rebranding, and compensation planning.<br/><br/>
-    Jen’s unique blend of scientific knowledge, leadership experience, and commitment to family and community makes her a valuable asset to clients in oil and gas, environmental services, construction, supply chain, and operations.`,
+    Jen's career started at Agat Labs as a business development representative. This role provided her with a solid foundation in customer service within a complex scientific environment. She then transitioned to Alliance Environmental, where she was instrumental in onboarding major energy infrastructure clients, specifically in drilling waste management and environmental services. This lead to progressively senior roles at Tervita (formerly Newalta) and Millennium EMS Solutions in environmental consulting rounded out her skills including employee management, rebranding, and compensation planning.<br/><br/>
+    Jen's unique blend of scientific knowledge, leadership experience, and commitment to family and community makes her a valuable asset to clients in oil and gas, environmental services, construction, supply chain, and operations.`,
     address: `Suite 503<br/>2303 - 4th Street SW<br/>Calgary, AB T2S 2S7`,
     linkdine: "https://www.linkedin.com/in/jennifer-klassen-45289794/",
     industrySectors: [
@@ -312,7 +312,7 @@ She received a Degree in International Relations from Le Mesnil in Montreux, Swi
     email: "jesse@macdonaldsearchgroup.com",
     image: Jesse,
     bio: `Born and raised in the heart Muskoka, Jesse moved to Ottawa in 2009 to earn a Bachelor of Commerce Degree from Carleton University. Upon graduation, he moved through various roles in retail, banking, and sales before discovering his passion for Recruitment in 2018. Building relationships and looking beyond the resume, Jesse approaches recruitment from a position of consultation and a creative mindset to source out exceptional talent.
-  <br/><br/>Before joining MacDonald Search Group, Jesse was working in technical recruitment throughout the pandemic covering requisitions all across Canada. As a life-long learner, he finds great interest in asking why? “If you can ask the question, you can find an answer.`,
+  <br/><br/>Before joining MacDonald Search Group, Jesse was working in technical recruitment throughout the pandemic covering requisitions all across Canada. As a life-long learner, he finds great interest in asking why? "If you can ask the question, you can find an answer.`,
     address: `Unit 6<br/>430 Hazeldean Road<br/>Ottawa, ON K2L 1T9`,
     linkdine: "https://www.linkedin.com/in/jessezulak/ ",
     industrySectors: [
@@ -352,7 +352,7 @@ She received a Degree in International Relations from Le Mesnil in Montreux, Swi
       "B2B",
     ],
     bio: `As a graduate from Simon Fraser University, Michael is a highly driven and passionate performance focused leader. He has spent the past 22 years of his career with top tier organizations in Life Sciences, Consumer Packaged Goods, Municipal Affairs, Oil & Gas/Energy and B2B sectors.<br/><br/>
-    Michael’s key to success can be attributed to his unique ability in creating and managing high performance teams that are results driven. With his extensive experience in hiring, onboarding and developing people, Michael easily connects with both clients and candidates in achieving their respective needs.<br/><br/>
+    Michael's key to success can be attributed to his unique ability in creating and managing high performance teams that are results driven. With his extensive experience in hiring, onboarding and developing people, Michael easily connects with both clients and candidates in achieving their respective needs.<br/><br/>
     Michael brings an upbeat and positive experience to the recruitment process covering roles in Calgary, Edmonton and Man/Sask.<br/>
    
 `,
@@ -376,7 +376,7 @@ She received a Degree in International Relations from Le Mesnil in Montreux, Swi
     ],
     bio: `Mike is an experienced B2B & Industrial Sales specialist in Ontario, with a Diploma in Advertising from Sheridan College. Early on, he found great success applying his strength in Advertising to the world of B2B Sales. Instead of creating ad campaigns for the masses, he looks at Sales as advertising on a more direct, one-on-one level.<br/><br/>
 From industrial sales with Fastenal managing a one-city territory, to B2B Sales with Michelin handling over $4M in annual sales to Tire Dealers, to his latest venture with Cintas working directly with the end-user, Mike has experience selling at all levels and building great professional relationships along the way.<br/><br/>
-    Mike’s knowledge and background will allow him to make the most qualified recommendations for clients looking to fill roles in the Industrial and B2B Sales space.<br/>    `,
+    Mike's knowledge and background will allow him to make the most qualified recommendations for clients looking to fill roles in the Industrial and B2B Sales space.<br/>    `,
   },
   {
     id: 13,
@@ -397,8 +397,8 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
       "B2B",
       "Business Operations",
     ],
-    bio: `Oliver comes from a technical background with a BSc in Chemistry from St. Francis Xavier University and a Master’s Degree in Biochemistry from Dalhousie University. He worked for close to two years in R&D for a top-tiered In Vitro Diagnostics company in Dartmouth, NS. While Oliver had built out an extensive resume in research, he wanted to exercise his natural interpersonal skills in the world of Recruitment, where he has spent the last 2.5+ years with MSG. Oliver has been a leader in his experience with sport and competition, having played basketball at the Varsity level with StFX University as well as extensive community outreach with Special Olympics Nova Scotia.<br/><br/>
-    Oliver was born and raised in Halifax, where he was part of MSG’s Recruitment team in Atlantic Canada for 2 years. He recently transitioned to MSG’s Toronto office to manage the Industrial and Operations verticals for Ontario. He has forged a large, well-connected network through his experience recruiting in the Operations space across Canada and provides value in connecting the best talent to our valued clients.<br/><br/>
+    bio: `Oliver comes from a technical background with a BSc in Chemistry from St. Francis Xavier University and a Master's Degree in Biochemistry from Dalhousie University. He worked for close to two years in R&D for a top-tiered In Vitro Diagnostics company in Dartmouth, NS. While Oliver had built out an extensive resume in research, he wanted to exercise his natural interpersonal skills in the world of Recruitment, where he has spent the last 2.5+ years with MSG. Oliver has been a leader in his experience with sport and competition, having played basketball at the Varsity level with StFX University as well as extensive community outreach with Special Olympics Nova Scotia.<br/><br/>
+    Oliver was born and raised in Halifax, where he was part of MSG's Recruitment team in Atlantic Canada for 2 years. He recently transitioned to MSG's Toronto office to manage the Industrial and Operations verticals for Ontario. He has forged a large, well-connected network through his experience recruiting in the Operations space across Canada and provides value in connecting the best talent to our valued clients.<br/><br/>
 `,
   },
   {
@@ -432,7 +432,7 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
       "Real Estate",
     ],
     bio: `Paul comes to MacDonald Search Group well-equipped with a BA from Carleton, a Post-Grad Diploma from Algonquin College and an MBA from the University of Ottawa. After his BA, he spent the next 10 years working in progressive sales roles with companies including Dare Foods, Abbott Laboratories, and Johnson & Johnson. That success led him to the world of executive search with his previous organization where he spent the next 14 years searching in Ottawa and, later, was promoted to a National leadership role in Toronto.<br/><br/>
-    Paul joins MacDonald Search Group as our Managing Director of Ontario, Quebec & Atlantic Canada. He will continue a successful practice as well as develop and oversee the growth of our national presence. With his deep and broad experience, you can be confident that your experience with him will be positive from a candidate and client point of view. Through his prior body of work, we came to know Paul’s reputation – trustworthy, transparent, and genuine.<br/><br/>`,
+    Paul joins MacDonald Search Group as our Managing Director of Ontario, Quebec & Atlantic Canada. He will continue a successful practice as well as develop and oversee the growth of our national presence. With his deep and broad experience, you can be confident that your experience with him will be positive from a candidate and client point of view. Through his prior body of work, we came to know Paul's reputation – trustworthy, transparent, and genuine.<br/><br/>`,
   },
   {
     id: 15,
@@ -461,7 +461,7 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
       "Finance",
       "Construction",
     ],
-    bio: `After earning his Bachelors Degree in Marketing and Management, Paul embarked on a sales career over 14 years with Pitney Bowes and Livingston International, winning several President’s Awards and incentive trips for performance. The past 12 years, Paul has run the Atlantic Canada Region for a National Executive Search Firm specializing in CPG, Industrial, B2B, Life Sciences, Insurance, Manufacturing and Operations for roles ranging from sales reps to the C-Suite.<br/><br/>
+    bio: `After earning his Bachelors Degree in Marketing and Management, Paul embarked on a sales career over 14 years with Pitney Bowes and Livingston International, winning several President's Awards and incentive trips for performance. The past 12 years, Paul has run the Atlantic Canada Region for a National Executive Search Firm specializing in CPG, Industrial, B2B, Life Sciences, Insurance, Manufacturing and Operations for roles ranging from sales reps to the C-Suite.<br/><br/>
    Born and raised in Halifax, with stops in Vancouver and Ottawa, added to extensive business travel throughout the USA managing relationships with Fortune 500 clients, Paul has a unique perspective of the business world and the attraction for talent from across Canada looking to relocate to our beautiful part of this great Country.<br/><br/>
    A genuine people person, Paul is well respected for his transparent and unbiased career advice and coaching.
 `,
@@ -490,7 +490,7 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
       "IT",
     ],
     bio: `Stuart has called Calgary home for the past 15 years, originating from the UK. With over 20 years of senior leadership experience in retail and CPG, he's worked with major corporations like PepsiCo, IRI, Home Depot, Kingfisher, and Velux. Stuart's roles have spanned sales, category management, store management, key accounts, marketing, reporting, and finance.<br/><br/>
-    His varied background makes him a sought-after advisor. Currently, Stuart is involved in projects with the Calgary Stampede, Calgary Food and Drug Executives, and other industry associations. He focuses on talent development through attraction, training, and retention of professionals. Stu’s ability to create a culture of excellence adds tangible value to all of his clients and board engagements<br/><br/>
+    His varied background makes him a sought-after advisor. Currently, Stuart is involved in projects with the Calgary Stampede, Calgary Food and Drug Executives, and other industry associations. He focuses on talent development through attraction, training, and retention of professionals. Stu's ability to create a culture of excellence adds tangible value to all of his clients and board engagements<br/><br/>
     Stuart brings his passion for retail and finance to the MacDonald Search Group, covering roles in Calgary, Edmonton, Manitoba, and Saskatchewan.
 `,
   },
@@ -550,7 +550,7 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
     ],
     bio: `Wade, with just under 15 years of corporate experience, is an accomplished Supply Chain and Logistics professional. He has held Senior positions including General Manager, Director of Logistics and Supply Chain, Operations Manager and Warehouse Manager with some of the largest companies in his field including Jim Beam, Mark Anthony and Constellation Brands. Wade has the depth of experience to support all business requirements related to Supply Chain, Logistics, Operations and Manufacturing.<br/><br/>
     Wade earned his Business Degree and his Diploma of Technology in International Trade and Transportation from BCIT. Since 2015, Wade has stayed involved through his seat on the BCIT Program Advisory Committee for the International Business Management Program. Wade is also an active member of the Canadian Institute of Traffic and Transportation, holding a Professional Designation in Logistics of CCLP.<br/><br/>
-    Wade’s experience and multifaceted management abilities will ensure the delivery of thorough and effective executive search work.
+    Wade's experience and multifaceted management abilities will ensure the delivery of thorough and effective executive search work.
 `,
   },
   //   {
@@ -633,8 +633,8 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
       "Not for Profit",
       "Professional Services",
     ],
-    bio: `Graeme is Managing Partner of Taplow’s New Zealand Office and as Regional Manager Asia/Pacific is a member of the
-Taplow Group Board. Based in Wellington, Graeme began his career in financial services at one of New Zealand’s
+    bio: `Graeme is Managing Partner of Taplow's New Zealand Office and as Regional Manager Asia/Pacific is a member of the
+Taplow Group Board. Based in Wellington, Graeme began his career in financial services at one of New Zealand's
 largest banks where he spent 20 years, the latter part in senior human resource roles until he left in 1998.<br/><br/>
     Following a period of HR Consulting, Graeme joined a reputable New Zealand recruitment company Momentum where
 he focused on senior search assignments and then transitioned to lead their Wellington operation as General Manager
@@ -667,12 +667,12 @@ of Board appointments including Chair.
       "Not for Profit",
       "Professional Services",
     ],
-    bio: `Tony is Joint Managing Partner of Taplow’s New Zealand Office. Based in Wellington, Tony’s professional career prior
+    bio: `Tony is Joint Managing Partner of Taplow's New Zealand Office. Based in Wellington, Tony's professional career prior
 to recruitment includes executive and non executive roles with large national and multinational corporations, primarily
 in the sales, marketing and management disciplines across the construction, pharmaceutical and technology sectors.<br/><br/>
 
     Tony started in recruitment in 1998 covering executive search and interim management functions, eventually ending
-up as General Manager for one of New Zealand’s largest privately owned recruitment and search companies. In 2014,
+up as General Manager for one of New Zealand's largest privately owned recruitment and search companies. In 2014,
 Tony and his now business partners Graeme Sandri and Tim Rosenberg established SWR Executive Search managing
 executive search assignments for clients across New Zealand spanning most sectors.<br/><br/>
 
@@ -688,7 +688,7 @@ executive search assignments for clients across New Zealand spanning most sector
       "Interim Executive",
       "Board Advisory Services",
     ],
-    phone: "64 (0) 29 273 22",
+    phone: "64 (0) 29 273 22",
     email: "tim@swr.nz",
     image: TimRosenberg,
     address: `Level 10, 11 Britomart Place, Auckland 1010, Auckland`,
@@ -699,7 +699,7 @@ executive search assignments for clients across New Zealand spanning most sector
       "Not for Profit",
       "Professional Services",
     ],
-    bio: `Tim is Joint Managing Partner of Taplow’s New Zealand Office. Based in Auckland, Tim brings more than 20 years of
+    bio: `Tim is Joint Managing Partner of Taplow's New Zealand Office. Based in Auckland, Tim brings more than 20 years of
 property experience and 15 years executive search experience.<br/><br/>
     Tim is well known in Auckland and the wider property markets as a senior executive search professional with a
 remarkable talent for helping leading organisations to locate talent for top-tier and specialist roles. Supporting
@@ -760,7 +760,7 @@ Gurgaon-122002, Haryana`,
       "Financial",
       "Not for profit",
     ],
-    bio: `Shaista Sabharwal is the Co-Founder of The Taplow Group in India, where she has built and led the firm’s growth, shaping its strategic direction and market presence alongside Sangeeta Sabharwal, the other Co-Founder. As Global CEO and Board Member of The Taplow Group, she collaborates with fellow board members to oversee strategic initiatives across 30+ countries, supporting business expansion, leadership excellence, and cross-border collaboration.<br/><br/>
+    bio: `Shaista Sabharwal is the Co-Founder of The Taplow Group in India, where she has built and led the firm's growth, shaping its strategic direction and market presence alongside Sangeeta Sabharwal, the other Co-Founder. As Global CEO and Board Member of The Taplow Group, she collaborates with fellow board members to oversee strategic initiatives across 30+ countries, supporting business expansion, leadership excellence, and cross-border collaboration.<br/><br/>
     With extensive expertise in Executive Search, Shaista has successfully led C-suite and senior leadership mandates across diverse industries, including Consumer & Digital, Financial Services, Industrial & Real Estate, Life Sciences, Professional Services, and Not-for-Profit organizations. She specializes in hiring for CEO, CFO, and other senior leadership positions, partnering with businesses to build high-performing leadership teams.<br/><br/>
     Before co-establishing The Taplow Group in India, she built her expertise at a New York-based global executive search firm, specializing in leadership hiring for the Education, Financial Services, and Industrial sectors. She began her career in Management & Strategy Consulting, advising companies on India Entry Strategy, Business Diversification, and Product Development.<br/>
     Shaista holds an Honors Degree in Applied Psychology and strongly advocates for work-life balance, finding inspiration in reading, gardening, music, fitness and travel.
@@ -781,8 +781,8 @@ Golf Course Extension Road, Sector 61,
 Gurgaon-122002, Haryana`,
     linkdine: "https://www.linkedin.com/in/priyanka-mazumdar-ab59b911/",
     industrySectors: ["Non-Profit", "Philanthropy ", "Impact Sector "],
-    bio: `Priyanka Mazumdar has been associated with The Taplow Group for ten years. As the Practice Leader for Global Philanthropy & Social Impact, she leads the firm’s strategic initiatives to strengthen efforts in Asia and Africa, while also driving the expansion of partnerships in key global markets.<br/><br/>
-    As a Member of the Advisory Council for India, Priyanka offers strategic support to the Managing Director on institution-building initiatives. She holds a master’s degree in social work from Tata Institute of Social Sciences (Mumbai, India) and a bachelor’s degree in history from Lady Shri Ram College (New Delhi, India).<br/><br/>
+    bio: `Priyanka Mazumdar has been associated with The Taplow Group for ten years. As the Practice Leader for Global Philanthropy & Social Impact, she leads the firm's strategic initiatives to strengthen efforts in Asia and Africa, while also driving the expansion of partnerships in key global markets.<br/><br/>
+    As a Member of the Advisory Council for India, Priyanka offers strategic support to the Managing Director on institution-building initiatives. She holds a master's degree in social work from Tata Institute of Social Sciences (Mumbai, India) and a bachelor's degree in history from Lady Shri Ram College (New Delhi, India).<br/><br/>
     Priyanka is widely recognized as a highly specialized executive search consultant, having successfully led C-suite and Non-Executive Board searches for organizations in the social impact sector across Asia and Africa. She also advises the private sector on recruiting for CSR roles and Advisory Boards.<br/><br/>
     Over her two-decade-long career, she has collaborated with a diverse set of stakeholders in the social impact sector, including bilateral and multilateral agencies, private philanthropies, international NGOs, social impact funds, and civil society organizations.<br/><br/>
     Before joining The Taplow Group, Priyanka served as Principal at TRANSEARCH India and Vice President and part of the founding team at Third Sector Partners, a boutique search firm specializing in C-suite hiring for the impact sector.
@@ -847,7 +847,7 @@ Gurgaon-122002, Haryana`,
     industrySectors: ["Non-Profit", "Philanthropy and Impact Sector"],
     bio: `Ritu Mahajan is a Principal at The Taplow Group – India, specializing in the Global Philanthropy & Social Impact vertical. With over two decades of experience in HR, she has expertise in Talent Acquisition and Capacity Building across sectors such as Education, Telecom, and Not-for-Profit.<br/><br/>
     Known for her strong commitment to quality, accountability, and meticulous monitoring, Ritu has played a key role in shaping talent strategies for diverse organizations. She is deeply passionate about coaching and mentoring future leaders and has actively collaborated with universities and educational institutions to nurture young talent.<br/><br/>
-    Ritu holds a Master’s in Business Administration and is a graduate of the University of Delhi. Outside of work, she is a proud mother of two daughters, an avid traveller, and a dedicated yoga enthusiast.<br/>
+    Ritu holds a Master's in Business Administration and is a graduate of the University of Delhi. Outside of work, she is a proud mother of two daughters, an avid traveller, and a dedicated yoga enthusiast.<br/>
 `,
   },
   {
@@ -930,7 +930,7 @@ their leadership impact.`,
     role: "Managing Partner",
     location: "Finland",
     services: [" Executive Search"],
-    phone: "+358 50 502 3814",
+    phone: "+358 50 502 3814",
     email: "Hannu.oversti@taplow.fi",
     image: HannuÖversti,
     address: `TAPLOW Finland Oy,<br/>Mannerheimintie 113, Aitio Business Park Hørsholm,<br/>00280 HELSINKI,<br/>FINLAND`,
@@ -950,11 +950,11 @@ in retail, wholesale, eCommerce and Property Development.`,
   },
   {
     id: 33,
-    name: "Timo Toivanen",
+    name: "Timo Toivanen",
     role: "Senior Partner",
     location: "Finland",
     services: [" Executive Search"],
-    phone: "+358 40 825 6357",
+    phone: "+358 40 825 6357",
     email: "timo.toivann@taplow.fi",
     image: TimoToivann,
     address: `Mannerheimintie 113,<br/>00280 Helsinki.Aitio Business Park.`,
@@ -1028,7 +1028,7 @@ alumni and alumni President in Finland.<br/>
 Matti has spend over 30 years in leadership roles in investment banking, private equity and professional services. He
 has worked for companies like Citibank, Nordea, Capman, Deloitte, Basware and most recently with EY. He also
 serves on numerous corporate boards and acts as an angel investor supporting Finnish technology entrepreneurs.
-He is known for his passion for curiosity. He even calls himself &quot;Chief Curiosity Officer&quot;.`,
+He is known for his passion for curiosity. He even calls himself "Chief Curiosity Officer".`,
   },
   {
     id: 36,
@@ -1036,7 +1036,7 @@ He is known for his passion for curiosity. He even calls himself &quot;Chief Cur
     role: "Senior Partner",
     location: "Finland",
     services: [" Executive Search"],
-    phone: "+358 50 544 2857",
+    phone: "+358 50 544 2857",
     email: "johanna.autio@taplow.fi",
     image: Johanna,
     address: `TAPLOW Finland Oy,<br/>Mannerheimintie 113, Aitio Business Park<br/>00280 HELSINKI,<br/>00280 HELSINKI,<br/>FINLAND`,
@@ -1053,10 +1053,10 @@ He is known for his passion for curiosity. He even calls himself &quot;Chief Cur
 decades. The career has afforded her the opportunity to immerse herself in marketing and communications contexts,
 operating environments, export trade, strategies and business development tasks within a wide array of sectors.
 Johanna has especially vast experience from forest industry.<br/>
-Johanna holds a Master’s degree from Aalto University School of Business and also a Master’s degree from University
+Johanna holds a Master's degree from Aalto University School of Business and also a Master's degree from University
 of Helsinki in Forest Sciences. She started as a Senior Partner of Taplow Finland in 2022.<br/>
 At Taplow Johanna is focusing on Executive Search for the assignments covering C-level and middle management
-positions in domestic and global assignments. She’s also helping companies in strategic communication and consulting.`,
+positions in domestic and global assignments. She's also helping companies in strategic communication and consulting.`,
   },
   {
     id: 37,
@@ -1067,7 +1067,7 @@ positions in domestic and global assignments. She’s also helping companies in 
     phone: "86-13801632778",
     email: "szhou@taplowgroup.com.cn",
     image: SheldonZhou,
-    address: `Room 1505, Ying’s Building, 180 Tianjin Road<br/>Shanghai, P. R. China 200001<br/>M.P.: 86 1380 163 2778`,
+    address: `Room 1505, Ying's Building, 180 Tianjin Road<br/>Shanghai, P. R. China 200001<br/>M.P.: 86 1380 163 2778`,
     linkdine: "https://www.linkedin.com/in/sheldon-zhou-9a7926/",
     industrySectors: [
       "Consumer Products",
@@ -1085,7 +1085,7 @@ Moore Hong Leong Guangzhou and China operations. Prior to his general management
 Dennison China in a couple of senior executive roles for finance，business development and human resources
 functions. He possesses a good understanding of major leadership challenges facing various types of organizations in
 China.<br/>
-Sheldon graduated with a Master’s from the Management Department at Nankai University of China in 1988, and later
+Sheldon graduated with a Master's from the Management Department at Nankai University of China in 1988, and later
 furthered his studies at McMaster University in Canada. Between 1992 and 1994, he was a Lecturer at Fudan
 University in Shanghai.<br/>`,
   },
@@ -1095,7 +1095,7 @@ University in Shanghai.<br/>`,
     role: "Partner",
     location: "Norway",
     services: ["Executive Search"],
-    phone: "+47 957 93 632",
+    phone: "+47 957 93 632",
     email: "sh@taplow.no",
     image: StigHeggertveit,
     address: `Taplow Norway AS<br/>Henrik Ibsens gate 90<br/>0255 Oslo<br/>Norway`,
@@ -1104,9 +1104,9 @@ University in Shanghai.<br/>`,
     industrySectors: ["Financial Services", "Digital"],
     bio: `Stig has been an executive search professional since 2004 focusing on IT and Financial Services. He holds a BSc in
 Business from Colorado University, Boulder.<br/>
-Prior to his executive search role, he has 6 years’ experience as Senior Financial Analyst in two major investment
+Prior to his executive search role, he has 6 years' experience as Senior Financial Analyst in two major investment
 banks cowering companies within IT and SMB in the Nordics.<br/>
-Stig also has 12 years’ experience from a large international IT company, with roles in sales, channels, product
+Stig also has 12 years' experience from a large international IT company, with roles in sales, channels, product
 management, and as Marketing Director.`,
   },
   {
@@ -1146,7 +1146,7 @@ business administration from Norway and the United States.`,
     role: "Researcher",
     location: "Norway",
     services: ["Research and analysis"],
-    phone: "+47 911 64 134",
+    phone: "+47 911 64 134",
     email: "mmn@taplow.no",
     image: Mats,
     address: `Henrik Ibsens gate 90<br/>N-0255 Oslo<br/>Norway`,
@@ -1192,7 +1192,7 @@ Sunil has been dedicated to the professional services arena, working closely wit
 consulting, technology outsourcing and information services.<br/>
 Prior to joining Taplow, Sunil worked as a Director of Executive Search & Permanent Placement at
 Randstad in US and General Manager at Randstad India. He is also a Co-Founder of Dextpro, a highly
-successful executive search practice. Sunil’s engaging attitude, deep understanding of diverse cultures,
+successful executive search practice. Sunil's engaging attitude, deep understanding of diverse cultures,
 candid style of communication, and attention to detail work together to enable him to generate long-term,
 trusted relationships with both clients and candidates. Sunil resides in New Jersey and has an MBA in
 Marketing and International Business.<br/>
@@ -1219,7 +1219,7 @@ UK`,
     bio: `HR Partner, Taplow Executive Search UK, Dealing with UK based organizations requiring additional HR expertise.
 Experience in assisting client develop policies and procedures and also developing and implementing team
 development strategies.<br/>
-Previously based in Denmark: HR Manager – Lejerbo, Denmark’s largest Housing Association, HR Manager – Maersk
+Previously based in Denmark: HR Manager – Lejerbo, Denmark's largest Housing Association, HR Manager – Maersk
 (IBM) and HR Consultant – Lego.<br/>
 Part of my duties is to represent The Taplow Group S.A. as the primary administrator, dealing with our global partner,
 suppliers and organising meetings including our partners global conference.
@@ -1253,7 +1253,7 @@ Australia, Canada, China, India, The Middle East and USA. And within the Europea
 France, Germany, Ireland, Italy, Poland and Spain.<br/>
 Experience in recruiting Mid to Board level people within Consumer Products, Financial Services, Industrial,
 Manufacturing, Not for Profit, Professional Services and Real Estate sectors.<br/>
-Expertise in evaluating clients’ goals, developing and actioning bespoke solutions, my ability is to define a client’s
+Expertise in evaluating clients' goals, developing and actioning bespoke solutions, my ability is to define a client's
 needs , develop clear messaging, that will attract talent that are not openly seeking a new role, whilst ensuring my
 clients brand is enhanced throughout the recruitment process.`,
   },
@@ -1457,8 +1457,8 @@ With several years of experience in headhunting, executive search, and team lead
     image: RituAcharya,
     bio: `Rituparna is an accomplished executive search professional with a strong focus on the non-profit and philanthropy sector. As an Associate Principal at The Taplow Group S.A., she has successfully led complex, high-level talent searches across Asia and Africa, helping organizations secure mission-driven leaders. Her expertise extends beyond the development sector, as she also facilitates private sector professionals transitioning into social impact roles, bridging talent across industries.<br/><br/>
 With over nine years in executive search, Rituparna has developed a keen ability to identify and place top-tier leadership for non-profits, foundations, and international development organizations. Additionally, she contributes to for-profit sector searches, leveraging her deep industry insights.<br/><br/>
-Beyond executive search, Rituparna is adept at business development and stakeholder engagement. She has successfully led strategic initiatives to expand The Taplow Group’s footprint in the social impact sector. Most notably, she spearheaded a roadshow in Bangladesh to identify and tap into leadership hiring needs within the development sector, strengthening connections with key organizations and stakeholders.<br/><br/>
-Before joining The Taplow Group, Rituparna spent eight years at HSBC, where she held key roles across branch banking, customer relationship management, international trade and foreign exchange services, and SME commercial banking. Her extensive corporate experience enhances her ability to align candidates’ strengths with organizational needs.
+Beyond executive search, Rituparna is adept at business development and stakeholder engagement. She has successfully led strategic initiatives to expand The Taplow Group's footprint in the social impact sector. Most notably, she spearheaded a roadshow in Bangladesh to identify and tap into leadership hiring needs within the development sector, strengthening connections with key organizations and stakeholders.<br/><br/>
+Before joining The Taplow Group, Rituparna spent eight years at HSBC, where she held key roles across branch banking, customer relationship management, international trade and foreign exchange services, and SME commercial banking. Her extensive corporate experience enhances her ability to align candidates' strengths with organizational needs.
 Known for her high energy, strategic approach, and commitment to excellence, Rituparna is skilled in relationship management, business development, and talent strategy. She brings a determined and focused approach to every search, ensuring the best fit for both clients and candidates.
 `,
     address: `The Taplow Group, Office No. 306-307<br/>3rd Floor, Tower B, Emaar Digital Greens<br/>Golf Course Extension Road, Sector 61, Gurgaon-122002, Haryana`,
@@ -1518,12 +1518,12 @@ Consulting Services Association.
     image: PeterTanner,
     address: `Melbourne Quarter,<br/> Building Two, Level 3,<br/>#309, 697 Collins Street,<br/>Melbourne, Victoria,<br/>
 Australia, 3008.`,
-    bio: `Peter was Founder and Managing Director of Tanner Menzies in 1988, which went on to become one of Australia’s
+    bio: `Peter was Founder and Managing Director of Tanner Menzies in 1988, which went on to become one of Australia's
 leading Executive Recruitment firms.<br/>
 Peter and his then partners sold to Randstad in 2001. He stayed with the company until establishing Taplow Australia
 in 2012.<br/>
 Prior to establishing Tanner Menzies Peter worked for an Australian Biotech company as General Manager.<br/>
-Peter’s experience encompasses executive search and selection, throughout Australia, New Zealand and Hong Kong.
+Peter's experience encompasses executive search and selection, throughout Australia, New Zealand and Hong Kong.
 He has recruited across all levels of management to CEO/Board level.
 `,
   },
@@ -1553,7 +1553,7 @@ implementation of organisational development and talent programs. Eleni is passi
 teams and organisations and has extensive experience consulting to national, not-for-profit, government and
 multinational organisations as well as working as part of internal People and Development teams.<br/>
 Eleni uses this unique perspective and experience to achieve the goal of effective and optimum performance with
-every client she works with. Eleni&#39;s experience incorporates the design & delivery of personalised programs on a
+every client she works with. Eleni's experience incorporates the design & delivery of personalised programs on a
 variety of subjects ranging from:<br/>
 individual coaching – executive and emerging leaders<br/>
 <ul>
@@ -1595,9 +1595,9 @@ Australia, 3008.`,
 psychological principals with diverse and practical leadership and business management experience, Kellie provides
 clients with a powerful experience that produces meaningful results that will transform careers, workplaces and
 organisations.<br/>
-Kellie’s passion and purpose is to facilitate individuals and collective leadership to achieve their potential, enhance
+Kellie's passion and purpose is to facilitate individuals and collective leadership to achieve their potential, enhance
 performance and shape their talent for tomorrow.<br/><br/>
-Kellie’s approach is grounded in proven evidence based methodologies adapted to individual needs and communicated
+Kellie's approach is grounded in proven evidence based methodologies adapted to individual needs and communicated
 effectively to her audience, and their unique circumstances. She is recognised by her clients as a trusted advisor, and
 for her insights, passion, and energy. As a coach, her clients appreciate her feedback, support and respectful
 challenging to help them reach their potential.<br/><br/>
@@ -1625,8 +1625,8 @@ challenging to help them reach their potential.<br/><br/>
     address: `Melbourne Quarter, Building Two, Level 3,#309, 697 Collins Street,Melbourne, Victoria,<br/>
 Australia, 3008.`,
     bio: `Tiffany is an experienced HR Director who marries the commercial business realities with investing in an
-organisation’s most unique asset – its people.<br/>
-A qualified Chartered Accountant with over 17 years’ Executive Human Resources experience.<br/>
+organisation's most unique asset – its people.<br/>
+A qualified Chartered Accountant with over 17 years' Executive Human Resources experience.<br/>
 Having project-led the integration of 27 organisations into one, Tiffany has learnt more about cultural and
 organisational change than any textbook could teach.<br/>
 As an IECL accredited coach, Tiffany works with organisations to shape the human capital landscape for the future.
@@ -1804,7 +1804,7 @@ Talent Acquisition. Darryl was instrumental in the development of a best-in-clas
     image: StéphaneMARTINOD,
     address: `19 rue Maurice Bouchor 69007 Lyon`,
     bio: `Stéphane is Managing Director of Taplow Consulting France / Practice Lead for Executive Interim
-Stéphane has a Master’s degree from a French Business School, majoring in Audit and finance.<br/>
+Stéphane has a Master's degree from a French Business School, majoring in Audit and finance.<br/>
 He started his career in audit, accounting and finance for a big English Consulting firm.
 He then joined other sectors: Insurance, IT, Consulting for cost optimisation as a Business or Key Account Manager
 for middle-market companies as well as larger accounts.<br/>
@@ -1820,7 +1820,7 @@ Managers, and develop since then the Executive Interim practice with Taplow Fran
   },
   {
     id: 63,
-    name: "MARINE DUMONT",
+    name: "Marine DUMONT",
     role: "Leadership Advisory and Performance",
     location: "France",
     phone: "+33 635 45 75 76",
@@ -1844,7 +1844,7 @@ Managers, and develop since then the Executive Interim practice with Taplow Fran
     address: `19 rue Maurice Bouchor 69007 Lyon`,
     bio: `Managing Partner at Taplow Consulting France | Practice Lead for Human Capital Services<br/>
 Marine brings 12+ years of international experience across Europe, Asia, and the USA, specializing in governance and
-change management for complex projects. With a master’s in mechanical engineering from INSA Lyon, she began her
+change management for complex projects. With a master's in mechanical engineering from INSA Lyon, she began her
 career in industrial environments, managing technical sales, product development, and business growth. Leading
 multidisciplinary teams worldwide has honed her expertise in strategic transformation and organizational
 engagement.<br/>
@@ -1935,14 +1935,14 @@ growth, and operational excellence.<br/>
 Anker specializes in recruiting executives at the Director, VP, and CxO levels, as well as highly skilled individual contributors where
 demand and supply align. His expertise spans industries such as logistics, manufacturing, healthcare, finance, insurance, and the public
 sector, ensuring clients gain access to top talent with the right industry knowledge and strategic vision. In addition, he plays a key role in
-Taplow’s interim services, supporting businesses in securing experienced interim executives who can step in quickly and deliver
+Taplow's interim services, supporting businesses in securing experienced interim executives who can step in quickly and deliver
 measurable impact during transformation projects, crisis situations, or leadership transitions.<br/>
 Beyond recruitment, Anker provides strategic leadership advisory, working closely with organizations to assess, develop, and optimize
 leadership teams. His expertise covers leadership assessment, cultural transformation, team performance, and succession planning,
 ensuring companies have the right leadership in place for long-term success. With a strong understanding of emerging technologies,
-cybersecurity, and agile methodologies, he helps businesses find leaders capable of navigating today’s complex and rapidly evolving
+cybersecurity, and agile methodologies, he helps businesses find leaders capable of navigating today's complex and rapidly evolving
 business landscape.<br/>
-Anker’s pragmatic and results-driven approach ensures that his clients receive tailored leadership solutions that align with their strategic
+Anker's pragmatic and results-driven approach ensures that his clients receive tailored leadership solutions that align with their strategic
 objectives and long-term growth plans. Whether working with startups, mid-sized firms, or multinational corporations, he is committed
 to helping businesses build high-performance leadership teams that drive sustainable success in a competitive market.<br/>`,
   },
@@ -1986,7 +1986,7 @@ business leaders to deliver value-added outcomes. Having worked in MNCs in compl
 environments, he brings with him the astute skills in HR with an eye for Talent and an ability to provide business
 transformation expertise.
 
-Vijay has a master’s degree in human resources management from the Tata Institute of Social Sciences, in India.`,
+Vijay has a master's degree in human resources management from the Tata Institute of Social Sciences, in India.`,
   },
   {
     id: 67,
@@ -2013,9 +2013,9 @@ Vijay has a master’s degree in human resources management from the Tata Instit
       "All",
     ],
     image: ManuelVermeer,
-    address: `Taplow Executive Search  
+    address: `Taplow Executive Search  
 Opernplatz 14
-60313 Frankfurt, Germany`,
+60313 Frankfurt,  Germany`,
     bio: `Consultant on doing business in Asia, fluent in Mandarin, extensive work with
 Sangeeta Sabharwal in India, conducting Executive Search for European companies in China/India and
 Chinese/Indian companies in Germany.`,
@@ -2167,7 +2167,7 @@ Fluent in Italian and English.`,
     address: `13A, Jing An New Century Plaza | 881 West Nanjing Road | JingAn District
 Shanghai, China`,
     bio: `Lily has accumulated 24 years of work experience in the executive search industry in China. She has built and
-developed the Consumer and Healthcare & Life Sciences, Chemical portfolio’s from scratch and in her previous role
+developed the Consumer and Healthcare & Life Sciences, Chemical portfolio's from scratch and in her previous role
 with Hudson China, grew the Advertising & Communications, Chemical & Energy and Supply Chain practices into
 highly profitable and successful businesses.
 Lily started her career as first local consultant across China for Hudson China and her last position was the East China
@@ -2231,7 +2231,7 @@ medicine and BD.
     name: "Joyce Sheng",
     role: "Head of Clinical Development/Medical Affairs/RA",
     location: "China",
-    phone: "+86 13301866273",
+    phone: "+86 13301866273",
     email: "joyce.sheng@lnsrecruitment.com",
     linkdine: "https://www.linkedin.com/in/joycesheng/",
     services: [
@@ -2252,7 +2252,7 @@ Shanghai, China`,
 stage.<br/>
 Joyce has a successful record of recruiting for positions in Clinical Operations and related areas, GCP Quality, Portfolio
 Management, Biostatistics, Drug Safety, Medical Writing as well as discovery positions, from Manager to Executive
-Director.<br/>Joyce‘s rich experience of serving clients from global pharmas, big local companies, biotech/biopharmas, etc provides
+Director.<br/>Joyce's rich experience of serving clients from global pharmas, big local companies, biotech/biopharmas, etc provides
 her with the vision and insight of talent market in her expert areas.
 Joyce graduated from Fudan University, majoring in Pharmacy.
 `,
@@ -2349,7 +2349,7 @@ operation, offering fast, flexible recruitment solutions at all organizational l
 Before entering executive search, Niels held leadership roles for over 20 years in IT and Life Sciences. He worked for
 DEC, Oracle, Computer Associates, and Capgemini (mostly serving Life Sciences and manufacturing clients), and
 founded a successful IT company from 2000–2004. His global experience has shaped his deep understanding of fast-
-paced, complex markets. He’s known for combining strategic vision with hands-on execution, delivering Executive
+paced, complex markets. He's known for combining strategic vision with hands-on execution, delivering Executive
 Search solutions to asset-intensive industries like Manufacturing, Logistics, Pharma and Healthcare. His client
 relationships are grounded in a strong, customer-focused and trusted-partner mindset.<br/><br/>
 Niels holds an MBA in Business Administration &amp; Computer Science from Copenhagen Business School (CBS). He has
@@ -2397,7 +2397,7 @@ for Accelerated Learning), and a Certified OD Professional (IIOD, IOD- USA).`,
     name: "Nina Hellstenius Hoednebo",
     role: "Senior Consultant",
     location: "Norway",
-    phone: "+47 924 55 565",
+    phone: "+47 924 55 565",
     email: "nhh@taplow.no",
     linkdine: "https://www.linkedin.com/in/nina-hellstenius-hødnebø-90688040/",
     services: ["Executive Search"],
@@ -2414,7 +2414,7 @@ Norway`,
     bio: `Nina Hellstenius Hoednebo is Senior Consultant in Taplow Norway.<br/><br/>
 
 With more than 15 years experience in the recruiting industry. She has achieved the DNV-GL Business
-Assurance Certificate as a recruiter. Nina joined The Taplow Group in 2014.<br/><br/>
+Assurance Certificate as a recruiter. Nina joined The Taplow Group in 2014.<br/><br/>
 Before she became business consultant, Nina worked with one of the leading manufacturers of high-end
 furniture in Norway. She held positions as Chain Manager and Marketing Manager.<br/><br/>
 From 2008, she worked as a consultant within business development, retail, sales and service.
@@ -2475,5 +2475,23 @@ Michael has a background as Top CIO in Government and Regional identities. He ha
 Consultant in a wide area of industries.<br/><br/>
 Michael continued his career in Executive Search<br/><br/>Michael Holds a B.Sc. (HD), Informatics, Economics and a Master of Business Administration (M.B.A.) from
 Copenhagen Business School. He speaks fluently Danish and English and has basic command of French and German.`,
+  },
+  {
+    id: 84,
+    name: "Florence POINSIGNON",
+    role: "Office Manager",
+    location: "France",
+    phone: "+33 472 440 444",
+    linkdine: "https://www.linkedin.com/in/florence-poinsignon/",
+    services: ["ES", "EI", "LAP"],
+    image: fpoinsignon, // Use an existing France consultant image as placeholder
+    address: `19 rue Maurice Bouchor 69007 Lyon`,
+    bio: `Florence holds a master’s degree in marketing and communication. She began her career as a Marketing Product Manager within an international group, before moving into office management roles where she developed cross-functional expertise in administration and coordination.<br/> <br/>
+    She joined Taplow Consulting France in 2022, where she oversees the firm’s administrative and accounting operations, general services, as well as internal and external communication.<br/><br/>
+    She also contributes to the preparation of interviews and fulfillment of candidate files, working closely with talent researchers and consultants.<br/></br/>
+    Florence is the key contact for all suppliers, partners and clients of Taplow Consulting France.<br/><br/>
+
+Regarding the Executive Interim activity, she has an operational position as a genuine support for clients, interim managers, umbrella companies and consultants.`,
+    hideFromDirectory: true,
   },
 ];
