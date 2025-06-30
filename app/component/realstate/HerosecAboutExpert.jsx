@@ -95,35 +95,34 @@ export const RealStateFaq = () => {
       question:
         "How do you align leaders with sector-specific challenges like tenant experience or community impact?",
       answer:
-        "We apply deep industry insight and assessment tools to evaluate a leader’s ability to enhance stakeholder experience and long-term community value.",
+        " We understand the interplay of ESG, urban dynamics, and financial performance. Our assessments ensure leaders share your commitment to community value and sustainability.",
     },
     {
       index: 3,
       question:
         "Can you help with succession planning for real estate funds or asset management firms?",
       answer:
-        "Yes, our advisory services include succession planning tailored to the specific dynamics of real estate and infrastructure firms.",
+        " Yes. We develop leadership pipelines tailored to your investment strategies and long-term asset goals.",
     },
     {
       index: 4,
       question:
         "Do you offer interim leadership for major real estate or infrastructure projects?",
-      answer:
-        "Absolutely. We maintain a network of experienced interim executives ready to step into transitional or project-critical roles.",
+      answer:" Absolutely. We have a global network of proven interim executives who can lead through growth, change, or challenge.",
     },
     {
       index: 5,
       question:
         "What makes The Taplow Group different in real estate executive search?",
       answer:
-        "Our sector-specific experience, global reach with local insight, and commitment to long-term partnerships set us apart.",
+        " We blend deep sector immersion with global connectivity, offering nuanced, practical advice that shapes the future of your assets and teams.",
     },
     {
       index: 6,
       question:
         "How do you ensure cultural fit within diverse real estate portfolios?",
       answer:
-        "We use a rigorous assessment framework that evaluates leadership style, values alignment, and adaptability across asset types and geographies.",
+        "We tailor our approach to align leaders with your operational realities—whether it’s a global real estate portfolio or a local infrastructure initiative.",
     },
   ];
   return (
