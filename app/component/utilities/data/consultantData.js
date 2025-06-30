@@ -404,7 +404,7 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
   {
     id: 14,
     name: "Paul Cannon",
-    role: "Managing Director & Partner – Eastern Canada & Eastern USA",
+    role: " Managing Partner – Eastern Canada & Eastern USA",
     location: "Canada",
     services: [
       "Executive Search",
@@ -497,7 +497,7 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
   {
     id: 17,
     name: "Trevor Baker",
-    role: "Managing Director & Partner – Western/Central Canada & Western/Central USA",
+    role: " Managing Partner – Western Canada & Western USA",
     location: "Canada",
     services: ["Executive Search"],
     phone: "604-687-6464",
@@ -615,7 +615,7 @@ From industrial sales with Fastenal managing a one-city territory, to B2B Sales 
   {
     id: 21,
     name: "Graeme Sandri",
-    role: "Joint Managing Partner",
+    role: "Managing Partner",
     location: "New Zealand",
     services: [
       "Executive Search",
@@ -714,7 +714,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
   {
     id: 24,
     name: "Sangeeta Sabharwal",
-    role: "Co-Founder & Managing Partner – The Taplow Group, India",
+    role: "Managing Partner – India",
     location: "India",
     services: ["Global Executive Search & Interim"],
     // phone: "+91 98 1008 9864",
@@ -742,7 +742,7 @@ Gurgaon-122002, Haryana`,
   {
     id: 25,
     name: "Shaista Sabharwal",
-    role: "Co-Founder – The Taplow Group, IndiaGlobal CEO & Board Member – The Taplow Group S.A",
+    role: "Managing Partner –India & Global CEO , The Taplow Group S.A",
     location: "India",
     services: ["Global Executive Search & Interim"],
     // phone: "+91 98 1824 6967",
@@ -1169,7 +1169,7 @@ job at Taplow.<br/>
   {
     id: 41,
     name: "Sunil Gandhi",
-    role: "Managing Director – Technology and Professional Services Practice",
+    role: "Managing Partner – Technology and Professional Services Practice",
     location: "United States",
     services: ["Executive Search"],
     phone: "+732 771 5414",
@@ -1260,7 +1260,7 @@ clients brand is enhanced throughout the recruitment process.`,
   {
     id: 44,
     name: "Emma Tilson",
-    role: "CEO - Managing Partner Taplow Sweden",
+    role: "Managing Partner",
     location: "Sweden",
     services: ["Executive Search", "Executive Interim"],
     phone: "+46708775774",
@@ -1753,7 +1753,7 @@ Talent Acquisition. Darryl was instrumental in the development of a best-in-clas
   {
     id: 61,
     name: "Caterina Tortorella",
-    role: "Partner",
+    role: "Managing Partner",
     location: "Italy",
     phone: "+39 349 3240802",
     email: "caterina.tortorella@valuesearch.it",
@@ -1781,7 +1781,7 @@ Talent Acquisition. Darryl was instrumental in the development of a best-in-clas
   {
     id: 62,
     name: "Stéphane MARTINOD",
-    role: "Managing Director",
+    role: "Managing Partner",
     location: "France",
     phone: "+33 620 60 33 90",
     email: "smartinod@taplow.fr",
@@ -1949,7 +1949,7 @@ to helping businesses build high-performance leadership teams that drive sustain
   {
     id: 66,
     name: "Vijay Bajaj",
-    role: "Managing Director",
+    role: " Managing Partner",
     location: "Singapore",
     phone: "+65 9752 9020",
     email: "vijay@cognasiatalent.com",
@@ -2084,7 +2084,7 @@ Creative Directors.`,
   {
     id: 71,
     name: "Giovanna Brambilla",
-    role: "Partner Value Search",
+    role: "Managing Partner - Value Search",
     location: "Italy",
     phone: "+39 335 472851",
     email: "giovanna.brambilla@valuesearch.it",
@@ -2147,7 +2147,7 @@ Fluent in Italian and English.`,
   {
     id: 73,
     name: "Lily Bi",
-    role: "Joint Managing Partner",
+    role: "Managing Partner",
     location: "China",
     phone: "+86 139 1631 2420",
     email: "lily.bi@lnsrecruitment.com",
@@ -2260,7 +2260,7 @@ Joyce graduated from Fudan University, majoring in Pharmacy.
   {
     id: 77,
     name: "Ole Norby",
-    role: "Managing Director Taplow Executive Search ApS & Founder Taplow Executive Interim ApS",
+    role: "Managing Partner - Taplow Executive Search ApS & Founder Taplow Executive Interim ApS",
     location: "Denmark",
     phone: "0045 29 70 70 56",
     email: "onb@taplow.dk",
