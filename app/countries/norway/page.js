@@ -31,7 +31,7 @@ const page = () => {
     // phone: "604-687-6464",
     email: "eric@macdonaldsearchgroup.com",
   };
-  const greenDescriptionBox ="Taplow Nordic consists of four strong companies working together to provide integrated and insightful support in Executive Search, Board Services, and Executive Interim. With deep knowledge of the Nordic market we help organizations identify, attract, and develop leaders and specialists who drive growth and create long-term value. If you partner with us you will benefit not only from local expertise but also from the strength of a Nordic network with global reach through The Taplow Group";
+  const greenDescriptionBox ="Taplow Nordic consists of four strong companies working together to provide integrated and insightful support in Executive Search, Board Services, and Executive Interim. With deep knowledge of the Nordic market we help organizations identify, attract, and develop leaders and specialists who drive growth and create long-term value. If you partner with us you will benefit not only from local expertise but also from the strength of a Nordic network with global reach through The Taplow Group.";
   const AboutContent = {
     general: {
       title: "General Information",
