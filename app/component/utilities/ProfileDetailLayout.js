@@ -47,17 +47,20 @@ const ProfileDetailLayout = ({ consultant }) => {
             ></span>
           </div>
         </div>
-        <div className="mt-4 flex items-center justify-center bg-blue-600 text-white py-2 rounded-lg">
-          <Mail className="text-white w-5 h-5 mr-4" />
-          <a
-            href={`mailto:${consultant.email}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white ml-2"
-          >
-            Click here to email
-          </a>
-        </div>
+
+        {consultant.email && (
+          <div className="mt-4 flex items-center justify-center bg-blue-600 text-white py-2 rounded-lg">
+            <Mail className="text-white w-5 h-5 mr-4" />
+            <a
+              href={`mailto:${consultant.email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white ml-2"
+            >
+              Click here to email
+            </a>
+          </div>
+        )}
         <Link
           href={consultant.linkdine}
           target="_blank"
@@ -98,18 +101,20 @@ const ProfileDetailLayout = ({ consultant }) => {
                 ))}
               </ul>
             </div>
-            <div>
-              <h4 className="font-bold text-[#96A94A] text-lg">
-                Practice Area
-              </h4>
-              <ul className="text-[#666666] text-sm py-2">
-                {consultant.industrySectors.map((area, index) => (
-                  <li className="py-1" key={index}>
-                    {area}
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {consultant.industrySectors && (
+              <div>
+                <h4 className="font-bold text-[#96A94A] text-lg">
+                  Practice Area
+                </h4>
+                <ul className="text-[#666666] text-sm py-2">
+                  {consultant.industrySectors.map((area, index) => (
+                    <li className="py-1" key={index}>
+                      {area}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </div>
