@@ -1805,7 +1805,7 @@ Talent Acquisition. Darryl was instrumental in the development of a best-in-clas
     address: `19 rue Maurice Bouchor 69007 Lyon`,
     bio: `Stéphane is Managing Director of Taplow Consulting France / Practice Lead for Executive Interim
 Stéphane has a Master’s degree from a French Business School, majoring in Audit and finance.<br/>
-HHe started his career in audit, accounting and finance for a big English Consulting firm.
+He started his career in audit, accounting and finance for a big English Consulting firm.
 He then joined other sectors: Insurance, IT, Consulting for cost optimisation as a Business or Key Account Manager
 for middle-market companies as well as larger accounts.<br/>
 In 2007, he entered a executive search firm, renowned nationally and based in Lyon and Paris. He accompanied key
@@ -1820,7 +1820,7 @@ Managers, and develop since then the Executive Interim practice with Taplow Fran
   },
   {
     id: 63,
-    name: "Marine Dumont",
+    name: "MARINE DUMONT",
     role: "Leadership Advisory and Performance",
     location: "France",
     phone: "+33 635 45 75 76",
@@ -1890,7 +1890,7 @@ practices.`,
     image: JeanMarcBURY,
     address: `19 rue Maurice Bouchor 69007 Lyon`,
     bio: `Jean-Marc is Chairman of Taplow Consulting France / Practice Lead for Executive Search<br/>
-MAfter a degree in Labour law, Jean-Marc held positions as an HR expert within two French groups specialised in the
+After a degree in Labour law, Jean-Marc held positions as an HR expert within two French groups specialised in the
 construction and transport industries for 15 years. He started his career with a position in social relations before
 expanding his skills in HR development (recruitment and training) in a high-growth SME, where he created the
 Employment and Training Department.<br/>

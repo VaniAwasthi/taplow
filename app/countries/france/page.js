@@ -49,36 +49,35 @@ const page = () => {
     },
     specific: {
       title: "Specific Information",
-      heading: "Taplow France: Vision & Mission",
+      heading:
+        "Taplow France - Your challenges, our commitment: leaders, solutions, results",
       image: generalImg,
       services: [
-        {
-          title: "TEAM BUILDING & TRAININGS",
-          content: `<p>As part of its interventions, TAPLOW CONSULTING FRANCE first focuses its attention on the project and the company’s values. A diagnosis carried out in situ enables us to build and deliver tailored and innovative modules focused on development of each one’s professionalism.</p> `,
-        },
-        {
-          title: "INTERIM MANAGEMENT",
-          content: `<p>Through our firm, APTIMEN MANAGERS, interim management expert, TAPLOW CONSULTING FRANCE is able to deploy quickly any operational project.
-Within 3 days after your call, we introduce you to a manager with the right credentials, whom, we know from experience, will achieve your goals.</p>`,
-        },
-        {
-          title: "HUMAN CAPITAL SERVICES",
-          content: `<p>We understand that successful companies attract and retain the best not by just offering highly competitive salaries but by constantly striving to make the work environment somewhere employees want to be.</p>`,
-        },
-
-        {
-          title: "EVALUATION & ASSESMENT CENTER",
-          content: `<p>valuation is carried out by our experts and enables companies to objectively assess their employees’ skills and motivations. By evaluating your managers and senior executives, we help you make the right decisions. For these services, we rely on efficient and diversified tools, which complete our approach in face-to-face interviews (e.g.: personality questionnaires, aptitude tests, 360-degree feedback…). We are thus able to support you on different fields such as internal mobility, final phase of recruitment, management to identify high performers, and individual performance improvement.</p> `,
-        },
         {
           title: "EXECUTIVE SEARCH",
           content: `<p>Senior level appointments can often be complex and require a careful, discreet approach.
 <b>TAPLOW CONSULTING FRANCE</b> uses both traditional and contemporary recruitment methods, focused on identifying the best talent for your business. Partnering with your organisation to thoroughly understand your goals and drivers, our team of consultants and researchers ensure you make successful executive level appointments.</p>`,
         },
+
         {
-          title: "COACHING",
-          content: `<p>Coaching is a personalised support process which aims at developing individual and collective performances to the advantage of their company.
-It is focused on managers’ daily issues in the broad sense and assists them in realising their professional objectives. It helps them place themselves within the exercise of authority, handle communication and information problems as well as conflicts among people.</p> `,
+          title: "Executive Interim",
+          content: `<p>Executive Interim is the immediate provision of a manager or a team to handle a complex situation or a key position that your organization is unable or unwilling to handle on its own.<br/><br/>
+
+In this way, you choose to support and secure the change, and control its implementation and results, even in an emergency situation. Through our firm, <b>APTIMEN MANAGERS</b>, executive interim management expert, <b>TAPLOW CONSULTING FRANCE</b> is able to deploy quickly any operational project. Within 3 days after your call, we introduce you to a manager with the right credentials, whom, we know from experience, will achieve your goals.
+
+<br/><br/>You want to know more ? : <a href="https://aptimen-managers.com/" target="_blank">Click HERE</a> </p>`,
+        },
+        {
+          title: "Leadership Advisory & Performance",
+          content: `<p>Taplow Leadership Advisory & Performance was born out of a desire to support companies in their transformation challenges, by combining operational performance, human impact, and sustainable development.
+
+Our approach is based on proven tools — individual and team coaching, managerial training, change management support, and assessments — all aimed at building more effective teams and more impactful leadership.<br/><br/>
+
+We offer end-to-end support, from diagnosis to implementation, and can mobilize operational resources when needed through our network of experienced coaches, consultants, and interim executive managers.<br/><br/>
+
+Together, we build high-impact teams and future-ready organizations.<br/><br/>
+
+You want to know more ? <a href="https://www.taplowleadershipadvisory.fr/" target="_blank">Click HERE</a> </p>`,
         },
       ],
     },
@@ -91,7 +90,7 @@ It is focused on managers’ daily issues in the broad sense and assists them in
     },
     {
       image: Success2,
-      title: "R & D Director",
+      title: "Interim R&D Director”",
 
       link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/France/TheTaplowGroupInterimExecutiveRDDirectorCaseStudy.pdf",
     },
