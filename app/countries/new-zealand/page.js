@@ -37,7 +37,7 @@ const page = () => {
       image: officeImage2,
       name: " Auckland",
       address: "Level 10, 11 Britomart Place, Auckland 1010, ",
-      phone: "+64 (0) 29 273 22",
+      phone: "+64 29 273 2264",
       email: "eric@macdonaldsearchgroup.com",
     },
   ];
