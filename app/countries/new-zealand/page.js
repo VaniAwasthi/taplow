@@ -13,22 +13,34 @@ import Success2 from "../../assets/globalpage/CaseStudies/NZcase2.webp";
 import Success3 from "../../assets/globalpage/CaseStudies/NZcase3.webp";
 import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
 import CaseStudies from "@/app/component/coun-layout/CaseStudies";
+import { TwoOffice } from "@/app/component/coun-layout/TwoOfficeLay";
+import officeImage2 from "../../assets/globalpage/NxOffice.webp";
 
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow New Zealand</b>`,
     desc: "Our New Zealand operation has established and grown from merging the skills, experience and resources of SandriWalsh Executive Search and Rosenberg Executive Search to form SWR Executive Search (Sandri Walsh Rosenberg). ",
   };
-  const officeSecHeading = "Our office in New Zealand";
-  const officeData = {
-    id: 1,
-    image: officeImage,
-    name: "Wellington",
-    address: "L7, Equinox House, 111 The Terrace, Wellington 6011, New Zealand",
-    phone: "+44(0)1442 383361",
-    email: "eric@macdonaldsearchgroup.com",
-  };
 
+  const officeSecHeading = "Our office in China";
+  const officeData = [
+    {
+      id: 1,
+      image: officeImage,
+      name: "Wellington",
+      address: "L14, Equinox House, The Terrace, Wellington 6011, New Zealand",
+      phone: "+64(0) 29248 8502",
+      email: "eric@macdonaldsearchgroup.com",
+    },
+    {
+      id: 2,
+      image: officeImage2,
+      name: " Auckland",
+      address: "Level 10, 11 Britomart Place, Auckland 1010, ",
+      phone: "+64 (0) 29 273 22",
+      email: "eric@macdonaldsearchgroup.com",
+    },
+  ];
   const AboutContent = {
     greenDescription: `Our New Zealand operations has established and grown from merging the skills, experience and resources of SandriWalsh Executive Search and Rosenberg Executive Search`,
     Aboutheading:
@@ -68,7 +80,7 @@ const page = () => {
         desc={BannerData.desc}
         Banner={Banner}
       />
-      <OneOffice officeData={officeData} heading={officeSecHeading} />
+      <TwoOffice Officeheading={officeSecHeading} offices={officeData} />
       <DrivingLeadership
         greenDescription={AboutContent.greenDescription}
         Aboutheading={AboutContent.Aboutheading}

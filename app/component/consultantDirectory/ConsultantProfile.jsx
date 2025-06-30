@@ -11,7 +11,7 @@ import UK from "../../assets/globalpage/UKBanner.webp";
 import Sweden from "../../assets/globalpage/SwedenBanner.webp";
 import Spain from "../../assets/globalpage/spainBanner.webp";
 import Singapore from "../../assets/globalpage/singaporeBanner.webp";
-import NewZealand from "../../assets/globalpage/nzBanner.webp";
+import NewZealand from "../../assets/globalpage/nzBannerConsultant.webp";
 import Norway from "../../assets/globalpage/norwayBanner.webp";
 import Italy from "../../assets/globalpage/italyBanner.webp";
 import India from "../../assets/globalpage/indiaBanner.webp";
@@ -51,20 +51,33 @@ const ConsultantProfile = () => {
     { country: "United Kingdom", image: UK },
     { country: "United States", image: USA },
   ];
+
+  const getBannerImage = (location) => {
+    let image;
+
+    switch (location) {
+      case "New Zealand":
+        image = NewZealand; // TODO: replace with actual NZ image
+        break;
+      default:
+        image = countryImageData.find(
+          (item) => item.country === location
+        )?.image;
+    }
+
+    return image || DefaultHeroImage;
+  };
+
   const consultant = id
     ? consultantData.find((c) => c.id === Number(id))
     : null;
-  const matchedImage = consultant
-    ? countryImageData.find((item) => item.country === consultant.location)
-    : null;
-  const HeroImage = matchedImage?.image || DefaultHeroImage;
-  console.log(HeroImage, "heroImage");
+
   return (
     <div>
       {/* Hero Section */}
       <div className="relative w-full h-64 md:h-screen">
         <Image
-          src={HeroImage}
+          src={getBannerImage(consultant?.location)}
           alt="Hero Image"
           layout="fill"
           objectFit="cover"
