@@ -40,7 +40,10 @@ const navigation = [
       { name: "Financial Services", href: "/sectors/financial-service" },
       { name: "Digital ICT", href: "/sectors/digital-ict" },
       { name: "Not for Profit", href: "/sectors/not-for-profit" },
-      { name: "Life Sciences and Pharma", href: "/sectors/life-science" },
+      {
+        name: "Life Sciences and Pharma",
+        href: "/sectors/life-science-and-pharma",
+      },
       { name: "Professional Services", href: "/sectors/professional-service" },
       { name: "Real Estate", href: "/sectors/realestate-sector" },
       { name: "Industrial", href: "/sectors/industry" },
