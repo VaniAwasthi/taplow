@@ -32,13 +32,13 @@ const page = () => {
     greenDescription: `We help UK firms grow and support global companies expanding into the UK. As a founding partner of The Taplow Group S.A., we bring global reach with local expertise — backed by in-house fluency in German, French, Danish, Swedish, Norwegian, and English`,
     Aboutheading: "Taplow UK:Driving Leadership and Diversity Excellence",
     aboutContentpara1:
-      "Our focus is within the Executive Search sector, C level and Directorship roles, primarily within the Sales, Marketing, Manufacturing and Finance areas of a clients business, we aim to add value to clients recruitment processes, both strategically and administratively.",
+      "Our focus is to deliver exceptional Executive Search services, specialising in C-level and Directorship roles across Sales, Marketing, Manufacturing, and Finance functions. We enhance our clients’ recruitment processes both strategically and operationally, becoming a true partner in helping them achieve their business goals.",
     aboutContentpara2:
-      "Clients are assured of continued communication throughout and after an assignment has been completed, we offer analysis tools to ensure candidates are the right fit as well as posses the credentials to be a success within the company and the role.",
+      "We have extensive experience supporting start-ups and VC-backed high-growth companies, turning growth plans into reality. Whether it's a locally based organisation expanding internationally, or an overseas company entering the UK market, we assist from the first hire through to full team buildouts, IPOs, or acquisitions.",
     aboutContentpara3:
-      " We work in partnership with our global colleges to ensure we find the right people regardless of there locality, international clients are assured they receive a seamless service when we recruit regional or global positions in conjunction with our Taplow partners. ",
+      "Through close collaboration with our global colleagues, we ensure seamless international search capabilities. Regardless of geography, we identify and attract the right talent. Our partnership with Taplow Group allows us to deliver consistent, high-quality results for regional and global assignments.",
     aboutContentpara4:
-      "We have experience and expertise in working across Europe, Asia, Middle East and North America for clients in various sectors for UK based clients and also International based clients looking to expand in the UK.",
+      "We maintain ongoing communication throughout and beyond each engagement, offering insights and analysis tools to ensure candidates are not only qualified but also culturally aligned with the organisation.",
   };
   const SuccessStoryslidesData = [
     {
