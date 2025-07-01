@@ -30,7 +30,8 @@ export const HeroSecContact = () => {
 
 export const GlobalOffices = () => {
   const heading = "Global offices";
-  const description = `We have a global footprint. Our organizational consulting services synchronize strategy and talent to drive superior performance for our clients. Our 10,000 + colleagues serve clients in more than 50 countries.`;
+  const description = `
+We have a global footprint. Our organizational consulting services synchronize strategy and talent to drive superior performance for our clients. Our 150+ colleagues serve clients in more than 77 countries.`;
   return (
     <>
       <section className="md:py-20 py-16 pb-8 px-4 relative">
