@@ -18,7 +18,7 @@ const page = () => {
     title: `Welcome to <b>Taplow China</b>`,
     desc: " Taplow China offers Executive Search and Leadership Advisory and Performance services via our experienced partners located in Shanghai.",
   };
-  const officeSecHeading = "Our office in China";
+  const officeSecHeading = "Our Offices in China";
   const officeData = [
     {
       id: 1,
