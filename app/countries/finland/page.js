@@ -20,7 +20,7 @@ const page = () => {
     title: `Welcome to <b>Taplow Finland</b>`,
     desc: "Success in our assignments does not come by chance, but there is a lot of work behind it. We measure our success and continuously develop our operations. Our clients and the candidates involved in the search consider our success to be excellent.",
   };
-  const officeSecHeading = "Our office in Finland";
+  const officeSecHeading = "Our Office in Finland";
   const officeData = {
     id: 1,
     image: officeImage,
