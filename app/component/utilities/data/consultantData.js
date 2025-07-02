@@ -736,7 +736,7 @@ Gurgaon-122002, Haryana`,
     ],
     bio: `Sangeeta Sabharwal is the Co-Founder & Managing Partner of The Taplow Group in India, bringing over 30 years of experience in Executive Search. She has held leadership roles across organizations she has been a part of, along with Global Board positions at The Taplow Group for nearly a decade, serving first as APAC Regional Director and later as Chief Operating Officer.<br/><br/>
       With expertise spanning engineering, manufacturing, infrastructure, consumer, and retail, Sangeeta has successfully executed leadership searches across 14 industry segments on six continents, working with both multinational and Indian organizations.<br/><br/>
-      Having been a CEO herself, she brings a strategic perspective to leadership hiring, ensuring alignment between business priorities and executive talent. She is also a trained & certified Hogan Consultant, adding value to leadership assessment.<br/>
+      Having been a CEO herself, she brings a strategic perspective to leadership hiring, ensuring alignment between business priorities and executive talent. She is also a trained & certified Hogan Consultant, adding value to leadership assessment.<br/><br/>
       Before co-founding The Taplow Group in India, Sangeeta was a Senior Partner at Transearch India, where she was a top-performing consultant and a member of the million-dollar club. She pioneered the executive search industry in India, starting her career at Ma Foi, later serving as CEO of Ma Foi Global Search Services, where she built the business from the ground up across multiple countries.
   `,
   },
@@ -763,7 +763,7 @@ Gurgaon-122002, Haryana`,
     ],
     bio: `Shaista Sabharwal is the Co-Founder of The Taplow Group in India, where she has built and led the firm's growth, shaping its strategic direction and market presence alongside Sangeeta Sabharwal, the other Co-Founder. As Global CEO and Board Member of The Taplow Group, she collaborates with fellow board members to oversee strategic initiatives across 30+ countries, supporting business expansion, leadership excellence, and cross-border collaboration.<br/><br/>
     With extensive expertise in Executive Search, Shaista has successfully led C-suite and senior leadership mandates across diverse industries, including Consumer & Digital, Financial Services, Industrial & Real Estate, Life Sciences, Professional Services, and Not-for-Profit organizations. She specializes in hiring for CEO, CFO, and other senior leadership positions, partnering with businesses to build high-performing leadership teams.<br/><br/>
-    Before co-establishing The Taplow Group in India, she built her expertise at a New York-based global executive search firm, specializing in leadership hiring for the Education, Financial Services, and Industrial sectors. She began her career in Management & Strategy Consulting, advising companies on India Entry Strategy, Business Diversification, and Product Development.<br/>
+    Before co-establishing The Taplow Group in India, she built her expertise at a New York-based global executive search firm, specializing in leadership hiring for the Education, Financial Services, and Industrial sectors. She began her career in Management & Strategy Consulting, advising companies on India Entry Strategy, Business Diversification, and Product Development.<br/><br/>
     Shaista holds an Honors Degree in Applied Psychology and strongly advocates for work-life balance, finding inspiration in reading, gardening, music, fitness and travel.
 `,
   },
@@ -2320,7 +2320,7 @@ across the world.`,
   {
     id: 79,
     name: "Niels Budde-Lund",
-    role: "Managing Partner",
+    role: "Executive Partner",
     location: "Denmark",
     phone: "+45 3124 0889",
     email: "nbl@taplow.dk",
