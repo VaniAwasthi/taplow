@@ -46,7 +46,7 @@ export const OurGoalSection = () => {
                 To deliver a professional, high-quality experience for clients
                 and candidates—rooted in trust, care, and long-term value.{" "}
                 <br />
-                We don’t just help hire leaders—we help build organisations.
+                We don’t just help hire leaders—we help build organizations.
               </p>
             </div>
           </div>

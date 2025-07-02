@@ -150,7 +150,7 @@ export const Flagship = () => {
     <>
       <div className="container mx-auto px-4 md:max-w-7xl">
         <div className="relative w-full flex flex-col items-start ustify-center md:justify-left space-y-6">
-          <h2 className="text-4xl redhat font-base pb-[1.5rem] text-center md:text-left j">
+          <h2 className="text-4xl redhat font-base pb-[1.5rem] text-center md:text-left ">
             Our Core Services
           </h2>
           <Swiper
@@ -171,11 +171,11 @@ export const Flagship = () => {
               setIsBeginning(swiper.isBeginning);
               setIsEnd(swiper.isEnd);
             }}
-            className="w-full max-w-7xl px-4"
+            className="w-full max-w-7xl px-4 py-10"
           >
             {offerings.map((item, index) => (
               <SwiperSlide key={index}>
-                <div className="relative h-[200px] rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+                <div className="relative h-[250px] rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105">
                   {/* Background Image */}
                   <Image
                     src={item.image}
