@@ -1,12 +1,7 @@
 "use client";
-import {
-  GlobalLocation,
-  GlobalpageBanner,
-  SuccessStory,
-} from "@/app/component/coun-layout/GlobalpageBanner";
+import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
 import React from "react";
 import Banner from "../../assets/globalpage/SwedenBanner.webp";
-import officeImage from "../../assets/globalpage/officeSweden.webp";
 import Swedanflag from "../../assets/globalpage/flag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import DrivingLeadership from "@/app/component/coun-layout/DrivingLeadership";
@@ -16,21 +11,41 @@ import Ethical1 from "../../assets/aboutuspage/Ethical1.webp";
 import Ethical2 from "../../assets/aboutuspage/Ethical2.webp";
 import Ethical3 from "../../assets/aboutuspage/Ethical3.webp";
 import Ethical4 from "../../assets/aboutuspage/Ethical4.webp";
-import OneOffice from "@/app/component/coun-layout/OneOffice";
+import Stockholm from "../../assets/globalpage/Stockholm.webp";
+import Halmstad from "../../assets/globalpage/Halmstad.webp";
+import Göteborg from "../../assets/globalpage/Göteborg.webp";
+import OfficeSlider from "@/app/component/coun-layout/OfficeSlider";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow Sweden</b>`,
     desc: "Since 1991, we have helped businesses find top leaders through executive search and leadership advisory, combining global reach with local expertise to drive success.",
   };
-  const officeSecHeading = "Our office in Sweden";
-  const officeData = {
-    id: 1,
-    image: officeImage,
-    name: "Malmö",
-    address: "Taplow AB , Skrivaregatan 21, 215 32 Malmö, Sweden",
-    // phone: "+44(0)1442 383361",
-    // email: "eric@macdonaldsearchgroup.com",
-  };
+  const officeSecHeading = "Our Offices in Sweden";
+
+  const officeData = [
+    {
+      id: 1,
+      image: Stockholm,
+      name: "Stockholm",
+      address: "Landsvägen 57, 172 65 Sundbyberg",
+    },
+    {
+      id: 2,
+      image: Halmstad,
+      name: "Halmstad",
+      address: "Storgatan 52, 302 43 Halmstad",
+      // phone: "+44(0)1442 383361",
+      // email: "eric@macdonaldsearchgroup.com",
+    },
+    {
+      id: 3,
+      image: Göteborg,
+      name: "Göteborg",
+      address: "Nya Tingstadsgatan 1, 422 44 Hisings Backa",
+      // phone: "+44(0)1442 383361",
+      // email: "eric@macdonaldsearchgroup.com",
+    },
+  ];
   const AboutContent = {
     greenDescription: `With over 25 years of experience and offices in <b>Stockholm, Gothenburg, Malmö,</b> and <b>Halmstad </b>, Taplow Sweden is a leading name in executive search and strategic diversity recruitment. Our commitment to quality, speed, and precision ensures that we identify and place the best candidates across a wide range of industries.`,
     Aboutheading: "Taplow Sweden: Driving Leadership and Diversity Excellence",
@@ -78,7 +93,7 @@ const page = () => {
         desc={BannerData.desc}
         Banner={Banner}
       />
-      <OneOffice officeData={officeData} heading={officeSecHeading} />
+      <OfficeSlider officeData={officeData} heading={officeSecHeading} />
       <DrivingLeadership
         greenDescription={AboutContent.greenDescription}
         Aboutheading={AboutContent.Aboutheading}
