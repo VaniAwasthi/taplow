@@ -2034,9 +2034,7 @@ Vijay has a master's degree in human resources management from the Tata Institut
       "Non-Profit",
     ],
     image: ManuelVermeer,
-    address: `Taplow Executive Search  
-Opernplatz 14
-60313 Frankfurt,  Germany`,
+    address: `Taplow Executive Search Opernplatz 14 60313 Frankfurt, Germany Taplow Executive Search Warburgstr. 32 20354 Hamburg, Germany`,
     bio: `Consultant on doing business in Asia, fluent in Mandarin, extensive work with
 Sangeeta Sabharwal in India, conducting Executive Search for European companies in China/India and
 Chinese/Indian companies in Germany.`,
@@ -2472,7 +2470,7 @@ organizational politics to resolve conflicts.`,
   {
     id: 83,
     name: "Michael Hansen",
-    role: "Managing Partner Taplow Executive Interim",
+    role: "Managing Partner ",
     location: "Denmark",
     phone: "+45 2425 9627",
     email: "MSH@taplow.dk",
