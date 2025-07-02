@@ -1666,7 +1666,7 @@ Fluent in German, English, and French.
     role: "Managing Partner",
     location: "Germany",
     phone: "+49 171 5158 048",
-    email: "bernd.schlosshauer@taplow.biz",
+    email: "bernd.schloshauer@taplow.biz",
     linkdine:
       "https://www.linkedin.com/in/bernd-schlosshauer-1a900366?authType=NAME_SEARCH&authToken=LDvk&locale=de_DE&srchid=371253501474892419459&srchindex=1&srchtotal=1&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A371253501474892419459%2CVSRPtargetId%3A232912209%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH",
     services: ["Executive Search"],
@@ -1684,10 +1684,10 @@ Taplow Executive Search
 Warburgstr. 32
 20354 Hamburg, Germany 
 `,
-    bio: `Bernd is a Managing Partner at Taplow Executive Search in Germany. He has successfully conducted various high profile executive search mandates within The Taplow Group since 2013: many senior roles for leading international companies, business & operational responsibilities and senior advisory positions in Financial Services, Real Estate and in Professional Services.<br/>
-His focus segments are Financial Services including Asset Management, Corporate & Investment Banking, Private Wealth Management, Venture Capital, Mergers & Acquisitions, Risk, Sustainability, Digitalization, Fin-Techs, Insurances and Real Estate & Infrastructure including Capital Raising and Investments, furthermore Management & Strategy Consulting. Roles include Director, Managing Director, Divisional Head, C-Level and Partner w/o team.<br/>
-Earlier Bernd held different leadership positions, as head of business units and areas and as head of sales and marketing, as interim manager and as strategy & management consultant - for large international US based and European companies.<br/>
-His background includes Advanced Management Programs at INSEAD and at ESMT and a Master of Science in Informatics of University of Karlsruhe – KIT.
+    bio: `Bernd is a Managing Partner at Taplow Executive Search in Germany. He has successfully conducted various high profile executive search mandates within The Taplow Group since 2013: many senior roles for leading international companies, business & operational responsibilities and senior advisory positions in Financial Services, Real Estate and in Professional Services.<br/><br/>
+His focus segments are Financial Services including Asset Management, Corporate & Investment Banking, Private Wealth Management, Venture Capital, Mergers & Acquisitions, Risk, Sustainability, Digitalization, Fin-Techs, Insurances and Real Estate & Infrastructure including Capital Raising and Investments, furthermore Management & Strategy Consulting firms, boards of portfolio firms. Roles include Director, Managing Director, Divisional Head, C-Level and Partner with or without team.<br/><br/>
+Earlier Bernd held different leadership positions, as head of business units and areas and as head of sales and marketing, as interim manager and as strategy & management consultant - for large international US based and European companies.<br/><br/>
+His background includes Advanced Management Programs at INSEAD and at ESMT and a Master of Science in Informatics of University of Karlsruhe – KIT.<br/><br/>
 Bernd is member of various organizations.
 
 `,
@@ -1695,7 +1695,7 @@ Bernd is member of various organizations.
   {
     id: 59,
     name: "Helmut Boehler",
-    role: "Senior Consultant",
+    role: "Senior Advisor ",
     location: "Germany",
     phone: "+49 171 1212984",
     email: "hboehler@taplowgroup.com",
@@ -1992,10 +1992,10 @@ Vijay has a master's degree in human resources management from the Tata Institut
   {
     id: 67,
     name: "Prof. Dr. Manuel Vermeer",
-    role: "Owner, Dr. Vermeer Consult",
+    role: "Senior Advisor ",
     location: "Germany",
     phone: "+49 171 7868546",
-    email: "asia@vermeer-consult.com",
+    email: "mvermeer@taplowgroup.com",
     linkdine:
       "https://www.linkedin.com/in/prof-dr-manuel-vermeer-5b608361/?originalSubdomain=de",
     services: [
@@ -2011,7 +2011,6 @@ Vijay has a master's degree in human resources management from the Tata Institut
       "Professional Services",
       "Real Estate",
       "Non-Profit",
-      "All",
     ],
     image: ManuelVermeer,
     address: `Taplow Executive Search  
@@ -2261,7 +2260,7 @@ Joyce graduated from Fudan University, majoring in Pharmacy.
   {
     id: 77,
     name: "Ole Norby",
-    role: "Managing Partner - Taplow Executive Search ApS & Founder Taplow Executive Interim ApS",
+    role: "Managing Director",
     location: "Denmark",
     phone: "0045 29 70 70 56",
     email: "onb@taplow.dk",
@@ -2321,7 +2320,7 @@ across the world.`,
   {
     id: 79,
     name: "Niels Budde-Lund",
-    role: "Chairman & Executive Partner (and Board of Taplow Executive Interim",
+    role: "Managing Partner",
     location: "Denmark",
     phone: "+45 3124 0889",
     email: "nbl@taplow.dk",
@@ -2425,7 +2424,7 @@ She also took on the task of managing a restaurant for 1 year, aiming to learn t
   {
     id: 82,
     name: "Kirstin Rolver",
-    role: "Sr. Partner",
+    role: "Senior Partner",
     location: "Denmark",
     phone: "+45 30386600",
     email: "kro@taplow.dk",
