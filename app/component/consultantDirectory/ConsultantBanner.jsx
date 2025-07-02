@@ -37,6 +37,7 @@ export default function SearchBar({ onSearch, inputs, filterText = false }) {
   // When input changes
   const handleChange = (key, value) => {
     const updated = { ...filters, [key]: value };
+    console.log("FILTER UPDATE:", updated); // ✅ LOG HERE
     setFilters(updated);
     onSearch(updated);
   };

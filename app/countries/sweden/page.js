@@ -15,6 +15,7 @@ import Stockholm from "../../assets/globalpage/Stockholm.webp";
 import Halmstad from "../../assets/globalpage/Halmstad.webp";
 import Göteborg from "../../assets/globalpage/Göteborg.webp";
 import OfficeSlider from "@/app/component/coun-layout/OfficeSlider";
+import Malmö from "../../assets/globalpage/Malmö.webp";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow Sweden</b>`,
@@ -42,6 +43,14 @@ const page = () => {
       image: Göteborg,
       name: "Göteborg",
       address: "Nya Tingstadsgatan 1, 422 44 Hisings Backa",
+      // phone: "+44(0)1442 383361",
+      // email: "eric@macdonaldsearchgroup.com",
+    },
+    {
+      id: 4,
+      image: Malmö,
+      name: "Malmö",
+      address: "Taplow AB , Skrivaregatan 21, 215 32 Malmö, Sweden",
       // phone: "+44(0)1442 383361",
       // email: "eric@macdonaldsearchgroup.com",
     },

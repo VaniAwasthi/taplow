@@ -6,16 +6,13 @@ import officeImage from "../../assets/globalpage/AustraliaOffice.webp";
 import Australiaflag from "../../assets/globalpage/australiaflag.webp";
 import DiversityImg from "../../assets/globalpage/diversity.webp";
 import generalImg from "../../assets/globalpage/generalImg.webp";
-import IndustrySlider from "@/app/component/home/Industries";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
 import Success1 from "../../assets/globalpage/CaseStudies/austriliaCase1.webp";
 import Success2 from "../../assets/globalpage/CaseStudies/austriliaCase2.webp";
-import {
-  GlobalpageBanner,
-  SuccessStory,
-} from "@/app/component/coun-layout/GlobalpageBanner";
+import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
 import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
 import CaseStudies from "@/app/component/coun-layout/CaseStudies";
+import AustriliaIndustry from "@/app/component/coun-layout/AustriliaIndustry";
 
 const page = () => {
   const BannerData = {
@@ -98,7 +95,7 @@ const page = () => {
         greenDescription={greenDescriptionBox}
         flag={Australiaflag}
       />
-      <IndustrySlider />
+      <AustriliaIndustry />
       <TeamSection country="Australia" />
       <CaseStudies
         SuccessData={SuccessStoryslidesData}

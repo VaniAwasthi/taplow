@@ -1,6 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
-import { useRouter } from "next/navigation"; // ✅ Correct import
+import { useRouter } from "next/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -39,29 +39,43 @@ export default function OurConsultants() {
   const paginationRef = useRef(null);
   const swiperRef = useRef(null);
   const consultantSectionRef = useRef(null);
-  // for location Dropdown
+
+  // Dropdown options
   const uniqueLocations = [
     ...new Set(consultantData.map((c) => c.location).filter(Boolean)),
   ].sort();
-  //for roles Dropdown
-  const uniqueRoles = ["Consultant", "Managing Partner", "Researcher"];
-  // for search functionality
+
+  const uniqueRoles = ["Managing Partner", "Consultant", "Researcher"];
+
+  // 🔄 FILTERING LOGIC WITH UPDATED SERVICES CHECK
   const filteredConsultants = consultantData.filter((c) => {
     if (c.hideFromDirectory) return false;
+
     const matchesSearch =
       !filters.search ||
       c.name.toLowerCase().includes(filters.search.toLowerCase());
 
-    const matchesService = !filters.services || c.services === filters.services;
-    const matchesExpertise = !filters.role || c.role === filters.role;
-    const matchesLocation =
-      !filters.location || c.location === filters.location;
+    const serviceList = Array.isArray(c.services)
+      ? c.services
+      : typeof c.services === "string"
+      ? [c.services]
+      : [];
 
-    return (
-      matchesSearch && matchesService && matchesExpertise && matchesLocation
-    );
+    const matchesService =
+      !filters.services || serviceList.includes(filters.services);
+
+    const matchesRole =
+      !filters.role ||
+      (typeof c.role === "string" &&
+        c.role.toLowerCase().includes(filters.role.toLowerCase()));
+
+    const matchesLocation =
+      !filters.location ||
+      c.location.toLowerCase().includes(filters.location.toLowerCase());
+
+    return matchesSearch && matchesService && matchesRole && matchesLocation;
   });
-  // for showing alphabetically data"
+
   const sortedConsultants = [...filteredConsultants].sort((a, b) =>
     a.location.localeCompare(b.location)
   );
@@ -75,10 +89,11 @@ export default function OurConsultants() {
       }, 0);
     }
   }, []);
-  // scroll to top
+
   const scrollToConsultants = () => {
     consultantSectionRef.current?.scrollIntoView({ behavior: "smooth" });
   };
+
   return (
     <div className="p-6 md:max-w-7xl mx-auto" ref={consultantSectionRef}>
       <SearchBar
@@ -98,10 +113,10 @@ export default function OurConsultants() {
           },
           {
             type: "select",
-            key: "service",
+            key: "services",
             label: "Service",
             options: [
-              "Consulting",
+              "Executive Interim",
               "Executive Search",
               "Leadership Advisory and Performance",
               "Board Services",
@@ -112,9 +127,10 @@ export default function OurConsultants() {
         locations={uniqueLocations}
         roles={uniqueRoles}
       />
+
       <h2 className="text-left text-3xl md:text-4xl font-normal my-8 py-2 relative">
         Our Consultants
-        <div className="w-60 h-1 md:ml-[3rem] bg-[#96A94A]  mt-2"></div>
+        <div className="w-60 h-1 md:ml-[3rem] bg-[#96A94A] mt-2"></div>
       </h2>
 
       <div className="relative mt-6">
@@ -149,42 +165,22 @@ export default function OurConsultants() {
                           className="w-[350px] md:w-full h-[350px] md:h-[19rem] object-cover rounded-lg shadow"
                         />
 
-                        {/* Hover Effect */}
                         {hovered === `${index}-${idx}` && (
                           <div className="absolute inset-0 bg-[#005581] text-white flex flex-col justify-center items-start p-4 rounded-lg transition-opacity duration-300 opacity-100">
-                            {/* Name */}
                             <h3 className="font-bold text-lg mt-3 mb-4">
                               {consultant.name}
                             </h3>
-
-                            {/* Role */}
                             <p className="text-sm text-white mb-3">
                               {consultant.role}
                             </p>
-
-                            {/* Location */}
                             <div className="flex items-center text-white text-sm font-medium mb-3">
                               <Navigation2 className="text-white w-3 h-3 mr-2" />
                               <span>{consultant.location}</span>
                             </div>
-
-                            {/* Phone */}
                             <div className="flex items-center text-white text-sm font-medium mb-3">
                               <Phone className="text-white w-3 h-3 mr-2" />
                               <span>{consultant.phone}</span>
                             </div>
-
-                            {/* Email */}
-                            {/* <div className="flex items-center text-white text-sm font-medium mb-3 w-full">
-                              <Mail className="text-white w-3 h-3 mr-2 flex-shrink-0" />
-                              <a href={`mailto:${consultant.email}`}>
-                                <span className="break-all w-full">
-                                  {consultant.email}
-                                </span>
-                              </a>
-                            </div> */}
-
-                            {/* See Full Bio with Arrow */}
                             <div
                               className="flex items-center justify-between w-full text-white text-sm font-medium mt-3 cursor-pointer"
                               onClick={() =>
@@ -200,7 +196,6 @@ export default function OurConsultants() {
                         )}
                       </div>
 
-                      {/* Consultant Details */}
                       <h3
                         className="font-bold mt-3 text-lg cursor-pointer"
                         onClick={() =>
@@ -234,30 +229,26 @@ export default function OurConsultants() {
           ))}
         </Swiper>
 
-        {/* Centered Navigation & Pagination */}
         {consultantGroups.length > 1 && (
           <div className="flex mx-auto justify-center items-center">
-            <div className="flex justify-center items-center mt-[2rem]  mb-[2rem]">
+            <div className="flex justify-center items-center mt-[2rem] mb-[2rem]">
               <button
                 ref={prevRef}
                 className="text-[#ccc] cursor-pointer"
                 onClick={() => {
-                  swiperRef.current?.slidePrev(); // move slide
-                  scrollToConsultants(); // scroll to section
+                  swiperRef.current?.slidePrev();
+                  scrollToConsultants();
                 }}
               >
                 <ChevronLeft size={30} />
               </button>
-              <div
-                ref={paginationRef}
-                className="custom-pagination flex "
-              ></div>
+              <div ref={paginationRef} className="custom-pagination flex"></div>
               <button
                 ref={nextRef}
                 className="text-[#ccc] cursor-pointer"
                 onClick={() => {
-                  swiperRef.current?.slideNext(); // move slide
-                  scrollToConsultants(); // scroll to section
+                  swiperRef.current?.slideNext();
+                  scrollToConsultants();
                 }}
               >
                 <ChevronRight size={30} />

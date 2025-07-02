@@ -2470,7 +2470,7 @@ organizational politics to resolve conflicts.`,
   {
     id: 83,
     name: "Michael Hansen",
-    role: "Managing Partner Taplow Executive Interim",
+    role: "Managing Partner ",
     location: "Denmark",
     phone: "+45 2425 9627",
     email: "MSH@taplow.dk",
