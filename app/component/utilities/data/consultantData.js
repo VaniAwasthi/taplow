@@ -717,7 +717,12 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
     name: "Sangeeta Sabharwal",
     role: "Managing Partner – India",
     location: "India",
-    services: ["Global Executive Search & Interim"],
+    services: [
+      "Global Executive Search",
+      "Executive Interim",
+      "Leadership Advisory and Performance",
+      "Board Services",
+    ],
     // phone: "+91 98 1008 9864",
     email: "sangeeta.sabharwal@taplowgroupindia.com",
     image: SangeetaSabharwal,
@@ -728,11 +733,15 @@ Gurgaon-122002, Haryana`,
     linkdine:
       "https://www.linkedin.com/in/sangeeta-sabharwal-5347985/?originalSubdomain=in",
     industrySectors: [
-      "Consumer Retail",
-      "Life Science",
-      "Not for Profit",
-      "Industrial",
+      "Consumer & Retail",
+      "Fashions",
+      "Aviation",
+      "Education",
+      "Manufacturing & Industrial",
       "Professional Services",
+      "Philanthropy & Social Impact",
+      "Energy",
+      "Building Materials",
     ],
     bio: `Sangeeta Sabharwal is the Co-Founder & Managing Partner of The Taplow Group in India, bringing over 30 years of experience in Executive Search. She has held leadership roles across organizations she has been a part of, along with Global Board positions at The Taplow Group for nearly a decade, serving first as APAC Regional Director and later as Chief Operating Officer.<br/><br/>
       With expertise spanning engineering, manufacturing, infrastructure, consumer, and retail, Sangeeta has successfully executed leadership searches across 14 industry segments on six continents, working with both multinational and Indian organizations.<br/><br/>
@@ -743,9 +752,14 @@ Gurgaon-122002, Haryana`,
   {
     id: 25,
     name: "Shaista Sabharwal",
-    role: "Managing Partner –India & Global CEO , The Taplow Group S.A",
+    role: "Co- Founder- The Taplow Group, India Global CEO & Board Member- The Taplow Group S.A.",
     location: "India",
-    services: ["Global Executive Search & Interim"],
+    services: [
+      "Global Executive Search",
+      "Executive Interim",
+      "Leadership Advisory and Performance",
+      "Board Services",
+    ],
     // phone: "+91 98 1824 6967",
     email: "shaista.sabharwal@taplowgroupindia.com",
     image: ShaistaSabharwal,
@@ -755,11 +769,18 @@ Golf Course Extension Road, Sector 61,
 Gurgaon-122002, Haryana`,
     linkdine: "https://www.linkedin.com/in/shaistasabharwal/",
     industrySectors: [
-      "Consumer",
-      "Industrial",
-      "Educations",
-      "Financial",
-      "Not for profit",
+      "Consumer & Retail",
+      "Fashions",
+      "Aviation",
+      "Education",
+      "Manufacturing & Industrial",
+      "Professional Services",
+      "Philanthropy & Social Impact",
+      "Energy",
+      "Building Materials",
+      "Consumer Tech ",
+      "Healthcare",
+      "Pharmaceuticals & Life Sciences ",
     ],
     bio: `Shaista Sabharwal is the Co-Founder of The Taplow Group in India, where she has built and led the firm's growth, shaping its strategic direction and market presence alongside Sangeeta Sabharwal, the other Co-Founder. As Global CEO and Board Member of The Taplow Group, she collaborates with fellow board members to oversee strategic initiatives across 30+ countries, supporting business expansion, leadership excellence, and cross-border collaboration.<br/><br/>
     With extensive expertise in Executive Search, Shaista has successfully led C-suite and senior leadership mandates across diverse industries, including Consumer & Digital, Financial Services, Industrial & Real Estate, Life Sciences, Professional Services, and Not-for-Profit organizations. She specializes in hiring for CEO, CFO, and other senior leadership positions, partnering with businesses to build high-performing leadership teams.<br/><br/>
@@ -827,7 +848,7 @@ Gurgaon-122002, Haryana`,
     industrySectors: ["Consumer", "Life Sciences ", "Education"],
     bio: `Pankaj Goswami joined Taplow India as Partner – Consumer & Education Practice in November 2023. He has a long and distinguished career of more than 28 years in Executive Search and Recruitment rendering his services in top international firms.<br/><br/>
     Prior to starting in Taplow India, he was Sector Leader in Korn Ferry driving the Consumer & Education Practice and before he was the Director – Leadership Hiring in Kelly Services. In these two international firms Pankaj was highly involved in the Consumer, Life Sciences and Education sectors for clients across India.<br/><br/>
-    Prior to that, Pankaj worked in a boutique search firm, Grassik Search and Pankaj spent twelve years at Randstad in India and the UAE.<br/>
+    Prior to that, Pankaj worked in a boutique search firm, Grassik Search and Pankaj spent twelve years at Randstad in India and the UAE.<br/><br/>
     He received a Post Graduate Diploma in Human Resources from All India Management Association, New Delhi. Pankaj speaks fluent English.
 `,
   },

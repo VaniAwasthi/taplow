@@ -7,6 +7,7 @@ import "swiper/css/pagination";
 import Image from "next/image";
 import { useState } from "react";
 import officeImage from "../../assets/globalpage/IndiaGurgaon.webp";
+import ColImg from "../../assets/globalpage/generalImg.webp";
 
 import BackgroundImg from "../../assets/globalpage/backgroundImg.webp";
 import NextArrow from "../../assets/homePage/NextArrow.png";
@@ -39,8 +40,17 @@ export const OfficeSlider = () => {
 
 // AboutSect
 export const AboutSect = () => {
-  const greenDescription = `<b>Established in 2014 by Sangeeta Sabharwal and Shaista Sabharwal</b>,<br/>
-The Taplow Group – India is a trusted partner for organisations seeking high-impact leadership talent across <b>India, Asia & Middle East</b>. As a premier executive search and leadership advisory firm, we help businesses build strong, future-ready leadership teams`;
+  const Aboutheading = "About Taplow India";
+  const greenDescription = `Shaping leadership in India, Asia, Middle East & Africa since 2014`;
+  const AboutContent = {
+    aboutContentpara1:
+      "Established in 2014 by Sangeeta Sabharwal and Shaista Sabharwal, The Taplow Group – India is a trusted partner to organisations seeking high-impact leadership talent across sectors and geographies such as India, Asia, Middle East & Africa.",
+    aboutContentpara2:
+      "As a premier Executive Search & Leadership Advisory firm, we bring the agility of a boutique firm with the credibility of a global brand, and help businesses build strong and future- ready leadership teams.",
+    aboutContentpara3: `Our Teams specialize in Executive Search, Leadership Advisory and Executive Interim mandates across sectors such as Manufacturing, Industrial, Consumer & Retail, Professional Services, Philanthropy & Social Impact, Aviation, Education, Healthcare, Pharmaceuticals & Life Sciences, Fashion, Energy etc.<br/><br/> `,
+    aboutContentpara4:
+      "Our approach is deeply embedded in relationships where we don’t view clients as accounts. We become their voice in the market and advisors at the table.<br/>We support large, medium, and small enterprises across Global MNCs setting up or scaling up, Indian MNCs expanding into global markets, Family-run and promoter-led businesses on transformation journeys",
+  };
   return (
     <>
       <div className="max-w-7xl mx-auto px-4 py-12">
@@ -48,7 +58,7 @@ The Taplow Group – India is a trusted partner for organisations seeking high-i
           {/* Blue Box - 3/12 */}
           <div className="md:col-span-3 bg-[#005581] rounded-lg p-6 text-white">
             <h2 className="md:hidden block redhat text-4xl font-normal mb-2">
-              About Taplow India
+              {Aboutheading}
             </h2>
             <h2 className="hidden md:block redhat text-4xl font-normal mb-2">
               About <br />
@@ -75,6 +85,27 @@ The Taplow Group – India is a trusted partner for organisations seeking high-i
             </div>
           </div>
         </div>
+        <div className="grid md:grid-cols-2 gap-12 items-center my-5 md:my-2">
+          {/* Text Section */}
+          <div className="space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-700 text-sm leading-relaxed">
+              {Object.values(AboutContent).map((item, index) => (
+                <p key={index} dangerouslySetInnerHTML={{ __html: item }}></p>
+              ))}
+            </div>
+          </div>
+
+          {/* Image Section */}
+          <div className="flex justify-center">
+            <Image
+              src={ColImg}
+              alt="diversity"
+              width={500}
+              height={500}
+              className="object-contain transition-transform duration-300 hover:scale-105"
+            />
+          </div>
+        </div>
       </div>
     </>
   );
@@ -89,21 +120,21 @@ export const Flagship = () => {
     {
       title: "Executive Search",
       description:
-        "Our flagship offering. We identify senior leaders who align with your business goals and culture. Every engagement is led by senior consultants for precision, care, and strategic alignment.",
+        "Our flagship offering. We specialise in identifying senior leaders who align with an organisation’s strategy, culture, and transformation agenda. Every mandate is led by senior partners to ensure rigour, confidentiality, and fit.",
       image: Flag1,
       color: "bg-[#7BA23F]", // green
     },
     {
       title: "Interim Management",
       description:
-        "We provide seasoned executives to support organisations during transformation, turnaround, or growth phases—especially within aviation and manufacturing.",
+        "We support companies undergoing transition, turnaround, or rapid scale by placing seasoned leaders for fixed-term roles across functions and sectors.",
       image: Flag2,
       color: "bg-[#005581]", // blue
     },
     {
       title: "HR Advisory Services",
       description:
-        "We support leadership development, succession planning, and organisation design to enable long-term leadership excellence.",
+        "We work with Boards, CEOs and CHROs on leadership development, succession planning, and organisation design to enable long term leadership excellence. Our work helps future-proof leadership teams.",
       image: Flag3,
       color: "bg-[#7BA23F]", // green
     },
@@ -200,7 +231,7 @@ export const CommitmentSec = () => {
     Image: DiversityImg,
     title: "Our Commitment To Diversity",
     description:
-      "At Taplow India & Middle East, diversity in leadership is a personal and professional priority. We actively work with clients to build inclusive leadership teams, knowing that diversity fuels innovation, better decisions, and sustainable growth.",
+      "At Taplow India, we believe that leadership should reflect in the world that we live in. We actively champion diverse leadership slates to ensure every search includes candidates from underrepresented backgrounds—across gender, experience, and social context. We actively work with clients to build inclusive leadership teams, knowing that diversity fuels innovation, better decisions, and sustainable growth.  ",
   };
 
   return (
