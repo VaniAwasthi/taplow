@@ -234,10 +234,12 @@ export default function OurConsultants() {
                               <Navigation2 className="text-white w-3 h-3 mr-2" />
                               <span>{consultant.location}</span>
                             </div>
-                            <div className="flex items-center text-white text-sm font-medium mb-3">
-                              <Phone className="text-white w-3 h-3 mr-2" />
-                              <span>{consultant.phone}</span>
-                            </div>
+                            {consultant.phone ? (
+                              <div className="flex items-center text-white text-sm font-medium mb-3">
+                                <Phone className="text-white w-3 h-3 mr-2" />
+                                <span>{consultant.phone}</span>
+                              </div>
+                            ) : null}
                             <div
                               className="flex items-center justify-between w-full text-white text-sm font-medium mt-3 cursor-pointer"
                               onClick={() =>

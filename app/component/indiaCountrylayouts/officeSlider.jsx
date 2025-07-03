@@ -21,7 +21,7 @@ import OneOffice from "../coun-layout/OneOffice";
 
 // office Slider
 export const OfficeSlider = () => {
-  const officeSecHeading = "Our office in India";
+  const officeSecHeading = "Our Office in India";
   const officeData = {
     id: 1,
     image: officeImage,

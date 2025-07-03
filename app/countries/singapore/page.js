@@ -21,7 +21,7 @@ const page = () => {
     title: `Welcome to <b>Taplow Singapore</b>`,
     desc: "Founded over a decade ago, in Singapore, with Asia-wide Coverage",
   };
-  const officeSecHeading = "Our office in Singapore";
+  const officeSecHeading = "Our Office in Singapore";
   const officeData = {
     id: 1,
     image: officeImage,

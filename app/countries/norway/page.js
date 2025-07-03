@@ -23,12 +23,12 @@ const page = () => {
     title: `Welcome to <b>Taplow Norway</b>`,
     desc: "We focus on Executive Search and selection. We also support our clients with Executive Interim and assist in general Human Capital related Challenges. Taplow has operated in the Norwegian market since 2004. ",
   };
-  const officeSecHeading = "Our office in Norway";
+  const officeSecHeading = "Our Office in Norway";
   const officeData = {
     id: 1,
     image: officeImage,
     name: "Oslo",
-    address: "Henrik Ibsens gate 90, 0255 Oslo, Norway",
+    address: `Henrik Ibsens gate 90, <br/> 0255 Oslo, Norway`,
     // phone: "604-687-6464",
     email: "eric@macdonaldsearchgroup.com",
   };

@@ -18,7 +18,7 @@ const page = () => {
     title: `Welcome to <b>Taplow Spain </b>`,
     desc: "TAPLOW SPAIN, founded in 1997 in Madrid, is an independent Human Resources Consulting and Executive Search firm, with a particular focus in the Financial, Professional Services, Real Estate, Retail and Infrastructure sectors. Our firm also provides Strategy Consulting Services in projects such as M&A, Restructuring, Board Advisory, etc",
   };
-  const officeSecHeading = "Our office in Spain";
+  const officeSecHeading = "Our Office in Spain";
   const officeData = {
     id: 1,
     image: officeImage,

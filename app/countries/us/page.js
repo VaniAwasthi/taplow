@@ -18,7 +18,7 @@ const page = () => {
     title: `Welcome to <b>Taplow USA</b>`,
     desc: "Established in 1991, we are amongst the founding partners of The Taplow Group S.A. With a diverse team strategically located in multiple markets across North America and around the world, we have expertise in supporting local, national and global companies’ growth plans.",
   };
-  const officeSecHeading = "Our office in USA";
+  const officeSecHeading = "Our Office in USA";
   const officeData = {
     id: 1,
     image: officeImage,
