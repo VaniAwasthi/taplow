@@ -20,12 +20,12 @@ const page = () => {
     title: `Welcome to <b>Taplow Denmark</b>`,
     desc: "Taplow has more than 30 years of experience with Executive Search and headhunting. We are a part of The Taplow Group, which is represented in more than 20 countries across 6 continents",
   };
-  const officeSecHeading = "Our office in Denmark";
+  const officeSecHeading = "Our Office in Denmark";
   const officeData = {
     id: 1,
     image: officeImage,
     name: "Slotsmarken",
-    address: "Slotsmarken 11, 2970 Hørsholm, Denmark.",
+    address: `Slotsmarken 11, <br/> 2970 Hørsholm, Denmark.`,
     // phone: "604-687-6464",
     email: "eric@macdonaldsearchgroup.com",
   };

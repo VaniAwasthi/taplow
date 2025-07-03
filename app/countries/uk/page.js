@@ -18,7 +18,7 @@ const page = () => {
     title: `Welcome to <b>Taplow UK</b>`,
     desc: "We help UK firms grow, locally and internationally whilst support companies expanding into the UK market. As a founding partner of The Taplow Group S.A., we bring a wealth of experience in multiple market sectors — backed by in-house fluency in German, French, Danish, Swedish, Norwegian, and English",
   };
-  const officeSecHeading = "Our office in UK";
+  const officeSecHeading = "Our Office in UK";
   const officeData = {
     id: 1,
     image: officeImage,

@@ -22,7 +22,7 @@ const page = () => {
     desc: "Our New Zealand operation has established and grown from merging the skills, experience and resources of SandriWalsh Executive Search and Rosenberg Executive Search to form SWR Executive Search (Sandri Walsh Rosenberg). ",
   };
 
-  const officeSecHeading = "Our office in New Zealand";
+  const officeSecHeading = "Our Office in New Zealand";
   const officeData = [
     {
       id: 1,

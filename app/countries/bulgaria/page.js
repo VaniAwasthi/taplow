@@ -22,7 +22,7 @@ const page = () => {
     title: `Welcome to <b>Taplow Bulgaria</b>`,
     desc: "Taplow Bulgaria has been operating on the Bulgarian market since 2015 and has been providing top-notch services ever since. We focus primarily on retained executive search and we also offer a wide range of other services.",
   };
-  const officeSecHeading = "Our office in Bulgaria";
+  const officeSecHeading = "Our Office in Bulgaria";
   const officeData = {
     id: 1,
     image: officeImage,

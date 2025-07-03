@@ -62,7 +62,7 @@ const OneOffice = ({ heading, officeData }) => {
             <div className="space-y-3 text-md w-[80%]">
               <div className="flex items-start gap-2">
                 <Navigation2 className="w-9 h-9 text-white mt-1" />
-                <p>{officeData.address}</p>
+                <p dangerouslySetInnerHTML={{ __html: officeData.address }}></p>
               </div>
               {officeData.phone ? (
                 <div className="flex items-center gap-2 pt-3">

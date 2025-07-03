@@ -19,7 +19,7 @@ const page = () => {
     title: `Welcome to <b>Taplow Australia</b>`,
     desc: "The Taplow Group was established in Australia in 2002 and brings both traditional and contemporary recruitment methodologies to clients. Our focus is on delivering a service that identifies the best talent for your business.",
   };
-  const officeSecHeading = "Our office in Australia";
+  const officeSecHeading = "Our Office in Australia";
   const officeData = {
     id: 1,
     image: officeImage,

@@ -26,7 +26,7 @@ const page = () => {
     image: officeImage,
     name: "Helsinki",
     address:
-      "Mannerheimintie 113, Aitio Business Park, 00280 Helsinki, Finland.",
+      "Mannerheimintie 113,<br/> Aitio Business Park, <br/>00280 Helsinki, Finland.",
     // phone: "604-687-6464",
     email: "eric@macdonaldsearchgroup.com",
   };

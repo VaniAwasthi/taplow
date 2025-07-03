@@ -21,7 +21,7 @@ const page = () => {
     title: `Welcome to <b>Taplow Italy</b>`,
     desc: "Executive Search firm established in 2003 and based in Milan,Italy. We offer services for search, evaluation and selection of specialists and managers",
   };
-  const officeSecHeading = "Our office in Italy";
+  const officeSecHeading = "Our Office in Italy";
   const officeData = {
     id: 1,
     image: officeImage,

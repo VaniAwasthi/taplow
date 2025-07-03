@@ -27,7 +27,7 @@ const page = () => {
     title: `Welcome to <b>Taplow France</b>`,
     desc: "Created in 1989 to follow the strong development of HR market in industry, energy, facilities and services sectors, TAPLOW CONSULTING FRANCE has offices in Lyon and Paris.",
   };
-  const officeSecHeading = "Our office in France";
+  const officeSecHeading = "Our Office in France";
   const officeData = {
     id: 1,
     image: officeImage,
