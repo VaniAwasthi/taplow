@@ -1165,7 +1165,7 @@ business administration from Norway and the United States.`,
   {
     id: 40,
     name: "Mats Marino Nygren",
-    role: "Researcher",
+    role: "Consultant",
     location: "Norway",
     services: ["Research and analysis"],
     phone: "+47 911 64 134",

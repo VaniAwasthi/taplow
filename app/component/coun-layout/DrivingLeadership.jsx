@@ -39,7 +39,7 @@ const DrivingLeadership = ({
         <h2
           className={`lg:w-[400px] w-full  text-2xl redhat font-normal md:text-3xl mt-8 mb-4 ${aboutheadingclass}`}
         >
-          At the Heart of Leadership, Wherever You Are.{" "}
+          At the Heart of Leadership, Wherever You Are.
         </h2>
         <div className="flex md:flex-row md:ml-3">
           <div className="bg-[#83A790] my-4 h-[2px] w-[150px] md:w-[200px] xl:w-[600px]"></div>
