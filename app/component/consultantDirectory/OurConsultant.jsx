@@ -46,7 +46,34 @@ export default function OurConsultants() {
   ].sort();
 
   const uniqueRoles = ["Managing Partner", "Consultant", "Researcher"];
-
+  const RoleConsultantKeywords = [
+    "Partner",
+    "Senior partner",
+    "Executive partner",
+    "Partner value search",
+    "Coaching psychologist",
+    "Leadership advisory and performance coach",
+    "Leadership advisory and performance",
+    "Senior consultant",
+    "Senior partner",
+    "Commercial and marketing",
+    "Translational medicine/ informatics/ biology/ bd& alliance",
+    "Head of clinical development/medical affairs/ra",
+    "Practice leader",
+    "Principal",
+    "Associate principal",
+    "Member- advisory council india",
+    "Coo, recruitment consultant sweden",
+    "Recruitment consultant",
+    "Leadership development partner",
+  ];
+  const RoleManagingPartnerKeywords = [
+    " Managing director",
+    " Managing partner",
+    "Joint managing partner",
+    "Co- Founder- The Taplow Group, India Global CEO & Board Member- The Taplow Group S.A.",
+  ];
+  const RoleResearcherKeywords = ["Researcher", "Research manager"];
   // 🔄 FILTERING LOGIC WITH UPDATED SERVICES CHECK
   const filteredConsultants = consultantData.filter((c) => {
     if (c.hideFromDirectory) return false;
@@ -64,16 +91,46 @@ export default function OurConsultants() {
     const matchesService =
       !filters.services || serviceList.includes(filters.services);
 
-    const matchesRole =
-      !filters.role ||
-      (typeof c.role === "string" &&
-        c.role.toLowerCase().includes(filters.role.toLowerCase()));
+    const matchesRole = (() => {
+      if (!filters.role) return true;
+
+      const roleText = c.role?.toLowerCase().trim() || "";
+
+      const isConsultantMatch = RoleConsultantKeywords.some((keyword) =>
+        roleText.includes(keyword.toLowerCase().trim())
+      );
+      const isManagingMatch = RoleManagingPartnerKeywords.some((keyword) =>
+        roleText.includes(keyword.toLowerCase().trim())
+      );
+      const isResearcherMatch = RoleResearcherKeywords.some((keyword) =>
+        roleText.includes(keyword.toLowerCase().trim())
+      );
+
+      const selectedRole = filters.role.trim().toLowerCase();
+
+      if (selectedRole === "consultant") {
+        return isConsultantMatch && !isManagingMatch;
+      }
+
+      if (selectedRole === "managing partner") {
+        return isManagingMatch;
+      }
+
+      if (selectedRole === "researcher") {
+        return isResearcherMatch;
+      }
+
+      return roleText.includes(selectedRole);
+    })();
 
     const matchesLocation =
       !filters.location ||
       c.location.toLowerCase().includes(filters.location.toLowerCase());
 
-    return matchesSearch && matchesService && matchesRole && matchesLocation;
+    const finalResult =
+      matchesSearch && matchesService && matchesRole && matchesLocation;
+
+    return finalResult;
   });
 
   const sortedConsultants = [...filteredConsultants].sort((a, b) =>
