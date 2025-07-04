@@ -44,12 +44,12 @@ export const AboutSect = () => {
   const greenDescription = `Shaping leadership in India, Asia, Middle East & Africa since 2014`;
   const AboutContent = {
     aboutContentpara1:
-      "Established in 2014 by Sangeeta Sabharwal and Shaista Sabharwal, The Taplow Group – India is a trusted partner to organisations seeking high-impact leadership talent across sectors and geographies such as India, Asia, Middle East & Africa.",
+      "Established in 2014 by Sangeeta Sabharwal and Shaista Sabharwal, The Taplow Group – India is a trusted partner to organizations seeking high-impact leadership talent across sectors and geographies such as India, Asia, Middle East & Africa.",
     aboutContentpara2:
       "As a premier Executive Search & Leadership Advisory firm, we bring the agility of a boutique firm with the credibility of a global brand, and help businesses build strong and future- ready leadership teams.",
     aboutContentpara3: `Our Teams specialize in Executive Search, Leadership Advisory and Executive Interim mandates across sectors such as Manufacturing, Industrial, Consumer & Retail, Professional Services, Philanthropy & Social Impact, Aviation, Education, Healthcare, Pharmaceuticals & Life Sciences, Fashion, Energy etc.<br/><br/> `,
     aboutContentpara4:
-      "Our approach is deeply embedded in relationships where we don’t view clients as accounts. We become their voice in the market and advisors at the table.<br/>We support large, medium, and small enterprises across Global MNCs setting up or scaling up, Indian MNCs expanding into global markets, Family-run and promoter-led businesses on transformation journeys",
+      "Our approach is deeply embedded in relationships where we don’t view clients as accounts. We become their voice in the market and advisors at the table.<br/>We support large, medium, and small enterprises across Global MNCs setting up or scaling up, Indian MNCs expanding into global markets, family-run and promoter-led businesses on transformation journeys",
   };
   return (
     <>
