@@ -23,7 +23,7 @@ const page = () => {
     id: 1,
     image: officeImage,
     name: "Madrid",
-    address: "Fernando el Santo 25, 4-D 28001 Madrid-Spain",
+    address: "Fernando el Santo 25-28001 Madrid-Spain",
     phone: "+34 656 844 582",
     email: "eric@macdonaldsearchgroup.com",
   };
