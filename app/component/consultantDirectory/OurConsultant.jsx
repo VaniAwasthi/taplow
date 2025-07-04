@@ -173,10 +173,10 @@ export default function OurConsultants() {
             key: "services",
             label: "Service",
             options: [
-              "Executive Interim",
               "Executive Search",
-              "Leadership Advisory and Performance",
+              "Executive Interim",
               "Board Services",
+              "Leadership Advisory and Performance",
             ],
           },
         ]}
