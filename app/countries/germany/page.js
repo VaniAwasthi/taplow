@@ -25,18 +25,20 @@ const page = () => {
   const officeData = [
     {
       id: 1,
-      image: officeImage,
-      name: "Hamburg",
-      address: "Warburgstr. 32, 20354 Hamburg, Germany",
-      // phone: "604-687-6464",
+      image: officeImage2,
+      name: "Frankfurt ",
+      address:
+        "Taplow Executive Search, Opernplatz 14, 60313 Frankfurt, Germany",
+      // phone: "+44(0)1442 383361",
       // email: "eric@macdonaldsearchgroup.com",
     },
     {
       id: 2,
-      image: officeImage2,
-      name: "Frankfurt ",
-      address: "Opernplatz 14,  60313 Frankfurt, Germany",
-      // phone: "+44(0)1442 383361",
+      image: officeImage,
+      name: "Hamburg",
+      address:
+        "Taplow Executive Search, Warburgstr. 32, 20354 Hamburg, Germany",
+      // phone: "604-687-6464",
       // email: "eric@macdonaldsearchgroup.com",
     },
   ];
