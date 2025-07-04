@@ -1693,8 +1693,7 @@ Fluent in German, English, and French.
     image: BerndSchlosshauer,
     address: `Taplow Executive Search  
 Opernplatz 14 <br/>
-60313 Frankfurt, Germany <br/>
-
+60313 Frankfurt, Germany <br/><br/>
 Taplow Executive Search   
 Warburgstr. 32 <br/>
 20354 Hamburg, Germany 
@@ -1725,7 +1724,7 @@ Bernd is member of various organizations.
     image: HelmutBoehler,
     address: `Taplow Executive Search  
 Opernplatz 14 <br/>
-60313 Frankfurt, Germany <br/>
+60313 Frankfurt, Germany <br/><br/>
 Taplow Executive Search   
 Warburgstr. 32 <br/>
 20354 Hamburg, Germany 
@@ -1842,7 +1841,7 @@ Managers, and develop since then the Executive Interim practice with Taplow Fran
     phone: "+33 635 45 75 76",
     email: "mdumont@taplow.fr",
     linkdine: "https://www.linkedin.com/in/marine-dumont-57a46a12/",
-    services: ["Leadership Advisory and Performance", "Executive Interim"],
+    services: ["Leadership Advisory and Performance"],
     industrySectors: [
       "Consumer Products",
       "Financial Services",
@@ -1890,6 +1889,7 @@ practices.`,
       "Executive Search",
       "Executive Interim and leadership Advisory and Performance",
       "Board Services",
+      "Executive Interim",
     ],
     industrySectors: [
       "Consumer Products",
@@ -2032,7 +2032,7 @@ Vijay has a master's degree in human resources management from the Tata Institut
       "Non-Profit",
     ],
     image: ManuelVermeer,
-    address: `Taplow Executive Search Opernplatz 14 <br/> 60313 Frankfurt, Germany <br/> Taplow Executive Search Warburgstr. 32 <br/> 20354 Hamburg, Germany`,
+    address: `Taplow Executive Search Opernplatz 14 <br/> 60313 Frankfurt, Germany <br/><br/> Taplow Executive Search Warburgstr. 32 <br/> 20354 Hamburg, Germany`,
     bio: `Consultant on doing business in Asia, fluent in Mandarin, extensive work with
 Sangeeta Sabharwal in India, conducting Executive Search for European companies in China/India and
 Chinese/Indian companies in Germany.`,
