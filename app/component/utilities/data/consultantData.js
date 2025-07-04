@@ -140,7 +140,7 @@ Comillas (ICADE), Madrid.She speaks English fluently and has a basic command of 
 Spain`,
     linkdine: "https://www.linkedin.com/in/taplowgroup/?originalSubdomain=es",
     industrySectors: [
-      "Finantial Services",
+      "Financial Services",
       "Real Estate, Professional Services",
       "PE and VC",
     ],
@@ -1692,11 +1692,11 @@ Fluent in German, English, and French.
     ],
     image: BerndSchlosshauer,
     address: `Taplow Executive Search  
-Opernplatz 14
-60313 Frankfurt, Germany
+Opernplatz 14 <br/>
+60313 Frankfurt, Germany <br/>
 
 Taplow Executive Search   
-Warburgstr. 32
+Warburgstr. 32 <br/>
 20354 Hamburg, Germany 
 `,
     bio: `Bernd is a Managing Partner at Taplow Executive Search in Germany. He has successfully conducted various high profile executive search mandates within The Taplow Group since 2013: many senior roles for leading international companies, business & operational responsibilities and senior advisory positions in Financial Services, Real Estate and in Professional Services.<br/><br/>
@@ -1724,10 +1724,10 @@ Bernd is member of various organizations.
     ],
     image: HelmutBoehler,
     address: `Taplow Executive Search  
-Opernplatz 14
-60313 Frankfurt, Germany
+Opernplatz 14 <br/>
+60313 Frankfurt, Germany <br/>
 Taplow Executive Search   
-Warburgstr. 32
+Warburgstr. 32 <br/>
 20354 Hamburg, Germany 
  
 `,
@@ -2032,7 +2032,7 @@ Vijay has a master's degree in human resources management from the Tata Institut
       "Non-Profit",
     ],
     image: ManuelVermeer,
-    address: `Taplow Executive Search Opernplatz 14 60313 Frankfurt, Germany Taplow Executive Search Warburgstr. 32 20354 Hamburg, Germany`,
+    address: `Taplow Executive Search Opernplatz 14 <br/> 60313 Frankfurt, Germany <br/> Taplow Executive Search Warburgstr. 32 <br/> 20354 Hamburg, Germany`,
     bio: `Consultant on doing business in Asia, fluent in Mandarin, extensive work with
 Sangeeta Sabharwal in India, conducting Executive Search for European companies in China/India and
 Chinese/Indian companies in Germany.`,
