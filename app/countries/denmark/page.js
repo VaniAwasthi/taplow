@@ -18,7 +18,7 @@ import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
 const page = () => {
   const BannerData = {
     title: `Welcome to <b>Taplow Denmark</b>`,
-    desc: "Taplow has more than 30 years of experience with Executive Search and headhunting. We are a part of The Taplow Group, which is represented in more than 20 countries across 6 continents",
+    desc: "Taplow has more than 30 years of experience with Executive Search and headhunting. We are a part of The Taplow Group, which is represented in more than 17 countries across 4 continents.",
   };
   const officeSecHeading = "Our Office in Denmark";
   const officeData = {
@@ -35,7 +35,7 @@ const page = () => {
     general: {
       title: "General Information",
       paragraphs: [
-        "Taplow Denmark has over 30 years of experience in Executive Search and headhunting. We are part of The Taplow Group, which is represented in more than 20 countries across six continents. We are experts in Executive Search and have a strong track record of recruiting top-tier talent for some of Denmark’s largest international and most innovative companies (including pharma, shipping, telecom, IT, engineering, and manufacturing) both in Denmark and abroad. We also serve a large base of mid-sized, expanding companies, as well as some of Denmark’s most promising startups. Additionally, we assist many Fortune 500 clients in finding the best candidates for their Danish and Nordic subsidiaries.",
+        "Taplow has more than 30 years of experience with Executive Search and headhunting. We are a part of The Taplow Group, which is represented in more than 17 countries across 4 continents in finding the best candidates for their Danish and Nordic subsidiaries.",
         "At our Danish office, our clients experience the entire process as a seamless flow, where our team of headhunters, researchers, and administrative staff work closely and dedicatedly together. A key element of our unique approach is Taplow’s “2-Way Assessment Center.” Here, we combine problem-solving and change management with real business challenges. Through this process, we evaluate candidates’ professional experience and personality—comparing them to the job requirements and assessing the chemistry and fit between the client and the candidate. This process can stand alone or be integrated with other HR initiatives.",
       ],
       image: DiversityImg,
