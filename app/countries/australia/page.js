@@ -9,6 +9,7 @@ import generalImg from "../../assets/globalpage/generalImg.webp";
 import { TeamSection } from "@/app/component/coun-layout/SweadenTeamsec";
 import Success1 from "../../assets/globalpage/CaseStudies/austriliaCase1.webp";
 import Success2 from "../../assets/globalpage/CaseStudies/austriliaCase2.webp";
+import Success3 from "../../assets/globalpage/CaseStudies/austriliaCase3.webp";
 import { GlobalpageBanner } from "@/app/component/coun-layout/GlobalpageBanner";
 import TaplowInfoSection from "@/app/component/coun-layout/TaplowInfoSection";
 import CaseStudies from "@/app/component/coun-layout/CaseStudies";
@@ -75,8 +76,12 @@ const page = () => {
     {
       image: Success2,
       title: "Leadership Development Across Multi-Brand Teams",
-
       link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/austrilia/LeadershipDevelopmentAcrossMultiBrandTeams.pdf",
+    },
+    {
+      image: Success3,
+      title: "Agriculture Sector Development",
+      link: "https://cruxcreativedemo2.com/Taplow-new/SuccessStory/austrilia/TheTaplowGroupAgricultureSectorDevelopmentCaseStudy-TaplowAustralia.pdf",
     },
   ];
   const Successheading = "Recent Success Stories From Australia";
