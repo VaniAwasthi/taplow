@@ -100,14 +100,12 @@ const page = () => {
 of Canada’s largest Executive Search Firms with a team of 19 Search Consultants, Researchers and Marketing Admin spread across 8
 offices that span the country coast-to-coast.`,
     Aboutheading: "Taplow Canada:Driving Leadership and Diversity Excellence",
-    aboutContentpara1: `Offices in Vancouver, Calgary, Edmonton,<br/> Halifax, Moncton, Ottawa, Toronto and Montreal. Established in 2010, our partners in Canada is MacDonald Search Group operating under Taplow Canada for global projects. `,
-    aboutContentpara2: `MSG is one
-of Canada’s largest Executive Search Firms with a team of 19 Search Consultants, Researchers and Marketing Admin spread across 8 offices that span the country coast-to-coast.  The firm was founded by Bruce MacDonald who has over 25 years of executive search
-experience.`,
+    aboutContentpara1: `Established in 2010, our Canadian partner is MacDonald Search Group.  The firm was founded by Bruce MacDonald who has over 25 years of executive search experience.  MSG supports clients of all sizes and industries in mid to senior level searches.  `,
+    aboutContentpara2: `MSG is one of Canada’s largest Executive Search Firms with a team of Search Consultants, Researchers and Marketing Admin spanning the country coast-to-coast with offices located in Vancouver, Calgary, Edmonton, Halifax, Moncton, Ottawa, Toronto and Montreal.`,
     aboutContentpara3:
-      "What sets us apart is the depth of real-world experience our search consultants bring; many have held corporate roles in the very industries they now recruit for. Each consultant leads their search engagement from start to finish. We don't pass the baton—our consultants personally manage candidate outreach, interviews, references, and the offer stage.",
+      "What sets MSG apart is the depth of real-world experience our search consultants bring; many have held corporate roles in the very industries they now recruit for. Each consultant leads their search engagement from start to finish. We don't offshore our outsource—our consultants personally manage candidate outreach, interviews, references, and the offer stage.",
     aboutContentpara4:
-      "Despite our growth, MacDonald Search Group remains committed to the core values: collaboration, humility, and accountability. We believe in building lasting relationships with clients and candidates based on trust and transparency.",
+      "Driving our growth is MacDonald Search Group’s commitment to the core values of collaboration, humility, and accountability. We believe in building lasting relationships with clients and candidates based on trust and transparency.",
   };
   const SuccessStoryslidesData = [
     {
