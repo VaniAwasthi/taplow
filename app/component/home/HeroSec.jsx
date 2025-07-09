@@ -23,7 +23,7 @@ const slides = [
     buttonText: "Know More",
     image: BgImag,
     buttonImage: require("../../assets/homePage/btn-img.svg").default,
-    href: "#",
+    href: "/about-us",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const slides = [
     buttonText: "Know More",
     image: BgImag2,
     buttonImage: require("../../assets/homePage/btn-img.svg").default,
-    href: "#",
+    href: "/about-us",
   },
   {
     id: 3,
@@ -82,7 +82,7 @@ export default function Carousel() {
               description={slide.description}
               buttonText={slide.buttonText}
               hoverImage={HoverImage}
-              // href={slide.href}
+              href={slide.href}
               BgClassname="object-cover w-full h-full object-center "
               // zIndex="1"
             />
