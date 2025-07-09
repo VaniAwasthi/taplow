@@ -36,9 +36,13 @@ export const ConsumerProductsConsultants = ({ Heading, leaderData, desc }) => {
   const [currentPage, setCurrentPage] = useState(1);
 
   const allConsultants = consultantData.flat();
-  const matchedLeaders = allConsultants.filter((consultant) =>
-    leaderData.some((leader) => leader.name === consultant.name)
-  );
+  const matchedLeaders = allConsultants
+    .filter((consultant) =>
+      leaderData.some((leader) => leader.name === consultant.name)
+    )
+    .sort((a, b) =>
+      a.name.localeCompare(b.name, undefined, { sensitivity: "base" })
+    );
 
   const [filters, setFilters] = useState({
     search: "",

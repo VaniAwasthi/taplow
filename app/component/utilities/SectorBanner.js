@@ -37,20 +37,20 @@ export const SectorBanner = ({
             {heading}
           </h2>
           <div
-            className="mt-3 md:mb-[3rem] h-[1px] w-[50%] md:w-[320px]  md:mx-0"
+            className="mt-3 md:mb-[2rem] h-[1px] w-[50%] md:w-[320px]  md:mx-0"
             style={{
               background: "linear-gradient(to right, #005581 20%, #96A94A 30%)",
             }}
           ></div>
 
           <p
-            className={`mt-[1rem] md:mt-[3rem] text-xs md:text-base leading-snug max-w-[40%] md:max-w-[400px] ${textColorDes}`}
+            className={`mt-[1rem] md:mt-0 text-xs md:text-base leading-snug max-w-[40%] md:max-w-[400px] ${textColorDes}`}
           >
             {description}
           </p>
 
           {/* Button */}
-          {isButton ? (
+          {/* {isButton ? (
             <div className="mt-6">
               <Button
                 className="w-[250px] md:w-[242px]"
@@ -59,7 +59,7 @@ export const SectorBanner = ({
                 hoverImage={HoverImage}
               />
             </div>
-          ) : null}
+          ) : null} */}
         </div>
       </div>
     </>
