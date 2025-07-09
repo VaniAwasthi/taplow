@@ -51,7 +51,7 @@ export const ItAllStarted = () => {
   const data = {
     sec1heading: "Taplow and the Tulip Tree: Our Brand Story",
     sec1des:
-      "TThe Taplow name is derived from our inaugural conference held in 2002 in Taplow, UK, on the banks of the River Thames, a short distance from Windsor Castle. Mentioned in the Domesday Book in 1086, the village was originally Anglo-Saxon and is steeped in history.",
+      "The Taplow name is derived from our inaugural conference held in 2002 in Taplow, UK, on the banks of the River Thames, a short distance from Windsor Castle. Mentioned in the Domesday Book in 1086, the village was originally Anglo-Saxon and is steeped in history.",
     sec1des2: `<p>Our logo is inspired by the Tulip Trees found within the grounds of Taplow House Hotel. Originally planted during the reign of Elizabeth I, these trees have stood the test of time, weather, and evolving economies and nations.</p>`,
 
     sec1img: LogoNameImg,
