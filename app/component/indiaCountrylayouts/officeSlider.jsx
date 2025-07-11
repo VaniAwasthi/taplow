@@ -75,7 +75,7 @@ export const AboutSect = () => {
             {/* Content Section */}
             <div className="relative z-10 flex flex-col md:flex-row items-center justify-center max-w-7xl mx-auto px-6 md:px-12 w-full text-white">
               <p
-                className="text-xl font-normal text-center"
+                className="text-xl md:text-4xl font-normal text-center"
                 dangerouslySetInnerHTML={{ __html: greenDescription }}
               ></p>
             </div>
