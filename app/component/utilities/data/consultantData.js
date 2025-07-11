@@ -710,7 +710,7 @@ Tim holds a Bachelor of Science (Hons) in Estate Management
   {
     id: 24,
     name: "Sangeeta Sabharwal",
-    role: "Managing Partner – India",
+    role: "Co-Founder & Managing Partner – The Taplow Group, India",
     location: "India",
     services: [
       "Global Executive Search",
@@ -747,7 +747,7 @@ Gurgaon-122002, Haryana`,
   {
     id: 25,
     name: "Shaista Sabharwal",
-    role: "Co- Founder- The Taplow Group, India Global CEO & Board Member- The Taplow Group S.A.",
+    role: `Co- Founder- The Taplow Group, India <br/>  Global CEO & Board Member- The Taplow Group S.A.`,
     location: "India",
     services: [
       "Global Executive Search",
@@ -786,7 +786,7 @@ Gurgaon-122002, Haryana`,
   {
     id: 26,
     name: "Priyanka Mazumdar",
-    role: "Practice Leader – Global Philanthropy & Social Impact Member – Advisory Council, India",
+    role: `Practice Leader – Global Philanthropy & Social Impact <br/>Member – Advisory Council, India`,
     location: "India",
     services: ["Executive Search", "Board Services"],
     // phone: "+91 98 2028 9155",

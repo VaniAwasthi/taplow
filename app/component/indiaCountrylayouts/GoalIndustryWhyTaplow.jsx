@@ -7,8 +7,11 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 // Import images
-import Digi from "../../assets/homePage/digi.png";
-import Financial from "../../assets/homePage/financial.webp";
+import Professional from "../../assets/homePage/professional.webp";
+
+import Energy from "../../assets/globalpage/India/Energy.webp";
+import Fashion from "../../assets/globalpage/India/Fashion.webp";
+import Education from "../../assets/globalpage/India/Education.webp";
 import Notforprofit from "../../assets/homePage/notforprofit.png";
 import Industrial from "../../assets/globalpage/India/Industrial.webp";
 import Consumer from "../../assets/globalpage/India/Consumer.webp";
@@ -96,6 +99,26 @@ export const SectorSlider = () => {
       title: "Healthcare, Pharmaceuticals & Lifesciences",
       image: Health,
       textColor: "text-black",
+    },
+    {
+      title: "Professional Services",
+      image: Professional,
+      textColor: "text-white",
+    },
+    {
+      title: "Education",
+      image: Education,
+      textColor: "text-black",
+    },
+    {
+      title: "Fashion",
+      image: Fashion,
+      textColor: "text-white",
+    },
+    {
+      title: "Energy",
+      image: Energy,
+      textColor: "text-white",
     },
   ];
   return (
@@ -204,7 +227,7 @@ export const WhyChooseIndia = () => {
     {
       img: Icon2,
       title: "Senior-Led Engagement",
-      desc: "All mandates are personally led by senior consultants to ensure quality and consistency.",
+      desc: "All mandates are personally led by senior partners to ensure quality and consistency.",
     },
     {
       img: Icon3,

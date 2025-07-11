@@ -16,14 +16,19 @@ const ProfileDetailLayout = ({ consultant }) => {
         <Image
           src={consultant.image}
           alt={consultant.name}
-          width={400}
+          width={300}
           height={200}
-          className="h-[25rem] md:h-[21rem]"
+          className="h-[25rem] md:h-[20rem]"
         />
         <h2 className="text-2xl font-bold text-left mt-4 mb-2">
           {consultant.name}
         </h2>
-        <p className="text-left text-gray-500">{consultant.role}</p>
+        <p
+          className="text-left text-gray-500"
+          dangerouslySetInnerHTML={{ __html: consultant.role }}
+        >
+          {/* {consultant.role} */}
+        </p>
         <div className="mt-4 space-y-2">
           {consultant.phone ? (
             <div className="flex items-left space-x-2">
