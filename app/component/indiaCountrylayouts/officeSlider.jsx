@@ -43,20 +43,16 @@ export const AboutSect = () => {
   const Aboutheading = "About Taplow India";
   const greenDescription = `Shaping leadership in India, Asia, Middle East & Africa since 2014`;
   const AboutContent = {
-    aboutContentpara1:
-      "Established in 2014 by Sangeeta Sabharwal and Shaista Sabharwal, The Taplow Group – India is a trusted partner to organizations seeking high-impact leadership talent across sectors and geographies such as India, Asia, Middle East & Africa.",
-    aboutContentpara2:
-      "As a premier Executive Search & Leadership Advisory firm, we bring the agility of a boutique firm with the credibility of a global brand, and help businesses build strong and future- ready leadership teams.",
-    aboutContentpara3: `Our Teams specialize in Executive Search, Leadership Advisory and Executive Interim mandates across sectors such as Manufacturing, Industrial, Consumer & Retail, Professional Services, Philanthropy & Social Impact, Aviation, Education, Healthcare, Pharmaceuticals & Life Sciences, Fashion, Energy etc.<br/><br/> `,
-    aboutContentpara4:
-      "Our approach is deeply embedded in relationships where we don’t view clients as accounts. We become their voice in the market and advisors at the table.<br/>We support large, medium, and small enterprises across Global MNCs setting up or scaling up, Indian MNCs expanding into global markets, family-run and promoter-led businesses on transformation journeys",
+    aboutContentpara1: `Established in 2014 by Sangeeta Sabharwal and Shaista Sabharwal, The Taplow Group – India is a trusted partner to organizations seeking high-impact leadership talent across sectors and geographies such as India, Asia, Middle East & Africa.<br/><br/> As a premier Executive Search & Leadership Advisory firm, we bring the agility of a boutique firm with the credibility of a global brand, and help businesses build strong and future- ready leadership teams.<br/><br/> Our approach is deeply embedded in relationships where we don’t view clients as accounts. We become their voice in the market and advisors at the table.`,
+    aboutContentpara2: `Our Teams specialize in Executive Search, Leadership Advisory and Executive Interim mandates across sectors such as Manufacturing, Industrial, Consumer & Retail, Professional Services, Philanthropy & Social Impact, Aviation, Education, Healthcare, Pharmaceuticals & Life Sciences, Fashion, Energy etc.<br/><br/>
+     We support large, medium, and small enterprises across Global MNCs setting up or scaling up, Indian MNCs expanding into global markets, family-run and promoter-led businesses on transformation journeys.`,
   };
   return (
     <>
       <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
+        <div className="grid grid-cols-1  gap-4">
           {/* Blue Box - 3/12 */}
-          <div className="md:col-span-3 bg-[#005581] rounded-lg p-6 text-white">
+          {/* <div className="md:col-span-3 bg-[#005581] rounded-lg p-6 text-white">
             <h2 className="md:hidden block redhat text-4xl font-normal mb-2">
               {Aboutheading}
             </h2>
@@ -64,7 +60,7 @@ export const AboutSect = () => {
               About <br />
               Taplow India
             </h2>
-          </div>
+          </div> */}
 
           {/* Green Box with Background - 9/12 */}
           <div className="relative md:col-span-9 w-full md:h-40 h-64 flex items-center overflow-hidden transition-transform duration-300 hover:scale-105">
@@ -77,9 +73,9 @@ export const AboutSect = () => {
             </div>
 
             {/* Content Section */}
-            <div className="relative z-10 flex flex-col md:flex-row items-start justify-between max-w-7xl mx-auto px-6 md:px-12 w-full text-white">
+            <div className="relative z-10 flex flex-col md:flex-row items-center justify-center max-w-7xl mx-auto px-6 md:px-12 w-full text-white">
               <p
-                className="text-md font-normal text-left"
+                className="text-xl font-normal text-center"
                 dangerouslySetInnerHTML={{ __html: greenDescription }}
               ></p>
             </div>

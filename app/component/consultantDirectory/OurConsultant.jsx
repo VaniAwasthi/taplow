@@ -223,7 +223,14 @@ export default function OurConsultants() {
                         />
 
                         {hovered === `${index}-${idx}` && (
-                          <div className="absolute inset-0 bg-[#005581] text-white flex flex-col justify-center items-start p-4 rounded-lg transition-opacity duration-300 opacity-100">
+                          <div
+                            onClick={() =>
+                              router.push(
+                                `/ConsultantProfile?id=${consultant.id}`
+                              )
+                            }
+                            className="cursor-pointor absolute inset-0 bg-[#005581] text-white flex flex-col justify-center items-start p-4 rounded-lg transition-opacity duration-300 opacity-100"
+                          >
                             <h3 className="font-bold text-lg mt-3 mb-4">
                               {consultant.name}
                             </h3>

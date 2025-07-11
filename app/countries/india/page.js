@@ -34,7 +34,7 @@ const page = () => {
     },
     {
       image: Success2,
-      title: "Manufacturing Head for Vikram Solar",
+      title: "Manufacturing Head for a Leading Solar Module Manufacturer",
       link: "https://cruxcreativedemo2.com//Taplow-new/India/TheTaplowGroupManufacturingHeadSolarCaseStudy-India.pdf",
     },
     {
@@ -70,9 +70,10 @@ const page = () => {
       <OfficeSlider />
       <AboutSect />
       <Flagship />
-      <CommitmentSec />
-      <OurGoalSection />
+
+      {/* <OurGoalSection /> */}
       <SectorSlider />
+      <CommitmentSec />
       <WhyChooseIndia />
       <TeamSection country="India" />
       <CaseStudies

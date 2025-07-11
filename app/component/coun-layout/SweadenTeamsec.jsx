@@ -102,14 +102,22 @@ export const TeamSection = ({ country }) => {
 
                   {/* Hover Overlay on Image only */}
                   {hovered === index && (
-                    <div className="absolute inset-0 bg-[#005581] text-white flex flex-col justify-center items-start p-4 rounded-lg transition-opacity duration-300 opacity-100">
+                    <div
+                      onClick={() =>
+                        router.push(`/ConsultantProfile?id=${team.id}`)
+                      }
+                      className=" cursor-pointor absolute inset-0 bg-[#005581] text-white flex flex-col justify-center items-start p-4 rounded-lg transition-opacity duration-300 opacity-100"
+                    >
                       {/* Name */}
                       <h3 className="font-bold text-lg mt-3 mb-4">
                         {team.name}
                       </h3>
 
                       {/* Role */}
-                      <p className="text-sm text-white mb-3">{team.role}</p>
+                      <p
+                        className="text-sm text-white mb-3"
+                        dangerouslySetInnerHTML={{ __html: team.role }}
+                      ></p>
 
                       {/* Location */}
                       <div className="flex items-center text-white text-sm font-medium mb-3">
@@ -161,9 +169,8 @@ export const TeamSection = ({ country }) => {
                   onClick={() =>
                     router.push(`/ConsultantProfile?id=${team.id}`)
                   }
-                >
-                  {team.role}
-                </p>
+                  dangerouslySetInnerHTML={{ __html: team.role }}
+                ></p>
                 <div
                   className="flex items-center text-[#009688] text-sm font-medium mt-1 cursor-pointer"
                   onClick={() =>
