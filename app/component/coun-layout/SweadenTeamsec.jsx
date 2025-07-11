@@ -106,7 +106,7 @@ export const TeamSection = ({ country }) => {
                       onClick={() =>
                         router.push(`/ConsultantProfile?id=${team.id}`)
                       }
-                      className=" cursor-pointor absolute inset-0 bg-[#005581] text-white flex flex-col justify-center items-start p-4 rounded-lg transition-opacity duration-300 opacity-100"
+                      className="cursor-pointer absolute inset-0 bg-[#005581] text-white flex flex-col justify-center items-start p-4 rounded-lg transition-opacity duration-300 opacity-100"
                     >
                       {/* Name */}
                       <h3 className="font-bold text-lg mt-3 mb-4">
