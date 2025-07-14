@@ -1,8 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import {
@@ -61,7 +60,7 @@ const OneOffice = ({ heading, officeData }) => {
             </div>
             <div className="space-y-3 text-md w-[80%]">
               <div className="flex items-start gap-2">
-                <Navigation2 className="w-9 h-9 text-white mt-1" />
+                {/* <Navigation2 className="w-9 h-9 text-white mt-1" /> */}
                 <p dangerouslySetInnerHTML={{ __html: officeData.address }}></p>
               </div>
               {officeData.phone ? (
