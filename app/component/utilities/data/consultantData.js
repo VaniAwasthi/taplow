@@ -2513,7 +2513,11 @@ Copenhagen Business School. He speaks fluently Danish and English and has basic 
     location: "France",
     phone: "+33 472 440 444",
     linkdine: "https://www.linkedin.com/in/florence-poinsignon/",
-    services: ["ES", "EI", "LAP"],
+    services: [
+      "Executive Search",
+      "Executive Interim",
+      "Leadership Advisory and Performance",
+    ],
     image: fpoinsignon, // Use an existing France consultant image as placeholder
     address: `19 rue Maurice Bouchor 69007 Lyon`,
     bio: `Florence holds a master’s degree in marketing and communication. She began her career as a Marketing Product Manager within an international group, before moving into office management roles where she developed cross-functional expertise in administration and coordination.<br/> <br/>
