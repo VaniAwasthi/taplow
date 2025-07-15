@@ -15,7 +15,7 @@ import logo from "../../assets/homePage/logo.png";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "About Us", href: "/about-us" },
+  { name: "About Us", href: "/taplow" },
   {
     name: "Services",
     href: "/services/executive-search",
@@ -23,12 +23,12 @@ const navigation = [
       { name: "Executive Search ", href: "/services/executive-search" },
       {
         name: "Executive Interim ",
-        href: "/services/executive-interim-management",
+        href: "/services/executive-interim",
       },
-      { name: "Board Advisory ", href: "/services/board-advisory-services" },
+      { name: "Board Advisory ", href: "/services/board-services" },
       {
         name: "Leadership Performance and Advisory",
-        href: "/services/leadership-boardadvisory-and-performance",
+        href: "/services/leadership-advisory-and-performance",
       },
     ],
   },
@@ -36,23 +36,23 @@ const navigation = [
     name: "Sectors",
     href: "/sectors/conusmer-sector",
     submenu: [
-      { name: "Consumer Products", href: "/sectors/conusmer-sector" },
-      { name: "Financial Services", href: "/sectors/financial-service" },
-      { name: "Digital ICT", href: "/sectors/digital-ict" },
+      { name: "Consumer Products", href: "/sectors/consumer-products" },
+      { name: "Financial Services", href: "/expertise/financial-services" },
+      { name: "Digital ICT", href: "/sectors/ict" },
       { name: "Not for Profit", href: "/sectors/not-for-profit" },
       {
         name: "Life Sciences and Pharma",
-        href: "/sectors/life-science-and-pharma",
+        href: "/sectors/life-sciences",
       },
-      { name: "Professional Services", href: "/sectors/professional-service" },
-      { name: "Real Estate", href: "/sectors/realestate-sector" },
-      { name: "Industrial", href: "/sectors/industry" },
+      { name: "Professional Services", href: "/sectors/professional-services" },
+      { name: "Real Estate", href: "/sectors/real-estate" },
+      { name: "Industrial", href: "/sectors/industrial" },
     ],
   },
   { name: "Insights", href: "/insights" },
   {
     name: "Global Location",
-    href: "/globals",
+    href: "/countries",
     submenu: [
       { name: "Australia", href: "/countries/australia" },
       { name: "Bulgaria", href: "/countries/bulgaria" },

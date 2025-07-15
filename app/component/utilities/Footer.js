@@ -39,27 +39,18 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/about-us" className="no-underline">
+                <Link href="/taplow" className="no-underline">
                   About Us
                 </Link>
               </li>
-              <li>
-                <Link href="/services" className="no-underline">
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link href="/sectors/conusmer-sector" className="no-underline">
-                  Sectors
-                </Link>
-              </li>
+
               <li>
                 <Link href="/insights" className="no-underline">
                   Insights
                 </Link>
               </li>
               <li>
-                <Link href="/globals" className="no-underline">
+                <Link href="/countries" className="no-underline">
                   Global Locations
                 </Link>
               </li>
@@ -90,7 +81,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/services/executive-interim-management"
+                  href="/services/executive-interim"
                   className="no-underline"
                 >
                   Executive Interim Management
@@ -98,17 +89,14 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/services/leadership-boardadvisory-and-performance"
+                  href="/services/leadership-advisory-and-performance"
                   className="no-underline"
                 >
                   Leadership Advisory and Performance
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/services/board-advisory-services"
-                  className="no-underline"
-                >
+                <Link href="/services/board-services" className="no-underline">
                   Board Advisory Services
                 </Link>
               </li>
@@ -125,33 +113,33 @@ const Footer = () => {
             <h4 className="font-semibold mb-2 text-black">Sectors</h4>
             <ul className="space-y-2  text-[14px]">
               <li>
-                <Link href="/sectors/conusmer-sector" className="no-underline">
+                <Link
+                  href="/sectors/consumer-products"
+                  className="no-underline"
+                >
                   Consumer Products
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/sectors/financial-service"
+                  href="/expertise/financial-services"
                   className="no-underline"
                 >
                   Financial Services
                 </Link>
               </li>
               <li>
-                <Link href="/sectors/digital-ict" className="no-underline">
+                <Link href="/sectors/ict" className="no-underline">
                   Digital and ICT
                 </Link>
               </li>
               <li>
-                <Link href="/sectors/industry" className="no-underline">
+                <Link href="/sectors/industrial" className="no-underline">
                   Industrial
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/sectors/life-science-and-pharma"
-                  className="no-underline"
-                >
+                <Link href="/sectors/life-sciences" className="no-underline">
                   Life Sciences and Pharma
                 </Link>
               </li>
@@ -162,17 +150,14 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/sectors/professional-service"
+                  href="/sectors/professional-services"
                   className="no-underline"
                 >
                   Professional Services
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/sectors/realestate-sector"
-                  className="no-underline"
-                >
+                <Link href="/sectors/real-estate" className="no-underline">
                   Real Estate
                 </Link>
               </li>

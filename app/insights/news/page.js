@@ -63,7 +63,7 @@ const Page = () => {
             {InsightData.map((Insight, index) => (
               <Link
                 key={index}
-                // href={`/insights/industry-reports/${Insight.slug}`}
+                // href={`/insights/news/${Insight.slug}`}
                 href="#"
               >
                 <motion.div

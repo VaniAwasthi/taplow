@@ -26,18 +26,18 @@ const page = () => {
   const officeData = [
     {
       id: 1,
-      image: officeImage,
-      name: "Wellington",
-      address: "L14, Equinox House, The Terrace, Wellington 6011, New Zealand",
-      phone: "+64(0) 29248 8502",
-      email: "eric@macdonaldsearchgroup.com",
-    },
-    {
-      id: 2,
       image: officeImage2,
       name: " Auckland",
       address: "Level 10, 11 Britomart Place, Auckland 1010, ",
       phone: "+64 29 273 2264",
+      email: "eric@macdonaldsearchgroup.com",
+    },
+    {
+      id: 2,
+      image: officeImage,
+      name: "Wellington",
+      address: "L14, Equinox House, The Terrace, Wellington 6011, New Zealand",
+      phone: "+64(0) 29248 8502",
       email: "eric@macdonaldsearchgroup.com",
     },
   ];

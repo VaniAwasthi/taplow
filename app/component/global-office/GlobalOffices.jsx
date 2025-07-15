@@ -44,26 +44,41 @@ export default function GlobalOffices() {
 
         {/* Office List */}
         <div className="mt-10 flex flex-col justify-center items-center">
-          <h3 className="text-center text-3xl font-semibold my-10">
+          <h3 className="text-center text-4xl font-semibold my-10">
             {activeContinent}
           </h3>
-          <div className="grid md:grid-cols-4 gap-8 px-8">
+          <div
+            className={`grid ${
+              data.offices.length < 3 ? "md:grid-cols-2" : "md:grid-cols-3"
+            } gap-8 px-10`}
+          >
             {data.offices?.map((office, idx) => (
-              <div key={idx} className="pr-6 border-r last:border-none">
-                <h4 className="font-bold text-[16px] mb-1">{office.country}</h4>
+              <div key={idx} className="pr-6 border-r last:border-none ">
+                <h4 className="font-bold text-[22px] mb-1">{office.country}</h4>
 
-                {office.addresses.map((addr, i) => (
-                  <p
-                    key={i}
-                    className="text-sm text-gray-800 leading-relaxed mb-1 whitespace-pre-line"
-                  >
-                    {addr}
-                  </p>
-                ))}
+                <div
+                  className={`${
+                    office.addresses.length > 3
+                      ? "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-9"
+                      : "flex flex-col gap-4"
+                  }`}
+                >
+                  {office.addresses.map((addr, i) => (
+                    <div key={i}>
+                      <h2 className="text-[14px] font-semibold text-[#6AA728]">
+                        {addr.name}
+                      </h2>
+                      <p className="text-sm text-gray-800 leading-relaxed whitespace-pre-line">
+                        {addr.address}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+
                 {office.link && (
                   <a
                     href={office.link}
-                    className="text-[#6AA728] text-sm font-medium inline-block mt-2 hover:underline"
+                    className="text-[#005581] text-sm font-medium inline-block mt-2 hover:underline"
                   >
                     Read more &gt;
                   </a>
