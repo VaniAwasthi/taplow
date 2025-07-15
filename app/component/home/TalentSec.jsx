@@ -29,7 +29,7 @@ const Talentsec = () => {
           </p>
           <div className="mt-8 flex justify-center md:justify-start">
             <Button
-              href="/about-us"
+              href="/taplow"
               text="About Us"
               buttonImage={ButtonImage}
               hoverImage={HoverImage}

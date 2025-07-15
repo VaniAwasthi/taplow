@@ -170,7 +170,7 @@ export const IndustryReportSec = () => {
           </div>
           <div className="flex justify-center items-center my-10">
             <Link
-              href="/insights/industry-reports"
+              href="/insights/news"
               // href="#"
               className="text-sm text-[#005581] underline "
             >
@@ -188,23 +188,23 @@ export const WhitepaperList = () => {
     {
       title: "India – The new R&D hub for Automotive",
       desc: "Taplow India have conducted an in-depth review of the Automotive sector in India. For further information contact Sangeeta Sabharwal, India.",
-      href: "http://cruxcreativedemo2.com/Taplow-new/Insights/whitePaper1.pdf",
+      href: "http://cruxcreativedemo2.com/Taplow-new/Insights/india-the-new-randd-hub-for-automotive.pdf",
     },
     {
       title: "Maysam Rizvi reviews the Banking Tech Revolution.",
       desc: "Capital is more expensive, costs are higher and prices have gone down... the technology revolution has become a necessity.",
-      href: "http://cruxcreativedemo2.com/Taplow-new/Insights/whitePaper2.pdf",
+      href: "http://cruxcreativedemo2.com/Taplow-new/Insights/maysam-rizvi-reviews-the-banking-tech-revolution.pdf",
     },
     {
       title:
         "Evolving Business Units Market Access thus becoming “transversal”",
       desc: "The pharmaceutical market, in regards to the price component covered by the NHS, has been, until today, characterised by the presence of drugs of high therapeutic value...",
-      href: "http://cruxcreativedemo2.com/Taplow-new/Insights/whitePaper3.pdf",
+      href: "http://cruxcreativedemo2.com/Taplow-new/Insights/evolving-business-units-market-access-thus-becoming-transversal.pdf",
     },
     {
       title: "Business Cycles",
       desc: "Present Human Capital Opportunities and Challenges.",
-      href: "http://cruxcreativedemo2.com/Taplow-new/Insights/whitePaper4.pdf",
+      href: "http://cruxcreativedemo2.com/Taplow-new/Insights/business-cycles.pdf",
     },
   ];
   return (

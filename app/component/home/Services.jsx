@@ -23,17 +23,17 @@ const services = [
   {
     title: "Executive Interim Management",
     image: ExecutiveIntrim,
-    link: "/services/executive-interim-management",
+    link: "/services/executive-interim",
   },
   {
     title: "Leadership Advisory and Performance",
     image: Leadership,
-    link: "/services/leadership-boardadvisory-and-performance",
+    link: "/services/leadership-advisory-and-performance",
   },
   {
     title: "Board Advisory Services",
     image: BoardAdvisory,
-    link: "/services/board-advisory-services",
+    link: "/services/board-services",
   },
 ];
 

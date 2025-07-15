@@ -23,19 +23,19 @@ const industries = [
     title: "Consumer Products",
     text: "Driven by a passion to expedite change.",
     image: Consumer,
-    link: "/sectors/conusmer-sector",
+    link: "/sectors/consumer-products",
   },
   {
     title: "Financial Services",
     text: "Delivering excellence in financial leadership.",
     image: Financial,
-    link: "/sectors/financial-service",
+    link: "/expertise/financial-services",
   },
   {
     title: "Digital and ICT",
     text: "Innovating through technology and ICT solutions.",
     image: Digi,
-    link: "/sectors/digital-ict",
+    link: "/sectors/ict",
   },
   {
     title: "Not For Profit",
@@ -47,13 +47,13 @@ const industries = [
     title: "Industrial",
     text: "Optimizing supply chains with expert leadership.",
     image: Industrial,
-    link: "/sectors/industry",
+    link: "/sectors/industrial",
   },
   {
     title: "Life Sciences",
     text: "Advancing healthcare and biotech solutions.",
     image: Life,
-    link: "/sectors/life-science-and-pharma",
+    link: "/sectors/life-sciences",
   },
   {
     title: "Professional Services",
@@ -65,7 +65,7 @@ const industries = [
     title: "Real Estate",
     text: "Market insights and sustainable growth strategies.",
     image: Realestate,
-    link: "/sectors/realestate-sector",
+    link: "/sectors/real-estate",
   },
 ];
 

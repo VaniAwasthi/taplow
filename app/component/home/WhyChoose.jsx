@@ -38,7 +38,7 @@ const WhyChoose = () => {
             leadership that drives long-term value.
           </p>
           <Link
-            href="/about-us"
+            href="/taplow"
             className="mt-4 mb-4 border border-white relative group w-[242px] h-[42px] bg-white text-black rounded-full flex items-center justify-center gap-2 transition-all duration-500  ease-out overflow-hidden hover:bg-transparent hover:text-white transform hover:scale-105"
           >
             {/* Background Animation */}

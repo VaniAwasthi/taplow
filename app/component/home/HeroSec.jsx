@@ -23,7 +23,7 @@ const slides = [
     buttonText: "Know More",
     image: BgImag,
     buttonImage: require("../../assets/homePage/btn-img.svg").default,
-    href: "/about-us",
+    href: "/taplow",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const slides = [
     buttonText: "Know More",
     image: BgImag2,
     buttonImage: require("../../assets/homePage/btn-img.svg").default,
-    href: "/about-us",
+    href: "/taplow",
   },
   {
     id: 3,

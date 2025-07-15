@@ -10,21 +10,38 @@ export const officeData = {
       {
         country: "China",
         addresses: [
-          "2301, Huai Hai Zhong Hua Building, 885 Ren Min Rd., Shanghai, China",
+          {
+            name: "Shanghai",
+            address:
+              "2301, Huai Hai Zhong Hua Building, 885 Ren Min Rd., Shanghai, China",
+          },
+          {
+            name: "JingAn",
+            address:
+              "13A, Jing An New Century Plaza | 881 West Nanjing Road | JingAn District Shanghai, China",
+          },
         ],
         link: "/countries/china/",
       },
       {
         country: "India",
         addresses: [
-          "Tower‑B, Emaar Digital Greens, Sector‑61, Gurgaon – 122102, Haryana, India",
+          {
+            name: "",
+            address:
+              "Office No. 306- 307, 3rd Floor, Tower-B, Emaar Digital Greens, Golf Course Extension Road, Sector-61, Gurgaon-122102, Haryana, India.",
+          },
         ],
         link: "/countries/india",
       },
       {
         country: "Singapore",
         addresses: [
-          "8 Marina View, #43‑01, Asia Square Tower 1, Singapore 018960",
+          {
+            name: "",
+            address:
+              "8 Marina View, #43*01 Asia Square Tower 1, Singapore 018960",
+          },
         ],
         link: "/countries/singapore",
       },
@@ -47,52 +64,118 @@ export const officeData = {
     offices: [
       {
         country: "Bulgaria",
-        addresses: ["Office Park, Sofia 1766, Bulgaria"],
+        addresses: [
+          {
+            name: "",
+            address: "Petar Parchevich 9 Str.1000, Sofia, Bulgaria",
+          },
+        ],
         link: "/countries/bulgaria",
       },
       {
         country: "Denmark",
-        addresses: ["Ny Carlsberg Vej 80, 1799 Copenhagen, Denmark"],
+        addresses: [
+          {
+            name: "",
+            address: "Slotsmarken 11,  2970  Hørsholm, Denmark",
+          },
+        ],
         link: "/countries/denmark",
       },
       {
         country: "Finland",
-        addresses: ["Mannerheimintie 20B, Helsinki 00100, Finland"],
+        addresses: [
+          {
+            name: "",
+            address:
+              "Mannerheimintie 113, Aitio Business Park, 00280 Helsinki, Finland",
+          },
+        ],
         link: "/countries/finland",
       },
       {
         country: "France",
-        addresses: ["10 Rue de la Paix, 75002 Paris, France"],
+        addresses: [
+          {
+            name: "",
+            address: "19 rue Maurice Bouchor, 69007 Lyon, France",
+          },
+        ],
         link: "/countries/france",
       },
       {
         country: "Germany",
-        addresses: ["Kronenstraße 63, 10117 Berlin, Germany"],
+        addresses: [
+          {
+            name: "Frankfurt ",
+            address:
+              "Taplow Executive Search, Opernplatz 14, 60313 Frankfurt, Germany",
+          },
+          {
+            name: "Hamburg ",
+            address:
+              "Taplow Executive Search, Warburgstr. 32, 20354 Hamburg, Germany",
+          },
+        ],
         link: "/countries/germany",
       },
       {
         country: "Italy",
-        addresses: ["Via Monte Napoleone, 20121 Milano MI, Italy"],
+
+        addresses: [
+          {
+            name: "",
+            address: "Galleria San Babila 4C, Milan, Italy",
+          },
+        ],
         link: "/countries/italy",
       },
       {
         country: "Norway",
-        addresses: ["Karl Johans gate 23, 0159 Oslo, Norway"],
+        addresses: [
+          {
+            name: "",
+            address: "Henrik Ibsens gate 90,  0255 Oslo, Norway",
+          },
+        ],
         link: "/countries/norway",
       },
       {
         country: "Spain",
-        addresses: ["Calle de Serrano, 28006 Madrid, Spain"],
+        addresses: [
+          {
+            name: "",
+            address: "Fernando el Santo 25-28010 Madrid-Spain",
+          },
+        ],
         link: "/countries/spain",
       },
       {
         country: "Sweden",
-        addresses: ["Kungsgatan 8, 111 43 Stockholm, Sweden"],
+        addresses: [
+          {
+            name: "Stockholm",
+            address: "Landsvägen 57, 172 65 Sundbyberg",
+          },
+          {
+            name: "Halmstad",
+            address: "Storgatan 52, 302 43 Halmstad",
+          },
+          {
+            name: "Göteborg",
+            address: "Nya Tingstadsgatan 1, 422 44 Hisings Backa",
+          },
+        ],
         link: "/countries/sweden",
       },
       {
         country: "UK",
-        addresses: ["1 Finsbury Avenue, London EC2M 2PF, UK"],
+        addresses: [
+          {
+            name: "",
+            address: "33, St James Square, London, SW1Y 4JS, UK",
+          },
+        ],
         link: "/countries/uk",
       },
     ],
@@ -106,12 +189,28 @@ export const officeData = {
     offices: [
       {
         country: "Australia",
-        addresses: ["Level 18, 123 Pitt Street, Sydney NSW 2000, Australia"],
+        addresses: [
+          {
+            name: "",
+            address:
+              "Melbourne Quarter, Building Two, Level 3, #309, 697 Collins Street, Melbourne, Victoria, Australia, 3008",
+          },
+        ],
         link: "/countries/australia",
       },
       {
         country: "New Zealand",
-        addresses: ["48 Shortland Street, Auckland 1010, New Zealand"],
+        addresses: [
+          {
+            name: "Auckland",
+            address: "Level 10, 11 Britomart Place, Auckland 1010",
+          },
+          {
+            name: "Wellington",
+            address:
+              "L14, Equinox House, The Terrace, Wellington 6011, New Zealand",
+          },
+        ],
         link: "/countries/new-zealand",
       },
     ],
@@ -124,14 +223,54 @@ export const officeData = {
     ],
     offices: [
       {
-        country: "Canada",
-        addresses: ["161 Bay Street, Toronto, ON M5J 2S1, Canada"],
-        link: "/countries/canada",
+        country: "US",
+        addresses: [
+          {
+            name: "",
+            address: "Post Office Box 20108. Fountain Hills, AZ 85269, USA",
+          },
+        ],
+        link: "/countries/us",
       },
       {
-        country: "US",
-        addresses: ["345 Park Avenue, New York, NY 10154, United States"],
-        link: "/countries/us",
+        country: "Canada",
+        addresses: [
+          {
+            name: "Vancouver",
+            address:
+              "Suite 720, 475 West Georgia Street, Vancouver, BC V6B 4M9",
+          },
+          {
+            name: "Calgary",
+            address: "Suite 503, 2303 4th Street SW., Calgary, AB T2S 2S7",
+          },
+          {
+            name: "Toronto",
+            address: "Suite 300, 5100 Orbitor Drive, Mississauga, ON L4W 4Z4",
+          },
+          {
+            name: "Halifax",
+            address: "Suite 301, 168 Hobsons Lake Drive Halifax, NS B3S 0G4",
+          },
+          {
+            name: "Edmonton",
+            address:
+              "Suite 2020-Tower One, 10060 Jasper Avenue, Edmonton, AB T5J 3R8",
+          },
+          {
+            name: "Montreal",
+            address: "Suite 1800, 500 Place d’Armes, Montréal, QC H2Y 2W2",
+          },
+          {
+            name: "Ottawa",
+            address: "Unit 6, 430 Hazeldean Road, Ottawa, ON K2L 1T9",
+          },
+          {
+            name: "Moncton",
+            address: "Suite 300, 795 Main Street, Moncton, NB E1C 1E9",
+          },
+        ],
+        link: "/countries/canada",
       },
     ],
   },
