@@ -5,6 +5,7 @@ import Facebookicon from "../../assets/icons/facebook.png";
 import Twittericon from "../../assets/icons/twitter.png";
 import LinkedInicon from "../../assets/icons/linkdine.png";
 import YoutubeIcon from "../../assets/icons/youtube.svg";
+import WebIcon from "../../assets/icons/globe.svg";
 import Link from "next/link";
 
 const Footer = () => {
@@ -170,10 +171,11 @@ const Footer = () => {
                 Contact Us
               </Link>
             </h4>
-            <div className="flex space-x-3  md:space-x-8 mb-[2rem]">
+            <div className="flex flex-wrap gap-3 md:gap-2 mb-[2rem]">
               <a
                 href="https://www.linkedin.com/company/taplow-group-s-a1/?viewAsMember=true"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Image
                   src={LinkedInicon}
@@ -181,31 +183,48 @@ const Footer = () => {
                   className="h-5 md:h-6 cursor-pointer"
                 />
               </a>
+
               <a
                 href="https://www.facebook.com/TheTaplowGroup/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Image
                   src={Facebookicon}
                   alt="Facebook"
-                  className="h-5md:h-6 cursor-pointer"
+                  className="h-5 md:h-6 cursor-pointer"
                 />
               </a>
-              <a href="https://x.com/TaplowGroup" target="_blank">
+
+              <a
+                href="https://x.com/TaplowGroup"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
                   src={Twittericon}
                   alt="Twitter"
-                  className="h-5md:h-6 cursor-pointer"
+                  className="h-5 md:h-6 cursor-pointer"
                 />
               </a>
+
               <a
                 href="https://www.youtube.com/channel/UC6l4j3YS0bIbYiCY9dsD06w"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Image
                   src={YoutubeIcon}
-                  alt="YoutubeIcon"
-                  className="h-5md:h-6 cursor-pointer"
+                  alt="YouTube"
+                  className="h-5 md:h-6 cursor-pointer"
+                />
+              </a>
+
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src={WebIcon}
+                  alt="Website"
+                  className="w-6 h-5 md:h-6 cursor-pointer"
                 />
               </a>
             </div>
