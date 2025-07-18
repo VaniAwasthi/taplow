@@ -35,15 +35,17 @@ const LeadershipMatter = () => {
 
       {/* Right Section - Clickable Video */}
       <div className="w-full xl:w-[60%] 2xl:w-1/2 relative">
-        {isVideoPlaying ? (
-          <video
-            src="/videos/leadershipMatter.mp4"
-            className="w-full h-fulllg:h-[450px] object-cover" // Increased height
-            controls
-            autoPlay
-          />
-        ) : (
-          <div
+        <video
+          src="/videos/leadershipMatter.mp4"
+          className="w-full h-[450px] object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+          controls
+        />
+
+        {/* <div
             className="relative cursor-pointer"
             onClick={() => setIsVideoPlaying(true)}
           >
@@ -55,9 +57,9 @@ const LeadershipMatter = () => {
               width={600}
               height={600}
               priority
-            />
-            {/* Play Button Overlay */}
-            {/* <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/70 p-4 rounded-full">
+            /> */}
+        {/* Play Button Overlay */}
+        {/* <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white/70 p-4 rounded-full">
               <Image
                 src={PlayButton}
                 alt="Play Button"
@@ -65,8 +67,8 @@ const LeadershipMatter = () => {
                 height={60}
               />
             </div> */}
-          </div>
-        )}
+        {/* </div> */}
+        {/* )} */}
       </div>
     </div>
   );

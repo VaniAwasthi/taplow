@@ -445,6 +445,7 @@ export const AdvisoryLeader = () => {
     { name: "Kellie Rigg", id: 2 },
     { name: "Eleni Atsalakis", id: 3 },
     { name: "Sheldon Zhou", id: 4 },
+    { name: "Marine DUMONT", id: 5 },
   ];
 
   const allConsultants = consultantData.flat();

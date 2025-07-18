@@ -747,7 +747,7 @@ Gurgaon-122002, Haryana`,
   {
     id: 25,
     name: "Shaista Sabharwal",
-    role: `Co- Founder- The Taplow Group, India <br/>  Global CEO & Board Member- The Taplow Group S.A.`,
+    role: `Co-Founder-The Taplow Group, India  Global CEO & Board Member-The Taplow Group S.A.`,
     location: "India",
     services: [
       "Global Executive Search",

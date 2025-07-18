@@ -71,7 +71,8 @@ export default function OurConsultants() {
     " Managing director",
     " Managing partner",
     "Joint managing partner",
-    "Co- Founder- The Taplow Group, India Global CEO & Board Member- The Taplow Group S.A.",
+    "Co-Founder-The Taplow Group, India Global CEO & Board Member-The Taplow Group S.A.",
+    "Co-Founder-The Taplow Group, India  Global CEO & Board Member-The Taplow Group S.A.",
   ];
   const RoleResearcherKeywords = ["Researcher", "Research manager"];
   // 🔄 FILTERING LOGIC WITH UPDATED SERVICES CHECK
@@ -275,9 +276,8 @@ export default function OurConsultants() {
                         onClick={() =>
                           router.push(`/ConsultantProfile?id=${consultant.id}`)
                         }
-                      >
-                        {consultant.role}
-                      </p>
+                        dangerouslySetInnerHTML={{ __html: consultant.role }}
+                      ></p>
                       <div
                         className="flex items-center text-[#009688] text-sm font-medium mt-1 cursor-pointer"
                         onClick={() =>
