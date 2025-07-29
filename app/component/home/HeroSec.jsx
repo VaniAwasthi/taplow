@@ -84,6 +84,8 @@ export default function Carousel() {
               hoverImage={HoverImage}
               href={slide.href}
               BgClassname="object-cover w-full h-full object-center "
+              textColor={slide.id === 1 ? "text-black" : "text-white"} // 👈 Set black text for first slide
+
               // zIndex="1"
             />
           </SwiperSlide>
