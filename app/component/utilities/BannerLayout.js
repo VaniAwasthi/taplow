@@ -14,7 +14,8 @@ const BannerLayout = ({
   overlayOpacity = 0.2, // Stronger overlay for contrast
   zIndex = 10,
   href,
-  BgClassname = "object-cover w-full h-[600px] md:min-h-screen object-center",
+  textColor = "text-white", // Default text color
+  BgClassname = "object-contain w-full h-[800px] md:min-h-screen object-center",
 }) => {
   return (
     <div className="relative w-full min-h-screen flex items-center overflow-hidden">
@@ -40,11 +41,11 @@ const BannerLayout = ({
       </div>
 
       {/* Content Section */}
-      <div className="relative z-20 flex flex-col items-start justify-center text-white px-4 sm:px-8 md:px-32 py-10 md:py-0 max-w-7xl">
-        <h2 className="text-base sm:text-xl md:text-5xl font-light text-left">
-          {title}
-        </h2>
-        <h2 className="text-lg sm:text-2xl md:text-5xl font-light mt-2 text-left">
+      <div
+        className={`relative z-20 flex flex-col items-start justify-center ${textColor} px-4 sm:px-8 md:px-32 py-10 md:py-0 max-w-7xl`}
+      >
+        <h2 className="text-2xl md:text-5xl font-light text-left">{title}</h2>
+        <h2 className="text-2xl  md:text-5xl font-light mt-2 text-left">
           {title2}
         </h2>
 
@@ -57,7 +58,7 @@ const BannerLayout = ({
         ></div>
 
         {/* Description */}
-        <p className="mt-2 text-xs sm:text-sm md:text-base leading-relaxed max-w-[90%] sm:max-w-[500px] text-left">
+        <p className="mt-2 text-[12px] sm:text-sm md:text-base leading-relaxed max-w-[90%] sm:max-w-[500px] text-left">
           {description}
         </p>
 
