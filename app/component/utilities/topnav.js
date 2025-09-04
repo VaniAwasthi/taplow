@@ -257,60 +257,63 @@ const TopNav = () => {
             </div>
 
             {/* Mobile Menu */}
-            <DisclosurePanel className="lg:hidden">
-              <div className="space-y-1 px-4 pb-3 pt-2">
-                {navigation.map((item) =>
-                  item.submenu ? (
-                    <Disclosure key={item.name} as="div" className="w-full">
-                      {({ open }) => (
-                        <>
-                          <DisclosureButton className="w-full px-3 py-2 font-medium text-left text-black hover:text-[#98AE40] flex justify-between items-center">
-                            <span>{item.name}</span>
-                            <svg
-                              className={`w-4 h-4 transform transition-transform duration-300 ${
-                                open ? "rotate-180" : ""
-                              }`}
-                              fill="none"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                              viewBox="0 0 24 24"
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M19 9l-7 7-7-7"
-                              />
-                            </svg>
-                          </DisclosureButton>
-                          <DisclosurePanel className="pl-6">
-                            {item.submenu.map((sub) => (
-                              <Link key={sub.name} href={sub.href}>
-                                <span className="block py-1 text-sm text-black hover:text-[#98AE40]">
-                                  {sub.name}
-                                </span>
-                              </Link>
-                            ))}
-                          </DisclosurePanel>
-                        </>
-                      )}
-                    </Disclosure>
-                  ) : (
-                    <Link key={item.name} href={item.href}>
-                      <DisclosureButton
-                        as="span"
-                        className={`block px-3 py-2 font-medium ${
-                          pathname === item.href
-                            ? "text-[#98AE40]"
-                            : "text-black hover:text-[#98AE40]"
-                        }`}
-                      >
-                        {item.name}
-                      </DisclosureButton>
+         <DisclosurePanel className="lg:hidden">
+  {({ close }) => (
+    <div className="space-y-1 px-4 pb-3 pt-2">
+      {navigation.map((item) =>
+        item.submenu ? (
+          <Disclosure key={item.name} as="div" className="w-full">
+            {({ open }) => (
+              <>
+                <DisclosureButton className="w-full px-3 py-2 font-medium text-left text-black hover:text-[#98AE40] flex justify-between items-center">
+                  <span>{item.name}</span>
+                  <svg
+                    className={`w-4 h-4 transform transition-transform duration-300 ${
+                      open ? "rotate-180" : ""
+                    }`}
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </DisclosureButton>
+                <DisclosurePanel className="pl-6">
+                  {item.submenu.map((sub) => (
+                    <Link key={sub.name} href={sub.href} onClick={() => close()}>
+                      <span className="block py-1 text-sm text-black hover:text-[#98AE40]">
+                        {sub.name}
+                      </span>
                     </Link>
-                  )
-                )}
-                <select
-                  onChange={handleLangChange}
+                  ))}
+                </DisclosurePanel>
+              </>
+            )}
+          </Disclosure>
+        ) : (
+          <Link key={item.name} href={item.href} onClick={() => close()}>
+            <span
+              className={`block px-3 py-2 font-medium ${
+                pathname === item.href
+                  ? "text-[#98AE40]"
+                  : "text-black hover:text-[#98AE40]"
+              }`}
+            >
+              {item.name}
+            </span>
+          </Link>
+        )
+      )}
+        <select
+                   onChange={(e) => {
+              handleLangChange(e);
+              close(); // Close menu after selecting language
+            }}
                   className="ml-0 border-0 text-sm rounded px-2 py-1"
                 >
                   <option value="" disabled selected hidden>
@@ -322,11 +325,14 @@ const TopNav = () => {
                   <option value="fr">French</option>
                   <option value="no">Norwegian</option>
                 </select>
-              </div>
-            </DisclosurePanel>
+    </div>
+  )}
+</DisclosurePanel>
+
           </>
         )}
       </Disclosure>
+              
 
       {/* Google Translate override styles */}
       <style jsx global>{`
